@@ -1,3 +1,36 @@
+import { Elemental, passAlongProps } from "https://esm.sh/gh/jeff-hykin/elemental@0.6.5/main/deno.js"
+
+function createButton({ ...props }) {
+    const button = document.createElement('button');
+    button.style.position = 'fixed';
+    button.style.top = '20px';
+    button.style.right = '20px';
+    button.style.padding = '8px 16px';
+    button.style.backgroundColor = '#0066ff';
+    button.style.color = 'white';
+    button.style.border = 'none';
+    button.style.borderRadius = '4px';
+    button.style.cursor = 'pointer';
+    button.style.zIndex = '1000';
+
+    passAlongProps(button, props);
+    return button;
+}
+
+function downloadCanvasState(canvas) {
+    const jsonString = canvas.saveToJSON();
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `canvas-state-${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
 class InfiniteCanvas {
     constructor() {
         this.nodes = new Map();
@@ -11,41 +44,40 @@ class InfiniteCanvas {
         this.edgeStrength = 1;
         this.isDragging = false;
         this.dragStartPos = null;
-        
+
         // Colors
         this.pulseColor = '#ffcccb';  // Light red for pulse
         this.edgeCreationColor = '#0066ff';  // Blue for edge creation
         this.normalColor = '#000000';  // Black for normal state
-        
+
         // Create canvas and context
-        this.canvas = document.createElement('canvas');
-        this.ctx = this.canvas.getContext('2d');
-        document.body.appendChild(this.canvas);
-        
+        this.element = document.createElement('canvas');
+        this.ctx = this.element.getContext('2d');
+
         // Set canvas size
         this.resizeCanvas();
         window.addEventListener('resize', () => this.resizeCanvas());
-        
+
         // Event listeners
-        this.canvas.addEventListener('mousedown', this.handleMouseDown.bind(this));
-        this.canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
-        this.canvas.addEventListener('mouseup', this.handleMouseUp.bind(this));
-        this.canvas.addEventListener('wheel', this.handleWheel.bind(this));
-        this.canvas.addEventListener('contextmenu', this.handleContextMenu.bind(this));
-        
+        this.element.addEventListener('mousedown', this.handleMouseDown.bind(this));
+        this.element.addEventListener('mousemove', this.handleMouseMove.bind(this));
+        this.element.addEventListener('mouseup', this.handleMouseUp.bind(this));
+        this.element.addEventListener('wheel', this.handleWheel.bind(this));
+        this.element.addEventListener('contextmenu', this.handleContextMenu.bind(this));
+
         // Animation frame
         this.animate();
     }
-    
+
     resizeCanvas() {
-        this.canvas.width = window.innerWidth;
-        this.canvas.height = window.innerHeight;
+        this.element.width = window.innerWidth;
+        this.element.height = window.innerHeight;
     }
-    
+
     handleMouseDown(e) {
         const pos = this.getMousePos(e);
         const node = this.findNodeAtPosition(pos);
-        
+
         if (node) {
             if (e.shiftKey) {
                 // Edge creation mode with shift
@@ -62,7 +94,7 @@ class InfiniteCanvas {
                 this.draggingNode = node;
                 this.isDragging = false;
                 this.dragStartPos = pos;
-                
+
                 // Pulse effect
                 this.nodes.get(node).pulse = true;
                 setTimeout(() => {
@@ -74,10 +106,10 @@ class InfiniteCanvas {
             this.edgeStartNode = null;
         }
     }
-    
+
     handleMouseMove(e) {
         const pos = this.getMousePos(e);
-        
+
         if (this.draggingNode) {
             // Only start dragging if mouse has moved a bit
             if (!this.isDragging) {
@@ -87,7 +119,7 @@ class InfiniteCanvas {
                     this.isDragging = true;
                 }
             }
-            
+
             if (this.isDragging) {
                 const nodeData = this.nodes.get(this.draggingNode);
                 nodeData.x = pos.x;
@@ -95,7 +127,7 @@ class InfiniteCanvas {
             }
         }
     }
-    
+
     handleMouseUp(e) {
         if (!this.isDragging && !e.shiftKey) {
             const pos = this.getMousePos(e);
@@ -109,7 +141,7 @@ class InfiniteCanvas {
         this.isDragging = false;
         this.dragStartPos = null;
     }
-    
+
     handleWheel(e) {
         e.preventDefault();
         const delta = e.deltaY;
@@ -117,21 +149,21 @@ class InfiniteCanvas {
         this.scale *= scaleFactor;
         this.scale = Math.max(0.1, Math.min(5, this.scale));
     }
-    
+
     handleContextMenu(e) {
         e.preventDefault();
         const pos = this.getMousePos(e);
         this.createNode(pos.x, pos.y);
     }
-    
+
     getMousePos(e) {
-        const rect = this.canvas.getBoundingClientRect();
+        const rect = this.element.getBoundingClientRect();
         return {
             x: (e.clientX - rect.left - this.offset.x) / this.scale,
             y: (e.clientY - rect.top - this.offset.y) / this.scale
         };
     }
-    
+
     createNode(x, y) {
         const id = Date.now().toString();
         this.nodes.set(id, {
@@ -141,7 +173,7 @@ class InfiniteCanvas {
         });
         return id;
     }
-    
+
     createEdge(fromId, toId, strength = 1) {
         const edgeId = `${fromId}-${toId}`;
         this.edges.set(edgeId, {
@@ -151,7 +183,7 @@ class InfiniteCanvas {
         });
         return edgeId;
     }
-    
+
     findNodeAtPosition(pos) {
         for (const [id, node] of this.nodes) {
             const dx = pos.x - node.x;
@@ -162,27 +194,27 @@ class InfiniteCanvas {
         }
         return null;
     }
-    
+
     draw() {
-        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        
+        this.ctx.clearRect(0, 0, this.element.width, this.element.height);
+
         // Apply transformations
         this.ctx.save();
         this.ctx.translate(this.offset.x, this.offset.y);
         this.ctx.scale(this.scale, this.scale);
-        
+
         // Draw edges
         for (const edge of this.edges.values()) {
             const fromNode = this.nodes.get(edge.from);
             const toNode = this.nodes.get(edge.to);
-            
+
             this.ctx.beginPath();
             this.ctx.moveTo(fromNode.x, fromNode.y);
             this.ctx.lineTo(toNode.x, toNode.y);
             this.ctx.strokeStyle = '#666';
             this.ctx.lineWidth = 2;
             this.ctx.stroke();
-            
+
             // Draw strength value
             const midX = (fromNode.x + toNode.x) / 2;
             const midY = (fromNode.y + toNode.y) / 2;
@@ -190,14 +222,14 @@ class InfiniteCanvas {
             this.ctx.font = '12px Arial';
             this.ctx.fillText(edge.strength.toFixed(1), midX, midY);
         }
-        
+
         // Draw nodes
         for (const [id, node] of this.nodes) {
             this.ctx.beginPath();
             this.ctx.arc(node.x, node.y, this.nodeRadius, 0, Math.PI * 2);
             this.ctx.fillStyle = '#fff';
             this.ctx.fill();
-            
+
             // Determine node border color based on state
             if (id === this.edgeStartNode) {
                 this.ctx.strokeStyle = this.edgeCreationColor;  // Blue for edge creation
@@ -206,26 +238,26 @@ class InfiniteCanvas {
             } else {
                 this.ctx.strokeStyle = this.normalColor;  // Black for normal state
             }
-            
+
             this.ctx.lineWidth = node.pulse ? 4 : 2;
             this.ctx.stroke();
         }
-        
+
         this.ctx.restore();
     }
-    
+
     animate() {
         this.draw();
         requestAnimationFrame(() => this.animate());
     }
-    
+
     saveToJSON() {
         return JSON.stringify({
             nodes: Array.from(this.nodes.entries()),
             edges: Array.from(this.edges.entries())
         });
     }
-    
+
     loadFromJSON(jsonString) {
         const data = JSON.parse(jsonString);
         this.nodes = new Map(data.nodes);
@@ -236,4 +268,7 @@ class InfiniteCanvas {
 // Create instance when the page loads
 window.addEventListener('load', () => {
     const canvas = new InfiniteCanvas();
+    const saveButton = createButton({ children: 'Save', onClick: () => downloadCanvasState(canvas) });
+    document.body.appendChild(canvas.element);
+    document.body.appendChild(saveButton);
 }); 
