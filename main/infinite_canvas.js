@@ -1,12 +1,14 @@
+import colors from './colors.js'
+import {lightenColor, interpolateColor} from './colors.js'
+
+const { red, blue, orange, yellow, purple, green, white, black, gray } = colors
+
 function energyToHue(energy) {
     // Clamp energy between 0 and 1
-    const clampedEnergy = Math.max(0, Math.min(1, energy))
+    const clampedEnergy = Math.max(0, Math.min(1, energy/0.9))
 
-    // Map energy to a hue value (240 = blue, 0 = red)
-    const hue = 240 - clampedEnergy * 240
-
-    // Return the HSL color string
-    return `hsl(${hue}, 100%, 50%)`
+    // Interpolate between red and blue based on energy
+    return interpolateColor(blue, red, clampedEnergy)
 }
 
 // Utility function to calculate the distance from a point to a line segment
@@ -41,21 +43,19 @@ export default class InfiniteCanvas {
         this.scaleFactorIncrease = 1.1
         this.scaleFactorDecrease = 0.9
         this.pulseDuration = 200
-        this.strokeStyleEdge = "#666"
-        this.strokeStyleNormal = "#000000"
-        this.strokeStylePulse = "#ffcccb"
-        this.strokeStyleEdgeCreation = "#0066ff"
+        this.strokeStyleEdge = gray
+        this.strokeStyleNormal = black
+        this.strokeStylePulse = lightenColor(red, 0.3)
+        this.strokeStyleEdgeCreation = blue
         this.strokeWidthNormal = 2
         this.strokeWidthPulse = 4
         this.mouseDownInfo = null; // Shared variable to store mouse down event info
         this.lastHoveredNode = null; // Track the last-hovered node
         this.arrowLength = 15; // Increased length of the arrowhead
         this.arrowWidth = 8; // Increased width of the arrowhead
-
-        // Colors
-        this.pulseColor = "#ffcccb" // Light red for pulse
-        this.edgeCreationColor = "#0066ff" // Blue for edge creation
-        this.normalColor = "#000000" // Black for normal state
+        this.normalColor = black // Black for normal state
+        this.strokeStyleIncomingEdge = red; // Red for incoming edges
+        this.strokeStyleOutgoingEdge = blue; // Blue for outgoing edges
 
         // Create canvas and context
         this.element = document.createElement("canvas")
@@ -283,15 +283,15 @@ export default class InfiniteCanvas {
         if (this.lastHoveredNode) {
             for (const edge of this.edges.values()) {
                 if (edge.from === this.lastHoveredNode || edge.to === this.lastHoveredNode) {
-                    const fromNode = this.nodes.get(edge.from)
-                    const toNode = this.nodes.get(edge.to)
+                    const fromNode = this.nodes.get(edge.from);
+                    const toNode = this.nodes.get(edge.to);
 
-                    this.ctx.beginPath()
-                    this.ctx.moveTo(fromNode.x, fromNode.y)
-                    this.ctx.lineTo(toNode.x, toNode.y)
-                    this.ctx.strokeStyle = this.strokeStyleEdge
-                    this.ctx.lineWidth = this.edgeThickness
-                    this.ctx.stroke()
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(fromNode.x, fromNode.y);
+                    this.ctx.lineTo(toNode.x, toNode.y);
+                    this.ctx.strokeStyle = (edge.from === this.lastHoveredNode) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
+                    this.ctx.lineWidth = this.edgeThickness;
+                    this.ctx.stroke();
 
                     // Draw arrowhead
                     const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x);
@@ -306,7 +306,7 @@ export default class InfiniteCanvas {
                     this.ctx.lineTo(arrowStartX - this.arrowLength * Math.cos(angle + Math.PI / 6), arrowStartY - this.arrowLength * Math.sin(angle + Math.PI / 6));
                     this.ctx.lineTo(arrowStartX, arrowStartY);
                     this.ctx.closePath();
-                    this.ctx.fillStyle = this.strokeStyleEdge;
+                    this.ctx.fillStyle = (edge.from === this.lastHoveredNode) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
                     this.ctx.fill();
                 }
             }
