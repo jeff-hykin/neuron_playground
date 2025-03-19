@@ -1,37 +1,4 @@
-import { Elemental, passAlongProps } from "https://esm.sh/gh/jeff-hykin/elemental@0.6.5/main/deno.js"
-
-function createButton({ ...props }) {
-    const button = document.createElement('button');
-    button.style.position = 'fixed';
-    button.style.top = '20px';
-    button.style.right = '20px';
-    button.style.padding = '8px 16px';
-    button.style.backgroundColor = '#0066ff';
-    button.style.color = 'white';
-    button.style.border = 'none';
-    button.style.borderRadius = '4px';
-    button.style.cursor = 'pointer';
-    button.style.zIndex = '1000';
-
-    passAlongProps(button, props);
-    return button;
-}
-
-function downloadCanvasState(canvas) {
-    const jsonString = canvas.saveToJSON();
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `canvas-state-${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-}
-
-class InfiniteCanvas {
+export default class InfiniteCanvas {
     constructor() {
         this.nodes = new Map();
         this.edges = new Map();
@@ -264,11 +231,3 @@ class InfiniteCanvas {
         this.edges = new Map(data.edges);
     }
 }
-
-// Create instance when the page loads
-window.addEventListener('load', () => {
-    const canvas = new InfiniteCanvas();
-    const saveButton = createButton({ children: 'Save', onClick: () => downloadCanvasState(canvas) });
-    document.body.appendChild(canvas.element);
-    document.body.appendChild(saveButton);
-}); 

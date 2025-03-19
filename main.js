@@ -1,22 +1,24 @@
-import { Elemental, passAlongProps } from "https://esm.sh/gh/jeff-hykin/elemental@0.6.5/main/deno.js"
-import { css, components, Column, Row, askForFiles, Code, Input, Button, Checkbox, Dropdown, popUp, cx, } from "https://esm.sh/gh/jeff-hykin/good-component@0.3.2/elements.js"
-import { fadeIn, fadeOut } from "https://esm.sh/gh/jeff-hykin/good-component@0.3.2/main/animations.js"
-import { showToast } from "https://esm.sh/gh/jeff-hykin/good-component@0.3.2/main/actions.js"
-import { addDynamicStyleFlags, setupStyles, createCssClass, setupClassStyles, hoverStyleHelper, combineClasses, mergeStyles, AfterSilent, removeAllChildElements } from "https://esm.sh/gh/jeff-hykin/good-component@0.3.2/main/helpers.js"
-import { zip, enumerate, count, permute, combinations, wrapAroundGet } from "https://esm.sh/gh/jeff-hykin/good-js@1.13.5.1/source/array.js"
+import { Elemental, passAlongProps } from "./imports/elemental.js"
+import InfiniteCanvas from "./main/infinite_canvas.js"
 
-import storageObject from "https://esm.sh/gh/jeff-hykin/storage-object@0.0.3.5/main.js"
+function downloadCanvasState(canvas) {
+    const jsonString = canvas.saveToJSON();
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
 
-const { html } = Elemental({
-    ...components,
-})
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `canvas-state-${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
 
-document.body = html`
-    <body font-size=15px background-color=whitesmoke overflow=scroll width=100vw>
-        <Column>
-            <span>Howdy!</span>
-            <span>Howdy!</span>
-            <span>Howdy!</span>
-        </Column>
-    </body>
-`
+// Create instance when the page loads
+window.addEventListener('load', () => {
+    const canvas = new InfiniteCanvas();
+    const saveButton = createButton({ children: 'Save', onClick: () => downloadCanvasState(canvas) });
+    document.body.appendChild(canvas.element);
+    document.body.appendChild(saveButton);
+}); 
