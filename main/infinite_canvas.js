@@ -2,8 +2,8 @@ function energyToHue(energy) {
     // Clamp energy between 0 and 1
     const clampedEnergy = Math.max(0, Math.min(1, energy))
 
-    // Map energy to a hue value (0 = red, 120 = green)
-    const hue = clampedEnergy * 120
+    // Map energy to a hue value (240 = blue, 0 = red)
+    const hue = 240 - clampedEnergy * 240
 
     // Return the HSL color string
     return `hsl(${hue}, 100%, 50%)`
