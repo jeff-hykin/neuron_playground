@@ -64,7 +64,7 @@ export default class InfiniteCanvas {
         this.element.width = window.innerWidth
         this.element.height = window.innerHeight
     }
-
+    
     handleMouseDown(e) {
         const isRightClick = e.button === 2
         // right-click is handled by contextmenu (don't use it for panning)
@@ -74,6 +74,7 @@ export default class InfiniteCanvas {
 
         const pos = this.getMousePos(e)
         const nodeId = this.findNodeIdAtPosition(pos)
+        const edgeId = this.findEdgeAtPosition(pos)
 
         if (nodeId) {
             if (e.shiftKey) {
@@ -91,9 +92,10 @@ export default class InfiniteCanvas {
                 this.draggingNode = nodeId
                 this.isDragging = false
                 this.dragStartPos = pos
-
-                // Pulse effect
-                this.pulseNode(this.nodes.get(nodeId))
+                
+                // manually fire 
+                const node = this.nodes.get(nodeId)
+                this.manuallyFireNode(node)
             }
         } else {
             // Start panning
@@ -229,6 +231,12 @@ export default class InfiniteCanvas {
         return null
     }
 
+    manuallyFireNode(node) {
+        node.energy = node.spikeThreshold
+        node.isFiring = true
+        this.pulseNode(node)
+    }
+    
     draw() {
         this.ctx.clearRect(0, 0, this.element.width, this.element.height)
 
@@ -395,11 +403,6 @@ export default class InfiniteCanvas {
                     eachNode.energy = eachNode.stableEnergyLevel
                 }
             }
-        }
-
-        // Update color based on energy
-        for (let eachNode of nodes) {
-            eachNode.fill = energyToHue(eachNode.energy)
         }
 
         // Redraw the canvas
