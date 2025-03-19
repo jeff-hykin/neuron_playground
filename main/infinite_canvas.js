@@ -22,6 +22,8 @@ export default class InfiniteCanvas {
         this.edgeStrength = 1
         this.isDragging = false
         this.dragStartPos = null
+        this.isPanning = false
+        this.panStartPos = null
 
         // Colors
         this.pulseColor = "#ffcccb" // Light red for pulse
@@ -53,6 +55,12 @@ export default class InfiniteCanvas {
     }
 
     handleMouseDown(e) {
+        const isRightClick = e.button === 2
+        // right-click is handled by contextmenu (don't use it for panning)
+        if (isRightClick) {
+            return
+        }
+        
         const pos = this.getMousePos(e)
         const nodeId = this.findNodeIdAtPosition(pos)
 
@@ -77,8 +85,9 @@ export default class InfiniteCanvas {
                 this.pulseNode(this.nodes.get(nodeId))
             }
         } else {
-            // Clicked on empty space - cancel edge creation
-            this.edgeStartNode = null
+            // Start panning
+            this.isPanning = true
+            this.panStartPos = { x: e.clientX, y: e.clientY }
         }
     }
 
@@ -101,6 +110,20 @@ export default class InfiniteCanvas {
                 nodeData.x = pos.x
                 nodeData.y = pos.y
             }
+        } else if (this.isPanning) {
+            // Calculate the offset change
+            const dx = e.clientX - this.panStartPos.x
+            const dy = e.clientY - this.panStartPos.y
+
+            // Update the offset
+            this.offset.x += dx
+            this.offset.y += dy
+
+            // Update the start position
+            this.panStartPos = { x: e.clientX, y: e.clientY }
+
+            // Redraw the canvas
+            this.draw()
         }
     }
 
@@ -115,7 +138,9 @@ export default class InfiniteCanvas {
         }
         this.draggingNode = null
         this.isDragging = false
+        this.isPanning = false
         this.dragStartPos = null
+        this.panStartPos = null
     }
 
     handleWheel(e) {
