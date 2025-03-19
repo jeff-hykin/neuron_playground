@@ -5,7 +5,7 @@ This is a little simulator for connecting neurons in a network, feeding them inp
 
 ## How do I use it? 
 
-You can open up the website here.
+You can open up the website [here](https://jeff-hykin.github.io/neuron_playground/).
 
 - Shift-click one neuron, then shift-click another neuron to create an connection between them.
 - Click a connection to change its weight (it can be negative, expected values are between -1 and 1)
