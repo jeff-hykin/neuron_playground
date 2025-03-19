@@ -214,6 +214,7 @@ export default class InfiniteCanvas {
         this.nodes.set(id, {
             x,
             y,
+            id,
             pulse: false,
             spikeThreshold: 1,
             energy: 0.1,
