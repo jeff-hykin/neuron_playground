@@ -39,10 +39,12 @@ window.addEventListener("load", () => {
     const canvas = new InfiniteCanvas()
     const saveButton = createButton({ children: "Save", onClick: () => downloadCanvasState(canvas) })
     const loadButton = createButton({ children: "Load", onClick: () => loadCanvasState(canvas) })
+    const nextButton = createButton({ children: "Next", onClick: () => canvas.next() })
 
     const buttonContainer = html`<div style="position: fixed; top: 20px; right: 20px; gap: 2rem; display: flex;">
         ${saveButton}
         ${loadButton}
+        ${nextButton}
     </div>`
 
     document.body.appendChild(canvas.element)
