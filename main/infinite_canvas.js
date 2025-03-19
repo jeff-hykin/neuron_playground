@@ -108,6 +108,10 @@ export default class InfiniteCanvas {
         this.normalColor = black // Black for normal state
         this.strokeStyleIncomingEdge = red; // Red for incoming edges
         this.strokeStyleOutgoingEdge = blue; // Blue for outgoing edges
+        this.internalParameters = {
+            selfEdgeStartAngle: -2.807285748448284,
+            selfEdgeEndAngle: 1.7585218457865455,
+        };
 
         // Create canvas and context
         this.element = document.createElement("canvas")
@@ -172,7 +176,7 @@ export default class InfiniteCanvas {
             }
         } else if (hoveredEdgeId) {
             const edge = this.edges.get(hoveredEdgeId)
-            const newStrength = globalThis.prompt(`Edge weight: ${edge.strength}\nPress okay to acknowledge, or enter replacement value`)-0
+            const newStrength = parseFloat(globalThis.prompt(`Edge weight: ${edge.strength}\nPress okay to acknowledge, or enter replacement value`))
             // if is number
             if (newStrength-0 === newStrength) {
                 edge.strength = newStrength
@@ -303,19 +307,42 @@ export default class InfiniteCanvas {
     }
 
     findEdgeAtPosition(pos) {
-        const threshold = this.edgeThickness // Use class property as threshold
+        const threshold = this.edgeThickness; // Use class property as threshold
         for (const [id, edge] of this.edges) {
-            const fromNode = this.nodes.get(edge.from)
-            const toNode = this.nodes.get(edge.to)
+            const fromNode = this.nodes.get(edge.from);
+            const toNode = this.nodes.get(edge.to);
 
-            // Calculate the distance from the point to the line segment
-            const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y })
+            if (edge.from === edge.to) {
+                // Self-edge as an arc
+                const node = this.nodes.get(edge.from);
+                const centerX = node.x + this.nodeRadius;
+                const centerY = node.y - this.nodeRadius;
+                const radius = this.nodeRadius;
+                const startAngle = this.internalParameters.selfEdgeStartAngle;
+                const endAngle = this.internalParameters.selfEdgeEndAngle;
 
-            if (dist < threshold) {
-                return id
+                // Calculate the angle of the point relative to the arc's center
+                const angle = Math.atan2(pos.y - centerY, pos.x - centerX);
+
+                // Check if the point is within the arc's angle range
+                if (angle >= startAngle && angle <= endAngle) {
+                    // Calculate the distance from the point to the arc's center
+                    const distToCenter = Math.hypot(pos.x - centerX, pos.y - centerY);
+
+                    // Check if the distance is close to the arc's radius
+                    if (Math.abs(distToCenter - radius) < threshold) {
+                        return id;
+                    }
+                }
+            } else {
+                // Normal edge as a line
+                const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y });
+                if (dist < threshold) {
+                    return id;
+                }
             }
         }
-        return null
+        return null;
     }
 
     manuallyFireNode(node) {
@@ -343,12 +370,14 @@ export default class InfiniteCanvas {
                         this.ctx.beginPath()
                         const node = this.nodes.get(edge.from)
                         const [x,y] = [ node.x+this.nodeRadius, node.y-this.nodeRadius, ]
-                        this.ctx.arc(x,y, this.nodeRadius, -2.807285748448284, 1.7585218457865455);
+                        this.ctx.arc(x,y, this.nodeRadius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle);
                         this.ctx.lineWidth = this.edgeThickness
                         this.ctx.strokeStyle = this.strokeStyleOutgoingEdge
                         this.ctx.stroke()
                         
                         drawArrowhead({
+                            // NOTE: all these numbers are just hand-tuned based on visuals and should scale with the node radius
+                            // NOTE2: probably won't scale for node border width
                             ctx: this.ctx,
                             x: node.x+(this.nodeRadius*0.5),
                             y: node.y-(this.nodeRadius*1.55),
