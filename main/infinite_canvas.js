@@ -11,12 +11,12 @@ function energyToHue(energy) {
 
 // Utility function to calculate the distance from a point to a line segment
 function pointToSegmentDistance(point, v, w) {
-    const l2 = (v.x - w.x) ** 2 + (v.y - w.y) ** 2;
-    if (l2 === 0) return Math.hypot(point.x - v.x, point.y - v.y);
-    let t = ((point.x - v.x) * (w.x - v.x) + (point.y - v.y) * (w.y - v.y)) / l2;
-    t = Math.max(0, Math.min(1, t));
-    const projection = { x: v.x + t * (w.x - v.x), y: v.y + t * (w.y - v.y) };
-    return Math.hypot(point.x - projection.x, point.y - projection.y);
+    const l2 = (v.x - w.x) ** 2 + (v.y - w.y) ** 2
+    if (l2 === 0) return Math.hypot(point.x - v.x, point.y - v.y)
+    let t = ((point.x - v.x) * (w.x - v.x) + (point.y - v.y) * (w.y - v.y)) / l2
+    t = Math.max(0, Math.min(1, t))
+    const projection = { x: v.x + t * (w.x - v.x), y: v.y + t * (w.y - v.y) }
+    return Math.hypot(point.x - projection.x, point.y - projection.y)
 }
 
 export default class InfiniteCanvas {
@@ -71,7 +71,7 @@ export default class InfiniteCanvas {
         if (isRightClick) {
             return
         }
-        
+
         const pos = this.getMousePos(e)
         const nodeId = this.findNodeIdAtPosition(pos)
 
@@ -214,19 +214,19 @@ export default class InfiniteCanvas {
     }
 
     findEdgeAtPosition(pos) {
-        const threshold = this.edgeThickness; // Use class property as threshold
+        const threshold = this.edgeThickness // Use class property as threshold
         for (const [id, edge] of this.edges) {
-            const fromNode = this.nodes.get(edge.from);
-            const toNode = this.nodes.get(edge.to);
+            const fromNode = this.nodes.get(edge.from)
+            const toNode = this.nodes.get(edge.to)
 
             // Calculate the distance from the point to the line segment
-            const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y });
+            const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y })
 
             if (dist < threshold) {
-                return id;
+                return id
             }
         }
-        return null;
+        return null
     }
 
     draw() {
@@ -248,7 +248,6 @@ export default class InfiniteCanvas {
             this.ctx.strokeStyle = "#666"
             this.ctx.lineWidth = this.edgeThickness
             this.ctx.stroke()
-
 
             // Draw strength value with background box
             // const midX = (fromNode.x + toNode.x) / 2
@@ -333,7 +332,8 @@ export default class InfiniteCanvas {
     }
 
     pulseNode(node) {
-        if (!node.isPulsing) {  // Check if the node is already pulsing
+        if (!node.isPulsing) {
+            // Check if the node is already pulsing
             node.isPulsing = true
             node.pulse = true
             setTimeout(() => {
