@@ -21,6 +21,55 @@ function pointToSegmentDistance(point, v, w) {
     return Math.hypot(point.x - projection.x, point.y - projection.y)
 }
 
+function drawArrowhead(ctx, x, y, angle, size, thickness) {
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.lineTo(x - size * Math.cos(angle - Math.PI / 6), y - size * Math.sin(angle - Math.PI / 6));
+    ctx.lineTo(x - size * Math.cos(angle + Math.PI / 6), y - size * Math.sin(angle + Math.PI / 6));
+    ctx.lineTo(x, y);
+    ctx.closePath();
+    ctx.lineWidth = thickness;
+    ctx.fill();
+}
+
+function drawArcThroughPoints(ctx, x1, y1, x2, y2, x3, y3) {
+    // Calculate the midpoints of the lines
+    const midX1 = (x1 + x2) / 2;
+    const midY1 = (y1 + y2) / 2;
+    const midX2 = (x2 + x3) / 2;
+    const midY2 = (y2 + y3) / 2;
+
+    // Calculate the slopes of the lines
+    const slope1 = (y2 - y1) / (x2 - x1);
+    const slope2 = (y3 - y2) / (x3 - x2);
+
+    // Calculate the perpendicular slopes
+    const perpSlope1 = -1 / slope1;
+    const perpSlope2 = -1 / slope2;
+
+    // Calculate the center of the circle (circumcenter)
+    const centerX = (perpSlope1 * midX1 - perpSlope2 * midX2 + midY2 - midY1) / (perpSlope1 - perpSlope2);
+    const centerY = perpSlope1 * (centerX - midX1) + midY1;
+
+    // Calculate the radius
+    const radius = Math.hypot(centerX - x1, centerY - y1);
+
+    // Calculate start and end angles
+    const startAngle = Math.atan2(y1 - centerY, x1 - centerX);
+    const endAngle = Math.atan2(y3 - centerY, x3 - centerX);
+
+    // Draw the arc
+    ctx.beginPath();
+    console.debug(`centerX is:`,centerX)
+    console.debug(`centerY is:`,centerY)
+    console.debug(`radius is:`,radius)
+    console.debug(`startAngle is:`,startAngle)
+    console.debug(`endAngle is:`,endAngle)
+    ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+    ctx.stroke();
+}
+window.drawArcThroughPoints = drawArcThroughPoints;
+
 export default class InfiniteCanvas {
     constructor() {
         this.nodes = new Map()
@@ -60,6 +109,7 @@ export default class InfiniteCanvas {
         // Create canvas and context
         this.element = document.createElement("canvas")
         this.ctx = this.element.getContext("2d")
+        window.ctx = this.ctx // DEBUGGING: remove later
 
         // Set canvas size
         this.resizeCanvas()
@@ -106,7 +156,7 @@ export default class InfiniteCanvas {
                 if (this.edgeStartNode === null) {
                     // First shift-click - start edge creation
                     this.edgeStartNode = hoveredNodeId
-                } else if (this.edgeStartNode !== hoveredNodeId) {
+                } else {
                     // Second shift-click - create edge
                     this.createEdge(this.edgeStartNode, hoveredNodeId)
                     this.edgeStartNode = null
@@ -282,10 +332,26 @@ export default class InfiniteCanvas {
         // Draw edges for the last-hovered node
         if (this.lastHoveredNode) {
             for (const edge of this.edges.values()) {
-                if (edge.from === this.lastHoveredNode || edge.to === this.lastHoveredNode) {
-                    const fromNode = this.nodes.get(edge.from);
-                    const toNode = this.nodes.get(edge.to);
+                const fromNode = this.nodes.get(edge.from);
+                const toNode = this.nodes.get(edge.to);
 
+                if (edge.from === edge.to) {
+                    this.ctx.beginPath()
+                    const node = this.nodes.get(edge.from)
+                    const [x,y] = [ node.x+this.nodeRadius, node.y-this.nodeRadius, ]
+                    this.ctx.arc(x,y, this.nodeRadius, -2.807285748448284, 1.7585218457865455);
+                    this.ctx.lineWidth = this.edgeThickness
+                    this.ctx.fillStyle = this.strokeStyleOutgoingEdge
+                    this.ctx.stroke()
+
+                    drawArrowhead(this.ctx, x-(this.nodeRadius*0.54), y-(this.nodeRadius*0.6), -0.4 + (Math.PI*2), this.arrowLength, this.edgeThickness)
+                    // // Place the arrowhead along the radius of the circle
+                    // const arrowAngle = Math.PI / 4; // Angle for the arrowhead
+                    // const arrowStartX = loopCenterX + loopRadius * Math.cos(arrowAngle);
+                    // const arrowStartY = loopCenterY + loopRadius * Math.sin(arrowAngle);
+
+                } else if (edge.from === this.lastHoveredNode || edge.to === this.lastHoveredNode) {
+                    // Normal edge drawing
                     this.ctx.beginPath();
                     this.ctx.moveTo(fromNode.x, fromNode.y);
                     this.ctx.lineTo(toNode.x, toNode.y);
@@ -295,8 +361,6 @@ export default class InfiniteCanvas {
 
                     // Draw arrowhead
                     const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x);
-
-                    // Calculate the position for the arrowhead to start
                     const arrowStartX = toNode.x - this.nodeRadius * Math.cos(angle);
                     const arrowStartY = toNode.y - this.nodeRadius * Math.sin(angle);
 
