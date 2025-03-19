@@ -9,6 +9,16 @@ function energyToHue(energy) {
     return `hsl(${hue}, 100%, 50%)`
 }
 
+// Utility function to calculate the distance from a point to a line segment
+function pointToSegmentDistance(point, v, w) {
+    const l2 = (v.x - w.x) ** 2 + (v.y - w.y) ** 2;
+    if (l2 === 0) return Math.hypot(point.x - v.x, point.y - v.y);
+    let t = ((point.x - v.x) * (w.x - v.x) + (point.y - v.y) * (w.y - v.y)) / l2;
+    t = Math.max(0, Math.min(1, t));
+    const projection = { x: v.x + t * (w.x - v.x), y: v.y + t * (w.y - v.y) };
+    return Math.hypot(point.x - projection.x, point.y - projection.y);
+}
+
 export default class InfiniteCanvas {
     constructor() {
         this.nodes = new Map()
@@ -24,6 +34,7 @@ export default class InfiniteCanvas {
         this.dragStartPos = null
         this.isPanning = false
         this.panStartPos = null
+        this.edgeThickness = 5
 
         // Colors
         this.pulseColor = "#ffcccb" // Light red for pulse
@@ -202,6 +213,22 @@ export default class InfiniteCanvas {
         return null
     }
 
+    findEdgeAtPosition(pos) {
+        const threshold = this.edgeThickness; // Use class property as threshold
+        for (const [id, edge] of this.edges) {
+            const fromNode = this.nodes.get(edge.from);
+            const toNode = this.nodes.get(edge.to);
+
+            // Calculate the distance from the point to the line segment
+            const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y });
+
+            if (dist < threshold) {
+                return id;
+            }
+        }
+        return null;
+    }
+
     draw() {
         this.ctx.clearRect(0, 0, this.element.width, this.element.height)
 
@@ -219,15 +246,34 @@ export default class InfiniteCanvas {
             this.ctx.moveTo(fromNode.x, fromNode.y)
             this.ctx.lineTo(toNode.x, toNode.y)
             this.ctx.strokeStyle = "#666"
-            this.ctx.lineWidth = 2
+            this.ctx.lineWidth = this.edgeThickness
             this.ctx.stroke()
 
-            // Draw strength value
-            const midX = (fromNode.x + toNode.x) / 2
-            const midY = (fromNode.y + toNode.y) / 2
-            this.ctx.fillStyle = "#000"
-            this.ctx.font = "12px Arial"
-            this.ctx.fillText(edge.strength.toFixed(1), midX, midY)
+
+            // Draw strength value with background box
+            // const midX = (fromNode.x + toNode.x) / 2
+            // const midY = (fromNode.y + toNode.y) / 2
+            // const offset = 10 // Offset distance
+            // const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x)
+            // const offsetX = offset * Math.sin(angle)
+            // const offsetY = -offset * Math.cos(angle)
+
+            // // Calculate the center position for the text and box
+            // const centerX = (fromNode.x + toNode.x) / 2 + offsetX
+            // const centerY = (fromNode.y + toNode.y) / 2 + offsetY
+
+            // // Draw background box
+            // const textWidth = this.ctx.measureText(edge.strength.toFixed(1)).width
+            // const padding = 6 // Increased padding for larger box
+            // this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'
+            // this.ctx.beginPath()
+            // this.ctx.roundRect(centerX - textWidth / 2 - padding, centerY - 10, textWidth + 2 * padding, 20, 4) // Adjusted box height
+            // this.ctx.fill()
+
+            // // Draw text
+            // this.ctx.fillStyle = '#000'
+            // this.ctx.font = '14px Arial' // Increased font size
+            // this.ctx.fillText(edge.strength.toFixed(1), centerX - textWidth / 2, centerY + 5) // Adjusted text position
         }
 
         // Draw nodes
