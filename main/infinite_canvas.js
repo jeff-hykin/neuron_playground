@@ -35,6 +35,7 @@ export default class InfiniteCanvas {
         this.isPanning = false
         this.panStartPos = null
         this.edgeThickness = 5
+        this.mouseDownInfo = null; // Shared variable to store mouse down event info
 
         // Colors
         this.pulseColor = "#ffcccb" // Light red for pulse
@@ -65,40 +66,44 @@ export default class InfiniteCanvas {
         this.element.height = window.innerHeight
     }
     
-    handleMouseDown(e) {
-        const isRightClick = e.button === 2
+    handleMouseDown(event) {
+        const shiftWasPressed = event.shiftKey
+        const isRightClick = event.button === 2
+        const pos = this.getMousePos(event)
+        const hoveredNodeId = this.findNodeIdAtPosition(pos)
+        const hoveredEdgeId = this.findEdgeAtPosition(pos)
+        this.mouseDownInfo = {
+            shiftWasPressed,
+            isRightClick,
+            pos,
+            hoveredNodeId,
+            hoveredEdgeId,
+        }
+
         // right-click is handled by contextmenu (don't use it for panning)
         if (isRightClick) {
             return
         }
-
-        const pos = this.getMousePos(e)
-        const nodeId = this.findNodeIdAtPosition(pos)
-        const edgeId = this.findEdgeAtPosition(pos)
-
-        if (nodeId) {
-            if (e.shiftKey) {
+        
+        if (hoveredNodeId) {
+            if (event.shiftKey) {
                 // Edge creation mode with shift
                 if (this.edgeStartNode === null) {
                     // First shift-click - start edge creation
-                    this.edgeStartNode = nodeId
-                } else if (this.edgeStartNode !== nodeId) {
+                    this.edgeStartNode = hoveredNodeId
+                } else if (this.edgeStartNode !== hoveredNodeId) {
                     // Second shift-click - create edge
-                    this.createEdge(this.edgeStartNode, nodeId)
+                    this.createEdge(this.edgeStartNode, hoveredNodeId)
                     this.edgeStartNode = null
                 }
             } else {
                 // Normal click - pulse and start potential drag
-                this.draggingNode = nodeId
+                this.draggingNode = hoveredNodeId
                 this.isDragging = false
                 this.dragStartPos = pos
-                
-                // manually fire 
-                const node = this.nodes.get(nodeId)
-                this.manuallyFireNode(node)
             }
-        } else if (edgeId) {
-            const edge = this.edges.get(edgeId)
+        } else if (hoveredEdgeId) {
+            const edge = this.edges.get(hoveredEdgeId)
             const newStrength = globalThis.prompt(`Edge weight: ${edge.strength}\nPress okay to acknowledge, or enter replacement value`)-0
             // if is number
             if (newStrength-0 === newStrength) {
@@ -107,7 +112,7 @@ export default class InfiniteCanvas {
         } else {
             // Start panning
             this.isPanning = true
-            this.panStartPos = { x: e.clientX, y: e.clientY }
+            this.panStartPos = { x: event.clientX, y: event.clientY }
         }
     }
 
@@ -148,19 +153,23 @@ export default class InfiniteCanvas {
     }
 
     handleMouseUp(e) {
-        if (!this.isDragging && !e.shiftKey) {
-            const pos = this.getMousePos(e)
-            const node = this.findNodeIdAtPosition(pos)
-            if (!node) {
-                // Clicked on empty space - cancel edge creation
-                this.edgeStartNode = null
+        const mouseDownInfo = this.mouseDownInfo
+        this.mouseDownInfo = null; // Clear the shared variable
+        
+        if (!this.isDragging && mouseDownInfo) {
+            const wasNormalNodeClick = mouseDownInfo.hoveredNodeId && !mouseDownInfo.shiftWasPressed
+            if (wasNormalNodeClick) {
+                const nodeId = mouseDownInfo.hoveredNodeId
+                // Manually spike the node if it was not dragged
+                const node = this.nodes.get(nodeId);
+                this.manuallyFireNode(node);
             }
         }
-        this.draggingNode = null
-        this.isDragging = false
-        this.isPanning = false
-        this.dragStartPos = null
-        this.panStartPos = null
+        this.draggingNode = null;
+        this.isDragging = false;
+        this.isPanning = false;
+        this.dragStartPos = null;
+        this.panStartPos = null;
     }
 
     handleWheel(e) {
