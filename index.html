@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Web Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/css-baseline/css/3.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        :root {
+            --gray-pallet-background: rgb(30, 37, 53);
+            --red-pallet-background: lightcoral;
+            --off-white: hsl(0, 0%, 87.8%);
+            --charcoal: hsl(180, 0%, 31%);
+            --charcoal-on-charcoal: hsl(0deg 0% 50%);
+            --soft-gray-gradient: linear-gradient(-110deg, whitesmoke, var(--off-white));
+            /* misc */
+            --red-pallet-font: white;
+            --decent-color-1: lightcoral;
+            --decent-color-2: salmon;
+            --decent-color-3: lightpink;
+            --decent-color-4: lightsalmon;
+            --decent-color-5: coral;
+            --decent-color-6: lightcyan;
+            --decent-color-7: lightblue;
+            --decent-color-8: lightsteelblue;
+            --decent-color-9: skyblue;
+            --decent-color-10: lightskyblue;
+            --decent-color-11: cornflowerblue;
+            --decent-color-12: dodgerblue;
+            --decent-color-13: aquamarine;
+            --decent-color-14: turquoise;
+            --decent-color-15: darkturquoise;
+            --decent-color-16: lightseagreen;
+            --decent-color-17: darkcyan;
+            --decent-color-18: teal;
+            --decent-color-19: mediumspringgreen;
+            --decent-color-20: lightgreen;
+            --decent-color-21: cadetblue;
+            --decent-color-22: darkorchid;
+            --decent-color-23: blueviolet;
+        }
+        * {
+            min-width: 0;
+        }
+        body {
+            font-size: 0.9em;
+            font-family: Roboto;
+        }
+        .animate {
+            transition: all 0.5s ease-in-out 0s;
+        }
+        .weak-shadow {
+            transition: all 0.3s ease-in-out 0s;
+            box-shadow: 0 4px 5px 0 rgba(0,0,0,0.10),0 1px 10px 0 rgba(0,0,0,0.08),0 2px 4px -1px rgba(0,0,0,0.24);
+        }
+        .weak-shadow:hover {
+            box-shadow: 0 8px 17px 2px rgba(0,0,0,0.10),0 6px 30px 5px rgba(0,0,0,0.08),0 8px 10px -7px rgba(0,0,0,0.16);
+        }
+        button {
+            border-radius: 1em;
+            border: none;
+            background-color: cornflowerblue;
+            padding: 0.5em 1em;
+            color: white;
+        }
+        a {
+            color: lightskyblue;
+            text-decoration: underline;
+        }
+        span {
+            vertical-align: text-top;
+        }
+    </style>
+</head>
+<!--                                   -->
+<!-- Synchonous/Fast loading animation -->
+<!--                                   -->
+    <body>
+        <div style="display: flex;justify-content: center;align-items: center;height: 100vh;">
+            <div style="width: 50px;height: 50px;border: 10px solid #dddddd;border-top-color: #009579;border-radius: 50%;transform: rotate(0.16turn);" id="good-component--initial-loader">
+            </div>
+        </div>
+    </body>
+    <script>
+        const animateLoader = ()=>{
+            const element = document.getElementById("good-component--initial-loader")
+            element && element.animate(
+                [
+                    { transform: 'rotate(0turn)' },
+                    { transform: 'rotate(1turn)' },
+                ],
+                {
+                    duration: 1000,
+                    iterations: Infinity,
+                    easing: 'ease',
+                },
+            )
+        }
+        document.body ? animateLoader() : document.addEventListener("DOMContentLoaded", animateLoader)
+    </script>
+
+<script src="./main.js" type="module"></script>
