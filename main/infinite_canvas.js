@@ -71,7 +71,7 @@ function drawArcThroughPoints(ctx, x1, y1, x2, y2, x3, y3) {
 // Helper function to interpolate color based on edge strength
 function strengthToColor(strength) {
     if (strength <= 0) {
-        return interpolateColor(blue, red, (strength + 1) / 1);
+        return interpolateColor(red, blue, ((strength + 1)**2 / 1));
     } else {
         return interpolateColor(green, blue, 1 - strength);
     }
