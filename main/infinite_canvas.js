@@ -34,8 +34,21 @@ export default class InfiniteCanvas {
         this.dragStartPos = null
         this.isPanning = false
         this.panStartPos = null
-        this.edgeThickness = 5
+        this.edgeThickness = 4
+        this.dragThreshold = 5
+        this.scaleMin = 0.1
+        this.scaleMax = 5
+        this.scaleFactorIncrease = 1.1
+        this.scaleFactorDecrease = 0.9
+        this.pulseDuration = 200
+        this.strokeStyleEdge = "#666"
+        this.strokeStyleNormal = "#000000"
+        this.strokeStylePulse = "#ffcccb"
+        this.strokeStyleEdgeCreation = "#0066ff"
+        this.strokeWidthNormal = 2
+        this.strokeWidthPulse = 4
         this.mouseDownInfo = null; // Shared variable to store mouse down event info
+        this.lastHoveredNode = null; // Track the last-hovered node
 
         // Colors
         this.pulseColor = "#ffcccb" // Light red for pulse
@@ -118,13 +131,15 @@ export default class InfiniteCanvas {
 
     handleMouseMove(e) {
         const pos = this.getMousePos(e)
+        const hoveredNodeId = this.findNodeIdAtPosition(pos)
+        this.lastHoveredNode = hoveredNodeId || this.lastHoveredNode 
 
         if (this.draggingNode) {
             // Only start dragging if mouse has moved a bit
             if (!this.isDragging) {
                 const dx = pos.x - this.dragStartPos.x
                 const dy = pos.y - this.dragStartPos.y
-                if (dx * dx + dy * dy > 5) {
+                if (dx * dx + dy * dy > this.dragThreshold) {
                     // Small threshold to start drag
                     this.isDragging = true
                 }
@@ -175,9 +190,9 @@ export default class InfiniteCanvas {
     handleWheel(e) {
         e.preventDefault()
         const delta = e.deltaY
-        const scaleFactor = delta > 0 ? 0.9 : 1.1
+        const scaleFactor = delta > 0 ? this.scaleFactorDecrease : this.scaleFactorIncrease
         this.scale *= scaleFactor
-        this.scale = Math.max(0.1, Math.min(5, this.scale))
+        this.scale = Math.max(this.scaleMin, Math.min(this.scaleMax, this.scale))
     }
 
     handleContextMenu(e) {
@@ -261,42 +276,21 @@ export default class InfiniteCanvas {
         this.ctx.translate(this.offset.x, this.offset.y)
         this.ctx.scale(this.scale, this.scale)
 
-        // Draw edges
-        for (const edge of this.edges.values()) {
-            const fromNode = this.nodes.get(edge.from)
-            const toNode = this.nodes.get(edge.to)
+        // Draw edges for the last-hovered node
+        if (this.lastHoveredNode) {
+            for (const edge of this.edges.values()) {
+                if (edge.from === this.lastHoveredNode || edge.to === this.lastHoveredNode) {
+                    const fromNode = this.nodes.get(edge.from)
+                    const toNode = this.nodes.get(edge.to)
 
-            this.ctx.beginPath()
-            this.ctx.moveTo(fromNode.x, fromNode.y)
-            this.ctx.lineTo(toNode.x, toNode.y)
-            this.ctx.strokeStyle = "#666"
-            this.ctx.lineWidth = this.edgeThickness
-            this.ctx.stroke()
-
-            // Draw strength value with background box
-            // const midX = (fromNode.x + toNode.x) / 2
-            // const midY = (fromNode.y + toNode.y) / 2
-            // const offset = 10 // Offset distance
-            // const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x)
-            // const offsetX = offset * Math.sin(angle)
-            // const offsetY = -offset * Math.cos(angle)
-
-            // // Calculate the center position for the text and box
-            // const centerX = (fromNode.x + toNode.x) / 2 + offsetX
-            // const centerY = (fromNode.y + toNode.y) / 2 + offsetY
-
-            // // Draw background box
-            // const textWidth = this.ctx.measureText(edge.strength.toFixed(1)).width
-            // const padding = 6 // Increased padding for larger box
-            // this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'
-            // this.ctx.beginPath()
-            // this.ctx.roundRect(centerX - textWidth / 2 - padding, centerY - 10, textWidth + 2 * padding, 20, 4) // Adjusted box height
-            // this.ctx.fill()
-
-            // // Draw text
-            // this.ctx.fillStyle = '#000'
-            // this.ctx.font = '14px Arial' // Increased font size
-            // this.ctx.fillText(edge.strength.toFixed(1), centerX - textWidth / 2, centerY + 5) // Adjusted text position
+                    this.ctx.beginPath()
+                    this.ctx.moveTo(fromNode.x, fromNode.y)
+                    this.ctx.lineTo(toNode.x, toNode.y)
+                    this.ctx.strokeStyle = this.strokeStyleEdge
+                    this.ctx.lineWidth = this.edgeThickness
+                    this.ctx.stroke()
+                }
+            }
         }
 
         // Draw nodes
@@ -308,14 +302,14 @@ export default class InfiniteCanvas {
 
             // Determine node border color based on state
             if (id === this.edgeStartNode) {
-                this.ctx.strokeStyle = this.edgeCreationColor // Blue for edge creation
+                this.ctx.strokeStyle = this.strokeStyleEdgeCreation
             } else if (node.pulse) {
-                this.ctx.strokeStyle = this.pulseColor // Light red for pulse
+                this.ctx.strokeStyle = this.strokeStylePulse
             } else {
-                this.ctx.strokeStyle = this.normalColor // Black for normal state
+                this.ctx.strokeStyle = this.strokeStyleNormal
             }
 
-            this.ctx.lineWidth = node.pulse ? 4 : 2
+            this.ctx.lineWidth = node.pulse ? this.strokeWidthPulse : this.strokeWidthNormal
             this.ctx.stroke()
         }
 
@@ -363,7 +357,7 @@ export default class InfiniteCanvas {
             setTimeout(() => {
                 node.pulse = false
                 node.isPulsing = false
-            }, 200)
+            }, this.pulseDuration)
         }
     }
 
