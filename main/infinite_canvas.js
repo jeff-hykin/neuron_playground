@@ -63,15 +63,20 @@ function drawArcThroughPoints(ctx, x1, y1, x2, y2, x3, y3) {
 
     // Draw the arc
     ctx.beginPath();
-    console.debug(`centerX is:`,centerX)
-    console.debug(`centerY is:`,centerY)
-    console.debug(`radius is:`,radius)
-    console.debug(`startAngle is:`,startAngle)
-    console.debug(`endAngle is:`,endAngle)
     ctx.arc(centerX, centerY, radius, startAngle, endAngle);
     ctx.stroke();
 }
-window.drawArcThroughPoints = drawArcThroughPoints;
+
+
+// Helper function to interpolate color based on edge strength
+function strengthToColor(strength) {
+    if (strength <= 0) {
+        return interpolateColor(blue, red, (strength + 1) / 1);
+    } else {
+        return interpolateColor(green, blue, 1 - strength);
+    }
+}
+
 
 export default class InfiniteCanvas {
     constructor() {
@@ -116,7 +121,6 @@ export default class InfiniteCanvas {
         // Create canvas and context
         this.element = document.createElement("canvas")
         this.ctx = this.element.getContext("2d")
-        window.ctx = this.ctx // DEBUGGING: remove later
 
         // Set canvas size
         this.resizeCanvas()
@@ -367,41 +371,38 @@ export default class InfiniteCanvas {
 
                 if (edge.from === edge.to) {
                     if (this.lastHoveredNodeId === edge.from) {
-                        this.ctx.beginPath()
-                        const node = this.nodes.get(edge.from)
-                        const [x,y] = [ node.x+this.nodeRadius, node.y-this.nodeRadius, ]
-                        this.ctx.arc(x,y, this.nodeRadius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle);
-                        this.ctx.lineWidth = this.edgeThickness
-                        this.ctx.strokeStyle = this.strokeStyleOutgoingEdge
-                        this.ctx.stroke()
-                        
+                        this.ctx.beginPath();
+                        const node = this.nodes.get(edge.from);
+                        const [x, y] = [node.x + this.nodeRadius, node.y - this.nodeRadius];
+                        this.ctx.arc(x, y, this.nodeRadius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle);
+                        this.ctx.lineWidth = this.edgeThickness;
+                        this.ctx.strokeStyle = strengthToColor(edge.strength);
+                        this.ctx.stroke();
+
                         drawArrowhead({
-                            // NOTE: all these numbers are just hand-tuned based on visuals and should scale with the node radius
-                            // NOTE2: probably won't scale for node border width
                             ctx: this.ctx,
-                            x: node.x+(this.nodeRadius*0.5),
-                            y: node.y-(this.nodeRadius*1.55),
-                            angle: -0.4 + (Math.PI*2),
+                            x: node.x + (this.nodeRadius * 0.5),
+                            y: node.y - (this.nodeRadius * 1.55),
+                            angle: -0.4 + (Math.PI * 2),
                             size: this.arrowLength,
-                            thickness: this.edgeThickness*0.5,
-                            color: this.strokeStyleOutgoingEdge,
-                        })
+                            thickness: this.edgeThickness * 0.5,
+                            color: strengthToColor(edge.strength),
+                        });
                     }
                 } else if (edge.from === this.lastHoveredNodeId || edge.to === this.lastHoveredNodeId) {
                     // Normal edge drawing
                     this.ctx.beginPath();
                     this.ctx.moveTo(fromNode.x, fromNode.y);
                     this.ctx.lineTo(toNode.x, toNode.y);
-                    this.ctx.strokeStyle = (edge.from === this.lastHoveredNodeId) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
+                    this.ctx.strokeStyle = strengthToColor(edge.strength);
                     this.ctx.lineWidth = this.edgeThickness;
                     this.ctx.stroke();
 
                     // Draw arrowhead
                     const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x);
-                    const arrowStartX = toNode.x - (this.nodeRadius*1.10) * Math.cos(angle);
-                    const arrowStartY = toNode.y - (this.nodeRadius*1.10) * Math.sin(angle);
+                    const arrowStartX = toNode.x - (this.nodeRadius * 1.10) * Math.cos(angle);
+                    const arrowStartY = toNode.y - (this.nodeRadius * 1.10) * Math.sin(angle);
 
-                    // Draw arrowhead
                     drawArrowhead({
                         ctx: this.ctx,
                         x: arrowStartX,
@@ -409,7 +410,7 @@ export default class InfiniteCanvas {
                         angle: angle,
                         size: this.arrowLength,
                         thickness: this.edgeThickness,
-                        color: (edge.from === this.lastHoveredNodeId) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge
+                        color: strengthToColor(edge.strength),
                     });
                 }
             }
