@@ -11,7 +11,6 @@ export default function createButton({ ...props }) {
     button.style.border = "none"
     button.style.borderRadius = "4px"
     button.style.cursor = "pointer"
-    button.style.zIndex = "1000"
 
     passAlongProps(button, props)
     return button
