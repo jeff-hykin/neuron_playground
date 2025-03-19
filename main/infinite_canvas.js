@@ -21,15 +21,18 @@ function pointToSegmentDistance(point, v, w) {
     return Math.hypot(point.x - projection.x, point.y - projection.y)
 }
 
-function drawArrowhead(ctx, x, y, angle, size, thickness) {
+function drawArrowhead({ctx, x, y, angle, size, thickness, color=black}) {
     ctx.beginPath();
     ctx.moveTo(x, y);
     ctx.lineTo(x - size * Math.cos(angle - Math.PI / 6), y - size * Math.sin(angle - Math.PI / 6));
     ctx.lineTo(x - size * Math.cos(angle + Math.PI / 6), y - size * Math.sin(angle + Math.PI / 6));
     ctx.lineTo(x, y);
     ctx.closePath();
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
     ctx.lineWidth = thickness;
     ctx.fill();
+    ctx.stroke();
 }
 
 function drawArcThroughPoints(ctx, x1, y1, x2, y2, x3, y3) {
@@ -99,7 +102,7 @@ export default class InfiniteCanvas {
         this.strokeWidthNormal = 2
         this.strokeWidthPulse = 4
         this.mouseDownInfo = null; // Shared variable to store mouse down event info
-        this.lastHoveredNode = null; // Track the last-hovered node
+        this.lastHoveredNodeId = null; // Track the last-hovered node
         this.arrowLength = 15; // Increased length of the arrowhead
         this.arrowWidth = 8; // Increased width of the arrowhead
         this.normalColor = black // Black for normal state
@@ -184,7 +187,7 @@ export default class InfiniteCanvas {
     handleMouseMove(e) {
         const pos = this.getMousePos(e)
         const hoveredNodeId = this.findNodeIdAtPosition(pos)
-        this.lastHoveredNode = hoveredNodeId || this.lastHoveredNode 
+        this.lastHoveredNodeId = hoveredNodeId || this.lastHoveredNodeId 
 
         if (this.draggingNode) {
             // Only start dragging if mouse has moved a bit
@@ -330,32 +333,37 @@ export default class InfiniteCanvas {
         this.ctx.scale(this.scale, this.scale)
 
         // Draw edges for the last-hovered node
-        if (this.lastHoveredNode) {
+        if (this.lastHoveredNodeId) {
             for (const edge of this.edges.values()) {
                 const fromNode = this.nodes.get(edge.from);
                 const toNode = this.nodes.get(edge.to);
 
                 if (edge.from === edge.to) {
-                    this.ctx.beginPath()
-                    const node = this.nodes.get(edge.from)
-                    const [x,y] = [ node.x+this.nodeRadius, node.y-this.nodeRadius, ]
-                    this.ctx.arc(x,y, this.nodeRadius, -2.807285748448284, 1.7585218457865455);
-                    this.ctx.lineWidth = this.edgeThickness
-                    this.ctx.fillStyle = this.strokeStyleOutgoingEdge
-                    this.ctx.stroke()
-
-                    drawArrowhead(this.ctx, x-(this.nodeRadius*0.54), y-(this.nodeRadius*0.6), -0.4 + (Math.PI*2), this.arrowLength, this.edgeThickness)
-                    // // Place the arrowhead along the radius of the circle
-                    // const arrowAngle = Math.PI / 4; // Angle for the arrowhead
-                    // const arrowStartX = loopCenterX + loopRadius * Math.cos(arrowAngle);
-                    // const arrowStartY = loopCenterY + loopRadius * Math.sin(arrowAngle);
-
-                } else if (edge.from === this.lastHoveredNode || edge.to === this.lastHoveredNode) {
+                    if (this.lastHoveredNodeId === edge.from) {
+                        this.ctx.beginPath()
+                        const node = this.nodes.get(edge.from)
+                        const [x,y] = [ node.x+this.nodeRadius, node.y-this.nodeRadius, ]
+                        this.ctx.arc(x,y, this.nodeRadius, -2.807285748448284, 1.7585218457865455);
+                        this.ctx.lineWidth = this.edgeThickness
+                        this.ctx.strokeStyle = this.strokeStyleOutgoingEdge
+                        this.ctx.stroke()
+                        
+                        drawArrowhead({
+                            ctx: this.ctx,
+                            x: node.x+(this.nodeRadius*0.5),
+                            y: node.y-(this.nodeRadius*1.55),
+                            angle: -0.4 + (Math.PI*2),
+                            size: this.arrowLength,
+                            thickness: this.edgeThickness*0.5,
+                            color: this.strokeStyleOutgoingEdge,
+                        })
+                    }
+                } else if (edge.from === this.lastHoveredNodeId || edge.to === this.lastHoveredNodeId) {
                     // Normal edge drawing
                     this.ctx.beginPath();
                     this.ctx.moveTo(fromNode.x, fromNode.y);
                     this.ctx.lineTo(toNode.x, toNode.y);
-                    this.ctx.strokeStyle = (edge.from === this.lastHoveredNode) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
+                    this.ctx.strokeStyle = (edge.from === this.lastHoveredNodeId) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
                     this.ctx.lineWidth = this.edgeThickness;
                     this.ctx.stroke();
 
@@ -370,7 +378,7 @@ export default class InfiniteCanvas {
                     this.ctx.lineTo(arrowStartX - this.arrowLength * Math.cos(angle + Math.PI / 6), arrowStartY - this.arrowLength * Math.sin(angle + Math.PI / 6));
                     this.ctx.lineTo(arrowStartX, arrowStartY);
                     this.ctx.closePath();
-                    this.ctx.fillStyle = (edge.from === this.lastHoveredNode) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
+                    this.ctx.fillStyle = (edge.from === this.lastHoveredNodeId) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
                     this.ctx.fill();
                 }
             }
