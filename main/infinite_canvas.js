@@ -231,4 +231,19 @@ export default class InfiniteCanvas {
         this.nodes = new Map(data.nodes)
         this.edges = new Map(data.edges)
     }
+
+    load(data) {
+        // Clear existing nodes and edges
+        this.nodes.clear()
+        this.edges.clear()
+
+        // Load new nodes and edges from the provided data
+        for (const [id, nodeData] of data.nodes) {
+            this.nodes.set(id, nodeData)
+        }
+
+        for (const [id, edgeData] of data.edges) {
+            this.edges.set(id, edgeData)
+        }
+    }
 }
