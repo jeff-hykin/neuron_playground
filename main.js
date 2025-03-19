@@ -1,6 +1,6 @@
 import { Elemental, passAlongProps, html } from "./imports/elemental.js"
 import InfiniteCanvas from "./main/infinite_canvas.js"
-import createButton from "./main/button.js"
+import Button from "./main/button.js"
 
 function downloadCanvasState(canvas) {
     const jsonString = canvas.saveToJSON()
@@ -37,16 +37,12 @@ function loadCanvasState(canvas) {
 // Create instance when the page loads
 window.addEventListener("load", () => {
     const canvas = new InfiniteCanvas()
-    const saveButton = createButton({ children: "Save", onClick: () => downloadCanvasState(canvas) })
-    const loadButton = createButton({ children: "Load", onClick: () => loadCanvasState(canvas) })
-    const nextButton = createButton({ children: "Next", onClick: () => canvas.next() })
-
-    const buttonContainer = html`<div style="position: fixed; top: 20px; right: 20px; gap: 2rem; display: flex;">
-        ${saveButton}
-        ${loadButton}
-        ${nextButton}
-    </div>`
-
-    document.body.appendChild(canvas.element)
-    document.body.appendChild(buttonContainer)
+    document.body = html`<body style="margin: 0; overflow: hidden; background: #f0f0f0;">
+        ${canvas.element}
+        <div style="position: fixed; top: 20px; right: 20px; gap: 2rem; display: flex;">
+            ${Button({ children: "Save", onClick: () => downloadCanvasState(canvas) })}
+            ${Button({ children: "Load", onClick: () => loadCanvasState(canvas) })}
+            ${Button({ children: "Next", onClick: () => canvas.next() })}
+        </div>
+    </body>`
 })
