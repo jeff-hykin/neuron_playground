@@ -54,30 +54,27 @@ export default class InfiniteCanvas {
 
     handleMouseDown(e) {
         const pos = this.getMousePos(e)
-        const node = this.findNodeAtPosition(pos)
+        const nodeId = this.findNodeIdAtPosition(pos)
 
-        if (node) {
+        if (nodeId) {
             if (e.shiftKey) {
                 // Edge creation mode with shift
                 if (this.edgeStartNode === null) {
                     // First shift-click - start edge creation
-                    this.edgeStartNode = node
-                } else if (this.edgeStartNode !== node) {
+                    this.edgeStartNode = nodeId
+                } else if (this.edgeStartNode !== nodeId) {
                     // Second shift-click - create edge
-                    this.createEdge(this.edgeStartNode, node)
+                    this.createEdge(this.edgeStartNode, nodeId)
                     this.edgeStartNode = null
                 }
             } else {
                 // Normal click - pulse and start potential drag
-                this.draggingNode = node
+                this.draggingNode = nodeId
                 this.isDragging = false
                 this.dragStartPos = pos
 
                 // Pulse effect
-                this.nodes.get(node).pulse = true
-                setTimeout(() => {
-                    this.nodes.get(node).pulse = false
-                }, 200)
+                this.pulseNode(this.nodes.get(nodeId))
             }
         } else {
             // Clicked on empty space - cancel edge creation
@@ -110,7 +107,7 @@ export default class InfiniteCanvas {
     handleMouseUp(e) {
         if (!this.isDragging && !e.shiftKey) {
             const pos = this.getMousePos(e)
-            const node = this.findNodeAtPosition(pos)
+            const node = this.findNodeIdAtPosition(pos)
             if (!node) {
                 // Clicked on empty space - cancel edge creation
                 this.edgeStartNode = null
@@ -169,7 +166,7 @@ export default class InfiniteCanvas {
         return edgeId
     }
 
-    findNodeAtPosition(pos) {
+    findNodeIdAtPosition(pos) {
         for (const [id, node] of this.nodes) {
             const dx = pos.x - node.x
             const dy = pos.y - node.y
@@ -264,6 +261,17 @@ export default class InfiniteCanvas {
         }
     }
 
+    pulseNode(node) {
+        if (!node.isPulsing) {  // Check if the node is already pulsing
+            node.isPulsing = true
+            node.pulse = true
+            setTimeout(() => {
+                node.pulse = false
+                node.isPulsing = false
+            }, 200)
+        }
+    }
+
     next() {
         const nodes = Array.from(this.nodes.values())
         const amountToAddForEach = {}
@@ -289,10 +297,7 @@ export default class InfiniteCanvas {
                 eachNode.energy = eachNode.energyAfterFiring
                 eachNode.isFiring = false
                 // Animate that it's firing
-                eachNode.pulse = true
-                setTimeout(() => {
-                    eachNode.pulse = false
-                }, 200)
+                this.pulseNode(eachNode)
             }
         }
 
