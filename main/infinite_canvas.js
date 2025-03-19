@@ -1,3 +1,14 @@
+function energyToHue(energy) {
+    // Clamp energy between 0 and 1
+    const clampedEnergy = Math.max(0, Math.min(1, energy))
+
+    // Map energy to a hue value (0 = red, 120 = green)
+    const hue = clampedEnergy * 120
+
+    // Return the HSL color string
+    return `hsl(${hue}, 100%, 50%)`
+}
+
 export default class InfiniteCanvas {
     constructor() {
         this.nodes = new Map()
@@ -138,6 +149,12 @@ export default class InfiniteCanvas {
             x,
             y,
             pulse: false,
+            spikeThreshold: 1,
+            energy: 0.1,
+            energyDecayRate: 0.1,
+            isFiring: false,
+            stableEnergyLevel: 0.1,
+            energyAfterFiring: 0,
         })
         return id
     }
@@ -195,7 +212,7 @@ export default class InfiniteCanvas {
         for (const [id, node] of this.nodes) {
             this.ctx.beginPath()
             this.ctx.arc(node.x, node.y, this.nodeRadius, 0, Math.PI * 2)
-            this.ctx.fillStyle = "#fff"
+            this.ctx.fillStyle = energyToHue(node.energy) // Set fill color based on energy
             this.ctx.fill()
 
             // Determine node border color based on state
@@ -245,5 +262,71 @@ export default class InfiniteCanvas {
         for (const [id, edgeData] of data.edges) {
             this.edges.set(id, edgeData)
         }
+    }
+
+    next() {
+        const nodes = Array.from(this.nodes.values())
+        const amountToAddForEach = {}
+
+        // Collect energy from fired nodes
+        for (let eachNode of nodes) {
+            if (eachNode.isFiring) {
+                for (const edge of this.edges.values()) {
+                    if (edge.from === eachNode.id) {
+                        const targetNode = this.nodes.get(edge.to)
+                        if (targetNode) {
+                            amountToAddForEach[targetNode.id] = amountToAddForEach[targetNode.id] || 0
+                            amountToAddForEach[targetNode.id] += edge.strength
+                        }
+                    }
+                }
+            }
+        }
+
+        // Reset nodes that just fired
+        for (let eachNode of nodes) {
+            if (eachNode.isFiring) {
+                eachNode.energy = eachNode.energyAfterFiring
+                eachNode.isFiring = false
+                // Animate that it's firing
+                eachNode.pulse = true
+                setTimeout(() => {
+                    eachNode.pulse = false
+                }, 200)
+            }
+        }
+
+        // Add the amountToAddForEach to the nodes
+        for (const [key, value] of Object.entries(amountToAddForEach)) {
+            const node = this.nodes.get(key)
+            if (node) {
+                node.energy += value
+            }
+        }
+
+        // Discover what new nodes are firing
+        for (let eachNode of nodes) {
+            if (eachNode.energy >= eachNode.spikeThreshold) {
+                eachNode.isFiring = true
+            }
+        }
+
+        // Account for decay
+        for (let eachNode of nodes) {
+            if (!eachNode.isFiring) {
+                eachNode.energy -= eachNode.energyDecayRate
+                if (eachNode.energy < eachNode.stableEnergyLevel) {
+                    eachNode.energy = eachNode.stableEnergyLevel
+                }
+            }
+        }
+
+        // Update color based on energy
+        for (let eachNode of nodes) {
+            eachNode.fill = energyToHue(eachNode.energy)
+        }
+
+        // Redraw the canvas
+        this.draw()
     }
 }
