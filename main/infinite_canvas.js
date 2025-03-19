@@ -369,17 +369,19 @@ export default class InfiniteCanvas {
 
                     // Draw arrowhead
                     const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x);
-                    const arrowStartX = toNode.x - this.nodeRadius * Math.cos(angle);
-                    const arrowStartY = toNode.y - this.nodeRadius * Math.sin(angle);
+                    const arrowStartX = toNode.x - (this.nodeRadius*1.10) * Math.cos(angle);
+                    const arrowStartY = toNode.y - (this.nodeRadius*1.10) * Math.sin(angle);
 
-                    this.ctx.beginPath();
-                    this.ctx.moveTo(arrowStartX, arrowStartY);
-                    this.ctx.lineTo(arrowStartX - this.arrowLength * Math.cos(angle - Math.PI / 6), arrowStartY - this.arrowLength * Math.sin(angle - Math.PI / 6));
-                    this.ctx.lineTo(arrowStartX - this.arrowLength * Math.cos(angle + Math.PI / 6), arrowStartY - this.arrowLength * Math.sin(angle + Math.PI / 6));
-                    this.ctx.lineTo(arrowStartX, arrowStartY);
-                    this.ctx.closePath();
-                    this.ctx.fillStyle = (edge.from === this.lastHoveredNodeId) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge;
-                    this.ctx.fill();
+                    // Draw arrowhead
+                    drawArrowhead({
+                        ctx: this.ctx,
+                        x: arrowStartX,
+                        y: arrowStartY,
+                        angle: angle,
+                        size: this.arrowLength,
+                        thickness: this.edgeThickness,
+                        color: (edge.from === this.lastHoveredNodeId) ? this.strokeStyleOutgoingEdge : this.strokeStyleIncomingEdge
+                    });
                 }
             }
         }
