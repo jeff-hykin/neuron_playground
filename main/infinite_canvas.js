@@ -97,6 +97,13 @@ export default class InfiniteCanvas {
                 const node = this.nodes.get(nodeId)
                 this.manuallyFireNode(node)
             }
+        } else if (edgeId) {
+            const edge = this.edges.get(edgeId)
+            const newStrength = globalThis.prompt(`Edge weight: ${edge.strength}\nPress okay to acknowledge, or enter replacement value`)-0
+            // if is number
+            if (newStrength-0 === newStrength) {
+                edge.strength = newStrength
+            }
         } else {
             // Start panning
             this.isPanning = true
