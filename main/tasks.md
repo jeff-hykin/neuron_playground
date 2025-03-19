@@ -7,6 +7,7 @@
 - DONE: edge color as strength
 - DONE: make a ring attractor and test it
 - animate gradient for pulse, have pulse change the radius
+- make a way to delete nodes and edges
 - show the outgoing edges when a spike happens
 - create a way to select something despite overlap. In particular, bi-directional edges
 - make two ring attractors and join them like the paper
