@@ -49,6 +49,8 @@ export default class InfiniteCanvas {
         this.strokeWidthPulse = 4
         this.mouseDownInfo = null; // Shared variable to store mouse down event info
         this.lastHoveredNode = null; // Track the last-hovered node
+        this.arrowLength = 15; // Increased length of the arrowhead
+        this.arrowWidth = 8; // Increased width of the arrowhead
 
         // Colors
         this.pulseColor = "#ffcccb" // Light red for pulse
@@ -290,6 +292,22 @@ export default class InfiniteCanvas {
                     this.ctx.strokeStyle = this.strokeStyleEdge
                     this.ctx.lineWidth = this.edgeThickness
                     this.ctx.stroke()
+
+                    // Draw arrowhead
+                    const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x);
+
+                    // Calculate the position for the arrowhead to start
+                    const arrowStartX = toNode.x - this.nodeRadius * Math.cos(angle);
+                    const arrowStartY = toNode.y - this.nodeRadius * Math.sin(angle);
+
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(arrowStartX, arrowStartY);
+                    this.ctx.lineTo(arrowStartX - this.arrowLength * Math.cos(angle - Math.PI / 6), arrowStartY - this.arrowLength * Math.sin(angle - Math.PI / 6));
+                    this.ctx.lineTo(arrowStartX - this.arrowLength * Math.cos(angle + Math.PI / 6), arrowStartY - this.arrowLength * Math.sin(angle + Math.PI / 6));
+                    this.ctx.lineTo(arrowStartX, arrowStartY);
+                    this.ctx.closePath();
+                    this.ctx.fillStyle = this.strokeStyleEdge;
+                    this.ctx.fill();
                 }
             }
         }
