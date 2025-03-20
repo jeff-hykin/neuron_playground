@@ -13,7 +13,6 @@ export class RingAttractor {
      * @param {Array.<number>} [weights=[0.050, 0.100, 0.050, 0.250]] - Array of synaptic weight values for inhibitory and excitatory synapses.
      * @param {number} [fixedPointsNumber=0] - Number of fixed points to be used in the attractor model.
      * @param {number} [time=1000] - Simulation time (in ms).
-     * @param {boolean} [plot=false] - Whether to plot the results after simulation.
      */
     constructor({
         numOfNeurons = 256,
@@ -21,20 +20,20 @@ export class RingAttractor {
         weights = [0.050, 0.100, 0.050, 0.250],
         fixedPointsNumber = 0,
         time = 1000,
-        plot = false,
     }) {
         this.numOfNeurons = numOfNeurons
         this.noise = noise
         this.weights = weights
         this.fixedPointsNumber = fixedPointsNumber
-        this.time = time
-        this.plot = plot
+        this.totalTimesteps = time
 
         this.neurons = []
-        for (let i = 0; i < numOfNeurons; i++) {
+        for (let neuronIndex = 0; neuronIndex < numOfNeurons; neuronIndex++) {
             this.neurons.push(new LeakyIntegrateAndFireNeuron({
-                id: i,
-                angle: (360.0 / numOfNeurons) * i,
+                id: neuronIndex,
+                otherData: {
+                    angle: (360.0 / numOfNeurons) * neuronIndex,
+                },
                 noiseMean: 0,
                 noiseStd: this.noise,
             }))
@@ -61,14 +60,10 @@ export class RingAttractor {
             console.warn("Simulation has not been flushed!");
         }
 
-        const potentials = []
-        for (let i = 0; i < this.numOfNeurons; i++) {
-            potentials.push([])
-        }
-
-        for (let t = 0; t < this.time; t++) {
+        const potentials = Array(this.numOfNeurons).fill(0).map(each=>[])
+        for (let timeIndex = 0; timeIndex < this.totalTimesteps; timeIndex++) {
             for (const neuron of this.neurons) {
-                if (t === 0 && neuron.id >= 31 && neuron.id <= 35) {
+                if (timeIndex === 0 && neuron.id >= 31 && neuron.id <= 35) {
                     neuron.membranePotential = -0.0001 // Set initial potential for certain neurons
                 }
                 neuron.step()
@@ -77,13 +72,6 @@ export class RingAttractor {
         }
 
         this.processPotentials(potentials)
-        const divergence = 0 // Placeholder for potential future calculations like KL divergence
-
-        if (this.plot) {
-            this.plotPotentials(divergence)
-        }
-
-        return divergence
     }
     
     /**
@@ -92,12 +80,13 @@ export class RingAttractor {
     processPotentials(potentials) {
         const data = new Map()
         
-        for (let i = 0; i < potentials.length; i++) {
-            data.set(this.neurons[i].angle, potentials[i])
+        let i = -1
+        for (let eachNeuron of this.neurons) {
+            i++
+            data.set(eachNeuron.otherData.angle, potentials[i])
         }
         
         const spikes = new Map()
-
         for (const [idx, pot] of data) {
             spikes.set(idx, pot.map(value => (value === 0 ? 1 : 0)))
         }
