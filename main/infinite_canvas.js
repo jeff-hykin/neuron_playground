@@ -283,6 +283,7 @@ export default class InfiniteCanvas {
             isFiring: false,
             stableEnergyLevel: 0.1,
             energyAfterFiring: 0,
+            radius: this.nodeRadius, // Assign default radius
         })
         return id
     }
@@ -417,7 +418,7 @@ export default class InfiniteCanvas {
         // Draw nodes
         for (const [id, node] of this.nodes) {
             this.ctx.beginPath()
-            this.ctx.arc(node.x, node.y, this.nodeRadius, 0, Math.PI * 2)
+            this.ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2)
             this.ctx.fillStyle = energyToHue(node.energy) // Set fill color based on energy
             this.ctx.fill()
 
