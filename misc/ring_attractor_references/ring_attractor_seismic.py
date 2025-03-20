@@ -3,15 +3,10 @@ import itertools
 from typing import Callable, Iterable, Mapping, Union, Tuple, Optional
 import numpy as np
 import torch
-from neuroaiengines import __loc__
-
-# pylint: disable=no-name-in-module
 from torch import nn, tensor
-from neuroaiengines.optimization.torch import TBTTModule
 
 
-# pylint: disable=not-callable,no-member
-class RingAttractorPytorch(TBTTModule):
+class RingAttractorPytorch(nn.Module):
     """
     Torch model for the ring attractor
     """
