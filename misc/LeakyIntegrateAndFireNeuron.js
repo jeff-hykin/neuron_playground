@@ -96,6 +96,24 @@ export function calculateMembranePotentialChange({
  * This neuron model simulates the dynamics of membrane potential and synaptic inputs.
  */
 export class LeakyIntegrateAndFireNeuron {
+    // LeakyIntegrateAndFireNeuron (LIF) downsides:
+        // 1. No refractory period
+        // 2. No waveform output
+        // 3. No neurotransmitters
+    // alterntaive models (according to GPT):
+        // Hodgkin-Huxley (HH) Model:
+        //     Pros: More biologically realistic, simulates detailed action potentials and ion channel dynamics.
+        //     Cons: Computationally expensive and complex, requires more parameters and detailed biophysical knowledge.
+        //     Benefit: Used for modeling individual neurons with high fidelity, especially when investigating specific cellular mechanisms.
+        // Izhikevich Model:
+        //     Pros: More biologically realistic than LIF, capable of simulating a wide range of firing patterns (including bursting and chaotic behaviors). Still relatively simple compared to HH.
+        //     Cons: Requires more parameters to capture a broader range of dynamics. May not capture all biophysical mechanisms as accurately as HH.
+        //     Benefit: Provides a good balance between simplicity and biological realism. Great for simulating networks with rich spiking patterns.
+        // FitzHugh-Nagumo Model:
+        //     Pros: Simpler than HH but still captures basic neuron spiking and excitability dynamics.
+        //     Cons: Still abstract and does not capture all aspects of real neurons.
+        //     Benefit: Useful for studying basic neuronal excitability and bistability.
+
     /**
      * Constructs a LeakyIntegrateAndFireNeuron object.
      *
