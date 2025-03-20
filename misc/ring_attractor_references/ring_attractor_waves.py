@@ -2,8 +2,8 @@
 import numpy as np
 from typing import Tuple
 
-class ContinuousAttractorLayer:
 
+class ContinuousAttractorLayer:
     def __init__(self, shape: Tuple[int], J: float, T: float, σ: float, τ: float):
         self.shape = shape
         self._J = J
@@ -12,12 +12,17 @@ class ContinuousAttractorLayer:
         self._τ = τ
 
         # real-space position of the place cell activations
-        ci = np.asarray(np.meshgrid(
-            (np.arange(self.shape[0]) - 0.5) / self.shape[0],
-            (np.arange(self.shape[1]) - 0.5) / self.shape[1])).T
+        ci = np.asarray(
+            np.meshgrid(
+                (np.arange(self.shape[0]) - 0.5) / self.shape[0],
+                (np.arange(self.shape[1]) - 0.5) / self.shape[1],
+            )
+        ).T
 
         # precompute pairwise difference between all entries in ci for the place_cell_synapses
-        self._ci_diff = ci[:, :, np.newaxis, np.newaxis, :] - ci[np.newaxis, np.newaxis, :, :, :]
+        self._ci_diff = (
+            ci[:, :, np.newaxis, np.newaxis, :] - ci[np.newaxis, np.newaxis, :, :, :]
+        )
 
         self._place_cell_synapses = np.zeros(self.shape * 2)
         self._place_cell_activations = np.zeros(self.shape)
@@ -33,7 +38,7 @@ class ContinuousAttractorLayer:
 
     def set_activation(self, point: Tuple[int]) -> None:
         if point is not None:
-            self._place_cell_activations[point] = 1.
+            self._place_cell_activations[point] = 1.0
 
     def _update_place_cell_synapses(self, Δ: np.ndarray) -> None:
         if Δ[0] == 0 and Δ[1] == 0 and self._place_cell_synapses_0 is not None:
@@ -49,12 +54,13 @@ class ContinuousAttractorLayer:
             self._place_cell_synapses -= self._T
 
     def _update_place_cell_activations(self) -> None:
-
         Σ = np.sum(self._place_cell_activations)
 
         if Σ > 0:
-            B = np.einsum('ij,ijkl->kl', self._place_cell_activations, self._place_cell_synapses)
-            self._place_cell_activations = (1 - self._τ) * B + self._τ/Σ * B
+            B = np.einsum(
+                "ij,ijkl->kl", self._place_cell_activations, self._place_cell_synapses
+            )
+            self._place_cell_activations = (1 - self._τ) * B + self._τ / Σ * B
             self._place_cell_activations[self._place_cell_activations < 0] = 0
             self._place_cell_activations *= self._place_cell_blocked
             self._place_cell_activations /= self._place_cell_activations.max()

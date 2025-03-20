@@ -4,11 +4,15 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import torch
 
-class CANN():
+
+class CANN:
     """
     Generic CANN modules for rapid testing
     """
-    def __init__(self, data,  num = 128, tau = 0.02, Inh_inp = -.1, I_dur = 0.5, dt = 0.05, A = 20, k = 1):
+
+    def __init__(
+        self, data, num=128, tau=0.02, Inh_inp=-0.1, I_dur=0.5, dt=0.05, A=20, k=1
+    ):
         self.num = num
         self.tau = tau
         self.Inh_inp = Inh_inp
@@ -21,32 +25,34 @@ class CANN():
         self.z_min, self.z_max = np.min(data, axis=0), np.max(data, axis=0) + 1e-4
         self.z_range = self.z_max - self.z_min
         self.centers = np.linspace(self.z_min, self.z_max, num)  # sample centers
-        self.w =  np.zeros((self.num, self.num))
+        self.w = np.zeros((self.num, self.num))
         self.a = 0.5
         self.J0 = 8
         self.u = []
-        self.u.append(np.zeros((2,num)))
+        self.u.append(np.zeros((2, num)))
         self.r = []
-        self.r.append(np.zeros((2,num)))
+        self.r.append(np.zeros((2, num)))
 
         for i in range(self.num - 1):
             for j in range(self.num - 1):
                 d = np.square((i - j) / self.a)
-                self.w[i, j] = self.J0 * np.exp(-0.5 * d) / (np.sqrt(2 * np.pi) * self.a)
+                self.w[i, j] = (
+                    self.J0 * np.exp(-0.5 * d) / (np.sqrt(2 * np.pi) * self.a)
+                )
 
     def data_reverse_transform(self, x):
-        x_min, x_max = np.min(x, axis=0),np.max(x, axis=0)
+        x_min, x_max = np.min(x, axis=0), np.max(x, axis=0)
         x_range = x_max - x_min
-        return (x - x_min)/(1e-11+x_range) * self.z_range + self.z_min
+        return (x - x_min) / (1e-11 + x_range) * self.z_range + self.z_min
 
     def get_stimulus_by_pos(self, x):
         d = (x - self.centers) / (self.z_range + 1e-4)
-        y =  np.exp(-1 * np.square(d / 0.5))
+        y = np.exp(-1 * np.square(d / 0.5))
         return y
 
-    def update(self, data, trajactory_mode = False):
+    def update(self, data, trajactory_mode=False):
         seq_len, seq_dim = data.shape
-        u = np.zeros((self.num,seq_dim))
+        u = np.zeros((self.num, seq_dim))
         u_record = np.zeros((seq_len, self.num, seq_dim))
 
         for i in range(0, seq_len):
@@ -55,19 +61,31 @@ class CANN():
             else:
                 cur_stimulus = self.get_stimulus_by_pos(data[i - 1])
             t = np.arange(self.I_dur * i, self.I_dur * i + self.I_dur, self.dt)
-            cur_du = odeint(int_u, u.flatten(), t,
-                            args=(self.w, cur_stimulus.t().numpy(), self.tau, self.Inh_inp, self.k, self.dt))
+            cur_du = odeint(
+                int_u,
+                u.flatten(),
+                t,
+                args=(
+                    self.w,
+                    cur_stimulus.t().numpy(),
+                    self.tau,
+                    self.Inh_inp,
+                    self.k,
+                    self.dt,
+                ),
+            )
 
             u = cur_du[-1].reshape(-1, seq_dim)
             r1 = np.square(u)
-            r2 = 1.0 + 0.5 * self.k * np.sum(r1,axis = 0)
-            u_record[i] = r1/r2.reshape(1,-1)
-        
-            out = r1/r2
+            r2 = 1.0 + 0.5 * self.k * np.sum(r1, axis=0)
+            u_record[i] = r1 / r2.reshape(1, -1)
+
+            out = r1 / r2
         if trajactory_mode:
             out = u_record
-            
+
         return out
+
 
 def int_u(u, t, w, Iext, tau, I_inh, k, dt):
     # membrane potential dynamics
