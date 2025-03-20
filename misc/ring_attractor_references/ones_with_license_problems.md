@@ -1,3 +1,5 @@
 - Numenta: https://github.com/stjordanis/htmresearch/blob/bbd46bf1ca1b3be8fa6f045954e0bcc07a0cd965/htmresearch/frameworks/grid_cell_learning/CAN.py
 - Basic one: https://github.com/wl17443/ring-attractor/blob/master/src/python/ring_attractor.py
-- BrainPy: https://github.com/chaoming0625/BrainPyExamples/blob/835a2de4504ad45abb3a70da4cbfb76eaac42a5c/cann/Wu_2008_CANN.py
+- BrainPy:
+    - https://github.com/brainpy/examples/tree/main/attractors
+    - https://github.com/chaoming0625/BrainPyExamples/blob/835a2de4504ad45abb3a70da4cbfb76eaac42a5c/cann/Wu_2008_CANN.py
