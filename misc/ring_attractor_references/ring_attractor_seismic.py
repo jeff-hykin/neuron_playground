@@ -6,320 +6,289 @@ import torch
 from torch import nn, tensor
 
 
-class RingAttractorPytorch(nn.Module):
+class RingAttractorNetwork(nn.Module):
     """
-    Torch model for the ring attractor
+    Torch model for the ring attractor neural network.
     """
 
     def __init__(
         self,
-        w: np.ndarray,
-        slcs: Mapping[str, slice],
-        no_ipsi_contra_split: Union[bool, Iterable[str]] = True,
+        initial_weights: np.ndarray,
+        population_slices: Mapping[str, slice],
+        no_interhemispheric_split: Union[bool, Iterable[str]] = True,
         use_landmarks: bool = True,
         use_velocity: bool = True,
         initial_angle: float = 0.0,
-        initial_alpha: float = 1.0,
+        initial_weight_scale: float = 1.0,
         nonlinearity: Callable = nn.ReLU,
-        bias: Union[float, Iterable[float]] = None,
-        gain: Union[float, Iterable[float]] = None,
-        tau: Union[float, Iterable[float]] = None,
-        noise: Optional[Callable] = None,
-        clamp_tau: Optional[Tuple] = None,
+        bias_values: Union[float, Iterable[float]] = None,
+        gain_values: Union[float, Iterable[float]] = None,
+        time_constant: Union[float, Iterable[float]] = None,
+        noise_function: Optional[Callable] = None,
+        clamp_time_constant: Optional[Tuple] = None,
     ):
-        """Creates a torch model
+        """Creates a torch model for the ring attractor network.
 
         Args:
-            w (np.ndarray): Initial weight array. Weights themselves are scaled by these numbers
-            slcs (Mapping[str,slice]): A mapping of neuron population names to slices of the weight matrix
-            no_ipsi_contra_split (Union[bool,Iterable[str]], optional): Don't split ipsi/contralateral connections (the connections between hemispheres). Defaults to True.
+            initial_weights (np.ndarray): Initial weight array. Weights themselves are scaled by these numbers.
+            population_slices (Mapping[str,slice]): A mapping of neuron population names to slices of the weight matrix.
+            no_interhemispheric_split (Union[bool,Iterable[str]], optional): Don't split ipsilateral/contralateral connections (the connections between hemispheres). Defaults to True.
             use_landmarks (bool, optional): Make the model expect landmark input. Defaults to True.
             use_velocity (bool, optional): Make the model expect velocity input. Defaults to True.
-            initial_angle (float, optional): Initial angle of the model. Defaults to 0..
-            initial_alpha (float, optional): Initial weight scaling factor. Defaults to 1..
-            nonlinearity (Callable, optional): Nonlinearity to use. Defaults to nn.ReLU.
-            bias (Union[float,Iterable[float]], optional): Initial bias. If None, will not be tuned. Defaults to None.
-            gain (Union[float,Iterable[float]], optional): Initial gain. If None, will not be tuned. Positivity enforced. Defaults to None.
-            tau (Union[float,Iterable[float]], optional): Initial tau. If None, will not be tuned. Positivity enforced. Defaults to None.
-            noise (Optional[Callable], optional): Noise to be added to the model. Defaults to None.
-            clamp_tau (Optional[Tuple], optional): Tau clamping values. If None, tau not clamped. Defaults to None.
+            initial_angle (float, optional): Initial angle of the model. Defaults to 0.0.
+            initial_weight_scale (float, optional): Initial weight scaling factor. Defaults to 1.0.
+            nonlinearity (Callable, optional): Nonlinearity function to use. Defaults to nn.ReLU.
+            bias_values (Union[float,Iterable[float]], optional): Initial bias values. Defaults to None.
+            gain_values (Union[float,Iterable[float]], optional): Initial gain values. Defaults to None.
+            time_constant (Union[float,Iterable[float]], optional): Initial time constant values. Defaults to None.
+            noise_function (Optional[Callable], optional): Noise function to be added to the model. Defaults to None.
+            clamp_time_constant (Optional[Tuple], optional): Time constant clamping values. Defaults to None.
         """
         super().__init__()
-        self.N = len(w)
-        self.w = w
-        self.slcs = slcs
-        # Creates the blocks from the weight matrix and slices
-        self.w_blks, alphas = self._create_w_blks(
-            w, slcs, initial_alpha, no_ipsi_contra_split
+        self.num_neurons = len(initial_weights)
+        self.initial_weights = initial_weights
+        self.population_slices = population_slices
+        # Create weight blocks and scaling factors
+        self.weight_blocks, scaling_factors = self._create_weight_blocks(
+            initial_weights, population_slices, initial_weight_scale, no_interhemispheric_split
         )
         assert (
             use_landmarks or use_velocity
         ), "Must use landmarks and/or velocity as input"
-        self._ulm = use_landmarks
-        self._uv = use_velocity
-        self._clamp_tau = clamp_tau
+        self.use_landmarks_input = use_landmarks
+        self.use_velocity_input = use_velocity
+        self.clamp_time_constant = clamp_time_constant
         # Mapping of population names to one-hot masks of the current vector
-        self.neuron_masks = self._create_neuron_masks(slcs)
-        # Mappings from population name to population params
-        self.gain = self.create_neuron_property(gain, default=1.0, positive=True)
-        self.bias = self.create_neuron_property(bias, default=0.0)
-        self.tau = self.create_neuron_property(tau, default=0.02, positive=True)
+        self.neuron_masks = self._create_neuron_masks(population_slices)
+        # Mappings from population name to population parameters
+        self.gain = self.create_neuron_property(gain_values, default=1.0, positive=True)
+        self.bias = self.create_neuron_property(bias_values, default=0.0)
+        self.time_constant = self.create_neuron_property(time_constant, default=0.02, positive=True)
 
         # Weight scaling factors
-        self.weights = nn.ParameterDict(alphas)
-        self.v_scaling = nn.Parameter(tensor(0.0))
-        self.lm_scaling = nn.Parameter(tensor(0.0))
+        self.scaling_factors = nn.ParameterDict(scaling_factors)
+        self.velocity_scaling = nn.Parameter(tensor(0.0))
+        self.landmark_scaling = nn.Parameter(tensor(0.0))
 
-        # Masks that need to be only created when parameters are updated
-
+        # Masks that need to be created when parameters are updated
         self.gain_mask = None
         self.bias_mask = None
-        self.tau_mask = None
+        self.time_constant_mask = None
 
-        self.alpha_masks = None
+        self.scaling_factor_masks = None
         self.update_parameterizations()
 
-        self._initial_angle = initial_angle
+        self.initial_angle = initial_angle
         self.nonlinearity = nonlinearity()
-        self.state_size = len(w)
-        self.output_size = len(w[slcs["epg"]])
-        self.noise = noise
+        self.state_size = len(initial_weights)
+        self.output_size = len(initial_weights[population_slices["epg"]])
+        self.noise_function = noise_function
 
-        self.hem_len_pen = int(len(w[slcs["pen"]]) / 2)
+        self.hemisphere_length_penalty = int(len(initial_weights[population_slices["pen"]]) / 2)
 
-    def create_neuron_property(self, prop, default, positive=False):
+    def create_neuron_property(self, property_values, default, positive=False):
         """
-        Makes a ParameterDictionary from a dictionary/float/None. Used to create properties for neurons, such as gain, bias and time constant.
+        Creates a ParameterDictionary for neuron properties like gain, bias, and time constant.
         """
-        check_positive = lambda x: torch.log(x) if positive else x
+        enforce_positive = lambda x: torch.log(x) if positive else x
 
-        prop_dict = {}
-        for pop in self.slcs:
-            if prop is None:
-                pop_prop = nn.Parameter(
-                    check_positive(tensor(default)), requires_grad=False
+        property_dict = {}
+        for population_name in self.population_slices:
+            if property_values is None:
+                neuron_property = nn.Parameter(
+                    enforce_positive(tensor(default)), requires_grad=False
                 )
-            elif np.isscalar(prop):
-                pop_prop = nn.Parameter(
-                    check_positive(tensor(prop)), requires_grad=True
+            elif np.isscalar(property_values):
+                neuron_property = nn.Parameter(
+                    enforce_positive(tensor(property_values)), requires_grad=True
                 )
             else:
                 try:
-                    # If defined, use value
-                    pop_prop = nn.Parameter(
-                        check_positive(tensor(prop[pop])), requires_grad=True
+                    # Use provided value for the population
+                    neuron_property = nn.Parameter(
+                        enforce_positive(tensor(property_values[population_name])), requires_grad=True
                     )
                 except KeyError:
-                    # Else, freeze parameter
-                    pop_prop = nn.Parameter(
-                        check_positive(tensor(default)), requires_grad=False
+                    # Use default value if population not found
+                    neuron_property = nn.Parameter(
+                        enforce_positive(tensor(default)), requires_grad=False
                     )
-            prop_dict[pop] = pop_prop
-        return nn.ParameterDict(prop_dict)
+            property_dict[population_name] = neuron_property
+        return nn.ParameterDict(property_dict)
 
-    def create_gain_bias_tau_masks(self):
-        gain_mask = torch.zeros(self.N)
-        bias_mask = torch.zeros(self.N)
-        tau_mask = torch.zeros(self.N)
-        for n, mask in self.neuron_masks.items():
-            # Enforce gain positivity
-            gain_mask = gain_mask + mask * torch.exp(self.gain[n])
-            bias_mask = bias_mask + mask * self.bias[n]
-            # Enforce tau positivity
-            if self._clamp_tau:
-                tau_mask = tau_mask + mask * torch.clamp(
-                    torch.exp(self.tau[n]), *self._clamp_tau
+    def create_gain_bias_time_constant_masks(self):
+        gain_mask = torch.zeros(self.num_neurons)
+        bias_mask = torch.zeros(self.num_neurons)
+        time_constant_mask = torch.zeros(self.num_neurons)
+        for population_name, mask in self.neuron_masks.items():
+            # Apply gain positivity constraint
+            gain_mask = gain_mask + mask * torch.exp(self.gain[population_name])
+            bias_mask = bias_mask + mask * self.bias[population_name]
+            # Apply time constant positivity constraint
+            if self.clamp_time_constant:
+                time_constant_mask = time_constant_mask + mask * torch.clamp(
+                    torch.exp(self.time_constant[population_name]), *self.clamp_time_constant
                 )
             else:
-                tau_mask = tau_mask + mask * torch.exp(self.tau[n])
-        return gain_mask, bias_mask, tau_mask
+                time_constant_mask = time_constant_mask + mask * torch.exp(self.time_constant[population_name])
+        return gain_mask, bias_mask, time_constant_mask
 
-    def create_alpha_masks(self):
-        w_blocks = self.w_blks
-        alphas = self.weights
-        slcs = self.slcs
+    def create_scaling_factor_masks(self):
+        weight_blocks = self.weight_blocks
+        scaling_factors = self.scaling_factors
+        population_slices = self.population_slices
         masks = {}
-        for slc_key, _ in w_blocks.items():
-            # Get the current log scaling for the weight
-            alpha = alphas[slc_key]
-            # Create a mask of the weight matrix
-            mask = torch.zeros(self.N, self.N, dtype=torch.double)
+        for slice_key, _ in weight_blocks.items():
+            # Get the current scaling factor for the weight block
+            scaling_factor = scaling_factors[slice_key]
+            # Create a mask for the weight matrix
+            mask = torch.zeros(self.num_neurons, self.num_neurons, dtype=torch.double)
 
-            # Multiply the scaling value and the mask
-            prepostnames = slc_key.split("_")
-            pre_slc, post_slc = prepostnames[0], prepostnames[1]
-            # Alpha encoded as log value to enforce positive weights
-            mask[slcs[pre_slc], slcs[post_slc]] = (
-                mask[slcs[pre_slc], slcs[post_slc]]
-                + torch.exp(alpha) * w_blocks[slc_key]
+            # Apply the scaling factor to the mask
+            pre_post_names = slice_key.split("_")
+            pre_slice, post_slice = pre_post_names[0], pre_post_names[1]
+            # Ensure positive scaling by using logarithmic transformation
+            mask[population_slices[pre_slice], population_slices[post_slice]] = (
+                mask[population_slices[pre_slice], population_slices[post_slice]]
+                + torch.exp(scaling_factor) * weight_blocks[slice_key]
             )
-            masks[slc_key] = mask
+            masks[slice_key] = mask
         return masks
 
-    def _create_neuron_masks(self, slcs):
-        d = {}
-        for n, slc in slcs.items():
-            x = torch.zeros(self.N)
-            x[slc] = 1.0
-            d[n] = x
-        return d
+    def _create_neuron_masks(self, population_slices):
+        neuron_masks = {}
+        for population_name, slice_range in population_slices.items():
+            mask = torch.zeros(self.num_neurons)
+            mask[slice_range] = 1.0
+            neuron_masks[population_name] = mask
+        return neuron_masks
 
-    def _create_w_blks(self, w, slcs, a, no_ipsi_contra_split):
+    def _create_weight_blocks(self, initial_weights, population_slices, weight_scale, no_interhemispheric_split):
         """
-        Splits weight matrix up into defined blocks with scaling factors for each block
-        w: weight matrix
-        slcs: slice objects keyed by population name
-
-        :param w_blocks:
-        :param slcs:
-        :param alpha_init:
-        :param no_ipsi_contra_split:
-        :return:
-
+        Splits the weight matrix into defined blocks with scaling factors for each block.
         """
+        weight_blocks = {}
+        scaling_factors = {}
 
-        blks = {}
-        alphas = {}
+        if no_interhemispheric_split is True:
+            # Grab all the pre-slice labels
+            no_interhemispheric_split = list(population_slices.keys())
+            # Remove duplicates
+            no_interhemispheric_split = np.unique(np.array(no_interhemispheric_split))
 
-        if no_ipsi_contra_split is True:
-            # grab all the pre_slc labels
-            no_ipsi_contra_split = list(slcs.keys())
-            # remove copies
-            no_ipsi_contra_split = np.unique(np.array(no_ipsi_contra_split))
-
-        for (pre_n, pre_slc), (post_n, post_slc) in itertools.product(
-            slcs.items(), slcs.items()
+        for (pre_population, pre_slice), (post_population, post_slice) in itertools.product(
+            population_slices.items(), population_slices.items()
         ):
-            blk_name = f"{pre_n}_{post_n}"
-            # Store blocks
-            blk = w[pre_slc, post_slc]
-            n_pre = int(blk.shape[0] / 2)
-            n_post = int(blk.shape[1] / 2)
+            block_name = f"{pre_population}_{post_population}"
+            # Store weight blocks
+            block = initial_weights[pre_slice, post_slice]
+            pre_neuron_count = int(block.shape[0] / 2)
+            post_neuron_count = int(block.shape[1] / 2)
 
-            # if no contra / ipsilateral split
-            if (pre_slc in no_ipsi_contra_split) or (post_slc in no_ipsi_contra_split):
-                if not torch.all(blk == 0.0):
-                    alphas[blk_name] = nn.Parameter(tensor(np.log(a)))
-                    blks[blk_name] = blk
-            # if splitting
+            # If no interhemispheric split
+            if (pre_slice in no_interhemispheric_split) or (post_slice in no_interhemispheric_split):
+                if not torch.all(block == 0.0):
+                    scaling_factors[block_name] = nn.Parameter(tensor(np.log(weight_scale)))
+                    weight_blocks[block_name] = block
+            # If splitting into hemispheres
             else:
-                # parse contralateral
-                contra_mask = torch.zeros_like(blk)
-                contra_mask[:n_pre, n_post:] = 1
-                contra_mask[n_pre:, :n_post] = 1
-                contra_blk = contra_mask * blk
-                if not torch.all(contra_blk == 0.0):
-                    alphas[blk_name + "_contra"] = nn.Parameter(tensor(np.log(a)))
-                    blks[blk_name + "_contra"] = contra_blk
-                # parse ipisilateral
-                ipsi_mask = torch.zeros_like(blk)
-                ipsi_mask[:n_pre, :n_post] = 1
-                ipsi_mask[n_pre:, n_post:] = 1
-                ipsi_blk = ipsi_mask * blk
-                if not torch.all(contra_blk == 0.0):
-                    alphas[blk_name + "_ipsi"] = nn.Parameter(tensor(np.log(a)))
-                    blks[blk_name + "_ipsi"] = ipsi_blk
+                # Create contralateral mask
+                contralateral_mask = torch.zeros_like(block)
+                contralateral_mask[:pre_neuron_count, post_neuron_count:] = 1
+                contralateral_mask[pre_neuron_count:, :post_neuron_count] = 1
+                contralateral_block = contralateral_mask * block
+                if not torch.all(contralateral_block == 0.0):
+                    scaling_factors[block_name + "_contralateral"] = nn.Parameter(tensor(np.log(weight_scale)))
+                    weight_blocks[block_name + "_contralateral"] = contralateral_block
+                # Create ipsilateral mask
+                ipsilateral_mask = torch.zeros_like(block)
+                ipsilateral_mask[:pre_neuron_count, :post_neuron_count] = 1
+                ipsilateral_mask[pre_neuron_count:, post_neuron_count:] = 1
+                ipsilateral_block = ipsilateral_mask * block
+                if not torch.all(ipsilateral_block == 0.0):
+                    scaling_factors[block_name + "_ipsilateral"] = nn.Parameter(tensor(np.log(weight_scale)))
+                    weight_blocks[block_name + "_ipsilateral"] = ipsilateral_block
 
-                # Store parameters as logs to enforce parameter positivity
-        return blks, alphas
+        return weight_blocks, scaling_factors
 
-    def du_dlm(self, lm):
+    def calculate_landmark_input(self, landmarks):
         """
-        Calculates external current given landmarks
+        Calculates external current based on landmark input.
         """
-        inp = torch.zeros(self.N)
-        if lm is not None:
-            inp[self.slcs["epg"]] = lm * self.lm_scaling
-        return inp
+        input_vector = torch.zeros(self.num_neurons)
+        if landmarks is not None:
+            input_vector[self.population_slices["epg"]] = landmarks * self.landmark_scaling
+        return input_vector
 
-    def du_dw(self, u: torch.Tensor):
+    def calculate_weighted_input(self, state: torch.Tensor):
         """
-        Calculates internal current for all the neurons based on connections and weights
+        Calculates internal current for all neurons based on state and weight connections.
         """
-        all_activity = u
-        all_activity_input = torch.zeros_like(u)
-        for slc_key, mask in self.alpha_masks.items():
-            all_activity_input = all_activity_input + all_activity @ mask
+        all_activity = state
+        activity_input = torch.zeros_like(state)
+        for slice_key, mask in self.scaling_factor_masks.items():
+            activity_input = activity_input + all_activity @ mask
 
-        return all_activity_input
+        return activity_input
 
-    def du_dv(
-        self,
-        v: torch.Tensor,
-    ):
+    def calculate_velocity_input(self, velocity: torch.Tensor):
         """
-        Calculates change in neuron activation given a velocity
-        params:
-        ------
-        u:
-            state
-        v:
-            velocity
-        params:
-
+        Calculates change in neuron activation due to velocity input.
         """
-        slcs = self.slcs
-        all_inp = torch.zeros(self.N)
-        if v is None:
-            return all_inp
-        hem_len = self.hem_len_pen
-        hemislc = slice(None, hem_len) if v > 0 else slice(hem_len, None)
-        # This will probably cause things to fail since in-place operation
-        all_inp[slcs["pen"]][hemislc] = torch.abs(v) * torch.exp(self.v_scaling)
-        return all_inp
+        input_vector = torch.zeros(self.num_neurons)
+        if velocity is None:
+            return input_vector
+        hemisphere_length = self.hemisphere_length_penalty
+        hemisphere_slice = slice(None, hemisphere_length) if velocity > 0 else slice(hemisphere_length, None)
+        # This might cause an issue due to in-place operation
+        input_vector[self.population_slices["pen"]][hemisphere_slice] = torch.abs(velocity) * torch.exp(self.velocity_scaling)
+        return input_vector
 
-    def _process_inputs(self, x):
-        dt = x[0]
-        lm = None
-        v = None
-        if self._ulm and self._uv:
-            lm = x[2:]
-            v = x[1]
-        elif self._ulm and not self._uv:
-            lm = x[2:]
+    def _process_input_values(self, input_values):
+        dt = input_values[0]
+        landmarks = None
+        velocity = None
+        if self.use_landmarks_input and self.use_velocity_input:
+            landmarks = input_values[2:]
+            velocity = input_values[1]
+        elif self.use_landmarks_input and not self.use_velocity_input:
+            landmarks = input_values[2:]
 
-        elif not self._ulm and self._uv:
-            v = x[1]
+        elif not self.use_landmarks_input and self.use_velocity_input:
+            velocity = input_values[1]
         else:
-            raise ValueError("Something went wrong")
-        return dt, v, lm
+            raise ValueError("Invalid input configuration")
+        return dt, velocity, landmarks
 
-    def forward(self, x: torch.Tensor, u: torch.Tensor):
+    def forward(self, input_values: torch.Tensor, state: torch.Tensor):
         """
-        Forward pass
-        params:
-        -------
-        x:
-            input
-        u:
-            state
-
+        Forward pass through the network.
         """
-        dt, v, lm = self._process_inputs(x)
+        dt, velocity, landmarks = self._process_input_values(input_values)
         gain = self.gain_mask
         bias = self.bias_mask
-        tau = self.tau_mask
-        g = self.nonlinearity(gain * u + bias)
+        time_constant = self.time_constant_mask
+        neuron_activity = self.nonlinearity(gain * state + bias)
         # Current from previous state
-        dudt = -u
-        # Current from interconnections
-        dudw = self.du_dw(g)
+        state_derivative = -state
+        # Current from weight connections
+        weighted_input = self.calculate_weighted_input(neuron_activity)
         # Current from landmark input
-        dudlm = self.du_dlm(lm)
+        landmark_input = self.calculate_landmark_input(landmarks)
         # Current from velocity input
-        dudv = self.du_dv(v)
-        # Membrane voltage update
-        u = u + (dudt + dudv + dudlm + dudw) / tau * dt
-        if self.noise is not None:
-            u = u + self.noise(len(u))
-        a = self.nonlinearity(gain * u + bias)
-        # Return target, state,
-        return a[self.slcs["epg"]], u
+        velocity_input = self.calculate_velocity_input(velocity)
+        # Update state with membrane voltage
+        state = state + (state_derivative + velocity_input + landmark_input + weighted_input) / time_constant * dt
+        if self.noise_function is not None:
+            state = state + self.noise_function(len(state))
+        output_activity = self.nonlinearity(gain * state + bias)
+        # Return output and current state
+        return output_activity[self.population_slices["epg"]], state
 
     def update_parameterizations(self):
         (
             self.gain_mask,
             self.bias_mask,
-            self.tau_mask,
-        ) = self.create_gain_bias_tau_masks()
-        self.alpha_masks = self.create_alpha_masks()
+            self.time_constant_mask,
+        ) = self.create_gain_bias_time_constant_masks()
+        self.scaling_factor_masks = self.create_scaling_factor_masks()
