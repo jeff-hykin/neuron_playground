@@ -22,7 +22,6 @@ export const constants = {
     excitatorySynapticTimeConstant: 5.0 * ms,
     membraneTimeConstant: 5.0 * ms,
     leakReversalPotential: -70.0 * mV,
-    resetPotential: -80.0 * mV,
     excitatorySynapticConstant: 1 / (5.0 * ms * Math.exp(-1)),
     inhibitorySynapticConstant: 1 / (5.0 * ms * Math.exp(-1)),
 }
@@ -100,19 +99,25 @@ export class LeakyIntegrateAndFireNeuron {
     /**
      * Constructs a LeakyIntegrateAndFireNeuron object.
      *
-     * @param {number} id - The unique identifier for this neuron.
-     * @param {number} angle - The angle parameter associated with the neuron.
-     * @param {number} [dt=1] - The time step for updating the neuron (in ms).
-     * @param {number} [noiseMean=0] - The mean of the Gaussian noise added to the membrane potential.
-     * @param {number} [noiseStd=1] - The standard deviation of the Gaussian noise.
+     * @param {Object} params - 
+     * @param {number} params.id - The unique identifier for this neuron.
+     * @param {Object} params.otherData - Any additional info for the neuron.
+     * @param {number} [params.dt=1] - The time step for updating the neuron (in ms).
+     * @param {number} [params.noiseMean=0] - The mean of the Gaussian noise added to the membrane potential.
+     * @param {number} [params.noiseStd=1] - The standard deviation of the Gaussian noise.
      */
-    constructor(id, angle, dt = 1, noiseMean = 0, noiseStd = 1) {
+    constructor({id, dt = 1, otherData={}, noiseMean = 0, noiseStd = 1}) {
+        Object.assign(this, constants)
+
         // Initial parameters
         this.id = id
         this.timeStep = dt * ms
         this.externalCurrent = 0.0
-        this.membranePotential = -80.0 * mV // Reset potential
+        this.membranePotential = -80.0 * mV
         this.timeSinceLastSpike = 200.0 * ms
+        
+        // constant
+        this.resetPotential = -80.0 * mV
 
         // Outgoing synapses
         this.synapses = { inhibitory: {}, excitatory: {} }
@@ -120,9 +125,7 @@ export class LeakyIntegrateAndFireNeuron {
         this.excitatoryPresynapticTimeDelays = []
         this.noiseMean = noiseMean
         this.noiseStd = noiseStd
-        this.angle = angle
-
-        Object.assign(this, constants)
+        this.otherData = otherData
     }
     
     /**
