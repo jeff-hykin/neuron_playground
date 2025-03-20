@@ -1,0 +1,1576 @@
+let output = `{
+    "nodes": [
+        [
+            "1742504140171",
+            {
+                "x": 774,
+                "y": 451,
+                "id": "1742504140171",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504144062",
+            {
+                "x": 771,
+                "y": 363,
+                "id": "1742504144062",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504145013",
+            {
+                "x": 771,
+                "y": 250,
+                "id": "1742504145013",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504145636",
+            {
+                "x": 767,
+                "y": 155,
+                "id": "1742504145636",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504146250",
+            {
+                "x": 763,
+                "y": 58,
+                "id": "1742504146250",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504146852",
+            {
+                "x": 762,
+                "y": -24,
+                "id": "1742504146852",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504152244",
+            {
+                "x": 837,
+                "y": 476,
+                "id": "1742504152244",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504152932",
+            {
+                "x": 906,
+                "y": 402,
+                "id": "1742504152932",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504153728",
+            {
+                "x": 992,
+                "y": 320,
+                "id": "1742504153728",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504154442",
+            {
+                "x": 1066,
+                "y": 243,
+                "id": "1742504154442",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504155035",
+            {
+                "x": 1145,
+                "y": 167,
+                "id": "1742504155035",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504155626",
+            {
+                "x": 1223,
+                "y": 84,
+                "id": "1742504155626",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504156690",
+            {
+                "x": 866,
+                "y": 540,
+                "id": "1742504156690",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504157264",
+            {
+                "x": 980,
+                "y": 535,
+                "id": "1742504157264",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504157941",
+            {
+                "x": 1100,
+                "y": 531,
+                "id": "1742504157941",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504158863",
+            {
+                "x": 1223,
+                "y": 530,
+                "id": "1742504158863",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504159410",
+            {
+                "x": 1330,
+                "y": 522,
+                "id": "1742504159410",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504159972",
+            {
+                "x": 1441,
+                "y": 516,
+                "id": "1742504159972",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504160818",
+            {
+                "x": 854,
+                "y": 608,
+                "id": "1742504160818",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504161441",
+            {
+                "x": 934,
+                "y": 644,
+                "id": "1742504161441",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504162097",
+            {
+                "x": 1031,
+                "y": 696,
+                "id": "1742504162097",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504162657",
+            {
+                "x": 1132,
+                "y": 759,
+                "id": "1742504162657",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504163201",
+            {
+                "x": 1218,
+                "y": 803,
+                "id": "1742504163201",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504163727",
+            {
+                "x": 1340,
+                "y": 874,
+                "id": "1742504163727",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504172597",
+            {
+                "x": 780,
+                "y": 640,
+                "id": "1742504172597",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504173263",
+            {
+                "x": 783,
+                "y": 725,
+                "id": "1742504173263",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504174063",
+            {
+                "x": 787,
+                "y": 842,
+                "id": "1742504174063",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504174861",
+            {
+                "x": 790,
+                "y": 920,
+                "id": "1742504174861",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504175620",
+            {
+                "x": 790,
+                "y": 1024,
+                "id": "1742504175620",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504176352",
+            {
+                "x": 791,
+                "y": 1101,
+                "id": "1742504176352",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504178212",
+            {
+                "x": 704,
+                "y": 611,
+                "id": "1742504178212",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504178843",
+            {
+                "x": 648,
+                "y": 668,
+                "id": "1742504178843",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504179433",
+            {
+                "x": 584,
+                "y": 737,
+                "id": "1742504179433",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504180186",
+            {
+                "x": 524,
+                "y": 800,
+                "id": "1742504180186",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504180793",
+            {
+                "x": 457,
+                "y": 870,
+                "id": "1742504180793",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504181770",
+            {
+                "x": 382,
+                "y": 948,
+                "id": "1742504181770",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504184361",
+            {
+                "x": 683,
+                "y": 538,
+                "id": "1742504184361",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504193204",
+            {
+                "x": 585,
+                "y": 541,
+                "id": "1742504193204",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504193945",
+            {
+                "x": 471,
+                "y": 533,
+                "id": "1742504193945",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504194929",
+            {
+                "x": 357,
+                "y": 529,
+                "id": "1742504194929",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504195711",
+            {
+                "x": 237,
+                "y": 528,
+                "id": "1742504195711",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504196670",
+            {
+                "x": 129,
+                "y": 525,
+                "id": "1742504196670",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504198318",
+            {
+                "x": 708,
+                "y": 474,
+                "id": "1742504198318",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504198972",
+            {
+                "x": 649,
+                "y": 403,
+                "id": "1742504198972",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504199581",
+            {
+                "x": 565,
+                "y": 319,
+                "id": "1742504199581",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504200745",
+            {
+                "x": 488,
+                "y": 248,
+                "id": "1742504200745",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504203027",
+            {
+                "x": 420,
+                "y": 176,
+                "id": "1742504203027",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "1742504203737",
+            {
+                "x": 347,
+                "y": 87,
+                "id": "1742504203737",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "1742504146852-1742504152932",
+            {
+                "from": "1742504146852",
+                "to": "1742504152932",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504146852-1742504155035",
+            {
+                "from": "1742504146852",
+                "to": "1742504155035",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504146250-1742504146852",
+            {
+                "from": "1742504146250",
+                "to": "1742504146852",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504146250-1742504145636",
+            {
+                "from": "1742504146250",
+                "to": "1742504145636",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504145636-1742504146250",
+            {
+                "from": "1742504145636",
+                "to": "1742504146250",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504145636-1742504144062",
+            {
+                "from": "1742504145636",
+                "to": "1742504144062",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504144062-1742504145013",
+            {
+                "from": "1742504144062",
+                "to": "1742504145013",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504144062-1742504140171",
+            {
+                "from": "1742504144062",
+                "to": "1742504140171",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504140171-1742504198972",
+            {
+                "from": "1742504140171",
+                "to": "1742504198972",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504140171-1742504203027",
+            {
+                "from": "1742504140171",
+                "to": "1742504203027",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504145013-1742504144062",
+            {
+                "from": "1742504145013",
+                "to": "1742504144062",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504145013-1742504146250",
+            {
+                "from": "1742504145013",
+                "to": "1742504146250",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504152932-1742504153728",
+            {
+                "from": "1742504152932",
+                "to": "1742504153728",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504152932-1742504152244",
+            {
+                "from": "1742504152932",
+                "to": "1742504152244",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504157264-1742504156690",
+            {
+                "from": "1742504157264",
+                "to": "1742504156690",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504157264-1742504157941",
+            {
+                "from": "1742504157264",
+                "to": "1742504157941",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504161441-1742504160818",
+            {
+                "from": "1742504161441",
+                "to": "1742504160818",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504161441-1742504162097",
+            {
+                "from": "1742504161441",
+                "to": "1742504162097",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504173263-1742504172597",
+            {
+                "from": "1742504173263",
+                "to": "1742504172597",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504173263-1742504174063",
+            {
+                "from": "1742504173263",
+                "to": "1742504174063",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504178843-1742504178212",
+            {
+                "from": "1742504178843",
+                "to": "1742504178212",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504178843-1742504179433",
+            {
+                "from": "1742504178843",
+                "to": "1742504179433",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504193204-1742504184361",
+            {
+                "from": "1742504193204",
+                "to": "1742504184361",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504193204-1742504193945",
+            {
+                "from": "1742504193204",
+                "to": "1742504193945",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504198972-1742504198318",
+            {
+                "from": "1742504198972",
+                "to": "1742504198318",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504198972-1742504199581",
+            {
+                "from": "1742504198972",
+                "to": "1742504199581",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504198318-1742504193204",
+            {
+                "from": "1742504198318",
+                "to": "1742504193204",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504198318-1742504195711",
+            {
+                "from": "1742504198318",
+                "to": "1742504195711",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504184361-1742504178843",
+            {
+                "from": "1742504184361",
+                "to": "1742504178843",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504184361-1742504180793",
+            {
+                "from": "1742504184361",
+                "to": "1742504180793",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504178212-1742504175620",
+            {
+                "from": "1742504178212",
+                "to": "1742504175620",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504178212-1742504173263",
+            {
+                "from": "1742504178212",
+                "to": "1742504173263",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504172597-1742504163201",
+            {
+                "from": "1742504172597",
+                "to": "1742504163201",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504172597-1742504161441",
+            {
+                "from": "1742504172597",
+                "to": "1742504161441",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504160818-1742504157264",
+            {
+                "from": "1742504160818",
+                "to": "1742504157264",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504160818-1742504159410",
+            {
+                "from": "1742504160818",
+                "to": "1742504159410",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504156690-1742504152932",
+            {
+                "from": "1742504156690",
+                "to": "1742504152932",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504156690-1742504155035",
+            {
+                "from": "1742504156690",
+                "to": "1742504155035",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504152244-1742504144062",
+            {
+                "from": "1742504152244",
+                "to": "1742504144062",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504152244-1742504146250",
+            {
+                "from": "1742504152244",
+                "to": "1742504146250",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504155626-1742504157264",
+            {
+                "from": "1742504155626",
+                "to": "1742504157264",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504155626-1742504159410",
+            {
+                "from": "1742504155626",
+                "to": "1742504159410",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504159972-1742504163201",
+            {
+                "from": "1742504159972",
+                "to": "1742504163201",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504163727-1742504175620",
+            {
+                "from": "1742504163727",
+                "to": "1742504175620",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504176352-1742504180793",
+            {
+                "from": "1742504176352",
+                "to": "1742504180793",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504180793-1742504180186",
+            {
+                "from": "1742504180793",
+                "to": "1742504180186",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504181770-1742504195711",
+            {
+                "from": "1742504181770",
+                "to": "1742504195711",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504196670-1742504203027",
+            {
+                "from": "1742504196670",
+                "to": "1742504203027",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504203737-1742504146250",
+            {
+                "from": "1742504203737",
+                "to": "1742504146250",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504203737-1742504144062",
+            {
+                "from": "1742504203737",
+                "to": "1742504144062",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504159972-1742504161441",
+            {
+                "from": "1742504159972",
+                "to": "1742504161441",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504163727-1742504173263",
+            {
+                "from": "1742504163727",
+                "to": "1742504173263",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504176352-1742504178843",
+            {
+                "from": "1742504176352",
+                "to": "1742504178843",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504181770-1742504193204",
+            {
+                "from": "1742504181770",
+                "to": "1742504193204",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504196670-1742504198972",
+            {
+                "from": "1742504196670",
+                "to": "1742504198972",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504155035-1742504155626",
+            {
+                "from": "1742504155035",
+                "to": "1742504155626",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504155035-1742504154442",
+            {
+                "from": "1742504155035",
+                "to": "1742504154442",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504159410-1742504159972",
+            {
+                "from": "1742504159410",
+                "to": "1742504159972",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504159410-1742504158863",
+            {
+                "from": "1742504159410",
+                "to": "1742504158863",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504163201-1742504163727",
+            {
+                "from": "1742504163201",
+                "to": "1742504163727",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504163201-1742504162657",
+            {
+                "from": "1742504163201",
+                "to": "1742504162657",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504175620-1742504176352",
+            {
+                "from": "1742504175620",
+                "to": "1742504176352",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504175620-1742504174861",
+            {
+                "from": "1742504175620",
+                "to": "1742504174861",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504180793-1742504181770",
+            {
+                "from": "1742504180793",
+                "to": "1742504181770",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504195711-1742504194929",
+            {
+                "from": "1742504195711",
+                "to": "1742504194929",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504195711-1742504196670",
+            {
+                "from": "1742504195711",
+                "to": "1742504196670",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504203027-1742504200745",
+            {
+                "from": "1742504203027",
+                "to": "1742504200745",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504203027-1742504203737",
+            {
+                "from": "1742504203027",
+                "to": "1742504203737",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504154442-1742504155035",
+            {
+                "from": "1742504154442",
+                "to": "1742504155035",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504158863-1742504159410",
+            {
+                "from": "1742504158863",
+                "to": "1742504159410",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504162657-1742504163201",
+            {
+                "from": "1742504162657",
+                "to": "1742504163201",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504174861-1742504175620",
+            {
+                "from": "1742504174861",
+                "to": "1742504175620",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504180186-1742504180793",
+            {
+                "from": "1742504180186",
+                "to": "1742504180793",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504194929-1742504195711",
+            {
+                "from": "1742504194929",
+                "to": "1742504195711",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504200745-1742504203027",
+            {
+                "from": "1742504200745",
+                "to": "1742504203027",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504154442-1742504152932",
+            {
+                "from": "1742504154442",
+                "to": "1742504152932",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504158863-1742504157264",
+            {
+                "from": "1742504158863",
+                "to": "1742504157264",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504162657-1742504161441",
+            {
+                "from": "1742504162657",
+                "to": "1742504161441",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504174861-1742504173263",
+            {
+                "from": "1742504174861",
+                "to": "1742504173263",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504180186-1742504178843",
+            {
+                "from": "1742504180186",
+                "to": "1742504178843",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504194929-1742504193204",
+            {
+                "from": "1742504194929",
+                "to": "1742504193204",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504200745-1742504198972",
+            {
+                "from": "1742504200745",
+                "to": "1742504198972",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504153728-1742504152932",
+            {
+                "from": "1742504153728",
+                "to": "1742504152932",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504157941-1742504157264",
+            {
+                "from": "1742504157941",
+                "to": "1742504157264",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504162097-1742504161441",
+            {
+                "from": "1742504162097",
+                "to": "1742504161441",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504174063-1742504173263",
+            {
+                "from": "1742504174063",
+                "to": "1742504173263",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504179433-1742504178843",
+            {
+                "from": "1742504179433",
+                "to": "1742504178843",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504193945-1742504193204",
+            {
+                "from": "1742504193945",
+                "to": "1742504193204",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504199581-1742504198972",
+            {
+                "from": "1742504199581",
+                "to": "1742504198972",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504153728-1742504155035",
+            {
+                "from": "1742504153728",
+                "to": "1742504155035",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504157941-1742504159410",
+            {
+                "from": "1742504157941",
+                "to": "1742504159410",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504162097-1742504163201",
+            {
+                "from": "1742504162097",
+                "to": "1742504163201",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504174063-1742504175620",
+            {
+                "from": "1742504174063",
+                "to": "1742504175620",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504179433-1742504180793",
+            {
+                "from": "1742504179433",
+                "to": "1742504180793",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504193945-1742504195711",
+            {
+                "from": "1742504193945",
+                "to": "1742504195711",
+                "strength": 1
+            }
+        ],
+        [
+            "1742504199581-1742504203027",
+            {
+                "from": "1742504199581",
+                "to": "1742504203027",
+                "strength": 1
+            }
+        ]
+    ]
+}`
+const relativePathToOriginal = "big_six_fully_connected.json"
+try {
+    if (relativePathToOriginal && globalThis?.Deno?.readFileSync instanceof Function) {
+        const { FileSystem } = await import("https://deno.land/x/quickr@0.6.72/main/file_system.js")
+        // equivlent to: import.meta.resolve(relativePathToOriginal)
+        // but more bundler-friendly
+        const path = `${FileSystem.thisFolder}/${relativePathToOriginal}`
+        const current = await Deno.readTextFile(path)
+        const original = output
+        output = current
+
+        // update the file whenever (no await)
+        const thisFile = FileSystem.thisFile // equivlent to: import.meta.filename, but more bundler-friendly
+        setTimeout(async () => {
+            try {
+                const changeOccured = !(current.length == original.length && current.every((value, index) => value == original[index]))
+                // update this file
+                if (changeOccured) {
+                    const { binaryify } = await import("https://deno.land/x/binaryify@2.5.5.0/binaryify_api.js")
+                    await binaryify({
+                        pathToBinary: path,
+                        pathToBinarified: thisFile,
+                        forceExportString: true,
+                    })
+                }
+            } catch (e) {
+            }
+        }, 0)
+    }
+} catch (e) {
+    
+}
+        
+export default output
