@@ -1,0 +1,2310 @@
+{
+    "nodes": [
+        [
+            "ring_1_1",
+            {
+                "x": 224,
+                "y": 206,
+                "id": "ring_1_1",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_2",
+            {
+                "x": 160,
+                "y": 272,
+                "id": "ring_1_2",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_3",
+            {
+                "x": 167,
+                "y": 361,
+                "id": "ring_1_3",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_4",
+            {
+                "x": 225,
+                "y": 417,
+                "id": "ring_1_4",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_5",
+            {
+                "x": 308,
+                "y": 418,
+                "id": "ring_1_5",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_6",
+            {
+                "x": 356,
+                "y": 354,
+                "id": "ring_1_6",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_7",
+            {
+                "x": 362,
+                "y": 273,
+                "id": "ring_1_7",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_1_8",
+            {
+                "x": 306,
+                "y": 207,
+                "id": "ring_1_8",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_1",
+            {
+                "x": 924,
+                "y": 206,
+                "id": "ring_2_1",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_2",
+            {
+                "x": 860,
+                "y": 272,
+                "id": "ring_2_2",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_3",
+            {
+                "x": 867,
+                "y": 361,
+                "id": "ring_2_3",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_4",
+            {
+                "x": 925,
+                "y": 417,
+                "id": "ring_2_4",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_5",
+            {
+                "x": 1008,
+                "y": 418,
+                "id": "ring_2_5",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_6",
+            {
+                "x": 1056,
+                "y": 354,
+                "id": "ring_2_6",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_7",
+            {
+                "x": 1062,
+                "y": 273,
+                "id": "ring_2_7",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ],
+        [
+            "ring_2_8",
+            {
+                "x": 1006,
+                "y": 207,
+                "id": "ring_2_8",
+                "pulse": false,
+                "spikeThreshold": 1,
+                "energy": 0.1,
+                "energyDecayRate": 0.1,
+                "isFiring": false,
+                "stableEnergyLevel": 0.1,
+                "energyAfterFiring": 0,
+                "radius": 25
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "ring_1_1-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_1-ring_1_2",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_2",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_1-ring_1_3",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_3",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_1-ring_1_4",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_4",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_1-ring_1_5",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_5",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_1-ring_1_6",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_6",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_1-ring_1_7",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_7",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_1-ring_1_8",
+            {
+                "from": "ring_1_1",
+                "to": "ring_1_8",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_2-ring_1_1",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_1",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_2-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_2-ring_1_3",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_3",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_2-ring_1_4",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_4",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_2-ring_1_5",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_5",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_2-ring_1_6",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_6",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_2-ring_1_7",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_7",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_2-ring_1_8",
+            {
+                "from": "ring_1_2",
+                "to": "ring_1_8",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_3-ring_1_1",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_1",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_3-ring_1_2",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_2",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_3-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_3-ring_1_4",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_4",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_3-ring_1_5",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_5",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_3-ring_1_6",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_6",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_3-ring_1_7",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_7",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_3-ring_1_8",
+            {
+                "from": "ring_1_3",
+                "to": "ring_1_8",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_4-ring_1_1",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_1",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_4-ring_1_2",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_2",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_4-ring_1_3",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_3",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_4-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_4-ring_1_5",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_5",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_4-ring_1_6",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_6",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_4-ring_1_7",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_7",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_4-ring_1_8",
+            {
+                "from": "ring_1_4",
+                "to": "ring_1_8",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_5-ring_1_1",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_1",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_5-ring_1_2",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_2",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_5-ring_1_3",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_3",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_5-ring_1_4",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_4",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_5-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_5-ring_1_6",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_6",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_5-ring_1_7",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_7",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_5-ring_1_8",
+            {
+                "from": "ring_1_5",
+                "to": "ring_1_8",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_6-ring_1_1",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_1",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_6-ring_1_2",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_2",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_6-ring_1_3",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_3",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_6-ring_1_4",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_4",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_6-ring_1_5",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_5",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_6-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_6-ring_1_7",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_7",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_6-ring_1_8",
+            {
+                "from": "ring_1_6",
+                "to": "ring_1_8",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_7-ring_1_1",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_1",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_7-ring_1_2",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_2",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_7-ring_1_3",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_3",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_7-ring_1_4",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_4",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_7-ring_1_5",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_5",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_7-ring_1_6",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_6",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_7-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_7-ring_1_8",
+            {
+                "from": "ring_1_7",
+                "to": "ring_1_8",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_8-ring_1_1",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_1",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_8-ring_1_2",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_2",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_8-ring_1_3",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_3",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_8-ring_1_4",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_4",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_8-ring_1_5",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_5",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_1_8-ring_1_6",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_6",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_1_8-ring_1_7",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_7",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_1_8-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_1_8",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_1-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_1-ring_2_2",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_2",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_1-ring_2_3",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_3",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_1-ring_2_4",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_4",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_1-ring_2_5",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_5",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_1-ring_2_6",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_6",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_1-ring_2_7",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_7",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_1-ring_2_8",
+            {
+                "from": "ring_2_1",
+                "to": "ring_2_8",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_2-ring_2_1",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_1",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_2-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_2-ring_2_3",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_3",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_2-ring_2_4",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_4",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_2-ring_2_5",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_5",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_2-ring_2_6",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_6",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_2-ring_2_7",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_7",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_2-ring_2_8",
+            {
+                "from": "ring_2_2",
+                "to": "ring_2_8",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_3-ring_2_1",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_1",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_3-ring_2_2",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_2",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_3-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_3-ring_2_4",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_4",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_3-ring_2_5",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_5",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_3-ring_2_6",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_6",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_3-ring_2_7",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_7",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_3-ring_2_8",
+            {
+                "from": "ring_2_3",
+                "to": "ring_2_8",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_4-ring_2_1",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_1",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_4-ring_2_2",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_2",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_4-ring_2_3",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_3",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_4-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_4-ring_2_5",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_5",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_4-ring_2_6",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_6",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_4-ring_2_7",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_7",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_4-ring_2_8",
+            {
+                "from": "ring_2_4",
+                "to": "ring_2_8",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_5-ring_2_1",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_1",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_5-ring_2_2",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_2",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_5-ring_2_3",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_3",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_5-ring_2_4",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_4",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_5-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_5-ring_2_6",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_6",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_5-ring_2_7",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_7",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_5-ring_2_8",
+            {
+                "from": "ring_2_5",
+                "to": "ring_2_8",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_6-ring_2_1",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_1",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_6-ring_2_2",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_2",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_6-ring_2_3",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_3",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_6-ring_2_4",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_4",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_6-ring_2_5",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_5",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_6-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_6-ring_2_7",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_7",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_6-ring_2_8",
+            {
+                "from": "ring_2_6",
+                "to": "ring_2_8",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_7-ring_2_1",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_1",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_7-ring_2_2",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_2",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_7-ring_2_3",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_3",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_7-ring_2_4",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_4",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_7-ring_2_5",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_5",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_7-ring_2_6",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_6",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_7-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_7-ring_2_8",
+            {
+                "from": "ring_2_7",
+                "to": "ring_2_8",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_8-ring_2_1",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_1",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_8-ring_2_2",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_2",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_8-ring_2_3",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_3",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_8-ring_2_4",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_4",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_8-ring_2_5",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_5",
+                "strength": -0.43636363636363634
+            }
+        ],
+        [
+            "ring_2_8-ring_2_6",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_6",
+                "strength": -0.07272727272727271
+            }
+        ],
+        [
+            "ring_2_8-ring_2_7",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_7",
+                "strength": 0.4444444444444444
+            }
+        ],
+        [
+            "ring_2_8-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_2_8",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_1-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_1",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_1-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_1",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_1-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_1",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_1-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_1",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_1-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_1",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_1-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_1",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_1-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_1",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_1-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_1",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_2-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_2",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_2-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_2",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_2-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_2",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_2-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_2",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_2-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_2",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_2-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_2",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_2-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_2",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_2-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_2",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_3-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_3",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_3-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_3",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_3-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_3",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_3-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_3",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_3-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_3",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_3-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_3",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_3-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_3",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_3-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_3",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_4-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_4",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_4-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_4",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_4-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_4",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_4-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_4",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_4-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_4",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_4-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_4",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_4-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_4",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_4-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_4",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_5-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_5",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_5-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_5",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_5-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_5",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_5-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_5",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_5-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_5",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_5-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_5",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_5-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_5",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_5-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_5",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_6-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_6",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_6-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_6",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_6-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_6",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_6-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_6",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_6-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_6",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_6-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_6",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_6-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_6",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_6-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_6",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_7-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_7",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_7-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_7",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_7-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_7",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_7-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_7",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_7-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_7",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_7-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_7",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_7-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_7",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_1_7-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_7",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_8-ring_2_1",
+            {
+                "from": "ring_2_1",
+                "to": "ring_1_8",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_8-ring_2_2",
+            {
+                "from": "ring_2_2",
+                "to": "ring_1_8",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_8-ring_2_3",
+            {
+                "from": "ring_2_3",
+                "to": "ring_1_8",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_8-ring_2_4",
+            {
+                "from": "ring_2_4",
+                "to": "ring_1_8",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_1_8-ring_2_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_8",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_1_8-ring_2_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_8",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_1_8-ring_2_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_8",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_1_8-ring_2_8",
+            {
+                "from": "ring_2_8",
+                "to": "ring_1_8",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_1-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_1",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_1-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_1",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_1-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_1",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_1-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_1",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_1-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_1",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_1-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_1",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_1-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_1",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_1-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_1",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_2-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_2",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_2-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_2",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_2-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_2",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_2-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_2",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_2-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_2",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_2-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_2",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_2-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_2",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_2-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_2",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_3-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_3",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_3-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_3",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_3-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_3",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_3-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_3",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_3-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_3",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_3-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_3",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_3-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_3",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_3-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_3",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_4-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_4",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_4-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_4",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_4-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_4",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_4-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_4",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_4-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_4",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_4-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_4",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_4-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_4",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_4-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_4",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_5-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_5",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_5-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_5",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_5-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_5",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_5-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_5",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_5-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_5",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_5-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_5",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_5-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_5",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_5-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_5",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_6-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_6",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_6-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_6",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_6-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_6",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_6-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_6",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_6-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_6",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_6-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_6",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_6-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_6",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_6-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_6",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_7-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_7",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_7-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_7",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_7-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_7",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_7-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_7",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_7-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_7",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_7-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_7",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_7-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_7",
+                "strength": 0
+            }
+        ],
+        [
+            "ring_2_7-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_7",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_8-ring_1_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_8",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_8-ring_1_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_8",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_8-ring_1_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_8",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_8-ring_1_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_8",
+                "strength": -0.8
+            }
+        ],
+        [
+            "ring_2_8-ring_1_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_8",
+                "strength": -0.6000000000000001
+            }
+        ],
+        [
+            "ring_2_8-ring_1_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_8",
+                "strength": -0.4
+            }
+        ],
+        [
+            "ring_2_8-ring_1_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_8",
+                "strength": -0.2
+            }
+        ],
+        [
+            "ring_2_8-ring_1_8",
+            {
+                "from": "ring_1_8",
+                "to": "ring_2_8",
+                "strength": 0
+            }
+        ]
+    ]
+}
