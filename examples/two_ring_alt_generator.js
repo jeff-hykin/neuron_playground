@@ -262,31 +262,19 @@ function makeJointRing({distance=700, ringArgs, minWeight, }) {
     }
 }
 
-// makeJointRing({distance: 700, maxWeight: 1, minWeight: -0.8, startX: 160, startY: 272, radius: 25, namespace: "ring"})
-// const ring1 = makeRing({maxWeight: 1, minWeight: -0.8, startX: 160, startY: 272, radius: 25, namespace: "ring"})
-// const ring2 = makeRing({maxWeight: 1, minWeight: -0.8, startX: 860, startY: 272, radius: 25, namespace: "ring"})
-// const combined = {
-//     nodes: [...ring1.nodes, ...ring2.nodes],
-//     edges: [...ring1.edges, ...ring2.edges],
-// }
+const ring1 = makeRing({maxWeight: 1.3, minWeight: -0.6, startX: 160, startY: 272, radius: 25, namespace: "ring", neutralDistance: 0.8})
+const ring2 = makeRing({maxWeight: 1.3, minWeight: -0.6, startX: 860, startY: 272, radius: 25, namespace: "ring", neutralDistance: 0.8})
+const combined = {
+    nodes: [...ring1.nodes, ...ring2.nodes],
+    edges: [...ring1.edges, ...ring2.edges],
+}
 
 import { FileSystem, glob } from "https://deno.land/x/quickr@0.7.6/main/file_system.js"
 await FileSystem.write({
     data: JSON.stringify(
-        makeJointRing({
-            distance: 700,
-            minWeight: -0.2,
-            ringArgs: {
-                maxWeight: 1.3,
-                minWeight: -0.6,
-                startX: 160,
-                startY: 272,
-                radius: 25,
-                namespace: "ring"
-            },
-        }),
+        combined,
         null,
         4
     ),
-    path: `${FileSystem.thisFolder}/joint_rings.json`,
+    path: `${FileSystem.thisFolder}/two_ring_alt.json`,
 })
