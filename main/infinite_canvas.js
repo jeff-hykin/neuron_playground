@@ -72,7 +72,7 @@ function strengthToColor(strength) {
     if (strength <= 0) {
         return interpolateColor(red, blue, (strength + 1) ** 2 / 1)
     } else {
-        return interpolateColor(green, blue, 1 - strength)
+        return interpolateColor(green, blue, 1 - Math.min(strength, 1))
     }
 }
 
