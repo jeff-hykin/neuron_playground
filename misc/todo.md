@@ -1,0 +1,9 @@
+- learn more about the different neuron models:
+    - LIF
+    - Hodgkin-Huxley
+    - Izhikevich
+    - FitzHugh-Nagumo
+- learn more about the different attractor models:
+    - Hopfield
+    - Localist
+    - Reconsolidation
