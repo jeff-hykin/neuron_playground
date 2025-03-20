@@ -178,14 +178,4 @@ export class RingAttractor {
             }
         }
     }
-
-    // /**
-    //  * Optionally plots the membrane potentials after simulation.
-    //  *
-    //  * @param {number} divergence - A measure of how much the model diverges over time.
-    //  */
-    // plotPotentials(divergence) {
-    //     // Placeholder for plotting functionality (e.g., using libraries like plotly, d3.js, etc.)
-    //     console.log('Plotting potential dynamics with divergence:', divergence)
-    // }
 }
