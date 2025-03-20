@@ -28,6 +28,28 @@ export const constants = {
 }
 
 const constNameHelper = constants
+
+/**
+ * Calculates the change in the membrane potential of a neuron based on various currents.
+ * This includes the leak current, inhibitory current, and excitatory current.
+ * The calculation is based on the Leaky Integrate-and-Fire (LIF) neuron model.
+ *
+ * @param {Object} params - The parameters required for the calculation.
+ * @param {number} params.membranePotential - The current membrane potential of the neuron (in volts).
+ * @param {Array.<[number, number]>} params.inhibitoryPresynapticTimeDelays - An array of tuples where each tuple contains a time delay (in ms) and the weight of an inhibitory synapse.
+ * @param {Array.<[number, number]>} params.excitatoryPresynapticTimeDelays - An array of tuples where each tuple contains a time delay (in ms) and the weight of an excitatory synapse.
+ * @param {number} params.constants.membraneCapacitance - The membrane capacitance of the neuron (in Farads).
+ * @param {number} params.constants.membraneTimeConstant - The membrane time constant of the neuron (in seconds).
+ * @param {number} params.constants.leakReversalPotential - The reversal potential for the leak current (in volts).
+ * @param {number} params.constants.inhibitorySynapticConstant - A constant that scales the inhibitory synaptic conductance.
+ * @param {number} params.constants.inhibitorySynapticTimeConstant - The time constant for inhibitory synaptic decay (in ms).
+ * @param {number} params.constants.inhibitoryReversalPotential - The reversal potential for inhibitory synapses (in volts).
+ * @param {number} params.constants.excitatorySynapticConstant - A constant that scales the excitatory synaptic conductance.
+ * @param {number} params.constants.excitatorySynapticTimeConstant - The time constant for excitatory synaptic decay (in ms).
+ * @param {number} params.constants.excitatoryReversalPotential - The reversal potential for excitatory synapses (in volts).
+ * 
+ * @returns {number} The change in membrane potential (in volts) based on the currents.
+ */
 export function calculateMembranePotentialChange({
     membranePotential,
     inhibitoryPresynapticTimeDelays,
@@ -35,20 +57,15 @@ export function calculateMembranePotentialChange({
     constants=constNameHelper,
 }) {
     const {
-        thresholdPotential,
         membraneCapacitance,
-        inhibitoryReversalPotential,
-        excitatoryReversalPotential,
-        restingPotential,
-        refactoryPeriod,
-        inhibitorySynapticTimeConstant,
-        excitatorySynapticTimeConstant,
         membraneTimeConstant,
         leakReversalPotential,
-        resetPotential,
-        membranePotential,
-        excitatorySynapticConstant,
         inhibitorySynapticConstant,
+        inhibitorySynapticTimeConstant,
+        inhibitoryReversalPotential,
+        excitatorySynapticConstant,
+        excitatorySynapticTimeConstant,
+        excitatoryReversalPotential,
     } = constants
 
     // calculateLeakCurrent
