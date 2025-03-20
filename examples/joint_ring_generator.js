@@ -205,9 +205,9 @@ function makeRing({maxWeight, minWeight, neutralDistance=1.8, startX=160, startY
     return { nodes: nodesCopy, edges, nodeIdToIndex }
 }
 
-function makeJointRing({distance=700, maxWeight, minWeight, startX, startY, radius, namespace, }) {
-    const ring1 = makeRing({maxWeight, minWeight, startX, startY, radius, namespace})
-    const ring2 = makeRing({maxWeight, minWeight, startX: startX + distance, startY, radius, namespace})
+function makeJointRing({distance=700, ringArgs, minWeight, }) {
+    const ring1 = makeRing(ringArgs)
+    const ring2 = makeRing({...ringArgs, startX: ringArgs.startX + distance})
     
     const maxDistance = Math.ceil(ring1.nodes.length/2)
     
@@ -278,7 +278,11 @@ function makeJointRing({distance=700, maxWeight, minWeight, startX, startY, radi
 // }
 
 console.log(JSON.stringify(
-    makeJointRing({distance: 700, maxWeight: 1, minWeight: -0.8, startX: 160, startY: 272, radius: 25, namespace: "ring"}),
+    makeJointRing({
+        distance: 700,
+        minWeight: -0.5,
+        ringArgs: {maxWeight: 1, minWeight: -0.8, startX: 160, startY: 272, radius: 25, namespace: "ring"},
+    }),
     null,
     4
 ))
