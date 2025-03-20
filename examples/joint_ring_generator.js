@@ -124,13 +124,6 @@ const nodes = [
 ]
 const edges = [
     [ "node1-node5", { "from": "node1", "to": "node5", "strength": -0.7 } ],
-    [ "node1-node4", { "from": "node1", "to": "node4", "strength": -0.5 } ],
-    [ "node1-node3", { "from": "node1", "to": "node3", "strength": -0.1 } ],
-    [ "node1-node2", { "from": "node1", "to": "node2", "strength":  0.6 } ],
-    [ "node1-node1", { "from": "node1", "to": "node1", "strength":  1.0 } ],
-    [ "node1-node8", { "from": "node1", "to": "node8", "strength":  0.6 } ],
-    [ "node1-node7", { "from": "node1", "to": "node7", "strength": -0.1 } ],
-    [ "node1-node6", { "from": "node1", "to": "node6", "strength": -0.5 } ]
 ]
 
 const wrapAroundGet = (number, list) => list[((number % list.length) + list.length) % list.length]
@@ -160,7 +153,7 @@ function getDistance({node1Id, node2Id, nodeIdToIndex, nodesCopy}) {
 }
 
 let namespaceInc = 0
-function makeRing({maxWeight, minWeight, neutralDistance=1.8, startX=160, startY=272, radius=25, namespace="ring"}) {
+function makeRing({maxWeight, minWeight, neutralDistance=0.8, startX=160, startY=272, radius=25, namespace="ring"}) {
     namespaceInc++
     const nodesCopy = structuredClone(nodes)
     // normalize
@@ -277,12 +270,16 @@ function makeJointRing({distance=700, ringArgs, minWeight, }) {
 //     edges: [...ring1.edges, ...ring2.edges],
 // }
 
-console.log(JSON.stringify(
-    makeJointRing({
-        distance: 700,
-        minWeight: -0.5,
-        ringArgs: {maxWeight: 1, minWeight: -0.8, startX: 160, startY: 272, radius: 25, namespace: "ring"},
-    }),
-    null,
-    4
-))
+import { FileSystem, glob } from "https://deno.land/x/quickr@0.7.6/main/file_system.js"
+await FileSystem.write({
+    data: JSON.stringify(
+        makeJointRing({
+            distance: 700,
+            minWeight: -0.2,
+            ringArgs: {maxWeight: 1, minWeight: -0.2, startX: 160, startY: 272, radius: 25, namespace: "ring"},
+        }),
+        null,
+        4
+    ),
+    path: `${FileSystem.thisFolder}/joint_rings.json`,
+})
