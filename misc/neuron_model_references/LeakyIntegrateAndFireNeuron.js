@@ -97,9 +97,8 @@ export function calculateMembranePotentialChange({
  */
 export class LeakyIntegrateAndFireNeuron {
     // LeakyIntegrateAndFireNeuron (LIF) downsides:
-        // 1. No refractory period
-        // 2. No waveform output
-        // 3. No neurotransmitters
+        // 1. No waveform output
+        // 2. No neurotransmitters
     // alterntaive models (according to GPT):
         // Hodgkin-Huxley (HH) Model:
         //     Pros: More biologically realistic, simulates detailed action potentials and ion channel dynamics.
