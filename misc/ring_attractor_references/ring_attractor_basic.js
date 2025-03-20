@@ -67,7 +67,6 @@ export class RingAttractor {
         }
 
         for (let t = 0; t < this.time; t++) {
-            console.log("\n\nTime = ", t)
             for (const neuron of this.neurons) {
                 if (t === 0 && neuron.id >= 31 && neuron.id <= 35) {
                     neuron.membranePotential = -0.0001 // Set initial potential for certain neurons
