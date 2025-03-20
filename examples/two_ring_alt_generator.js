@@ -262,8 +262,8 @@ function makeJointRing({distance=700, ringArgs, minWeight, }) {
     }
 }
 
-const ring1 = makeRing({maxWeight: 1.3, minWeight: -0.6, startX: 160, startY: 272, radius: 25, namespace: "ring", neutralDistance: 0.8})
-const ring2 = makeRing({maxWeight: 1.3, minWeight: -0.6, startX: 860, startY: 272, radius: 25, namespace: "ring", neutralDistance: 0.8})
+const ring1 = makeRing({maxWeight: 1.3, minWeight: -0.3, startX: 160, startY: 272, radius: 25, namespace: "ring", neutralDistance: 0.8})
+const ring2 = makeRing({maxWeight: 1.3, minWeight: -0.3, startX: 860, startY: 272, radius: 25, namespace: "ring", neutralDistance: 0.8})
 const combined = {
     nodes: [...ring1.nodes, ...ring2.nodes],
     edges: [...ring1.edges, ...ring2.edges],
