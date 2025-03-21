@@ -427,6 +427,8 @@ export default class InfiniteCanvas {
                 this.ctx.strokeStyle = this.strokeStyleEdgeCreation
             } else if (node.pulse) {
                 this.ctx.strokeStyle = this.strokeStylePulse
+                // briefly override fill color to show pulse
+                this.ctx.fillStyle = energyToHue(node.energy)
             } else {
                 this.ctx.strokeStyle = this.strokeStyleNormal
             }
