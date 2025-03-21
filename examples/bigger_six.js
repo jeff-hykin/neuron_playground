@@ -91,5 +91,5 @@ await FileSystem.write({
         null,
         4
     ),
-    path: `${FileSystem.thisFolder}/new_bigger_six.json`,
+    path: `${FileSystem.thisFolder}/bigger_six_new.json`,
 })
