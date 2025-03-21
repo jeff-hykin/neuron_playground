@@ -22,8 +22,7 @@ class RingAttractorNetwork(nn.Module):
         gain_values: Union[float, Iterable[float]] = None,
         time_constant: Union[float, Iterable[float]] = None,
     ):
-        """Creates a torch model for the ring attractor network.
-
+        """
         Args:
             activation_function (Callable, optional): Activation_function function to use. Defaults to nn.ReLU.
             
@@ -190,28 +189,33 @@ class RingAttractorNetwork(nn.Module):
             self.scaling_factor_masks = create_scaling_factor_masks(self.weight_blocks, self.scaling_factors, self.population_slices, self.num_neurons)
 
     def forward(self, input_values: torch.Tensor, state: torch.Tensor):
-        """
-        Forward pass through the network.
-        """
-        dt = input_values[0]
+        dt        = input_values[0]
         landmarks = input_values[2:] # only use landmarks
-        gain = self.gain_mask
-        bias = self.bias_mask
+        
+        gain          = self.gain_mask
+        bias          = self.bias_mask
         time_constant = self.time_constant_mask
+        
         neuron_activity = self.activation_function(gain * state + bias)
+        
         # Current from previous state
         state_derivative = -state
+        
         # Current from weight connections
         weighted_input = torch.zeros_like(neuron_activity)
         for slice_key, mask in self.scaling_factor_masks.items():
             weighted_input = activity_input + neuron_activity @ mask
+        
         # Current from landmark input
         landmark_input = torch.zeros(self.num_neurons)
         landmark_input[self.population_slices["epg"]] = landmarks * self.landmark_scaling
+        
         # Current from none_val input
         velocity_input = torch.zeros(self.num_neurons)
+        
         # Update state with membrane voltage
         state = state + (state_derivative + velocity_input + landmark_input + weighted_input) / time_constant * dt
         output_activity = self.activation_function(gain * state + bias)
+        
         # Return output and current state
         return output_activity[self.population_slices["epg"]], state
