@@ -55,13 +55,13 @@ class RingAttractorNetwork(nn.Module):
             
             # other 
             self.weight_blocks # dict
-            self.neuron_masks  # dict
             
-            # Masks (need to be created when parameters are updated)
-            self.gain_mask = None
-            self.bias_mask = None
-            self.time_constant_mask = None
-            self.scaling_factor_masks = None
+            # Masks
+            self.neuron_masks  # dict
+            self.gain_mask
+            self.bias_mask
+            self.time_constant_mask
+            self.scaling_factor_masks
         
         # 
         # self.landmark_scaling
