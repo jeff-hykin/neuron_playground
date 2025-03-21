@@ -20,7 +20,7 @@ class RingAttractorNetwork(nn.Module):
         use_velocity: bool = True,
         initial_angle: float = 0.0,
         initial_weight_scale: float = 1.0,
-        nonlinearity: Callable = nn.ReLU,
+        activation_function: Callable = nn.ReLU,
         bias_values: Union[float, Iterable[float]] = None,
         gain_values: Union[float, Iterable[float]] = None,
         time_constant: Union[float, Iterable[float]] = None,
@@ -37,7 +37,7 @@ class RingAttractorNetwork(nn.Module):
             use_velocity (bool, optional): Make the model expect velocity input. Defaults to True.
             initial_angle (float, optional): Initial angle of the model. Defaults to 0.0.
             initial_weight_scale (float, optional): Initial weight scaling factor. Defaults to 1.0.
-            nonlinearity (Callable, optional): Nonlinearity function to use. Defaults to nn.ReLU.
+            activation_function (Callable, optional): Activation_function function to use. Defaults to nn.ReLU.
             bias_values (Union[float,Iterable[float]], optional): Initial bias values. Defaults to None.
             gain_values (Union[float,Iterable[float]], optional): Initial gain values. Defaults to None.
             time_constant (Union[float,Iterable[float]], optional): Initial time constant values. Defaults to None.
@@ -79,7 +79,7 @@ class RingAttractorNetwork(nn.Module):
         self.update_parameterizations()
 
         self.initial_angle = initial_angle
-        self.nonlinearity = nonlinearity()
+        self.activation_function = activation_function()
         self.state_size = len(initial_weights)
         self.output_size = len(initial_weights[population_slices["epg"]])
         self.noise_function = noise_function
@@ -268,7 +268,7 @@ class RingAttractorNetwork(nn.Module):
         gain = self.gain_mask
         bias = self.bias_mask
         time_constant = self.time_constant_mask
-        neuron_activity = self.nonlinearity(gain * state + bias)
+        neuron_activity = self.activation_function(gain * state + bias)
         # Current from previous state
         state_derivative = -state
         # Current from weight connections
@@ -281,7 +281,7 @@ class RingAttractorNetwork(nn.Module):
         state = state + (state_derivative + velocity_input + landmark_input + weighted_input) / time_constant * dt
         if self.noise_function is not None:
             state = state + self.noise_function(len(state))
-        output_activity = self.nonlinearity(gain * state + bias)
+        output_activity = self.activation_function(gain * state + bias)
         # Return output and current state
         return output_activity[self.population_slices["epg"]], state
 
