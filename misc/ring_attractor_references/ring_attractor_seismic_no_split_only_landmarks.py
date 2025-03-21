@@ -188,29 +188,13 @@ class RingAttractorNetwork(nn.Module):
                 return masks
             
             self.scaling_factor_masks = create_scaling_factor_masks(self.weight_blocks, self.scaling_factors, self.population_slices, self.num_neurons)
-        
-
-    def calculate_weighted_input(self, state: torch.Tensor):
-        """
-        Calculates internal current for all neurons based on state and weight connections.
-        """
-        all_activity = state
-        activity_input = torch.zeros_like(state)
-        for slice_key, mask in self.scaling_factor_masks.items():
-            activity_input = activity_input + all_activity @ mask
-
-        return activity_input
-
-    def _process_input_values(self, input_values):
-        dt = input_values[0]
-        landmarks = input_values[2:] # only use landmarks
-        return dt, None, landmarks
 
     def forward(self, input_values: torch.Tensor, state: torch.Tensor):
         """
         Forward pass through the network.
         """
-        dt, _, landmarks = self._process_input_values(input_values)
+        dt = input_values[0]
+        landmarks = input_values[2:] # only use landmarks
         gain = self.gain_mask
         bias = self.bias_mask
         time_constant = self.time_constant_mask
@@ -218,7 +202,9 @@ class RingAttractorNetwork(nn.Module):
         # Current from previous state
         state_derivative = -state
         # Current from weight connections
-        weighted_input = self.calculate_weighted_input(neuron_activity)
+        weighted_input = torch.zeros_like(neuron_activity)
+        for slice_key, mask in self.scaling_factor_masks.items():
+            weighted_input = activity_input + neuron_activity @ mask
         # Current from landmark input
         landmark_input = torch.zeros(self.num_neurons)
         landmark_input[self.population_slices["epg"]] = landmarks * self.landmark_scaling
