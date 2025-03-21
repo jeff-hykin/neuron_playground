@@ -1,21 +1,20 @@
 #!/usr/bin/env -S deno run --allow-all
 import { pointsToFunction } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/points_to_function.js'
-import stringForBigSixFullyConnectedJson from "./big_six_fully_connected.json.binaryified.js"
-const network = JSON.parse(stringForBigSixFullyConnectedJson)
+import stringForBiggerSixJson from "./bigger_six.json.binaryified.js"
+import { shallowSortObject } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/shallow_sort_object.js'
+const network = JSON.parse(stringForBiggerSixJson)
 
+const ringSize = 8
+let tempNodes = network.nodes.map(each=>each[1])
 let rings = [
-    [], // counterclockwise (yellow)
-    [], // orange 2
-    [], // green 2
-    [], // green 1
-    [], // orange 1
-    [], // clockwise (blue)
+    tempNodes.slice(0, ringSize), // counterclockwise (yellow)
+    tempNodes.slice(ringSize, ringSize * 2), // orange 2
+    tempNodes.slice(ringSize * 2, ringSize * 3), // green 2
+    tempNodes.slice(ringSize * 3, ringSize * 4), // green 1
+    tempNodes.slice(ringSize * 4, ringSize * 5), // orange 1
+    tempNodes.slice(ringSize * 5, ringSize * 6), // clockwise (blue)
 ]
-let index = -1
-for (let [_, each] of network.nodes) {
-    index++
-    rings[index % rings.length].push(each)
-}
+
 const lightYellow = "#FFEE8A"
 const lightGreen = "#98df8a"
 const lightOrange = "#ffbf80"
@@ -78,8 +77,8 @@ const getEdges = (neuronId)=>{
 // end
 // 
 const newNetwork = {
-    nodes: rings.flat().map(each=>[each.id, each]),
-    edges: edges.map(each=>[`${each.from}_${each.to}`, each]),
+    nodes: rings.flat().map(each=>[each.id, shallowSortObject(each)]),
+    edges: edges.map(each=>[`${each.from}_${each.to}`, shallowSortObject(each)]),
 }
 
 
@@ -92,5 +91,5 @@ await FileSystem.write({
         null,
         4
     ),
-    path: `${FileSystem.thisFolder}/new_big_six.json`,
+    path: `${FileSystem.thisFolder}/new_bigger_six.json`,
 })

@@ -450,13 +450,20 @@ export default class InfiniteCanvas {
         })
     }
 
-    loadFromJSON(jsonString) {
-        const data = JSON.parse(jsonString)
-        this.nodes = new Map(data.nodes)
-        this.edges = new Map(data.edges)
-    }
-
     load(data) {
+        if (!(data.nodes instanceof Array) || !(data.edges instanceof Array)) {
+            throw new Error("Invalid data format. Expected an object with 'nodes' and 'edges' properties that are both arrays.")
+        }
+        if (data.nodes.length == 0) {
+            throw new Error("Invalid data format. Expected at least one node.")
+        }
+        if (!(data.nodes.every(each=>each instanceof Array))) {
+            throw new Error("Invalid data format. Expected the all nodes to be key-value arrays.")
+        }
+        if (!(data.edges.every(each=>each instanceof Array))) {
+            throw new Error("Invalid data format. Expected the all edges to be key-value arrays.")
+        }
+
         // Clear existing nodes and edges
         this.nodes.clear()
         this.edges.clear()

@@ -1,4 +1,4 @@
-{
+let output = `{
     "nodes": [
         [
             "ring_0_0",
@@ -20,8 +20,8 @@
         [
             "ring_0_1",
             {
-                "x": 681,
-                "y": 543,
+                "x": 837,
+                "y": 476,
                 "id": "ring_0_1",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -37,8 +37,8 @@
         [
             "ring_0_2",
             {
-                "x": 771.4873334951573,
-                "y": 737.2750348922677,
+                "x": 862,
+                "y": 548,
                 "id": "ring_0_2",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -54,8 +54,8 @@
         [
             "ring_0_3",
             {
-                "x": 1086.2404806417403,
-                "y": 550.8180075065203,
+                "x": 842,
+                "y": 613,
                 "id": "ring_0_3",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -71,8 +71,8 @@
         [
             "ring_0_4",
             {
-                "x": 773,
-                "y": 62,
+                "x": 773.1979484253018,
+                "y": 636.3487540137439,
                 "id": "ring_0_4",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -88,8 +88,8 @@
         [
             "ring_0_5",
             {
-                "x": 213,
-                "y": 530,
+                "x": 704,
+                "y": 611,
                 "id": "ring_0_5",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -105,8 +105,8 @@
         [
             "ring_0_6",
             {
-                "x": 769.7767185650127,
-                "y": 1122.163394174774,
+                "x": 681,
+                "y": 543,
                 "id": "ring_0_6",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -122,8 +122,8 @@
         [
             "ring_0_7",
             {
-                "x": 1599.424959685082,
-                "y": 545.6861627160869,
+                "x": 708,
+                "y": 474,
                 "id": "ring_0_7",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -139,8 +139,8 @@
         [
             "ring_1_0",
             {
-                "x": 837,
-                "y": 476,
+                "x": 774,
+                "y": 353,
                 "id": "ring_1_0",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -156,8 +156,8 @@
         [
             "ring_1_1",
             {
-                "x": 708,
-                "y": 474,
+                "x": 909,
+                "y": 404,
                 "id": "ring_1_1",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -173,8 +173,8 @@
         [
             "ring_1_2",
             {
-                "x": 632.9275241534549,
-                "y": 679.1141272673557,
+                "x": 968.2080504617717,
+                "y": 550.8180075065203,
                 "id": "ring_1_2",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -190,8 +190,8 @@
         [
             "ring_1_3",
             {
-                "x": 1033.2114178072616,
-                "y": 761.2236439142904,
+                "x": 928.8639070684487,
+                "y": 680.8247421975002,
                 "id": "ring_1_3",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -207,8 +207,8 @@
         [
             "ring_1_4",
             {
-                "x": 1169,
-                "y": 172,
+                "x": 771.4873334951573,
+                "y": 737.2750348922677,
                 "id": "ring_1_4",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -224,8 +224,8 @@
         [
             "ring_1_5",
             {
-                "x": 383,
-                "y": 147,
+                "x": 632.9275241534549,
+                "y": 679.1141272673557,
                 "id": "ring_1_5",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -241,8 +241,8 @@
         [
             "ring_1_6",
             {
-                "x": 295,
-                "y": 956,
+                "x": 585,
+                "y": 541,
                 "id": "ring_1_6",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -258,8 +258,8 @@
         [
             "ring_1_7",
             {
-                "x": 1416.3891621596235,
-                "y": 1064.0024865498622,
+                "x": 649,
+                "y": 403,
                 "id": "ring_1_7",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -275,8 +275,8 @@
         [
             "ring_2_0",
             {
-                "x": 862,
-                "y": 548,
+                "x": 772,
+                "y": 250,
                 "id": "ring_2_0",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -292,8 +292,8 @@
         [
             "ring_2_1",
             {
-                "x": 774,
-                "y": 353,
+                "x": 987,
+                "y": 333,
                 "id": "ring_2_1",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -309,8 +309,8 @@
         [
             "ring_2_2",
             {
-                "x": 585,
-                "y": 541,
+                "x": 1086.2404806417403,
+                "y": 550.8180075065203,
                 "id": "ring_2_2",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -326,8 +326,8 @@
         [
             "ring_2_3",
             {
-                "x": 771.4873334951573,
-                "y": 839.9119307009362,
+                "x": 1033.2114178072616,
+                "y": 761.2236439142904,
                 "id": "ring_2_3",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -343,8 +343,8 @@
         [
             "ring_2_4",
             {
-                "x": 1354.8070246744226,
-                "y": 550.8180075065203,
+                "x": 771.4873334951573,
+                "y": 839.9119307009362,
                 "id": "ring_2_4",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -360,8 +360,8 @@
         [
             "ring_2_5",
             {
-                "x": 769,
-                "y": -42,
+                "x": 558,
+                "y": 748,
                 "id": "ring_2_5",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -377,8 +377,8 @@
         [
             "ring_2_6",
             {
-                "x": 99,
-                "y": 528,
+                "x": 472,
+                "y": 542,
                 "id": "ring_2_6",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -394,8 +394,8 @@
         [
             "ring_2_7",
             {
-                "x": 769.7767185650127,
-                "y": 1223.0896750532982,
+                "x": 565,
+                "y": 319,
                 "id": "ring_2_7",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -411,8 +411,8 @@
         [
             "ring_3_0",
             {
-                "x": 842,
-                "y": 613,
+                "x": 773,
+                "y": 62,
                 "id": "ring_3_0",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -428,8 +428,8 @@
         [
             "ring_3_1",
             {
-                "x": 909,
-                "y": 404,
+                "x": 1169,
+                "y": 172,
                 "id": "ring_3_1",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -445,8 +445,8 @@
         [
             "ring_3_2",
             {
-                "x": 649,
-                "y": 403,
+                "x": 1354.8070246744226,
+                "y": 550.8180075065203,
                 "id": "ring_3_2",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -462,8 +462,8 @@
         [
             "ring_3_3",
             {
-                "x": 558,
-                "y": 748,
+                "x": 1200.85168096142,
+                "y": 901.4940681861372,
                 "id": "ring_3_3",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -479,8 +479,8 @@
         [
             "ring_3_4",
             {
-                "x": 1200.85168096142,
-                "y": 901.4940681861372,
+                "x": 773.1979484253018,
+                "y": 1017.8158834359614,
                 "id": "ring_3_4",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -496,8 +496,8 @@
         [
             "ring_3_5",
             {
-                "x": 1269,
-                "y": 103,
+                "x": 376,
+                "y": 888,
                 "id": "ring_3_5",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -513,8 +513,8 @@
         [
             "ring_3_6",
             {
-                "x": 308,
-                "y": 79,
+                "x": 213,
+                "y": 530,
                 "id": "ring_3_6",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -530,8 +530,8 @@
         [
             "ring_3_7",
             {
-                "x": 219,
-                "y": 1024,
+                "x": 383,
+                "y": 147,
                 "id": "ring_3_7",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -547,8 +547,8 @@
         [
             "ring_4_0",
             {
-                "x": 773.1979484253018,
-                "y": 636.3487540137439,
+                "x": 769,
+                "y": -42,
                 "id": "ring_4_0",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -564,8 +564,8 @@
         [
             "ring_4_1",
             {
-                "x": 968.2080504617717,
-                "y": 550.8180075065203,
+                "x": 1269,
+                "y": 103,
                 "id": "ring_4_1",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -581,25 +581,26 @@
         [
             "ring_4_2",
             {
-                "x": 772,
-                "y": 250,
+                "x": 1481.3925295051135,
+                "y": 550.8180075065203,
                 "id": "ring_4_2",
                 "pulse": false,
                 "spikeThreshold": 1,
-                "energy": 0.1,
+                "energy": 1,
                 "energyDecayRate": 0.1,
-                "isFiring": false,
+                "isFiring": true,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
                 "radius": 25,
-                "color": "#2ca02c"
+                "color": "#2ca02c",
+                "isPulsing": false
             }
         ],
         [
             "ring_4_3",
             {
-                "x": 472,
-                "y": 542,
+                "x": 1300.0673469097994,
+                "y": 981.8929699029275,
                 "id": "ring_4_3",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -615,8 +616,8 @@
         [
             "ring_4_4",
             {
-                "x": 773.1979484253018,
-                "y": 1017.8158834359614,
+                "x": 769.7767185650127,
+                "y": 1122.163394174774,
                 "id": "ring_4_4",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -632,26 +633,25 @@
         [
             "ring_4_5",
             {
-                "x": 1481.3925295051135,
-                "y": 550.8180075065203,
+                "x": 295,
+                "y": 956,
                 "id": "ring_4_5",
                 "pulse": false,
                 "spikeThreshold": 1,
-                "energy": 1,
+                "energy": 0.1,
                 "energyDecayRate": 0.1,
-                "isFiring": true,
+                "isFiring": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
                 "radius": 25,
-                "color": "#2ca02c",
-                "isPulsing": false
+                "color": "#2ca02c"
             }
         ],
         [
             "ring_4_6",
             {
-                "x": 769,
-                "y": -131,
+                "x": 99,
+                "y": 528,
                 "id": "ring_4_6",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -667,8 +667,8 @@
         [
             "ring_4_7",
             {
-                "x": -9,
-                "y": 526,
+                "x": 308,
+                "y": 79,
                 "id": "ring_4_7",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -684,8 +684,8 @@
         [
             "ring_5_0",
             {
-                "x": 704,
-                "y": 611,
+                "x": 769,
+                "y": -131,
                 "id": "ring_5_0",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -701,8 +701,8 @@
         [
             "ring_5_1",
             {
-                "x": 928.8639070684487,
-                "y": 680.8247421975002,
+                "x": 1352,
+                "y": 34,
                 "id": "ring_5_1",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -718,8 +718,8 @@
         [
             "ring_5_2",
             {
-                "x": 987,
-                "y": 333,
+                "x": 1599.424959685082,
+                "y": 545.6861627160869,
                 "id": "ring_5_2",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -735,8 +735,8 @@
         [
             "ring_5_3",
             {
-                "x": 565,
-                "y": 319,
+                "x": 1416.3891621596235,
+                "y": 1064.0024865498622,
                 "id": "ring_5_3",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -752,8 +752,8 @@
         [
             "ring_5_4",
             {
-                "x": 376,
-                "y": 888,
+                "x": 769.7767185650127,
+                "y": 1223.0896750532982,
                 "id": "ring_5_4",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -769,8 +769,8 @@
         [
             "ring_5_5",
             {
-                "x": 1300.0673469097994,
-                "y": 981.8929699029275,
+                "x": 219,
+                "y": 1024,
                 "id": "ring_5_5",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -786,8 +786,8 @@
         [
             "ring_5_6",
             {
-                "x": 1352,
-                "y": 34,
+                "x": -9,
+                "y": 526,
                 "id": "ring_5_6",
                 "pulse": false,
                 "spikeThreshold": 1,
@@ -821,772 +821,806 @@
     ],
     "edges": [
         [
-            "ring_4_6_ring_3_1",
+            "ring_5_0_ring_1_1",
             {
-                "from": "ring_4_6",
-                "to": "ring_3_1",
+                "from": "ring_5_0",
+                "to": "ring_1_1",
                 "strength": 1
             }
         ],
         [
-            "ring_4_6_ring_5_4",
+            "ring_5_0_ring_4_1",
             {
-                "from": "ring_4_6",
-                "to": "ring_5_4",
+                "from": "ring_5_0",
+                "to": "ring_4_1",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_4_6",
+            "ring_4_0_ring_5_0",
             {
-                "from": "ring_4_4",
-                "to": "ring_4_6",
+                "from": "ring_4_0",
+                "to": "ring_5_0",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_4_0",
+            "ring_4_0_ring_3_0",
             {
-                "from": "ring_4_4",
+                "from": "ring_4_0",
+                "to": "ring_3_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_3_0_ring_4_0",
+            {
+                "from": "ring_3_0",
                 "to": "ring_4_0",
                 "strength": 1
             }
         ],
         [
-            "ring_4_0_ring_4_4",
+            "ring_3_0_ring_1_0",
             {
-                "from": "ring_4_0",
-                "to": "ring_4_4",
+                "from": "ring_3_0",
+                "to": "ring_1_0",
                 "strength": 1
             }
         ],
         [
-            "ring_4_0_ring_5_2",
+            "ring_1_0_ring_2_0",
             {
-                "from": "ring_4_0",
-                "to": "ring_5_2",
+                "from": "ring_1_0",
+                "to": "ring_2_0",
                 "strength": 1
             }
         ],
         [
-            "ring_5_2_ring_4_5",
+            "ring_1_0_ring_0_0",
             {
-                "from": "ring_5_2",
-                "to": "ring_4_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_2_ring_0_0",
-            {
-                "from": "ring_5_2",
+                "from": "ring_1_0",
                 "to": "ring_0_0",
                 "strength": 1
             }
         ],
         [
-            "ring_0_0_ring_3_2",
+            "ring_0_0_ring_1_7",
             {
                 "from": "ring_0_0",
-                "to": "ring_3_2",
+                "to": "ring_1_7",
                 "strength": 1
             }
         ],
         [
-            "ring_0_0_ring_3_6",
+            "ring_0_0_ring_4_7",
             {
                 "from": "ring_0_0",
-                "to": "ring_3_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_5_2",
-            {
-                "from": "ring_4_5",
-                "to": "ring_5_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_4_4",
-            {
-                "from": "ring_4_5",
-                "to": "ring_4_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_1_ring_5_2",
-            {
-                "from": "ring_3_1",
-                "to": "ring_5_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_1_ring_5_2",
-            {
-                "from": "ring_3_1",
-                "to": "ring_5_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_1_ring_4_5",
-            {
-                "from": "ring_4_1",
-                "to": "ring_4_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_1_ring_3_0",
-            {
-                "from": "ring_4_1",
-                "to": "ring_3_0",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_6_ring_3_0",
-            {
-                "from": "ring_5_6",
-                "to": "ring_3_0",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_6_ring_5_6",
-            {
-                "from": "ring_5_6",
-                "to": "ring_5_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_4_0",
-            {
-                "from": "ring_4_5",
-                "to": "ring_4_0",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_2_3",
-            {
-                "from": "ring_4_5",
-                "to": "ring_2_3",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_1_ring_5_0",
-            {
-                "from": "ring_4_1",
-                "to": "ring_5_0",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_1_ring_4_4",
-            {
-                "from": "ring_4_1",
-                "to": "ring_4_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_2_2_ring_5_2",
-            {
-                "from": "ring_2_2",
-                "to": "ring_5_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_2_2_ring_5_5",
-            {
-                "from": "ring_2_2",
-                "to": "ring_5_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_2_ring_3_1",
-            {
-                "from": "ring_3_2",
-                "to": "ring_3_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_2_ring_5_3",
-            {
-                "from": "ring_3_2",
-                "to": "ring_5_3",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_1_ring_2_2",
-            {
-                "from": "ring_3_1",
-                "to": "ring_2_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_1_ring_5_5",
-            {
-                "from": "ring_3_1",
-                "to": "ring_5_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_2_ring_4_1",
-            {
-                "from": "ring_5_2",
-                "to": "ring_4_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_2_ring_2_2",
-            {
-                "from": "ring_5_2",
-                "to": "ring_2_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_0_ring_0_6",
-            {
-                "from": "ring_5_0",
-                "to": "ring_0_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_0_ring_4_5",
-            {
-                "from": "ring_5_0",
-                "to": "ring_4_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_0_ring_5_5",
-            {
-                "from": "ring_4_0",
-                "to": "ring_5_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_0_ring_5_6",
-            {
-                "from": "ring_4_0",
-                "to": "ring_5_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_0_ring_4_1",
-            {
-                "from": "ring_3_0",
-                "to": "ring_4_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_0_ring_4_5",
-            {
-                "from": "ring_3_0",
-                "to": "ring_4_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_3_1",
-            {
-                "from": "ring_4_5",
-                "to": "ring_3_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_5_4",
-            {
-                "from": "ring_4_5",
-                "to": "ring_5_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_2_ring_5_2",
-            {
-                "from": "ring_5_2",
-                "to": "ring_5_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_2_ring_4_4",
-            {
-                "from": "ring_5_2",
-                "to": "ring_4_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_6_ring_4_1",
-            {
-                "from": "ring_5_6",
-                "to": "ring_4_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_6_ring_4_5",
-            {
-                "from": "ring_5_6",
-                "to": "ring_4_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_1_ring_5_5",
-            {
-                "from": "ring_3_1",
-                "to": "ring_5_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_2_ring_0_6",
-            {
-                "from": "ring_3_2",
-                "to": "ring_0_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_3_ring_2_2",
-            {
-                "from": "ring_5_3",
-                "to": "ring_2_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_2_2_ring_5_4",
-            {
-                "from": "ring_2_2",
-                "to": "ring_5_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_7_ring_5_5",
-            {
-                "from": "ring_3_7",
-                "to": "ring_5_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_7_ring_3_6",
-            {
-                "from": "ring_4_7",
-                "to": "ring_3_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_7_ring_4_4",
-            {
-                "from": "ring_5_7",
-                "to": "ring_4_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_7_ring_5_2",
-            {
-                "from": "ring_5_7",
-                "to": "ring_5_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_1_ring_5_6",
-            {
-                "from": "ring_3_1",
-                "to": "ring_5_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_2_ring_4_5",
-            {
-                "from": "ring_3_2",
-                "to": "ring_4_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_3_ring_4_1",
-            {
-                "from": "ring_5_3",
-                "to": "ring_4_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_7_ring_2_2",
-            {
-                "from": "ring_3_7",
-                "to": "ring_2_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_7_ring_3_2",
-            {
-                "from": "ring_4_7",
-                "to": "ring_3_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_4_ring_5_6",
-            {
-                "from": "ring_5_4",
-                "to": "ring_5_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_4_ring_1_4",
-            {
-                "from": "ring_5_4",
-                "to": "ring_1_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_3_1",
-            {
-                "from": "ring_4_5",
-                "to": "ring_3_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_5_ring_2_4",
-            {
-                "from": "ring_4_5",
-                "to": "ring_2_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_5_ring_3_2",
-            {
-                "from": "ring_5_5",
-                "to": "ring_3_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_5_ring_4_4",
-            {
-                "from": "ring_5_5",
-                "to": "ring_4_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_0_6_ring_5_3",
-            {
-                "from": "ring_0_6",
-                "to": "ring_5_3",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_0_6_ring_4_4",
-            {
-                "from": "ring_0_6",
-                "to": "ring_4_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_2_2_ring_3_7",
-            {
-                "from": "ring_2_2",
-                "to": "ring_3_7",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_5_ring_5_0",
-            {
-                "from": "ring_5_5",
-                "to": "ring_5_0",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_5_ring_4_7",
-            {
-                "from": "ring_5_5",
                 "to": "ring_4_7",
                 "strength": 1
             }
         ],
         [
-            "ring_3_6_ring_1_5",
+            "ring_2_0_ring_1_0",
             {
-                "from": "ring_3_6",
+                "from": "ring_2_0",
+                "to": "ring_1_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_0_ring_4_0",
+            {
+                "from": "ring_2_0",
+                "to": "ring_4_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_1_ring_2_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_2_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_1_ring_0_1",
+            {
+                "from": "ring_1_1",
+                "to": "ring_0_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_2_ring_0_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_0_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_2_ring_2_2",
+            {
+                "from": "ring_1_2",
+                "to": "ring_2_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_3_ring_0_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_0_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_3_ring_2_3",
+            {
+                "from": "ring_1_3",
+                "to": "ring_2_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_4_ring_0_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_0_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_4_ring_2_4",
+            {
+                "from": "ring_1_4",
+                "to": "ring_2_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_5_ring_0_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_0_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_5_ring_2_5",
+            {
+                "from": "ring_1_5",
+                "to": "ring_2_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_6_ring_0_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_0_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_6_ring_2_6",
+            {
+                "from": "ring_1_6",
+                "to": "ring_2_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_7_ring_0_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_0_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_1_7_ring_2_7",
+            {
+                "from": "ring_1_7",
+                "to": "ring_2_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_7_ring_1_6",
+            {
+                "from": "ring_0_7",
+                "to": "ring_1_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_7_ring_4_6",
+            {
+                "from": "ring_0_7",
+                "to": "ring_4_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_6_ring_1_5",
+            {
+                "from": "ring_0_6",
                 "to": "ring_1_5",
                 "strength": 1
             }
         ],
         [
-            "ring_3_6_ring_5_7",
+            "ring_0_6_ring_4_5",
             {
-                "from": "ring_3_6",
+                "from": "ring_0_6",
+                "to": "ring_4_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_5_ring_4_4",
+            {
+                "from": "ring_0_5",
+                "to": "ring_4_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_5_ring_1_4",
+            {
+                "from": "ring_0_5",
+                "to": "ring_1_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_4_ring_4_3",
+            {
+                "from": "ring_0_4",
+                "to": "ring_4_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_4_ring_1_3",
+            {
+                "from": "ring_0_4",
+                "to": "ring_1_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_3_ring_1_2",
+            {
+                "from": "ring_0_3",
+                "to": "ring_1_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_3_ring_4_2",
+            {
+                "from": "ring_0_3",
+                "to": "ring_4_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_2_ring_1_1",
+            {
+                "from": "ring_0_2",
+                "to": "ring_1_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_2_ring_4_1",
+            {
+                "from": "ring_0_2",
+                "to": "ring_4_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_1_ring_1_0",
+            {
+                "from": "ring_0_1",
+                "to": "ring_1_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_0_1_ring_4_0",
+            {
+                "from": "ring_0_1",
+                "to": "ring_4_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_1_ring_1_2",
+            {
+                "from": "ring_5_1",
+                "to": "ring_1_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_1_ring_4_2",
+            {
+                "from": "ring_5_1",
+                "to": "ring_4_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_2_ring_4_3",
+            {
+                "from": "ring_5_2",
+                "to": "ring_4_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_3_ring_4_4",
+            {
+                "from": "ring_5_3",
+                "to": "ring_4_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_4_ring_4_5",
+            {
+                "from": "ring_5_4",
+                "to": "ring_4_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_5_ring_3_5",
+            {
+                "from": "ring_4_5",
+                "to": "ring_3_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_5_ring_4_6",
+            {
+                "from": "ring_5_5",
+                "to": "ring_4_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_6_ring_4_7",
+            {
+                "from": "ring_5_6",
+                "to": "ring_4_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_7_ring_4_0",
+            {
+                "from": "ring_5_7",
+                "to": "ring_4_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_7_ring_1_0",
+            {
+                "from": "ring_5_7",
+                "to": "ring_1_0",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_2_ring_1_3",
+            {
+                "from": "ring_5_2",
+                "to": "ring_1_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_3_ring_1_4",
+            {
+                "from": "ring_5_3",
+                "to": "ring_1_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_4_ring_1_5",
+            {
+                "from": "ring_5_4",
+                "to": "ring_1_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_5_ring_1_6",
+            {
+                "from": "ring_5_5",
+                "to": "ring_1_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_5_6_ring_1_7",
+            {
+                "from": "ring_5_6",
+                "to": "ring_1_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_1_ring_5_1",
+            {
+                "from": "ring_4_1",
+                "to": "ring_5_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_1_ring_3_1",
+            {
+                "from": "ring_4_1",
+                "to": "ring_3_1",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_2_ring_5_2",
+            {
+                "from": "ring_4_2",
+                "to": "ring_5_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_2_ring_3_2",
+            {
+                "from": "ring_4_2",
+                "to": "ring_3_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_3_ring_5_3",
+            {
+                "from": "ring_4_3",
+                "to": "ring_5_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_3_ring_3_3",
+            {
+                "from": "ring_4_3",
+                "to": "ring_3_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_4_ring_5_4",
+            {
+                "from": "ring_4_4",
+                "to": "ring_5_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_4_ring_3_4",
+            {
+                "from": "ring_4_4",
+                "to": "ring_3_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_5_ring_5_5",
+            {
+                "from": "ring_4_5",
+                "to": "ring_5_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_6_ring_3_6",
+            {
+                "from": "ring_4_6",
+                "to": "ring_3_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_6_ring_5_6",
+            {
+                "from": "ring_4_6",
+                "to": "ring_5_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_7_ring_3_7",
+            {
+                "from": "ring_4_7",
+                "to": "ring_3_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_4_7_ring_5_7",
+            {
+                "from": "ring_4_7",
                 "to": "ring_5_7",
                 "strength": 1
             }
         ],
         [
-            "ring_1_4_ring_5_4",
+            "ring_3_1_ring_4_1",
             {
-                "from": "ring_1_4",
-                "to": "ring_5_4",
+                "from": "ring_3_1",
+                "to": "ring_4_1",
                 "strength": 1
             }
         ],
         [
-            "ring_2_4_ring_4_5",
+            "ring_3_2_ring_4_2",
             {
-                "from": "ring_2_4",
+                "from": "ring_3_2",
+                "to": "ring_4_2",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_3_3_ring_4_3",
+            {
+                "from": "ring_3_3",
+                "to": "ring_4_3",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_3_4_ring_4_4",
+            {
+                "from": "ring_3_4",
+                "to": "ring_4_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_3_5_ring_4_5",
+            {
+                "from": "ring_3_5",
                 "to": "ring_4_5",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_5_5",
+            "ring_3_6_ring_4_6",
             {
-                "from": "ring_4_4",
-                "to": "ring_5_5",
+                "from": "ring_3_6",
+                "to": "ring_4_6",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_0_6",
+            "ring_3_7_ring_4_7",
             {
-                "from": "ring_4_4",
-                "to": "ring_0_6",
+                "from": "ring_3_7",
+                "to": "ring_4_7",
                 "strength": 1
             }
         ],
         [
-            "ring_5_4_ring_2_2",
+            "ring_3_1_ring_1_1",
             {
-                "from": "ring_5_4",
-                "to": "ring_2_2",
+                "from": "ring_3_1",
+                "to": "ring_1_1",
                 "strength": 1
             }
         ],
         [
-            "ring_5_0_ring_5_5",
+            "ring_3_2_ring_1_2",
             {
-                "from": "ring_5_0",
-                "to": "ring_5_5",
+                "from": "ring_3_2",
+                "to": "ring_1_2",
                 "strength": 1
             }
         ],
         [
-            "ring_1_5_ring_3_6",
+            "ring_3_3_ring_1_3",
             {
-                "from": "ring_1_5",
-                "to": "ring_3_6",
+                "from": "ring_3_3",
+                "to": "ring_1_3",
                 "strength": 1
             }
         ],
         [
-            "ring_1_4_ring_3_1",
+            "ring_3_4_ring_1_4",
             {
-                "from": "ring_1_4",
-                "to": "ring_3_1",
+                "from": "ring_3_4",
+                "to": "ring_1_4",
                 "strength": 1
             }
         ],
         [
-            "ring_2_4_ring_4_1",
+            "ring_3_5_ring_1_5",
             {
-                "from": "ring_2_4",
-                "to": "ring_4_1",
+                "from": "ring_3_5",
+                "to": "ring_1_5",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_5_6",
+            "ring_3_6_ring_1_6",
             {
-                "from": "ring_4_4",
-                "to": "ring_5_6",
+                "from": "ring_3_6",
+                "to": "ring_1_6",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_4_5",
+            "ring_3_7_ring_1_7",
             {
-                "from": "ring_4_4",
-                "to": "ring_4_5",
+                "from": "ring_3_7",
+                "to": "ring_1_7",
                 "strength": 1
             }
         ],
         [
-            "ring_5_4_ring_4_1",
+            "ring_2_1_ring_1_1",
             {
-                "from": "ring_5_4",
-                "to": "ring_4_1",
+                "from": "ring_2_1",
+                "to": "ring_1_1",
                 "strength": 1
             }
         ],
         [
-            "ring_5_0_ring_2_2",
+            "ring_2_2_ring_1_2",
             {
-                "from": "ring_5_0",
-                "to": "ring_2_2",
+                "from": "ring_2_2",
+                "to": "ring_1_2",
                 "strength": 1
             }
         ],
         [
-            "ring_1_5_ring_3_2",
-            {
-                "from": "ring_1_5",
-                "to": "ring_3_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_2_ring_3_1",
-            {
-                "from": "ring_5_2",
-                "to": "ring_3_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_3_0_ring_4_1",
-            {
-                "from": "ring_3_0",
-                "to": "ring_4_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_6_ring_5_6",
-            {
-                "from": "ring_5_6",
-                "to": "ring_5_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_2_3_ring_4_5",
+            "ring_2_3_ring_1_3",
             {
                 "from": "ring_2_3",
-                "to": "ring_4_5",
+                "to": "ring_1_3",
                 "strength": 1
             }
         ],
         [
-            "ring_4_4_ring_4_1",
+            "ring_2_4_ring_1_4",
             {
-                "from": "ring_4_4",
+                "from": "ring_2_4",
+                "to": "ring_1_4",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_5_ring_1_5",
+            {
+                "from": "ring_2_5",
+                "to": "ring_1_5",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_6_ring_1_6",
+            {
+                "from": "ring_2_6",
+                "to": "ring_1_6",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_7_ring_1_7",
+            {
+                "from": "ring_2_7",
+                "to": "ring_1_7",
+                "strength": 1
+            }
+        ],
+        [
+            "ring_2_1_ring_4_1",
+            {
+                "from": "ring_2_1",
                 "to": "ring_4_1",
                 "strength": 1
             }
         ],
         [
-            "ring_5_5_ring_2_2",
+            "ring_2_2_ring_4_2",
             {
-                "from": "ring_5_5",
-                "to": "ring_2_2",
+                "from": "ring_2_2",
+                "to": "ring_4_2",
                 "strength": 1
             }
         ],
         [
-            "ring_5_3_ring_3_2",
+            "ring_2_3_ring_4_3",
             {
-                "from": "ring_5_3",
-                "to": "ring_3_2",
+                "from": "ring_2_3",
+                "to": "ring_4_3",
                 "strength": 1
             }
         ],
         [
-            "ring_5_2_ring_5_4",
+            "ring_2_4_ring_4_4",
             {
-                "from": "ring_5_2",
-                "to": "ring_5_4",
+                "from": "ring_2_4",
+                "to": "ring_4_4",
                 "strength": 1
             }
         ],
         [
-            "ring_3_0_ring_4_5",
+            "ring_2_5_ring_4_5",
             {
-                "from": "ring_3_0",
+                "from": "ring_2_5",
                 "to": "ring_4_5",
                 "strength": 1
             }
         ],
         [
-            "ring_5_6_ring_5_5",
+            "ring_2_6_ring_4_6",
             {
-                "from": "ring_5_6",
-                "to": "ring_5_5",
+                "from": "ring_2_6",
+                "to": "ring_4_6",
                 "strength": 1
             }
         ],
         [
-            "ring_2_3_ring_0_6",
+            "ring_2_7_ring_4_7",
             {
-                "from": "ring_2_3",
-                "to": "ring_0_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_4_4_ring_2_2",
-            {
-                "from": "ring_4_4",
-                "to": "ring_2_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_5_ring_5_5",
-            {
-                "from": "ring_5_5",
-                "to": "ring_5_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_5_3_ring_3_6",
-            {
-                "from": "ring_5_3",
-                "to": "ring_3_6",
+                "from": "ring_2_7",
+                "to": "ring_4_7",
                 "strength": 1
             }
         ]
     ]
+}`
+const relativePathToOriginal = "bigger_six.json"
+try {
+    if (relativePathToOriginal && globalThis?.Deno?.readFileSync instanceof Function) {
+        const { FileSystem } = await import("https://deno.land/x/quickr@0.6.72/main/file_system.js")
+        // equivlent to: import.meta.resolve(relativePathToOriginal)
+        // but more bundler-friendly
+        const path = `${FileSystem.thisFolder}/${relativePathToOriginal}`
+        const current = await Deno.readTextFile(path)
+        const original = output
+        output = current
+
+        // update the file whenever (no await)
+        const thisFile = FileSystem.thisFile // equivlent to: import.meta.filename, but more bundler-friendly
+        setTimeout(async () => {
+            try {
+                const changeOccured = !(current.length == original.length && current.every((value, index) => value == original[index]))
+                // update this file
+                if (changeOccured) {
+                    const { binaryify } = await import("https://deno.land/x/binaryify@2.5.5.0/binaryify_api.js")
+                    await binaryify({
+                        pathToBinary: path,
+                        pathToBinarified: thisFile,
+                        forceExportString: true,
+                    })
+                }
+            } catch (e) {
+            }
+        }, 0)
+    }
+} catch (e) {
+    
 }
+        
+export default output
