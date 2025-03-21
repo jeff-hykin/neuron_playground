@@ -419,7 +419,7 @@ export default class InfiniteCanvas {
         for (const [id, node] of this.nodes) {
             this.ctx.beginPath()
             this.ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2)
-            this.ctx.fillStyle = energyToHue(node.energy) // Set fill color based on energy
+            this.ctx.fillStyle = node.color || energyToHue(node.energy) // Set fill color based on energy
             this.ctx.fill()
 
             // Determine node border color based on state
