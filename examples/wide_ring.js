@@ -223,7 +223,7 @@ function getDistance({ node1Id, node2Id, nodeIdToIndex, nodesCopy }) {
 }
 
 let namespaceInc = 0
-function makeRing({ maxWeight, minWeight, neutralDistance = 0.8, startX = 160, startY = 272, radius = 25, namespace = "ring" }) {
+function makeRing({ maxWeight, minWeight, neutralDistance = 0.8, startX = 160, startY = 272, radius = 25, namespace = "ring", energyDecayRate = 0.1, }) {
     namespaceInc++
     const nodesCopy = structuredClone(nodes)
     // normalize
@@ -234,6 +234,7 @@ function makeRing({ maxWeight, minWeight, neutralDistance = 0.8, startX = 160, s
         each.x += startX
         each.y += startY
         each.radius = radius
+        each.energyDecayRate = energyDecayRate
         each.id = `${namespace}_${namespaceInc}_${index + 1}`
         nodesCopy[index] = [each.id, each]
         nodeIdToIndex[each.id] = index
@@ -278,12 +279,15 @@ import { FileSystem, glob } from "https://deno.land/x/quickr@0.7.6/main/file_sys
 await FileSystem.write({
     data: JSON.stringify(
         makeRing({
+            // energyDecayRate: 0.43333333333333335, // same as excitatory weight for nearest neighbor (given a neutral distance of 1.5)
+            energyDecayRate: 0.7, 
             maxWeight: 1.3,
-            minWeight: -0.6,
+            minWeight: -1.6,
             startX: 160,
             startY: 272,
             radius: 25,
             namespace: "ring",
+            neutralDistance: 1.5,
         }),
         null,
         4
