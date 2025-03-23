@@ -258,7 +258,11 @@ class NodeNetwork {
 }
 
 export default class InfiniteCanvas {
-    constructor() {
+    /**
+     * @param {Object} options - Configuration options for the canvas.
+     * @param {Function} [options.onNodeHovered] - Callback function to be called when a node is hovered.
+     */
+    constructor({ onNodeHovered } = {}) {
         // 
         // configurable data
         // 
@@ -275,6 +279,7 @@ export default class InfiniteCanvas {
         this.strokeStyleEdgeCreation = blue
         this.strokeWidthNormal = 2
         this.strokeWidthPulse = 4
+        this.defaultEdgeStrength = 1
         this.arrowLength = 15 // Increased length of the arrowhead
         this.arrowWidth = 8 // Increased width of the arrowhead
         this.normalColor = black // Black for normal state
@@ -286,7 +291,7 @@ export default class InfiniteCanvas {
         
         // internal state
         this.selectedNode = null
-        this.draggingNodeId = null
+        this.draggingNode = null
         this.edgeStartNode = null // Track the first node when creating an edge
         this.offset = { x: 0, y: 0 }
         this.scale = 1
@@ -296,6 +301,7 @@ export default class InfiniteCanvas {
         this.panStartPos = null
         this.mouseDownInfo = null // Shared variable to store mouse down event info
         this.lastHoveredNodeId = null // Track the last-hovered node
+        this.onNodeHovered = onNodeHovered // Callback for node hover
         
         this.internalParameters = {
             selfEdgeStartAngle: -2.807285748448284,
@@ -360,7 +366,7 @@ export default class InfiniteCanvas {
                 }
             } else {
                 // Normal click - pulse and start potential drag
-                this.draggingNodeId = hoveredNodeId
+                this.draggingNode = hoveredNodeId
                 this.isDragging = false
                 this.dragStartPos = pos
             }
@@ -381,9 +387,14 @@ export default class InfiniteCanvas {
     handleMouseMove(e) {
         const pos = this.getMousePos(e)
         const hoveredNodeId = this.findNodeIdAtPosition(pos)
-        this.lastHoveredNodeId = hoveredNodeId || this.lastHoveredNodeId
+        if (hoveredNodeId !== this.lastHoveredNodeId) {
+            this.lastHoveredNodeId = hoveredNodeId || this.lastHoveredNodeId
+            if (this.lastHoveredNodeId && this.onNodeHovered) {
+                this.onNodeHovered(this.nodeNetwork.nodes.get(this.lastHoveredNodeId))
+            }
+        }
 
-        if (this.draggingNodeId) {
+        if (this.draggingNode) {
             // Only start dragging if mouse has moved a bit
             if (!this.isDragging) {
                 const dx = pos.x - this.dragStartPos.x
@@ -395,7 +406,7 @@ export default class InfiniteCanvas {
             }
 
             if (this.isDragging) {
-                const nodeData = this.nodeNetwork.nodes.get(this.draggingNodeId)
+                const nodeData = this.nodeNetwork.nodes.get(this.draggingNode)
                 nodeData.x = pos.x
                 nodeData.y = pos.y
             }
@@ -428,7 +439,7 @@ export default class InfiniteCanvas {
                 this.nodeNetwork.manuallySpike(nodeId)
             }
         }
-        this.draggingNodeId = null
+        this.draggingNode = null
         this.isDragging = false
         this.isPanning = false
         this.dragStartPos = null

@@ -95,7 +95,10 @@ function createSettingsPanel({onValueChange, numericInputs, children}) {
 
 // Create instance when the page loads
 window.addEventListener("load", () => {
-    const canvas = new InfiniteCanvas()
+    const infoPanel = html`<div style="height: 5rem; overflow: auto;position: fixed; right: 0; bottom: 0; width: 200px; background: transparent;">[info area]</div>`
+    const canvas = new InfiniteCanvas({ onNodeHovered: (node)=>{
+        infoPanel.innerHTML = `Node ID: ${node.id}<br>Energy: ${node.energy.toFixed(2)}<br>Energy Decay Rate: ${node.energyDecayRate}`
+    }})
 
     const settingsPanel = createSettingsPanel({
         onValueChange: ({labelText, value}) => {
@@ -127,7 +130,7 @@ window.addEventListener("load", () => {
             {labelText: 'Energy After Firing', defaultValue: canvas.nodeNetwork.defaultNodeData.energyAfterFiring, stepValue: 0.1},
         ],
     })
-    
+
     document.body = html`<body style="margin: 0; overflow: hidden; background: #f0f0f0; font-family: Helvetica, Arial, sans-serif;">
         ${canvas.element}
         <div style="position: fixed; top: 20px; right: 20px; gap: 2rem; display: flex;">
@@ -136,5 +139,6 @@ window.addEventListener("load", () => {
             ${Button({ children: "Next", onClick: () => canvas.next() })}
         </div>
         ${settingsPanel}
+        ${infoPanel}
     </body>`
 })
