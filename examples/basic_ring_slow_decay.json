@@ -9,7 +9,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -24,7 +24,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -39,7 +39,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -54,7 +54,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -69,7 +69,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -84,7 +84,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -99,7 +99,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0
@@ -114,7 +114,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.1,
+                "energyDecayRate": 0.01,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0

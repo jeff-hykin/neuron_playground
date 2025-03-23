@@ -86,10 +86,11 @@ export default class InfiniteCanvas {
             spikeThreshold: 1,
             energy: 0.1,
             energyDecayRate: 0.1,
-            isFiring: false,
+            isFiringNext: false,
             stableEnergyLevel: 0.1,
             energyAfterFiring: 0,
             radius: 25, // Assign default radius
+            fireRateProbabilityOfDelay: 0.1,
         }
         this.edgeThickness = 5
         this.dragThreshold = 5
@@ -362,7 +363,7 @@ export default class InfiniteCanvas {
     
     manuallyFireNode(node) {
         node.energy = node.spikeThreshold
-        node.isFiring = true
+        node.isFiringNext = true
         this.pulseNode(node)
     }
 
@@ -510,7 +511,7 @@ export default class InfiniteCanvas {
 
         // Collect energy from fired nodes
         for (let eachNode of nodes) {
-            if (eachNode.isFiring) {
+            if (eachNode.isFiringNext) {
                 for (const edge of this.edges.values()) {
                     if (edge.from === eachNode.id) {
                         const targetNode = this.nodes.get(edge.to)
@@ -525,9 +526,9 @@ export default class InfiniteCanvas {
 
         // Reset nodes that just fired
         for (let eachNode of nodes) {
-            if (eachNode.isFiring) {
+            if (eachNode.isFiringNext) {
                 eachNode.energy = eachNode.energyAfterFiring
-                eachNode.isFiring = false
+                eachNode.isFiringNext = false
                 // Animate that it's firing
                 this.pulseNode(eachNode)
             }
@@ -544,13 +545,13 @@ export default class InfiniteCanvas {
         // Discover what new nodes are firing
         for (let eachNode of nodes) {
             if (eachNode.energy >= eachNode.spikeThreshold) {
-                eachNode.isFiring = true
+                eachNode.isFiringNext = true
             }
         }
 
         // Account for decay
         for (let eachNode of nodes) {
-            if (!eachNode.isFiring) {
+            if (!eachNode.isFiringNext) {
                 eachNode.energy -= eachNode.energyDecayRate
                 if (eachNode.energy < eachNode.stableEnergyLevel) {
                     eachNode.energy = eachNode.stableEnergyLevel

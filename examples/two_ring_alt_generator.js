@@ -11,7 +11,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -26,7 +26,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -41,7 +41,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -56,7 +56,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -71,7 +71,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -86,7 +86,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -101,7 +101,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
@@ -116,7 +116,7 @@ const nodes = [
             "spikeThreshold": 1,
             "energy": 0.1,
             "energyDecayRate": 0.1,
-            "isFiring": false,
+            "isFiringNext": false,
             "stableEnergyLevel": 0.1,
             "energyAfterFiring": 0
         }
