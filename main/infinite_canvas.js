@@ -149,7 +149,7 @@ export default class InfiniteCanvas {
         // Animation frame
         this.animate()
     }
-
+    
     resizeCanvas() {
         const ratio = window.devicePixelRatio || 1;
         this.element.width = window.innerWidth * ratio;
@@ -158,7 +158,7 @@ export default class InfiniteCanvas {
         this.element.style.height = window.innerHeight + 'px';
         this.ctx.scale(ratio, ratio);
     }
-
+    
     handleMouseDown(event) {
         const shiftWasPressed = event.shiftKey
         const isRightClick = event.button === 2
@@ -208,7 +208,7 @@ export default class InfiniteCanvas {
             this.panStartPos = { x: event.clientX, y: event.clientY }
         }
     }
-
+    
     handleMouseMove(e) {
         const pos = this.getMousePos(e)
         const hoveredNodeId = this.findNodeIdAtPosition(pos)
@@ -246,7 +246,7 @@ export default class InfiniteCanvas {
             this.draw()
         }
     }
-
+    
     handleMouseUp(e) {
         const mouseDownInfo = this.mouseDownInfo
         this.mouseDownInfo = null // Clear the shared variable
@@ -266,7 +266,7 @@ export default class InfiniteCanvas {
         this.dragStartPos = null
         this.panStartPos = null
     }
-
+    
     handleWheel(e) {
         e.preventDefault()
         const delta = e.deltaY
@@ -274,13 +274,13 @@ export default class InfiniteCanvas {
         this.scale *= scaleFactor
         this.scale = Math.max(this.scaleMin, Math.min(this.scaleMax, this.scale))
     }
-
+    
     handleContextMenu(e) {
         e.preventDefault()
         const pos = this.getMousePos(e)
         this.createNode(pos.x, pos.y)
     }
-
+    
     getMousePos(e) {
         const rect = this.element.getBoundingClientRect()
         return {
@@ -288,7 +288,7 @@ export default class InfiniteCanvas {
             y: (e.clientY - rect.top - this.offset.y) / this.scale,
         }
     }
-
+    
     createNode(x, y) {
         const id = Date.now().toString()
         this.nodes.set(id, {
@@ -299,7 +299,7 @@ export default class InfiniteCanvas {
         })
         return id
     }
-
+    
     createEdge(fromId, toId, strength = 1) {
         const edgeId = `${fromId}-${toId}`
         this.edges.set(edgeId, {
@@ -309,7 +309,7 @@ export default class InfiniteCanvas {
         })
         return edgeId
     }
-
+    
     findNodeIdAtPosition(pos) {
         for (const [id, node] of this.nodes) {
             const dx = pos.x - node.x
@@ -320,7 +320,7 @@ export default class InfiniteCanvas {
         }
         return null
     }
-
+    
     findEdgeAtPosition(pos) {
         const threshold = this.edgeThickness * 1.3
         for (const [id, edge] of this.edges) {
@@ -359,7 +359,7 @@ export default class InfiniteCanvas {
         }
         return null
     }
-
+    
     manuallyFireNode(node) {
         node.energy = node.spikeThreshold
         node.isFiring = true
@@ -368,12 +368,12 @@ export default class InfiniteCanvas {
 
     draw() {
         this.ctx.clearRect(0, 0, this.element.width, this.element.height)
-
+        
         // Apply transformations
         this.ctx.save()
         this.ctx.translate(this.offset.x, this.offset.y)
         this.ctx.scale(this.scale, this.scale)
-
+        
         // Draw edges for the last-hovered node
         if (this.lastHoveredNodeId) {
             for (const edge of this.edges.values()) {
