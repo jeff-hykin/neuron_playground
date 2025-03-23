@@ -85,8 +85,17 @@ export default class InfiniteCanvas {
         this.edgeStartNode = null // Track the first node when creating an edge
         this.offset = { x: 0, y: 0 }
         this.scale = 1
-        this.nodeRadius = 25
-        this.edgeStrength = 1
+        this.defaultNodeData = {
+            pulse: false,
+            spikeThreshold: 1,
+            energy: 0.1,
+            energyDecayRate: 0.1,
+            isFiring: false,
+            stableEnergyLevel: 0.1,
+            energyAfterFiring: 0,
+            radius: 25, // Assign default radius
+        }
+        this.defaultEdgeStrength = 1
         this.isDragging = false
         this.dragStartPos = null
         this.isPanning = false
@@ -276,14 +285,7 @@ export default class InfiniteCanvas {
             x,
             y,
             id,
-            pulse: false,
-            spikeThreshold: 1,
-            energy: 0.1,
-            energyDecayRate: 0.1,
-            isFiring: false,
-            stableEnergyLevel: 0.1,
-            energyAfterFiring: 0,
-            radius: this.nodeRadius, // Assign default radius
+            ...this.defaultNodeData,
         })
         return id
     }
@@ -302,7 +304,7 @@ export default class InfiniteCanvas {
         for (const [id, node] of this.nodes) {
             const dx = pos.x - node.x
             const dy = pos.y - node.y
-            if (dx * dx + dy * dy <= this.nodeRadius * this.nodeRadius) {
+            if (dx * dx + dy * dy <= node.radius * node.radius) {
                 return id
             }
         }
@@ -318,9 +320,9 @@ export default class InfiniteCanvas {
             if (edge.from === edge.to) {
                 // Self-edge as an arc
                 const node = this.nodes.get(edge.from)
-                const centerX = node.x + this.nodeRadius
-                const centerY = node.y - this.nodeRadius
-                const radius = this.nodeRadius
+                const centerX = node.x + node.radius
+                const centerY = node.y - node.radius
+                const radius = node.radius
                 const startAngle = this.internalParameters.selfEdgeStartAngle
                 const endAngle = this.internalParameters.selfEdgeEndAngle
 
@@ -372,16 +374,16 @@ export default class InfiniteCanvas {
                     if (this.lastHoveredNodeId === edge.from) {
                         this.ctx.beginPath()
                         const node = this.nodes.get(edge.from)
-                        const [x, y] = [node.x + this.nodeRadius, node.y - this.nodeRadius]
-                        this.ctx.arc(x, y, this.nodeRadius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle)
+                        const [x, y] = [node.x + node.radius, node.y - node.radius]
+                        this.ctx.arc(x, y, node.radius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle)
                         this.ctx.lineWidth = this.edgeThickness
                         this.ctx.strokeStyle = strengthToColor(edge.strength)
                         this.ctx.stroke()
 
                         drawArrowhead({
                             ctx: this.ctx,
-                            x: node.x + this.nodeRadius * 0.5,
-                            y: node.y - this.nodeRadius * 1.55,
+                            x: node.x + node.radius * 0.5,
+                            y: node.y - node.radius * 1.55,
                             angle: -0.4 + Math.PI * 2,
                             size: this.arrowLength,
                             thickness: this.edgeThickness * 0.5,
@@ -399,8 +401,8 @@ export default class InfiniteCanvas {
 
                     // Draw arrowhead
                     const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x)
-                    const arrowStartX = toNode.x - this.nodeRadius * 1.1 * Math.cos(angle)
-                    const arrowStartY = toNode.y - this.nodeRadius * 1.1 * Math.sin(angle)
+                    const arrowStartX = toNode.x - toNode.radius * 1.1 * Math.cos(angle)
+                    const arrowStartY = toNode.y - toNode.radius * 1.1 * Math.sin(angle)
 
                     drawArrowhead({
                         ctx: this.ctx,
