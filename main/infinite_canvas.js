@@ -459,8 +459,19 @@ export default class InfiniteCanvas {
         e.preventDefault()
         const delta = e.deltaY
         const scaleFactor = delta > 0 ? this.scaleFactorDecrease : this.scaleFactorIncrease
+
+        // Calculate the center of the canvas, accounting for devicePixelRatio
+        const ratio = window.devicePixelRatio || 1
+        const centerX = (this.element.width / 2 / ratio - this.offset.x) / this.scale
+        const centerY = (this.element.height / 2 / ratio - this.offset.y) / this.scale
+
+        // Apply the scale
         this.scale *= scaleFactor
         this.scale = Math.max(this.scaleMin, Math.min(this.scaleMax, this.scale))
+
+        // Adjust the offset to keep the center in place
+        this.offset.x = this.element.width / 2 / ratio - centerX * this.scale
+        this.offset.y = this.element.height / 2 / ratio - centerY * this.scale
     }
 
     handleContextMenu(e) {

@@ -9,7 +9,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -25,7 +25,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -41,7 +41,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -57,7 +57,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -73,7 +73,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -89,7 +89,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -105,7 +105,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -121,7 +121,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -137,7 +137,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -153,7 +153,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -169,7 +169,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -185,7 +185,7 @@
                 "pulse": false,
                 "spikeThreshold": 1,
                 "energy": 0.1,
-                "energyDecayRate": 0.7,
+                "energyDecayRate": 0.1,
                 "isFiringNext": false,
                 "stableEnergyLevel": 0.1,
                 "energyAfterFiring": 0,
@@ -199,7 +199,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_1",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -207,7 +207,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_2",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -215,7 +215,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_3",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -223,7 +223,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_4",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -231,7 +231,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_5",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -239,7 +239,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_6",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -247,7 +247,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_7",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -255,7 +255,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_8",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -263,7 +263,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_9",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -271,7 +271,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_10",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -279,7 +279,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_11",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -287,7 +287,7 @@
             {
                 "from": "ring_1_1",
                 "to": "ring_1_12",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -295,7 +295,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_1",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -303,7 +303,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_2",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -311,7 +311,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_3",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -319,7 +319,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_4",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -327,7 +327,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_5",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -335,7 +335,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_6",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -343,7 +343,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_7",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -351,7 +351,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_8",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -359,7 +359,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_9",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -367,7 +367,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_10",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -375,7 +375,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_11",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -383,7 +383,7 @@
             {
                 "from": "ring_1_2",
                 "to": "ring_1_12",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -391,7 +391,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_1",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -399,7 +399,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_2",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -407,7 +407,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_3",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -415,7 +415,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_4",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -423,7 +423,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_5",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -431,7 +431,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_6",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -439,7 +439,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_7",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -447,7 +447,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_8",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -455,7 +455,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_9",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -463,7 +463,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_10",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -471,7 +471,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_11",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -479,7 +479,7 @@
             {
                 "from": "ring_1_3",
                 "to": "ring_1_12",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -487,7 +487,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_1",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -495,7 +495,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_2",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -503,7 +503,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_3",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -511,7 +511,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_4",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -519,7 +519,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_5",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -527,7 +527,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_6",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -535,7 +535,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_7",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -543,7 +543,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_8",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -551,7 +551,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_9",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -559,7 +559,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_10",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -567,7 +567,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_11",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -575,7 +575,7 @@
             {
                 "from": "ring_1_4",
                 "to": "ring_1_12",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -583,7 +583,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_1",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -591,7 +591,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_2",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -599,7 +599,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_3",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -607,7 +607,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_4",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -615,7 +615,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_5",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -623,7 +623,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_6",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -631,7 +631,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_7",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -639,7 +639,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_8",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -647,7 +647,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_9",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -655,7 +655,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_10",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -663,7 +663,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_11",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -671,7 +671,7 @@
             {
                 "from": "ring_1_5",
                 "to": "ring_1_12",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -679,7 +679,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_1",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -687,7 +687,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_2",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -695,7 +695,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_3",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -703,7 +703,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_4",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -711,7 +711,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_5",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -719,7 +719,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_6",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -727,7 +727,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_7",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -735,7 +735,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_8",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -743,7 +743,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_9",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -751,7 +751,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_10",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -759,7 +759,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_11",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -767,7 +767,7 @@
             {
                 "from": "ring_1_6",
                 "to": "ring_1_12",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -775,7 +775,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_1",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -783,7 +783,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_2",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -791,7 +791,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_3",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -799,7 +799,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_4",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -807,7 +807,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_5",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -815,7 +815,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_6",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -823,7 +823,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_7",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -831,7 +831,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_8",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -839,7 +839,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_9",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -847,7 +847,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_10",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -855,7 +855,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_11",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -863,7 +863,7 @@
             {
                 "from": "ring_1_7",
                 "to": "ring_1_12",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -871,7 +871,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_1",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -879,7 +879,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_2",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -887,7 +887,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_3",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -895,7 +895,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_4",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -903,7 +903,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_5",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -911,7 +911,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_6",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -919,7 +919,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_7",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -927,7 +927,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_8",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -935,7 +935,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_9",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -943,7 +943,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_10",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -951,7 +951,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_11",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -959,7 +959,7 @@
             {
                 "from": "ring_1_8",
                 "to": "ring_1_12",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -967,7 +967,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_1",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -975,7 +975,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_2",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -983,7 +983,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_3",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -991,7 +991,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_4",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -999,7 +999,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_5",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1007,7 +1007,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_6",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1015,7 +1015,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_7",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1023,7 +1023,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_8",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1031,7 +1031,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_9",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -1039,7 +1039,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_10",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1047,7 +1047,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_11",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1055,7 +1055,7 @@
             {
                 "from": "ring_1_9",
                 "to": "ring_1_12",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1063,7 +1063,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_1",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1071,7 +1071,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_2",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1079,7 +1079,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_3",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -1087,7 +1087,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_4",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -1095,7 +1095,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_5",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -1103,7 +1103,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_6",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1111,7 +1111,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_7",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1119,7 +1119,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_8",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1127,7 +1127,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_9",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1135,7 +1135,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_10",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -1143,7 +1143,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_11",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1151,7 +1151,7 @@
             {
                 "from": "ring_1_10",
                 "to": "ring_1_12",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1159,7 +1159,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_1",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1167,7 +1167,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_2",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1175,7 +1175,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_3",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1183,7 +1183,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_4",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -1191,7 +1191,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_5",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -1199,7 +1199,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_6",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -1207,7 +1207,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_7",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1215,7 +1215,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_8",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1223,7 +1223,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_9",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1231,7 +1231,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_10",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1239,7 +1239,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_11",
-                "strength": 1.3
+                "strength": 1
             }
         ],
         [
@@ -1247,7 +1247,7 @@
             {
                 "from": "ring_1_11",
                 "to": "ring_1_12",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1255,7 +1255,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_1",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1263,7 +1263,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_2",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1271,7 +1271,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_3",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1279,7 +1279,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_4",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1287,7 +1287,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_5",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -1295,7 +1295,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_6",
-                "strength": -1.6
+                "strength": -0.8
             }
         ],
         [
@@ -1303,7 +1303,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_7",
-                "strength": -1.2444444444444445
+                "strength": -0.6095238095238096
             }
         ],
         [
@@ -1311,7 +1311,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_8",
-                "strength": -0.888888888888889
+                "strength": -0.41904761904761906
             }
         ],
         [
@@ -1319,7 +1319,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_9",
-                "strength": -0.5333333333333333
+                "strength": -0.22857142857142854
             }
         ],
         [
@@ -1327,7 +1327,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_10",
-                "strength": -0.17777777777777778
+                "strength": -0.038095238095238085
             }
         ],
         [
@@ -1335,7 +1335,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_11",
-                "strength": 0.43333333333333335
+                "strength": 0.4444444444444444
             }
         ],
         [
@@ -1343,7 +1343,7 @@
             {
                 "from": "ring_1_12",
                 "to": "ring_1_12",
-                "strength": 1.3
+                "strength": 1
             }
         ]
     ],
