@@ -276,8 +276,8 @@ export default class InfiniteCanvas {
         this.dragThreshold = 5
         this.scaleMin = 0.1
         this.scaleMax = 5
-        this.scaleFactorIncrease = 1.1
-        this.scaleFactorDecrease = 0.9
+        this.scaleFactorIncrease = 1.01
+        this.scaleFactorDecrease = 0.99
         this.pulseDuration = 200
         this.strokeStyleEdge = gray
         this.strokeStyleNormal = black
