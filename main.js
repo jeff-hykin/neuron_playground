@@ -90,6 +90,32 @@ function createSettingsPanel({onValueChange, numericInputs, children}) {
         settingsPanel.appendChild(createInputField(each))
     }
 
+    const usageInstructions = `
+        <strong>How do I use it?</strong>
+        <ul>
+            <li>Right click to add a neuron</li>
+            <li>Click and drag to move a neuron around or pan around the canvas</li>
+            <li>Scroll to zoom in and out</li>
+            <li>Shift-click one neuron, then shift-click another neuron to create a connection between them.</li>
+            <li>Click a connection to change its weight (it can be negative, expected values are between -1 and 1)</li>
+            <li>Click a neuron to make it spike/fire</li>
+            <li>Click the "Next" button to step the simulation forward one step and see the results</li>
+            <li>You can make pretty advanced networks by saving, editing the JSON of the save file, and loading it back in</li>
+        </ul>
+    `
+
+    const instructionsDiv = document.createElement('div')
+    instructionsDiv.style.marginTop = '20px'
+    instructionsDiv.style.padding = '10px'
+    instructionsDiv.style.backgroundColor = '#f0f0f0'
+    instructionsDiv.style.border = '1px solid #ccc'
+    instructionsDiv.style.borderRadius = '4px'
+    instructionsDiv.style.fontSize = '12px'
+    instructionsDiv.style.lineHeight = '1.5'
+    instructionsDiv.innerHTML = usageInstructions
+
+    settingsPanel.appendChild(instructionsDiv)
+
     return settingsPanel
 }
 
