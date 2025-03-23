@@ -101,30 +101,30 @@ window.addEventListener("load", () => {
         onValueChange: ({labelText, value}) => {
             switch (labelText) {
                 case 'Node Radius':
-                    canvas.defaultNodeData.radius = value-0
-                    canvas.nodes.map(each=>each[1].radius = value-0)
+                    canvas.nodeNetwork.defaultNodeData.radius = value-0
+                    canvas.nodeNetwork.nodes.forEach(node => node.radius = value-0)
                     break;
                 case 'Energy Decay Rate':
-                    canvas.defaultNodeData.energyDecayRate = value-0
-                    canvas.nodes.map(each=>each[1].energyDecayRate = value-0)
+                    canvas.nodeNetwork.defaultNodeData.energyDecayRate = value-0
+                    canvas.nodeNetwork.nodes.forEach(node => node.energyDecayRate = value-0)
                     break;
                 case 'Stable Energy Level':
-                    canvas.defaultNodeData.stableEnergyLevel = value-0
-                    canvas.nodes.map(each=>each[1].stableEnergyLevel = value-0)
+                    canvas.nodeNetwork.defaultNodeData.stableEnergyLevel = value-0
+                    canvas.nodeNetwork.nodes.forEach(node => node.stableEnergyLevel = value-0)
                     break;
                 case 'Energy After Firing':
-                    canvas.defaultNodeData.energyAfterFiring = value-0
-                    canvas.nodes.map(each=>each[1].energyAfterFiring = value-0)
+                    canvas.nodeNetwork.defaultNodeData.energyAfterFiring = value-0
+                    canvas.nodeNetwork.nodes.forEach(node => node.energyAfterFiring = value-0)
                     break;
                 default:
                     break;
             }
         },
         numericInputs: [
-            {labelText: 'Node Radius', defaultValue: canvas.defaultNodeData.radius},
-            {labelText: 'Energy Decay Rate', defaultValue: canvas.defaultNodeData.energyDecayRate},
-            {labelText: 'Stable Energy Level', defaultValue: canvas.defaultNodeData.stableEnergyLevel, stepValue: 0.1},
-            {labelText: 'Energy After Firing', defaultValue: canvas.defaultNodeData.energyAfterFiring, stepValue: 0.1},
+            {labelText: 'Node Radius', defaultValue: canvas.nodeNetwork.defaultNodeData.radius},
+            {labelText: 'Energy Decay Rate', defaultValue: canvas.nodeNetwork.defaultNodeData.energyDecayRate},
+            {labelText: 'Stable Energy Level', defaultValue: canvas.nodeNetwork.defaultNodeData.stableEnergyLevel, stepValue: 0.1},
+            {labelText: 'Energy After Firing', defaultValue: canvas.nodeNetwork.defaultNodeData.energyAfterFiring, stepValue: 0.1},
         ],
     })
     

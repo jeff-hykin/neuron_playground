@@ -76,22 +76,185 @@ function strengthToColor(strength) {
     }
 }
 
+/**
+ * Represents a network of nodes and edges.
+ * @class
+ */
+class NodeNetwork {
+    /**
+     * Creates an instance of NodeNetwork.
+     * @param {Object} params - The parameters for the network.
+     * @param {Object} params.defaultNodeData - Default data for nodes.
+     * @param {number} params.defaultNodeData.spikeThreshold - The energy level a node must reach to trigger a spike. Example: 1.
+     * @param {number} params.defaultNodeData.energy - The current energy level of the node. Example: 0.1.
+     * @param {number} params.defaultNodeData.energyDecayRate - The rate at which a node's energy decreases over time if it is not firing. Example: 0.1.
+     * @param {boolean} params.defaultNodeData.isFiringNext - A flag indicating whether the node is set to fire in the next cycle. Example: false.
+     * @param {number} params.defaultNodeData.stableEnergyLevel - The minimum energy level a node can have due to decay. Example: 0.1.
+     * @param {number} params.defaultNodeData.energyAfterFiring - The energy level a node is set to after it fires. Example: 0.
+     * @param {Object} params.defaultEdgeData - Default data for edges.
+     */
+    constructor({ defaultNodeData = {
+        pulse: false,
+        spikeThreshold: 1,
+        energy: 0.1,
+        energyDecayRate: 0.1,
+        isFiringNext: false,
+        stableEnergyLevel: 0.1,
+        energyAfterFiring: 0,
+        radius: 25,
+    }, defaultEdgeData={
+        edgeStrength: 1,
+        strengthNoiseParameters: {
+            mean: 0,
+            std: 0.1,
+        },
+    } }) {
+        this.nodes = new Map()
+        this.edges = new Map()
+        this.defaultNodeData = defaultNodeData
+        this.defaultEdgeData = defaultEdgeData
+    }
+
+    /**
+     * Creates a new node in the network.
+     * @param {Object} nodeData - The data for the new node.
+     * @param {number} nodeData.x - The x-coordinate of the node.
+     * @param {number} nodeData.y - The y-coordinate of the node.
+     * @param {number} [nodeData.spikeThreshold=1] - The energy level a node must reach to trigger a spike.
+     * @param {number} [nodeData.energy=0.1] - The current energy level of the node.
+     * @param {number} [nodeData.energyDecayRate=0.1] - The rate at which a node's energy decreases over time if it is not firing.
+     * @param {boolean} [nodeData.isFiringNext=false] - A flag indicating whether the node is set to fire in the next cycle.
+     * @param {number} [nodeData.stableEnergyLevel=0.1] - The minimum energy level a node can have due to decay.
+     * @param {number} [nodeData.energyAfterFiring=0] - The energy level a node is set to after it fires.
+     * @param {Object} [nodeData.other] - Additional data for the node.
+     * @returns {string} The ID of the newly created node.
+     */
+    newNode({ x, y, ...other }) {
+        const id = Date.now().toString()
+        this.nodes.set(id, {
+            x,
+            y,
+            id,
+            ...this.defaultNodeData,
+            ...other,
+        })
+        return id
+    }
+
+    /**
+     * Creates a new edge between two nodes.
+     * @param {Object} edgeData - The data for the new edge.
+     * @param {string} edgeData.fromId - The ID of the starting node.
+     * @param {string} edgeData.toId - The ID of the ending node.
+     * @param {number} [edgeData.strength=1] - The strength of the edge.
+     * @returns {string} The ID of the newly created edge.
+     */
+    newEdge({ fromId, toId, strength = 1 }) {
+        const edgeId = `${fromId}-${toId}`
+        this.edges.set(edgeId, {
+            from: fromId,
+            to: toId,
+            strength: strength,
+            ...this.defaultEdgeData,
+        })
+        return edgeId
+    }
+
+    manuallySpike(nodeId) {
+        const node = this.nodes.get(nodeId)
+        if (node) {
+            node.energy = node.spikeThreshold
+            node.isFiringNext = true
+        }
+    }
+
+    next() {
+        const nodes = Array.from(this.nodes.values())
+        const amountToAddForEach = {}
+
+        // Collect energy from fired nodes
+        for (let eachNode of nodes) {
+            if (eachNode.isFiringNext) {
+                for (const edge of this.edges.values()) {
+                    if (edge.from === eachNode.id) {
+                        const targetNode = this.nodes.get(edge.to)
+                        if (targetNode) {
+                            amountToAddForEach[targetNode.id] = amountToAddForEach[targetNode.id] || 0
+                            amountToAddForEach[targetNode.id] += edge.strength
+                        }
+                    }
+                }
+            }
+        }
+
+        // Reset nodes that just fired
+        for (let eachNode of nodes) {
+            if (eachNode.isFiringNext) {
+                eachNode.energy = eachNode.energyAfterFiring
+                eachNode.isFiringNext = false
+            }
+        }
+
+        // Add the amountToAddForEach to the nodes
+        for (const [key, value] of Object.entries(amountToAddForEach)) {
+            const node = this.nodes.get(key)
+            if (node) {
+                node.energy += value
+            }
+        }
+
+        // Discover what new nodes are firing
+        for (let eachNode of nodes) {
+            if (eachNode.energy >= eachNode.spikeThreshold) {
+                eachNode.isFiringNext = true
+            }
+        }
+
+        // Account for decay
+        for (let eachNode of nodes) {
+            if (!eachNode.isFiringNext) {
+                eachNode.energy -= eachNode.energyDecayRate
+                if (eachNode.energy < eachNode.stableEnergyLevel) {
+                    eachNode.energy = eachNode.stableEnergyLevel
+                }
+            }
+        }
+    }
+
+    load(data) {
+        if (!(data.nodes instanceof Array) || !(data.edges instanceof Array)) {
+            throw new Error("Invalid data format. Expected an object with 'nodes' and 'edges' properties that are both arrays.")
+        }
+        if (data.nodes.length == 0) {
+            throw new Error("Invalid data format. Expected at least one node.")
+        }
+        if (!(data.nodes.every(each=>each instanceof Array))) {
+            throw new Error("Invalid data format. Expected the all nodes to be key-value arrays.")
+        }
+        if (!(data.edges.every(each=>each instanceof Array))) {
+            throw new Error("Invalid data format. Expected the all edges to be key-value arrays.")
+        }
+
+        // Clear existing nodes and edges
+        this.nodes.clear()
+        this.edges.clear()
+
+        // Load new nodes and edges from the provided data
+        for (const [id, nodeData] of data.nodes) {
+            this.nodes.set(id, { ...this.defaultNodeData, ...nodeData })
+        }
+
+        for (const [id, edgeData] of data.edges) {
+            this.edges.set(id, edgeData)
+        }
+    }
+}
+
 export default class InfiniteCanvas {
     constructor() {
         // 
         // configurable data
         // 
-        this.defaultNodeData = {
-            pulse: false,
-            spikeThreshold: 1,
-            energy: 0.1,
-            energyDecayRate: 0.1,
-            isFiringNext: false,
-            stableEnergyLevel: 0.1,
-            energyAfterFiring: 0,
-            radius: 25, // Assign default radius
-            fireRateProbabilityOfDelay: 0.1,
-        }
         this.edgeThickness = 5
         this.dragThreshold = 5
         this.scaleMin = 0.1
@@ -105,7 +268,6 @@ export default class InfiniteCanvas {
         this.strokeStyleEdgeCreation = blue
         this.strokeWidthNormal = 2
         this.strokeWidthPulse = 4
-        this.defaultEdgeStrength = 1
         this.arrowLength = 15 // Increased length of the arrowhead
         this.arrowWidth = 8 // Increased width of the arrowhead
         this.normalColor = black // Black for normal state
@@ -113,12 +275,11 @@ export default class InfiniteCanvas {
         this.strokeStyleOutgoingEdge = blue // Blue for outgoing edges
         
         // core data
-        this.nodes = new Map()
-        this.edges = new Map()
+        this.nodeNetwork = new NodeNetwork({})
         
         // internal state
         this.selectedNode = null
-        this.draggingNode = null
+        this.draggingNodeId = null
         this.edgeStartNode = null // Track the first node when creating an edge
         this.offset = { x: 0, y: 0 }
         this.scale = 1
@@ -150,7 +311,7 @@ export default class InfiniteCanvas {
         // Animation frame
         this.animate()
     }
-    
+
     resizeCanvas() {
         const ratio = window.devicePixelRatio || 1;
         this.element.width = window.innerWidth * ratio;
@@ -159,7 +320,7 @@ export default class InfiniteCanvas {
         this.element.style.height = window.innerHeight + 'px';
         this.ctx.scale(ratio, ratio);
     }
-    
+
     handleMouseDown(event) {
         const shiftWasPressed = event.shiftKey
         const isRightClick = event.button === 2
@@ -187,17 +348,17 @@ export default class InfiniteCanvas {
                     this.edgeStartNode = hoveredNodeId
                 } else {
                     // Second shift-click - create edge
-                    this.createEdge(this.edgeStartNode, hoveredNodeId, this.defaultEdgeStrength)
+                    this.nodeNetwork.newEdge({ fromId: this.edgeStartNode, toId: hoveredNodeId, })
                     this.edgeStartNode = null
                 }
             } else {
                 // Normal click - pulse and start potential drag
-                this.draggingNode = hoveredNodeId
+                this.draggingNodeId = hoveredNodeId
                 this.isDragging = false
                 this.dragStartPos = pos
             }
         } else if (hoveredEdgeId) {
-            const edge = this.edges.get(hoveredEdgeId)
+            const edge = this.nodeNetwork.edges.get(hoveredEdgeId)
             const newStrength = parseFloat(globalThis.prompt(`Edge weight: ${edge.strength}\nPress okay to acknowledge, or enter replacement value`))
             // if is number
             if (newStrength - 0 === newStrength) {
@@ -209,13 +370,13 @@ export default class InfiniteCanvas {
             this.panStartPos = { x: event.clientX, y: event.clientY }
         }
     }
-    
+
     handleMouseMove(e) {
         const pos = this.getMousePos(e)
         const hoveredNodeId = this.findNodeIdAtPosition(pos)
         this.lastHoveredNodeId = hoveredNodeId || this.lastHoveredNodeId
 
-        if (this.draggingNode) {
+        if (this.draggingNodeId) {
             // Only start dragging if mouse has moved a bit
             if (!this.isDragging) {
                 const dx = pos.x - this.dragStartPos.x
@@ -227,7 +388,7 @@ export default class InfiniteCanvas {
             }
 
             if (this.isDragging) {
-                const nodeData = this.nodes.get(this.draggingNode)
+                const nodeData = this.nodeNetwork.nodes.get(this.draggingNodeId)
                 nodeData.x = pos.x
                 nodeData.y = pos.y
             }
@@ -247,7 +408,7 @@ export default class InfiniteCanvas {
             this.draw()
         }
     }
-    
+
     handleMouseUp(e) {
         const mouseDownInfo = this.mouseDownInfo
         this.mouseDownInfo = null // Clear the shared variable
@@ -257,17 +418,16 @@ export default class InfiniteCanvas {
             if (wasNormalNodeClick) {
                 const nodeId = mouseDownInfo.hoveredNodeId
                 // Manually spike the node if it was not dragged
-                const node = this.nodes.get(nodeId)
-                this.manuallyFireNode(node)
+                this.nodeNetwork.manuallySpike(nodeId)
             }
         }
-        this.draggingNode = null
+        this.draggingNodeId = null
         this.isDragging = false
         this.isPanning = false
         this.dragStartPos = null
         this.panStartPos = null
     }
-    
+
     handleWheel(e) {
         e.preventDefault()
         const delta = e.deltaY
@@ -275,13 +435,13 @@ export default class InfiniteCanvas {
         this.scale *= scaleFactor
         this.scale = Math.max(this.scaleMin, Math.min(this.scaleMax, this.scale))
     }
-    
+
     handleContextMenu(e) {
         e.preventDefault()
         const pos = this.getMousePos(e)
-        this.createNode(pos.x, pos.y)
+        this.nodeNetwork.newNode({ x: pos.x, y: pos.y, defaultNodeData: this.defaultNodeData })
     }
-    
+
     getMousePos(e) {
         const rect = this.element.getBoundingClientRect()
         return {
@@ -289,30 +449,9 @@ export default class InfiniteCanvas {
             y: (e.clientY - rect.top - this.offset.y) / this.scale,
         }
     }
-    
-    createNode(x, y) {
-        const id = Date.now().toString()
-        this.nodes.set(id, {
-            x,
-            y,
-            id,
-            ...this.defaultNodeData,
-        })
-        return id
-    }
-    
-    createEdge(fromId, toId, strength = 1) {
-        const edgeId = `${fromId}-${toId}`
-        this.edges.set(edgeId, {
-            from: fromId,
-            to: toId,
-            strength: strength,
-        })
-        return edgeId
-    }
-    
+
     findNodeIdAtPosition(pos) {
-        for (const [id, node] of this.nodes) {
+        for (const [id, node] of this.nodeNetwork.nodes) {
             const dx = pos.x - node.x
             const dy = pos.y - node.y
             if (dx * dx + dy * dy <= node.radius * node.radius) {
@@ -321,16 +460,16 @@ export default class InfiniteCanvas {
         }
         return null
     }
-    
+
     findEdgeAtPosition(pos) {
         const threshold = this.edgeThickness * 1.3
-        for (const [id, edge] of this.edges) {
-            const fromNode = this.nodes.get(edge.from)
-            const toNode = this.nodes.get(edge.to)
+        for (const [id, edge] of this.nodeNetwork.edges) {
+            const fromNode = this.nodeNetwork.nodes.get(edge.from)
+            const toNode = this.nodeNetwork.nodes.get(edge.to)
 
             if (edge.from === edge.to) {
                 // Self-edge as an arc
-                const node = this.nodes.get(edge.from)
+                const node = this.nodeNetwork.nodes.get(edge.from)
                 const centerX = node.x + node.radius
                 const centerY = node.y - node.radius
                 const radius = node.radius
@@ -360,31 +499,25 @@ export default class InfiniteCanvas {
         }
         return null
     }
-    
-    manuallyFireNode(node) {
-        node.energy = node.spikeThreshold
-        node.isFiringNext = true
-        this.pulseNode(node)
-    }
 
     draw() {
         this.ctx.clearRect(0, 0, this.element.width, this.element.height)
-        
+
         // Apply transformations
         this.ctx.save()
         this.ctx.translate(this.offset.x, this.offset.y)
         this.ctx.scale(this.scale, this.scale)
-        
+
         // Draw edges for the last-hovered node
         if (this.lastHoveredNodeId) {
-            for (const edge of this.edges.values()) {
-                const fromNode = this.nodes.get(edge.from)
-                const toNode = this.nodes.get(edge.to)
+            for (const edge of this.nodeNetwork.edges.values()) {
+                const fromNode = this.nodeNetwork.nodes.get(edge.from)
+                const toNode = this.nodeNetwork.nodes.get(edge.to)
 
                 if (edge.from === edge.to) {
                     if (this.lastHoveredNodeId === edge.from) {
                         this.ctx.beginPath()
-                        const node = this.nodes.get(edge.from)
+                        const node = this.nodeNetwork.nodes.get(edge.from)
                         const [x, y] = [node.x + node.radius, node.y - node.radius]
                         this.ctx.arc(x, y, node.radius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle)
                         this.ctx.lineWidth = this.edgeThickness
@@ -429,7 +562,7 @@ export default class InfiniteCanvas {
         }
 
         // Draw nodes
-        for (const [id, node] of this.nodes) {
+        for (const [id, node] of this.nodeNetwork.nodes) {
             this.ctx.beginPath()
             this.ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2)
             this.ctx.fillStyle = node.color || energyToHue(node.energy) // Set fill color based on energy
@@ -460,106 +593,17 @@ export default class InfiniteCanvas {
 
     saveToJSON() {
         return JSON.stringify({
-            nodes: Array.from(this.nodes.entries()),
-            edges: Array.from(this.edges.entries()),
+            nodes: Array.from(this.nodeNetwork.nodes.entries()),
+            edges: Array.from(this.nodeNetwork.edges.entries()),
         })
     }
 
     load(data) {
-        if (!(data.nodes instanceof Array) || !(data.edges instanceof Array)) {
-            throw new Error("Invalid data format. Expected an object with 'nodes' and 'edges' properties that are both arrays.")
-        }
-        if (data.nodes.length == 0) {
-            throw new Error("Invalid data format. Expected at least one node.")
-        }
-        if (!(data.nodes.every(each=>each instanceof Array))) {
-            throw new Error("Invalid data format. Expected the all nodes to be key-value arrays.")
-        }
-        if (!(data.edges.every(each=>each instanceof Array))) {
-            throw new Error("Invalid data format. Expected the all edges to be key-value arrays.")
-        }
-
-        // Clear existing nodes and edges
-        this.nodes.clear()
-        this.edges.clear()
-
-        // Load new nodes and edges from the provided data
-        for (const [id, nodeData] of data.nodes) {
-            this.nodes.set(id, { ...this.defaultNodeData, ...nodeData })
-        }
-
-        for (const [id, edgeData] of data.edges) {
-            this.edges.set(id, edgeData)
-        }
-    }
-
-    pulseNode(node) {
-        if (!node.isPulsing) {
-            // Check if the node is already pulsing
-            node.isPulsing = true
-            node.pulse = true
-            setTimeout(() => {
-                node.pulse = false
-                node.isPulsing = false
-            }, this.pulseDuration)
-        }
+        this.nodeNetwork.load(data)
     }
 
     next() {
-        const nodes = Array.from(this.nodes.values())
-        const amountToAddForEach = {}
-
-        // Collect energy from fired nodes
-        for (let eachNode of nodes) {
-            if (eachNode.isFiringNext) {
-                for (const edge of this.edges.values()) {
-                    if (edge.from === eachNode.id) {
-                        const targetNode = this.nodes.get(edge.to)
-                        if (targetNode) {
-                            amountToAddForEach[targetNode.id] = amountToAddForEach[targetNode.id] || 0
-                            amountToAddForEach[targetNode.id] += edge.strength
-                        }
-                    }
-                }
-            }
-        }
-
-        // Reset nodes that just fired
-        for (let eachNode of nodes) {
-            if (eachNode.isFiringNext) {
-                eachNode.energy = eachNode.energyAfterFiring
-                eachNode.isFiringNext = false
-                // Animate that it's firing
-                this.pulseNode(eachNode)
-            }
-        }
-
-        // Add the amountToAddForEach to the nodes
-        for (const [key, value] of Object.entries(amountToAddForEach)) {
-            const node = this.nodes.get(key)
-            if (node) {
-                node.energy += value
-            }
-        }
-
-        // Discover what new nodes are firing
-        for (let eachNode of nodes) {
-            if (eachNode.energy >= eachNode.spikeThreshold) {
-                eachNode.isFiringNext = true
-            }
-        }
-
-        // Account for decay
-        for (let eachNode of nodes) {
-            if (!eachNode.isFiringNext) {
-                eachNode.energy -= eachNode.energyDecayRate
-                if (eachNode.energy < eachNode.stableEnergyLevel) {
-                    eachNode.energy = eachNode.stableEnergyLevel
-                }
-            }
-        }
-
-        // Redraw the canvas
+        this.nodeNetwork.next()
         this.draw()
     }
 }
