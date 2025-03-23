@@ -18,7 +18,6 @@ class RingAttractorNetwork(nn.Module):
         no_interhemispheric_split: Union[bool, Iterable[str]] = True,
         use_landmarks: bool = True,
         use_velocity: bool = True,
-        initial_angle: float = 0.0,
         initial_weight_scale: float = 1.0,
         activation_function: Callable = nn.ReLU,
         bias_values: Union[float, Iterable[float]] = None,
@@ -35,7 +34,6 @@ class RingAttractorNetwork(nn.Module):
             no_interhemispheric_split (Union[bool,Iterable[str]], optional): Don't split ipsilateral/contralateral connections (the connections between hemispheres). Defaults to True.
             use_landmarks (bool, optional): Make the model expect landmark input. Defaults to True.
             use_velocity (bool, optional): Make the model expect velocity input. Defaults to True.
-            initial_angle (float, optional): Initial angle of the model. Defaults to 0.0.
             initial_weight_scale (float, optional): Initial weight scaling factor. Defaults to 1.0.
             activation_function (Callable, optional): Activation_function function to use. Defaults to nn.ReLU.
             bias_values (Union[float,Iterable[float]], optional): Initial bias values. Defaults to None.
@@ -78,7 +76,6 @@ class RingAttractorNetwork(nn.Module):
         self.scaling_factor_masks = None
         self.update_parameterizations()
 
-        self.initial_angle = initial_angle
         self.activation_function = activation_function()
         self.state_size = len(initial_weights)
         self.output_size = len(initial_weights[population_slices["epg"]])
