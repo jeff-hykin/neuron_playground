@@ -474,7 +474,7 @@ export default class InfiniteCanvas {
 
         // Load new nodes and edges from the provided data
         for (const [id, nodeData] of data.nodes) {
-            this.nodes.set(id, nodeData)
+            this.nodes.set(id, { ...this.defaultNodeData, ...nodeData })
         }
 
         for (const [id, edgeData] of data.edges) {
