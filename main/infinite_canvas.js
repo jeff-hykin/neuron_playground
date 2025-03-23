@@ -78,13 +78,9 @@ function strengthToColor(strength) {
 
 export default class InfiniteCanvas {
     constructor() {
-        this.nodes = new Map()
-        this.edges = new Map()
-        this.selectedNode = null
-        this.draggingNode = null
-        this.edgeStartNode = null // Track the first node when creating an edge
-        this.offset = { x: 0, y: 0 }
-        this.scale = 1
+        // 
+        // configurable data
+        // 
         this.defaultNodeData = {
             pulse: false,
             spikeThreshold: 1,
@@ -95,11 +91,6 @@ export default class InfiniteCanvas {
             energyAfterFiring: 0,
             radius: 25, // Assign default radius
         }
-        this.defaultEdgeStrength = 1
-        this.isDragging = false
-        this.dragStartPos = null
-        this.isPanning = false
-        this.panStartPos = null
         this.edgeThickness = 5
         this.dragThreshold = 5
         this.scaleMin = 0.1
@@ -113,23 +104,38 @@ export default class InfiniteCanvas {
         this.strokeStyleEdgeCreation = blue
         this.strokeWidthNormal = 2
         this.strokeWidthPulse = 4
-        this.mouseDownInfo = null // Shared variable to store mouse down event info
-        this.lastHoveredNodeId = null // Track the last-hovered node
+        this.defaultEdgeStrength = 1
         this.arrowLength = 15 // Increased length of the arrowhead
         this.arrowWidth = 8 // Increased width of the arrowhead
         this.normalColor = black // Black for normal state
         this.strokeStyleIncomingEdge = red // Red for incoming edges
         this.strokeStyleOutgoingEdge = blue // Blue for outgoing edges
+        
+        // core data
+        this.nodes = new Map()
+        this.edges = new Map()
+        
+        // internal state
+        this.selectedNode = null
+        this.draggingNode = null
+        this.edgeStartNode = null // Track the first node when creating an edge
+        this.offset = { x: 0, y: 0 }
+        this.scale = 1
+        this.isDragging = false
+        this.dragStartPos = null
+        this.isPanning = false
+        this.panStartPos = null
+        this.mouseDownInfo = null // Shared variable to store mouse down event info
+        this.lastHoveredNodeId = null // Track the last-hovered node
+        
         this.internalParameters = {
             selfEdgeStartAngle: -2.807285748448284,
             selfEdgeEndAngle: 1.7585218457865455,
         }
-
-        // Create canvas and context
+        
+        // Canvas
         this.element = document.createElement("canvas")
         this.ctx = this.element.getContext("2d")
-
-        // Set canvas size
         this.resizeCanvas()
         window.addEventListener("resize", () => this.resizeCanvas())
 
@@ -145,8 +151,12 @@ export default class InfiniteCanvas {
     }
 
     resizeCanvas() {
-        this.element.width = window.innerWidth
-        this.element.height = window.innerHeight
+        const ratio = window.devicePixelRatio || 1;
+        this.element.width = window.innerWidth * ratio;
+        this.element.height = window.innerHeight * ratio;
+        this.element.style.width = window.innerWidth + 'px';
+        this.element.style.height = window.innerHeight + 'px';
+        this.ctx.scale(ratio, ratio);
     }
 
     handleMouseDown(event) {
@@ -176,7 +186,7 @@ export default class InfiniteCanvas {
                     this.edgeStartNode = hoveredNodeId
                 } else {
                     // Second shift-click - create edge
-                    this.createEdge(this.edgeStartNode, hoveredNodeId)
+                    this.createEdge(this.edgeStartNode, hoveredNodeId, this.defaultEdgeStrength)
                     this.edgeStartNode = null
                 }
             } else {
