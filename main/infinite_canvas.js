@@ -1,5 +1,7 @@
 import colors from "./colors.js"
 import { lightenColor, interpolateColor } from "./colors.js"
+// import { randomNormal } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.7.0/source/flattened/random_normal.js'
+import { randomNormal } from 'https://esm.sh/gh/jeff-hykin/good-js@42aa6e1/source/flattened/random_normal.js'
 
 const { red, blue, orange, yellow, purple, green, white, black, gray } = colors
 
@@ -180,7 +182,12 @@ class NodeNetwork {
                         const targetNode = this.nodes.get(edge.to)
                         if (targetNode) {
                             amountToAddForEach[targetNode.id] = amountToAddForEach[targetNode.id] || 0
-                            amountToAddForEach[targetNode.id] += edge.strength
+                            let strength = edge.strength 
+                            if (edge.strengthNoiseParameters) {
+                                const noise = randomNormal(edge.strengthNoiseParameters)
+                                strength += noise
+                            }
+                            amountToAddForEach[targetNode.id] += strength
                         }
                     }
                 }
