@@ -396,7 +396,10 @@ export default class InfiniteCanvas {
         if (hoveredNodeId !== this.lastHoveredNodeId) {
             this.lastHoveredNodeId = hoveredNodeId || this.lastHoveredNodeId
             if (this.lastHoveredNodeId && this.onNodeHovered) {
-                this.onNodeHovered(this.nodeNetwork.nodes.get(this.lastHoveredNodeId))
+                const node = this.nodeNetwork.nodes.get(this.lastHoveredNodeId)
+                if (node) {
+                    this.onNodeHovered(node)
+                }
             }
         }
 
