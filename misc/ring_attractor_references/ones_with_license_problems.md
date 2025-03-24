@@ -3,3 +3,4 @@
 - BrainPy:
     - https://github.com/brainpy/examples/tree/main/attractors
     - https://github.com/chaoming0625/BrainPyExamples/blob/835a2de4504ad45abb3a70da4cbfb76eaac42a5c/cann/Wu_2008_CANN.py
+- Marcosaura RL: https://github.com/marcosaura/RA_RL/blob/3ad9c39bad32db4005411fe4311601f4ad4c21f5/DL-RNN/DDQNRA/RA.py
