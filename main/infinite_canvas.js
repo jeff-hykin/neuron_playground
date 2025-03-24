@@ -559,33 +559,36 @@ export default class InfiniteCanvas {
             const fromNode = this.nodeNetwork.nodes.find(node => node.id === edge.from)
             const toNode = this.nodeNetwork.nodes.find(node => node.id === edge.to)
 
-            if (edge.from === edge.to) {
-                // Self-edge as an arc
-                const node = this.nodeNetwork.nodes.find(node => node.id === edge.from)
-                const centerX = node.x + node.radius
-                const centerY = node.y - node.radius
-                const radius = node.radius
-                const startAngle = this.internalParameters.selfEdgeStartAngle
-                const endAngle = this.internalParameters.selfEdgeEndAngle
+            // Only check edges associated with the last hovered node
+            if (edge.from === this.lastHoveredNodeId || edge.to === this.lastHoveredNodeId) {
+                if (edge.from === edge.to) {
+                    // Self-edge as an arc
+                    const node = this.nodeNetwork.nodes.find(node => node.id === edge.from)
+                    const centerX = node.x + node.radius
+                    const centerY = node.y - node.radius
+                    const radius = node.radius
+                    const startAngle = this.internalParameters.selfEdgeStartAngle
+                    const endAngle = this.internalParameters.selfEdgeEndAngle
 
-                // Calculate the angle of the point relative to the arc's center
-                const angle = Math.atan2(pos.y - centerY, pos.x - centerX)
+                    // Calculate the angle of the point relative to the arc's center
+                    const angle = Math.atan2(pos.y - centerY, pos.x - centerX)
 
-                // Check if the point is within the arc's angle range
-                if (angle >= startAngle && angle <= endAngle) {
-                    // Calculate the distance from the point to the arc's center
-                    const distToCenter = Math.hypot(pos.x - centerX, pos.y - centerY)
+                    // Check if the point is within the arc's angle range
+                    if (angle >= startAngle && angle <= endAngle) {
+                        // Calculate the distance from the point to the arc's center
+                        const distToCenter = Math.hypot(pos.x - centerX, pos.y - centerY)
 
-                    // Check if the distance is close to the arc's radius
-                    if (Math.abs(distToCenter - radius) < threshold) {
+                        // Check if the distance is close to the arc's radius
+                        if (Math.abs(distToCenter - radius) < threshold) {
+                            return `${edge.from}-${edge.to}`
+                        }
+                    }
+                } else {
+                    // Normal edge as a line
+                    const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y })
+                    if (dist < threshold) {
                         return `${edge.from}-${edge.to}`
                     }
-                }
-            } else {
-                // Normal edge as a line
-                const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y })
-                if (dist < threshold) {
-                    return `${edge.from}-${edge.to}`
                 }
             }
         }
