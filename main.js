@@ -162,6 +162,7 @@ window.addEventListener("load", () => {
         <div style="position: fixed; top: 20px; right: 20px; gap: 2rem; display: flex;">
             ${Button({ children: "Save", onClick: () => downloadCanvasState(canvas) })}
             ${Button({ children: "Load", onClick: () => loadCanvasState(canvas) })}
+            ${Button({ children: "Back", onClick: () => { canvas.nodeNetwork.back(); canvas.draw(); } })}
             ${Button({ children: "Next", onClick: () => canvas.next() })}
         </div>
         ${settingsPanel}

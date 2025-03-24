@@ -2,6 +2,7 @@ import colors from "./colors.js"
 import { lightenColor, interpolateColor } from "./colors.js"
 // import { randomNormal } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.7.0/source/flattened/random_normal.js'
 import { randomNormal } from 'https://esm.sh/gh/jeff-hykin/good-js@42aa6e1/source/flattened/random_normal.js'
+import { showErrorToast } from "../imports/good_component.js"
 
 const { red, blue, orange, yellow, purple, green, white, black, gray } = colors
 
@@ -117,10 +118,30 @@ class NodeNetwork {
             std: 0.1,
         },
     } }) {
-        this.nodes = new Map()
-        this.edges = new Map()
+        this.nodes = []
+        this.edges = []
         this.defaultNodeData = defaultNodeData
         this.defaultEdgeData = defaultEdgeData
+        this.stateBuffer = [] // Buffer to store the last 100 states
+    }
+
+    saveState() {
+        const state = {
+            nodes: this.nodes.map(node => ({ ...node })),
+            edges: this.edges.map(edge => ({ ...edge })),
+        }
+        this.stateBuffer.push(state)
+        if (this.stateBuffer.length > 100) {
+            this.stateBuffer.shift() // Remove the oldest state if buffer exceeds 100
+        }
+    }
+
+    back() {
+        if (this.stateBuffer.length > 0) {
+            const previousState = this.stateBuffer.pop()
+            this.nodes = previousState.nodes
+            this.edges = previousState.edges
+        }
     }
 
     /**
@@ -139,7 +160,7 @@ class NodeNetwork {
      */
     newNode({ x, y, ...other }) {
         const id = Date.now().toString()
-        this.nodes.set(id, {
+        this.nodes.push({
             x,
             y,
             id,
@@ -159,7 +180,8 @@ class NodeNetwork {
      */
     newEdge({ fromId, toId, strength = 1 }) {
         const edgeId = `${fromId}-${toId}`
-        this.edges.set(edgeId, {
+        this.edges.push({
+            id: `${fromId}-${toId}`,
             from: fromId,
             to: toId,
             strength: strength,
@@ -169,7 +191,7 @@ class NodeNetwork {
     }
 
     manuallySpike(nodeId) {
-        const node = this.nodes.get(nodeId)
+        const node = this.nodes.find(node => node.id === nodeId)
         if (node) {
             node.energy = node.spikeThreshold
             node.isFiringNext = true
@@ -177,15 +199,15 @@ class NodeNetwork {
     }
 
     next() {
-        const nodes = Array.from(this.nodes.values())
+        this.saveState() // Save the current state before proceeding
         const amountToAddForEach = {}
 
         // Collect energy from fired nodes
-        for (let eachNode of nodes) {
+        for (let eachNode of this.nodes) {
             if (eachNode.isFiringNext) {
-                for (const edge of this.edges.values()) {
+                for (const edge of this.edges) {
                     if (edge.from === eachNode.id) {
-                        const targetNode = this.nodes.get(edge.to)
+                        const targetNode = this.nodes.find(node => node.id === edge.to)
                         if (targetNode) {
                             amountToAddForEach[targetNode.id] = amountToAddForEach[targetNode.id] || 0
                             let strength = edge.strength 
@@ -201,7 +223,7 @@ class NodeNetwork {
         }
 
         // Reset nodes that just fired
-        for (let eachNode of nodes) {
+        for (let eachNode of this.nodes) {
             if (eachNode.isFiringNext) {
                 eachNode.energy = eachNode.energyAfterFiring
                 eachNode.isFiringNext = false
@@ -210,21 +232,21 @@ class NodeNetwork {
 
         // Add the amountToAddForEach to the nodes
         for (const [key, value] of Object.entries(amountToAddForEach)) {
-            const node = this.nodes.get(key)
+            const node = this.nodes.find(node => node.id === key)
             if (node) {
                 node.energy += value
             }
         }
 
         // Discover what new nodes are firing
-        for (let eachNode of nodes) {
+        for (let eachNode of this.nodes) {
             if (eachNode.energy >= eachNode.spikeThreshold) {
                 eachNode.isFiringNext = true
             }
         }
 
         // Account for decay
-        for (let eachNode of nodes) {
+        for (let eachNode of this.nodes) {
             if (!eachNode.isFiringNext) {
                 eachNode.energy -= eachNode.energyDecayRate
                 if (eachNode.energy < eachNode.stableEnergyLevel) {
@@ -235,31 +257,63 @@ class NodeNetwork {
     }
 
     load(data) {
-        if (!(data.nodes instanceof Array) || !(data.edges instanceof Array)) {
-            throw new Error("Invalid data format. Expected an object with 'nodes' and 'edges' properties that are both arrays.")
-        }
-        if (data.nodes.length == 0) {
-            throw new Error("Invalid data format. Expected at least one node.")
-        }
-        if (!(data.nodes.every(each=>each instanceof Array))) {
-            throw new Error("Invalid data format. Expected the all nodes to be key-value arrays.")
-        }
-        if (!(data.edges.every(each=>each instanceof Array))) {
-            throw new Error("Invalid data format. Expected the all edges to be key-value arrays.")
-        }
+        // 
+        // validation
+        // 
+            if (!(data.nodes instanceof Array) || !(data.edges instanceof Array)) {
+                throw new Error("Invalid data format. Expected an object with 'nodes' and 'edges' properties that are both arrays.")
+            }
+            if (data.nodes.length == 0) {
+                throw new Error("Invalid data format. Expected at least one node.")
+            }
+
+            // detect and support old format (TODO: eventually remove once all the examples are updated)
+            if (data.nodes.some(each=>each instanceof Array) || data.edges.some(each=>each instanceof Array)) {
+                if (data.nodes.every(each=>each instanceof Array) && data.edges.every(each=>each instanceof Array)) {
+                    data.nodes = data.nodes.map(each=>each[1])
+                    data.edges = data.edges.map(each=>each[1])
+                }
+            }
+
+            const warnings = []
+            const nodeIds = new Set()
+            const edgeIds = new Set()
+
+            // Check for duplicate node IDs
+            for (let index = 0; index < data.nodes.length; index++) {
+                const node = data.nodes[index]
+                if (nodeIds.has(node.id)) {
+                    warnings.push(`Duplicate node ID '${node.id}' found at index ${index}`)
+                } else {
+                    nodeIds.add(node.id)
+                }
+            }
+
+            // Check for duplicate edge IDs
+            for (let index = 0; index < data.edges.length; index++) {
+                const edge = data.edges[index]
+                const edgeId = `${edge.from}-${edge.to}`
+                if (edgeIds.has(edgeId)) {
+                    warnings.push(`Duplicate edge ID '${edgeId}' found at index ${index}`)
+                } else {
+                    edgeIds.add(edgeId)
+                }
+            }
 
         // Clear existing nodes and edges
-        this.nodes.clear()
-        this.edges.clear()
+        this.nodes.length = 0
+        this.edges.length = 0
 
         // Load new nodes and edges from the provided data
-        for (const [id, nodeData] of data.nodes) {
-            this.nodes.set(id, { ...this.defaultNodeData, ...nodeData })
+        for (const nodeData of data.nodes) {
+            this.nodes.push({ ...this.defaultNodeData, ...nodeData })
         }
 
-        for (const [id, edgeData] of data.edges) {
-            this.edges.set(id, edgeData)
+        for (const edgeData of data.edges) {
+            this.edges.push(edgeData)
         }
+
+        return warnings
     }
 }
 
@@ -377,7 +431,7 @@ export default class InfiniteCanvas {
                 this.dragStartPos = pos
             }
         } else if (hoveredEdgeId) {
-            const edge = this.nodeNetwork.edges.get(hoveredEdgeId)
+            const edge = this.nodeNetwork.edges.find(e => e.from === hoveredEdgeId.split('-')[0] && e.to === hoveredEdgeId.split('-')[1])
             const newStrength = parseFloat(globalThis.prompt(`Edge weight: ${edge.strength}\nPress okay to acknowledge, or enter replacement value`))
             // if is number
             if (newStrength - 0 === newStrength) {
@@ -396,7 +450,7 @@ export default class InfiniteCanvas {
         if (hoveredNodeId !== this.lastHoveredNodeId) {
             this.lastHoveredNodeId = hoveredNodeId || this.lastHoveredNodeId
             if (this.lastHoveredNodeId && this.onNodeHovered) {
-                const node = this.nodeNetwork.nodes.get(this.lastHoveredNodeId)
+                const node = this.nodeNetwork.nodes.find(n => n.id === this.lastHoveredNodeId)
                 if (node) {
                     this.onNodeHovered(node)
                 }
@@ -415,7 +469,7 @@ export default class InfiniteCanvas {
             }
 
             if (this.isDragging) {
-                const nodeData = this.nodeNetwork.nodes.get(this.draggingNode)
+                const nodeData = this.nodeNetwork.nodes.find(n => n.id === this.draggingNode)
                 nodeData.x = pos.x
                 nodeData.y = pos.y
             }
@@ -489,11 +543,11 @@ export default class InfiniteCanvas {
     }
 
     findNodeIdAtPosition(pos) {
-        for (const [id, node] of this.nodeNetwork.nodes) {
+        for (const node of this.nodeNetwork.nodes) {
             const dx = pos.x - node.x
             const dy = pos.y - node.y
             if (dx * dx + dy * dy <= node.radius * node.radius) {
-                return id
+                return node.id
             }
         }
         return null
@@ -501,13 +555,13 @@ export default class InfiniteCanvas {
 
     findEdgeAtPosition(pos) {
         const threshold = this.edgeThickness * 1.3
-        for (const [id, edge] of this.nodeNetwork.edges) {
-            const fromNode = this.nodeNetwork.nodes.get(edge.from)
-            const toNode = this.nodeNetwork.nodes.get(edge.to)
+        for (const edge of this.nodeNetwork.edges) {
+            const fromNode = this.nodeNetwork.nodes.find(node => node.id === edge.from)
+            const toNode = this.nodeNetwork.nodes.find(node => node.id === edge.to)
 
             if (edge.from === edge.to) {
                 // Self-edge as an arc
-                const node = this.nodeNetwork.nodes.get(edge.from)
+                const node = this.nodeNetwork.nodes.find(node => node.id === edge.from)
                 const centerX = node.x + node.radius
                 const centerY = node.y - node.radius
                 const radius = node.radius
@@ -524,14 +578,14 @@ export default class InfiniteCanvas {
 
                     // Check if the distance is close to the arc's radius
                     if (Math.abs(distToCenter - radius) < threshold) {
-                        return id
+                        return `${edge.from}-${edge.to}`
                     }
                 }
             } else {
                 // Normal edge as a line
                 const dist = pointToSegmentDistance(pos, { x: fromNode.x, y: fromNode.y }, { x: toNode.x, y: toNode.y })
                 if (dist < threshold) {
-                    return id
+                    return `${edge.from}-${edge.to}`
                 }
             }
         }
@@ -548,14 +602,14 @@ export default class InfiniteCanvas {
 
         // Draw edges for the last-hovered node
         if (this.lastHoveredNodeId) {
-            for (const edge of this.nodeNetwork.edges.values()) {
-                const fromNode = this.nodeNetwork.nodes.get(edge.from)
-                const toNode = this.nodeNetwork.nodes.get(edge.to)
+            for (const edge of this.nodeNetwork.edges) {
+                const fromNode = this.nodeNetwork.nodes.find(node => node.id === edge.from)
+                const toNode = this.nodeNetwork.nodes.find(node => node.id === edge.to)
 
                 if (edge.from === edge.to) {
                     if (this.lastHoveredNodeId === edge.from) {
                         this.ctx.beginPath()
-                        const node = this.nodeNetwork.nodes.get(edge.from)
+                        const node = this.nodeNetwork.nodes.find(node => node.id === edge.from)
                         const [x, y] = [node.x + node.radius, node.y - node.radius]
                         this.ctx.arc(x, y, node.radius, this.internalParameters.selfEdgeStartAngle, this.internalParameters.selfEdgeEndAngle)
                         this.ctx.lineWidth = this.edgeThickness
@@ -600,14 +654,14 @@ export default class InfiniteCanvas {
         }
 
         // Draw nodes
-        for (const [id, node] of this.nodeNetwork.nodes) {
+        for (const node of this.nodeNetwork.nodes) {
             this.ctx.beginPath()
             this.ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2)
             this.ctx.fillStyle = node.color || energyToHue(node.energy) // Set fill color based on energy
             this.ctx.fill()
 
             // Determine node border color based on state
-            if (id === this.edgeStartNode) {
+            if (node.id === this.edgeStartNode) {
                 this.ctx.strokeStyle = this.strokeStyleEdgeCreation
             } else if (node.pulse) {
                 this.ctx.strokeStyle = this.strokeStylePulse
@@ -631,13 +685,22 @@ export default class InfiniteCanvas {
 
     saveToJSON() {
         return JSON.stringify({
-            nodes: Array.from(this.nodeNetwork.nodes.entries()),
-            edges: Array.from(this.nodeNetwork.edges.entries()),
+            nodes: this.nodeNetwork.nodes.map(node => ({ ...node })),
+            edges: this.nodeNetwork.edges.map(edge => ({ ...edge })),
         })
     }
 
     load(data) {
-        this.nodeNetwork.load(data)
+        let stuffToReport = []
+        try {
+            const stuffToReport = this.nodeNetwork.load(data)
+        } catch (error) {
+            stuffToReport = [error?.stack||error.message]
+        }
+        for (let each of stuffToReport) {
+            showErrorToast(each)
+            console.debug(`data is:`,data)
+        }
     }
 
     next() {
