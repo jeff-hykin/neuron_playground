@@ -19,6 +19,7 @@ const lightGreen = "#98df8a"
 // const yellow = "#ffde16"
 
 export function makeBig8Nodes({ 
+    numberOfNodes=8,
     nameToColor={
         // these are in order outer-to-innner
         green,
@@ -35,6 +36,7 @@ export function makeBig8Nodes({
     innerCircleRadius = 180,
     radiusIncreaseSize = 100,
     angleOffsetIncrementDegrees = 6,
+    angleOffsetIncrementDecay = 0.9,
     hasCenterGap = true,
     defaultNodeData = {
         spikeThreshold: 1,
@@ -58,15 +60,17 @@ export function makeBig8Nodes({
         index++
         workingRadius += radiusIncreaseSize
         angleOffsetDegrees += angleOffsetIncrementDegrees
+        angleOffsetIncrementDegrees *= angleOffsetIncrementDecay
         
         // put a gap in the middle
         if (hasCenterGap && (index == Math.ceil(circleColors.length/2))) {
             workingRadius += radiusIncreaseSize
             angleOffsetDegrees += angleOffsetIncrementDegrees
+            angleOffsetIncrementDegrees *= angleOffsetIncrementDecay
         }
 
         const circle = makeCircleOfNodes({
-            numberOfNodes: 8,
+            numberOfNodes,
             ringRadius: workingRadius,
             namespace: eachColorName,
             circleCenterX: circleCenterX,

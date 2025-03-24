@@ -10,7 +10,7 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 340,
+            "x": 460,
             "y": 272,
             "id": "lightGreen_1_1"
         },
@@ -24,8 +24,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 287.27922061357856,
-            "y": 399.27922061357856,
+            "x": 419.8076211353316,
+            "y": 422,
             "id": "lightGreen_1_2"
         },
         {
@@ -38,8 +38,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 160,
-            "y": 452,
+            "x": 310,
+            "y": 531.8076211353316,
             "id": "lightGreen_1_3"
         },
         {
@@ -52,8 +52,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 32.720779386421455,
-            "y": 399.27922061357856,
+            "x": 160.00000000000003,
+            "y": 572,
             "id": "lightGreen_1_4"
         },
         {
@@ -66,8 +66,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -20,
-            "y": 272,
+            "x": 10.000000000000057,
+            "y": 531.8076211353316,
             "id": "lightGreen_1_5"
         },
         {
@@ -80,8 +80,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 32.72077938642141,
-            "y": 144.72077938642144,
+            "x": -99.80762113533154,
+            "y": 422.0000000000001,
             "id": "lightGreen_1_6"
         },
         {
@@ -94,8 +94,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 159.99999999999997,
-            "y": 92,
+            "x": -140,
+            "y": 272.00000000000006,
             "id": "lightGreen_1_7"
         },
         {
@@ -108,9 +108,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 287.2792206135785,
-            "y": 144.7207793864214,
+            "x": -99.80762113533166,
+            "y": 122.00000000000009,
             "id": "lightGreen_1_8"
+        },
+        {
+            "color": "#98df8a",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 9.999999999999858,
+            "y": 12.192378864668513,
+            "id": "lightGreen_1_9"
+        },
+        {
+            "color": "#98df8a",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 159.99999999999994,
+            "y": -28,
+            "id": "lightGreen_1_10"
+        },
+        {
+            "color": "#98df8a",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 309.9999999999998,
+            "y": 12.192378864668285,
+            "id": "lightGreen_1_11"
+        },
+        {
+            "color": "#98df8a",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 419.8076211353315,
+            "y": 121.99999999999986,
+            "id": "lightGreen_1_12"
         },
         {
             "color": "#ffbf80",
@@ -122,8 +178,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 416.0500157831741,
-            "y": 226.8514738065981,
+            "x": 535.3215694261523,
+            "y": 212.55490328471228,
             "id": "lightOrange_2_1"
         },
         {
@@ -136,8 +192,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 372.97953151513786,
-            "y": 421.129873451272,
+            "x": 514.7605620689367,
+            "y": 408.1798208272141,
             "id": "lightOrange_2_2"
         },
         {
@@ -150,8 +206,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 205.1485261934019,
-            "y": 528.0500157831741,
+            "x": 399.14174859893825,
+            "y": 567.315465353649,
             "id": "lightOrange_2_3"
         },
         {
@@ -164,8 +220,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 10.870126548727995,
-            "y": 484.97953151513786,
+            "x": 219.44509671528775,
+            "y": 647.3215694261523,
             "id": "lightOrange_2_4"
         },
         {
@@ -178,8 +234,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -96.0500157831741,
-            "y": 317.1485261934019,
+            "x": 23.82017917278597,
+            "y": 626.7605620689367,
             "id": "lightOrange_2_5"
         },
         {
@@ -192,8 +248,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -52.979531515137865,
-            "y": 122.870126548728,
+            "x": -135.31546535364885,
+            "y": 511.1417485989383,
             "id": "lightOrange_2_6"
         },
         {
@@ -206,8 +262,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 114.85147380659811,
-            "y": 15.949984216825897,
+            "x": -215.32156942615234,
+            "y": 331.4450967152878,
             "id": "lightOrange_2_7"
         },
         {
@@ -220,9 +276,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 309.129873451272,
-            "y": 59.020468484862135,
+            "x": -194.76056206893668,
+            "y": 135.820179172786,
             "id": "lightOrange_2_8"
+        },
+        {
+            "color": "#ffbf80",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -79.14174859893836,
+            "y": -23.31546535364879,
+            "id": "lightOrange_2_9"
+        },
+        {
+            "color": "#ffbf80",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 100.5549032847122,
+            "y": -103.32156942615234,
+            "id": "lightOrange_2_10"
+        },
+        {
+            "color": "#ffbf80",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 296.1798208272138,
+            "y": -82.76056206893679,
+            "id": "lightOrange_2_11"
+        },
+        {
+            "color": "#ffbf80",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 455.3154653536488,
+            "y": 32.858251401061636,
+            "id": "lightOrange_2_12"
         },
         {
             "color": "#aec7e8",
@@ -234,8 +346,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 479.4954910672089,
-            "y": 155.71315126927266,
+            "x": 599.6647868072318,
+            "y": 136.74145039314018,
             "id": "lightBlue_3_1"
         },
         {
@@ -248,8 +360,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 468.14464759246096,
-            "y": 415.69020899183784,
+            "x": 608.390149327962,
+            "y": 374.6950533650376,
             "id": "lightBlue_3_2"
         },
         {
@@ -262,8 +374,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 276.2868487307274,
-            "y": 591.4954910672088,
+            "x": 496.96973344219424,
+            "y": 585.1315997211021,
             "id": "lightBlue_3_3"
         },
         {
@@ -276,8 +388,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 16.30979100816222,
-            "y": 580.1446475924611,
+            "x": 295.2585496068599,
+            "y": 711.6647868072318,
             "id": "lightBlue_3_4"
         },
         {
@@ -290,8 +402,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -159.49549106720883,
-            "y": 388.2868487307274,
+            "x": 57.304946634962505,
+            "y": 720.390149327962,
             "id": "lightBlue_3_5"
         },
         {
@@ -304,8 +416,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -148.144647592461,
-            "y": 128.30979100816225,
+            "x": -153.13159972110202,
+            "y": 608.9697334421944,
             "id": "lightBlue_3_6"
         },
         {
@@ -318,8 +430,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 43.7131512692727,
-            "y": -47.49549106720889,
+            "x": -279.66478680723185,
+            "y": 407.2585496068599,
             "id": "lightBlue_3_7"
         },
         {
@@ -332,9 +444,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 303.69020899183784,
-            "y": -36.144647592460956,
+            "x": -288.39014932796204,
+            "y": 169.30494663496253,
             "id": "lightBlue_3_8"
+        },
+        {
+            "color": "#aec7e8",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -176.9697334421944,
+            "y": -41.13159972110196,
+            "id": "lightBlue_3_9"
+        },
+        {
+            "color": "#aec7e8",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 24.74145039314007,
+            "y": -167.6647868072318,
+            "id": "lightBlue_3_10"
+        },
+        {
+            "color": "#aec7e8",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 262.6950533650372,
+            "y": -176.3901493279621,
+            "id": "lightBlue_3_11"
+        },
+        {
+            "color": "#aec7e8",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 473.13159972110196,
+            "y": -64.96973344219441,
+            "id": "lightBlue_3_12"
         },
         {
             "color": "#ff9896",
@@ -346,8 +514,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 523.7306695894642,
-            "y": 62.00000000000003,
+            "x": 651.8081035203222,
+            "y": 49.00944120491542,
             "id": "lightRed_4_1"
         },
         {
@@ -360,8 +528,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 565.6888470414087,
-            "y": 380.70399894305876,
+            "x": 697.4135908331883,
+            "y": 324.78856303953035,
             "id": "lightRed_4_2"
         },
         {
@@ -374,8 +542,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 369.99999999999994,
-            "y": 635.7306695894642,
+            "x": 599.0195404807919,
+            "y": 586.4230320381037,
             "id": "lightRed_4_3"
         },
         {
@@ -388,8 +556,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 51.296001056941236,
-            "y": 677.6888470414087,
+            "x": 382.99055879508455,
+            "y": 763.8081035203222,
             "id": "lightRed_4_4"
         },
         {
@@ -402,8 +570,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -203.73066958946424,
-            "y": 482,
+            "x": 107.21143696046973,
+            "y": 809.4135908331883,
             "id": "lightRed_4_5"
         },
         {
@@ -416,8 +584,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -245.68884704140868,
-            "y": 163.29600105694126,
+            "x": -154.42303203810343,
+            "y": 711.019540480792,
             "id": "lightRed_4_6"
         },
         {
@@ -430,8 +598,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -50.0000000000002,
-            "y": -91.73066958946413,
+            "x": -331.8081035203221,
+            "y": 494.9905587950847,
             "id": "lightRed_4_7"
         },
         {
@@ -444,9 +612,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 268.70399894305854,
-            "y": -133.68884704140874,
+            "x": -377.4135908331883,
+            "y": 219.21143696046988,
             "id": "lightRed_4_8"
+        },
+        {
+            "color": "#ff9896",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -279.019540480792,
+            "y": -42.42303203810343,
+            "id": "lightRed_4_9"
+        },
+        {
+            "color": "#ff9896",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -62.99055879508475,
+            "y": -219.8081035203221,
+            "id": "lightRed_4_10"
+        },
+        {
+            "color": "#ff9896",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 212.78856303952983,
+            "y": -265.4135908331883,
+            "id": "lightRed_4_11"
+        },
+        {
+            "color": "#ff9896",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 474.42303203810343,
+            "y": -167.01954048079205,
+            "id": "lightRed_4_12"
         },
         {
             "color": "#d62728",
@@ -458,8 +682,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 532.8168136181928,
-            "y": -172.30577700900727,
+            "x": 720.1025913903497,
+            "y": -147.86317666332076,
             "id": "red_5_1"
         },
         {
@@ -472,8 +696,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 737.7929248932124,
-            "y": 221.44966920635827,
+            "x": 854.9946612011985,
+            "y": 188.4391185911054,
             "id": "red_5_2"
         },
         {
@@ -486,8 +710,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 604.3057770090072,
-            "y": 644.8168136181928,
+            "x": 803.6634727992443,
+            "y": 547.1314845378777,
             "id": "red_5_3"
         },
         {
@@ -500,8 +724,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 210.5503307936417,
-            "y": 849.7929248932124,
+            "x": 579.8631766633208,
+            "y": 832.1025913903497,
             "id": "red_5_4"
         },
         {
@@ -514,8 +738,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -212.81681361819284,
-            "y": 716.3057770090072,
+            "x": 243.56088140889466,
+            "y": 966.9946612011985,
             "id": "red_5_5"
         },
         {
@@ -528,8 +752,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -417.79292489321244,
-            "y": 322.55033079364176,
+            "x": -115.13148453787755,
+            "y": 915.6634727992445,
             "id": "red_5_6"
         },
         {
@@ -542,8 +766,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -284.3057770090073,
-            "y": -100.81681361819278,
+            "x": -400.10259139034974,
+            "y": 691.8631766633207,
             "id": "red_5_7"
         },
         {
@@ -556,9 +780,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 109.44966920635821,
-            "y": -305.79292489321244,
+            "x": -534.9946612011985,
+            "y": 355.5608814088947,
             "id": "red_5_8"
+        },
+        {
+            "color": "#d62728",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -483.66347279924446,
+            "y": -3.1314845378774976,
+            "id": "red_5_9"
+        },
+        {
+            "color": "#d62728",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -259.86317666332104,
+            "y": -288.1025913903495,
+            "id": "red_5_10"
+        },
+        {
+            "color": "#d62728",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 76.43911859110464,
+            "y": -422.99466120119837,
+            "id": "red_5_11"
+        },
+        {
+            "color": "#d62728",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 435.13148453787716,
+            "y": -371.6634727992446,
+            "id": "red_5_12"
         },
         {
             "color": "#1f77b4",
@@ -570,8 +850,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 490.00000000000006,
-            "y": -299.5767664977295,
+            "x": 738.0990081342331,
+            "y": -251.6425658731497,
             "id": "blue_6_1"
         },
         {
@@ -584,8 +864,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 797.5110453507851,
-            "y": 101.17943023233636,
+            "x": 922.4697098834076,
+            "y": 107.56173951810263,
             "id": "blue_6_2"
         },
         {
@@ -598,8 +878,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 731.5767664977295,
-            "y": 602,
+            "x": 902.5372686161305,
+            "y": 510.8271440102578,
             "id": "blue_6_3"
         },
         {
@@ -612,8 +892,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 330.8205697676637,
-            "y": 909.5110453507851,
+            "x": 683.6425658731497,
+            "y": 850.0990081342331,
             "id": "blue_6_4"
         },
         {
@@ -626,8 +906,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -170.00000000000017,
-            "y": 843.5767664977294,
+            "x": 324.4382604818975,
+            "y": 1034.4697098834076,
             "id": "blue_6_5"
         },
         {
@@ -640,8 +920,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -477.51104535078514,
-            "y": 442.8205697676636,
+            "x": -78.82714401025765,
+            "y": 1014.5372686161305,
             "id": "blue_6_6"
         },
         {
@@ -654,8 +934,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -411.5767664977295,
-            "y": -58.00000000000006,
+            "x": -418.09900813423315,
+            "y": 795.6425658731497,
             "id": "blue_6_7"
         },
         {
@@ -668,9 +948,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -10.820569767663613,
-            "y": -365.51104535078514,
+            "x": -602.4697098834075,
+            "y": 436.43826048189754,
             "id": "blue_6_8"
+        },
+        {
+            "color": "#1f77b4",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -582.5372686161305,
+            "y": 33.1728559897424,
+            "id": "blue_6_9"
+        },
+        {
+            "color": "#1f77b4",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -363.6425658731497,
+            "y": -306.09900813423315,
+            "id": "blue_6_10"
+        },
+        {
+            "color": "#1f77b4",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -4.438260481898254,
+            "y": -490.4697098834073,
+            "id": "blue_6_11"
+        },
+        {
+            "color": "#1f77b4",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 398.82714401025794,
+            "y": -470.5372686161305,
+            "id": "blue_6_12"
         },
         {
             "color": "#ff7f0e",
@@ -682,8 +1018,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 413.09490606099496,
-            "y": -423.3725393815722,
+            "x": 747.031274183525,
+            "y": -356.4857063851706,
             "id": "orange_7_1"
         },
         {
@@ -696,8 +1032,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 830.6677624071209,
-            "y": -40.73751368811753,
+            "x": 982.6268494514662,
+            "y": 21.231049446796902,
             "id": "orange_7_2"
         },
         {
@@ -710,8 +1046,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 855.3725393815722,
-            "y": 525.0949060609948,
+            "x": 997.8002247367282,
+            "y": 466.1411430662954,
             "id": "orange_7_3"
         },
         {
@@ -724,8 +1060,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 472.7375136881176,
-            "y": 942.6677624071209,
+            "x": 788.4857063851707,
+            "y": 859.031274183525,
             "id": "orange_7_4"
         },
         {
@@ -738,8 +1074,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -93.09490606099484,
-            "y": 967.3725393815722,
+            "x": 410.7689505532031,
+            "y": 1094.6268494514661,
             "id": "orange_7_5"
         },
         {
@@ -752,8 +1088,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -510.6677624071209,
-            "y": 584.7375136881176,
+            "x": -34.141143066295285,
+            "y": 1109.800224736728,
             "id": "orange_7_6"
         },
         {
@@ -766,8 +1102,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -535.3725393815722,
-            "y": 18.905093939005184,
+            "x": -427.03127418352506,
+            "y": 900.4857063851707,
             "id": "orange_7_7"
         },
         {
@@ -780,9 +1116,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -152.73751368811736,
-            "y": -398.667762407121,
+            "x": -662.6268494514662,
+            "y": 522.7689505532032,
             "id": "orange_7_8"
+        },
+        {
+            "color": "#ff7f0e",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -677.8002247367282,
+            "y": 77.85885693370477,
+            "id": "orange_7_9"
+        },
+        {
+            "color": "#ff7f0e",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -468.4857063851707,
+            "y": -315.03127418352506,
+            "id": "orange_7_10"
+        },
+        {
+            "color": "#ff7f0e",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -90.76895055320355,
+            "y": -550.626849451466,
+            "id": "orange_7_11"
+        },
+        {
+            "color": "#ff7f0e",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 354.1411430662952,
+            "y": -565.8002247367282,
+            "id": "orange_7_12"
         },
         {
             "color": "#2ca02c",
@@ -794,8 +1186,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 302.39150568688297,
-            "y": -535.5423574700105,
+            "x": 748.2663249854181,
+            "y": -461.1730565754244,
             "id": "green_8_1"
         },
         {
@@ -808,8 +1200,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 831.7046763169733,
-            "y": -198.33267780785775,
+            "x": 1036.0401099159967,
+            "y": -68.81332987189404,
             "id": "green_8_2"
         },
         {
@@ -822,8 +1214,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 967.5423574700105,
-            "y": 414.3915056868829,
+            "x": 1089.079654857312,
+            "y": 414.86705334057217,
             "id": "green_8_3"
         },
         {
@@ -836,8 +1228,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 630.3326778078579,
-            "y": 943.7046763169733,
+            "x": 893.1730565754244,
+            "y": 860.266324985418,
             "id": "green_8_4"
         },
         {
@@ -850,8 +1242,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": 17.60849431311715,
-            "y": 1079.5423574700105,
+            "x": 500.81332987189427,
+            "y": 1148.0401099159967,
             "id": "green_8_5"
         },
         {
@@ -864,8 +1256,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -511.70467631697306,
-            "y": 742.3326778078581,
+            "x": 17.132946659428228,
+            "y": 1201.079654857312,
             "id": "green_8_6"
         },
         {
@@ -878,8 +1270,8 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -647.5423574700106,
-            "y": 129.60849431311738,
+            "x": -428.2663249854179,
+            "y": 1005.1730565754245,
             "id": "green_8_7"
         },
         {
@@ -892,9 +1284,65 @@
             "radius": 25,
             "isFiringNext": false,
             "pulse": false,
-            "x": -310.33267780785803,
-            "y": -399.70467631697306,
+            "x": -716.0401099159965,
+            "y": 612.8133298718943,
             "id": "green_8_8"
+        },
+        {
+            "color": "#2ca02c",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -769.0796548573121,
+            "y": 129.13294665942828,
+            "id": "green_8_9"
+        },
+        {
+            "color": "#2ca02c",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -573.1730565754247,
+            "y": -316.2663249854179,
+            "id": "green_8_10"
+        },
+        {
+            "color": "#2ca02c",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": -180.81332987189438,
+            "y": -604.0401099159965,
+            "id": "green_8_11"
+        },
+        {
+            "color": "#2ca02c",
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 302.86705334057206,
+            "y": -657.0796548573121,
+            "id": "green_8_12"
         }
     ],
     "edges": [
@@ -983,14 +1431,62 @@
             "strength": 0.5
         },
         {
-            "id": "lightGreen_1_8_blue_6_1",
+            "id": "lightGreen_1_8_blue_6_9",
             "from": "lightGreen_1_8",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_8_lightBlue_3_9",
+            "from": "lightGreen_1_8",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_9_blue_6_10",
+            "from": "lightGreen_1_9",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_9_lightBlue_3_10",
+            "from": "lightGreen_1_9",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_10_blue_6_11",
+            "from": "lightGreen_1_10",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_10_lightBlue_3_11",
+            "from": "lightGreen_1_10",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_11_blue_6_12",
+            "from": "lightGreen_1_11",
+            "to": "blue_6_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_11_lightBlue_3_12",
+            "from": "lightGreen_1_11",
+            "to": "lightBlue_3_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightGreen_1_12_blue_6_1",
+            "from": "lightGreen_1_12",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
-            "id": "lightGreen_1_8_lightBlue_3_1",
-            "from": "lightGreen_1_8",
+            "id": "lightGreen_1_12_lightBlue_3_1",
+            "from": "lightGreen_1_12",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
@@ -1079,21 +1575,69 @@
             "strength": 0.5
         },
         {
-            "id": "lightOrange_2_8_blue_6_1",
+            "id": "lightOrange_2_8_blue_6_9",
             "from": "lightOrange_2_8",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_8_lightBlue_3_9",
+            "from": "lightOrange_2_8",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_9_blue_6_10",
+            "from": "lightOrange_2_9",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_9_lightBlue_3_10",
+            "from": "lightOrange_2_9",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_10_blue_6_11",
+            "from": "lightOrange_2_10",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_10_lightBlue_3_11",
+            "from": "lightOrange_2_10",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_11_blue_6_12",
+            "from": "lightOrange_2_11",
+            "to": "blue_6_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_11_lightBlue_3_12",
+            "from": "lightOrange_2_11",
+            "to": "lightBlue_3_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightOrange_2_12_blue_6_1",
+            "from": "lightOrange_2_12",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
-            "id": "lightOrange_2_8_lightBlue_3_1",
-            "from": "lightOrange_2_8",
+            "id": "lightOrange_2_12_lightBlue_3_1",
+            "from": "lightOrange_2_12",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
-            "id": "orange_7_1_lightBlue_3_8",
+            "id": "orange_7_1_lightBlue_3_12",
             "from": "orange_7_1",
-            "to": "lightBlue_3_8",
+            "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
@@ -1139,6 +1683,30 @@
             "strength": 0.5
         },
         {
+            "id": "orange_7_9_lightBlue_3_8",
+            "from": "orange_7_9",
+            "to": "lightBlue_3_8",
+            "strength": 0.5
+        },
+        {
+            "id": "orange_7_10_lightBlue_3_9",
+            "from": "orange_7_10",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "orange_7_11_lightBlue_3_10",
+            "from": "orange_7_11",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "orange_7_12_lightBlue_3_11",
+            "from": "orange_7_12",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
             "id": "lightBlue_3_1_red_5_1",
             "from": "lightBlue_3_1",
             "to": "red_5_1",
@@ -1169,21 +1737,21 @@
             "strength": 0.5
         },
         {
-            "id": "lightBlue_3_1_lightGreen_1_8",
+            "id": "lightBlue_3_1_lightGreen_1_12",
             "from": "lightBlue_3_1",
-            "to": "lightGreen_1_8",
+            "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
-            "id": "lightBlue_3_1_lightOrange_2_8",
+            "id": "lightBlue_3_1_lightOrange_2_12",
             "from": "lightBlue_3_1",
-            "to": "lightOrange_2_8",
+            "to": "lightOrange_2_12",
             "strength": 0.5
         },
         {
-            "id": "lightBlue_3_1_blue_6_8",
+            "id": "lightBlue_3_1_blue_6_12",
             "from": "lightBlue_3_1",
-            "to": "blue_6_8",
+            "to": "blue_6_12",
             "strength": 0.5
         },
         {
@@ -1487,15 +2055,15 @@
             "strength": 0.5
         },
         {
-            "id": "lightBlue_3_8_green_8_1",
+            "id": "lightBlue_3_8_green_8_9",
             "from": "lightBlue_3_8",
-            "to": "green_8_1",
+            "to": "green_8_9",
             "strength": 0.5
         },
         {
-            "id": "lightBlue_3_8_orange_7_1",
+            "id": "lightBlue_3_8_orange_7_9",
             "from": "lightBlue_3_8",
-            "to": "orange_7_1",
+            "to": "orange_7_9",
             "strength": 0.5
         },
         {
@@ -1523,6 +2091,198 @@
             "strength": 0.5
         },
         {
+            "id": "lightBlue_3_9_red_5_9",
+            "from": "lightBlue_3_9",
+            "to": "red_5_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_lightRed_4_9",
+            "from": "lightBlue_3_9",
+            "to": "lightRed_4_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_green_8_10",
+            "from": "lightBlue_3_9",
+            "to": "green_8_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_orange_7_10",
+            "from": "lightBlue_3_9",
+            "to": "orange_7_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_lightBlue_3_9",
+            "from": "lightBlue_3_9",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_lightGreen_1_8",
+            "from": "lightBlue_3_9",
+            "to": "lightGreen_1_8",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_lightOrange_2_8",
+            "from": "lightBlue_3_9",
+            "to": "lightOrange_2_8",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_9_blue_6_8",
+            "from": "lightBlue_3_9",
+            "to": "blue_6_8",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_red_5_10",
+            "from": "lightBlue_3_10",
+            "to": "red_5_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_lightRed_4_10",
+            "from": "lightBlue_3_10",
+            "to": "lightRed_4_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_green_8_11",
+            "from": "lightBlue_3_10",
+            "to": "green_8_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_orange_7_11",
+            "from": "lightBlue_3_10",
+            "to": "orange_7_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_lightBlue_3_10",
+            "from": "lightBlue_3_10",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_lightGreen_1_9",
+            "from": "lightBlue_3_10",
+            "to": "lightGreen_1_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_lightOrange_2_9",
+            "from": "lightBlue_3_10",
+            "to": "lightOrange_2_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_10_blue_6_9",
+            "from": "lightBlue_3_10",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_red_5_11",
+            "from": "lightBlue_3_11",
+            "to": "red_5_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_lightRed_4_11",
+            "from": "lightBlue_3_11",
+            "to": "lightRed_4_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_green_8_12",
+            "from": "lightBlue_3_11",
+            "to": "green_8_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_orange_7_12",
+            "from": "lightBlue_3_11",
+            "to": "orange_7_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_lightBlue_3_11",
+            "from": "lightBlue_3_11",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_lightGreen_1_10",
+            "from": "lightBlue_3_11",
+            "to": "lightGreen_1_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_lightOrange_2_10",
+            "from": "lightBlue_3_11",
+            "to": "lightOrange_2_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_11_blue_6_10",
+            "from": "lightBlue_3_11",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_red_5_12",
+            "from": "lightBlue_3_12",
+            "to": "red_5_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_lightRed_4_12",
+            "from": "lightBlue_3_12",
+            "to": "lightRed_4_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_green_8_1",
+            "from": "lightBlue_3_12",
+            "to": "green_8_1",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_orange_7_1",
+            "from": "lightBlue_3_12",
+            "to": "orange_7_1",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_lightBlue_3_12",
+            "from": "lightBlue_3_12",
+            "to": "lightBlue_3_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_lightGreen_1_11",
+            "from": "lightBlue_3_12",
+            "to": "lightGreen_1_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_lightOrange_2_11",
+            "from": "lightBlue_3_12",
+            "to": "lightOrange_2_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightBlue_3_12_blue_6_11",
+            "from": "lightBlue_3_12",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
             "id": "lightRed_4_1_green_8_2",
             "from": "lightRed_4_1",
             "to": "green_8_2",
@@ -1535,9 +2295,9 @@
             "strength": 0.5
         },
         {
-            "id": "lightRed_4_1_lightGreen_1_8",
+            "id": "lightRed_4_1_lightGreen_1_12",
             "from": "lightRed_4_1",
-            "to": "lightGreen_1_8",
+            "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
@@ -1649,9 +2409,9 @@
             "strength": 0.5
         },
         {
-            "id": "lightRed_4_8_green_8_1",
+            "id": "lightRed_4_8_green_8_9",
             "from": "lightRed_4_8",
-            "to": "green_8_1",
+            "to": "green_8_9",
             "strength": 0.5
         },
         {
@@ -1667,6 +2427,78 @@
             "strength": 0.5
         },
         {
+            "id": "lightRed_4_9_green_8_10",
+            "from": "lightRed_4_9",
+            "to": "green_8_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_9_lightBlue_3_9",
+            "from": "lightRed_4_9",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_9_lightGreen_1_8",
+            "from": "lightRed_4_9",
+            "to": "lightGreen_1_8",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_10_green_8_11",
+            "from": "lightRed_4_10",
+            "to": "green_8_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_10_lightBlue_3_10",
+            "from": "lightRed_4_10",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_10_lightGreen_1_9",
+            "from": "lightRed_4_10",
+            "to": "lightGreen_1_9",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_11_green_8_12",
+            "from": "lightRed_4_11",
+            "to": "green_8_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_11_lightBlue_3_11",
+            "from": "lightRed_4_11",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_11_lightGreen_1_10",
+            "from": "lightRed_4_11",
+            "to": "lightGreen_1_10",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_12_green_8_1",
+            "from": "lightRed_4_12",
+            "to": "green_8_1",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_12_lightBlue_3_12",
+            "from": "lightRed_4_12",
+            "to": "lightBlue_3_12",
+            "strength": 0.5
+        },
+        {
+            "id": "lightRed_4_12_lightGreen_1_11",
+            "from": "lightRed_4_12",
+            "to": "lightGreen_1_11",
+            "strength": 0.5
+        },
+        {
             "id": "red_5_1_blue_6_1",
             "from": "red_5_1",
             "to": "blue_6_1",
@@ -1679,9 +2511,9 @@
             "strength": 0.5
         },
         {
-            "id": "red_5_1_lightGreen_1_8",
+            "id": "red_5_1_lightGreen_1_12",
             "from": "red_5_1",
-            "to": "lightGreen_1_8",
+            "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
@@ -1799,15 +2631,87 @@
             "strength": 0.5
         },
         {
-            "id": "red_5_8_green_8_1",
+            "id": "red_5_8_green_8_9",
             "from": "red_5_8",
-            "to": "green_8_1",
+            "to": "green_8_9",
             "strength": 0.5
         },
         {
             "id": "red_5_8_lightGreen_1_7",
             "from": "red_5_8",
             "to": "lightGreen_1_7",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_9_blue_6_9",
+            "from": "red_5_9",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_9_green_8_10",
+            "from": "red_5_9",
+            "to": "green_8_10",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_9_lightGreen_1_8",
+            "from": "red_5_9",
+            "to": "lightGreen_1_8",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_10_blue_6_10",
+            "from": "red_5_10",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_10_green_8_11",
+            "from": "red_5_10",
+            "to": "green_8_11",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_10_lightGreen_1_9",
+            "from": "red_5_10",
+            "to": "lightGreen_1_9",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_11_blue_6_11",
+            "from": "red_5_11",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_11_green_8_12",
+            "from": "red_5_11",
+            "to": "green_8_12",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_11_lightGreen_1_10",
+            "from": "red_5_11",
+            "to": "lightGreen_1_10",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_12_blue_6_12",
+            "from": "red_5_12",
+            "to": "blue_6_12",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_12_green_8_1",
+            "from": "red_5_12",
+            "to": "green_8_1",
+            "strength": 0.5
+        },
+        {
+            "id": "red_5_12_lightGreen_1_11",
+            "from": "red_5_12",
+            "to": "lightGreen_1_11",
             "strength": 0.5
         },
         {
@@ -1847,15 +2751,15 @@
             "strength": 0.5
         },
         {
-            "id": "blue_6_1_lightGreen_1_8",
+            "id": "blue_6_1_lightGreen_1_12",
             "from": "blue_6_1",
-            "to": "lightGreen_1_8",
+            "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
-            "id": "blue_6_1_lightOrange_2_8",
+            "id": "blue_6_1_lightOrange_2_12",
             "from": "blue_6_1",
-            "to": "lightOrange_2_8",
+            "to": "lightOrange_2_12",
             "strength": 0.5
         },
         {
@@ -2153,15 +3057,15 @@
             "strength": 0.5
         },
         {
-            "id": "blue_6_8_green_8_1",
+            "id": "blue_6_8_green_8_9",
             "from": "blue_6_8",
-            "to": "green_8_1",
+            "to": "green_8_9",
             "strength": 0.5
         },
         {
-            "id": "blue_6_8_orange_7_1",
+            "id": "blue_6_8_orange_7_9",
             "from": "blue_6_8",
-            "to": "orange_7_1",
+            "to": "orange_7_9",
             "strength": 0.5
         },
         {
@@ -2195,9 +3099,201 @@
             "strength": 0.5
         },
         {
-            "id": "orange_7_1_blue_6_8",
+            "id": "blue_6_9_blue_6_9",
+            "from": "blue_6_9",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_green_8_10",
+            "from": "blue_6_9",
+            "to": "green_8_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_orange_7_10",
+            "from": "blue_6_9",
+            "to": "orange_7_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_lightBlue_3_9",
+            "from": "blue_6_9",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_red_5_9",
+            "from": "blue_6_9",
+            "to": "red_5_9",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_lightRed_4_9",
+            "from": "blue_6_9",
+            "to": "lightRed_4_9",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_lightGreen_1_8",
+            "from": "blue_6_9",
+            "to": "lightGreen_1_8",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_9_lightOrange_2_8",
+            "from": "blue_6_9",
+            "to": "lightOrange_2_8",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_blue_6_10",
+            "from": "blue_6_10",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_green_8_11",
+            "from": "blue_6_10",
+            "to": "green_8_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_orange_7_11",
+            "from": "blue_6_10",
+            "to": "orange_7_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_lightBlue_3_10",
+            "from": "blue_6_10",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_red_5_10",
+            "from": "blue_6_10",
+            "to": "red_5_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_lightRed_4_10",
+            "from": "blue_6_10",
+            "to": "lightRed_4_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_lightGreen_1_9",
+            "from": "blue_6_10",
+            "to": "lightGreen_1_9",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_10_lightOrange_2_9",
+            "from": "blue_6_10",
+            "to": "lightOrange_2_9",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_blue_6_11",
+            "from": "blue_6_11",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_green_8_12",
+            "from": "blue_6_11",
+            "to": "green_8_12",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_orange_7_12",
+            "from": "blue_6_11",
+            "to": "orange_7_12",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_lightBlue_3_11",
+            "from": "blue_6_11",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_red_5_11",
+            "from": "blue_6_11",
+            "to": "red_5_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_lightRed_4_11",
+            "from": "blue_6_11",
+            "to": "lightRed_4_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_lightGreen_1_10",
+            "from": "blue_6_11",
+            "to": "lightGreen_1_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_11_lightOrange_2_10",
+            "from": "blue_6_11",
+            "to": "lightOrange_2_10",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_blue_6_12",
+            "from": "blue_6_12",
+            "to": "blue_6_12",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_green_8_1",
+            "from": "blue_6_12",
+            "to": "green_8_1",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_orange_7_1",
+            "from": "blue_6_12",
+            "to": "orange_7_1",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_lightBlue_3_12",
+            "from": "blue_6_12",
+            "to": "lightBlue_3_12",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_red_5_12",
+            "from": "blue_6_12",
+            "to": "red_5_12",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_lightRed_4_12",
+            "from": "blue_6_12",
+            "to": "lightRed_4_12",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_lightGreen_1_11",
+            "from": "blue_6_12",
+            "to": "lightGreen_1_11",
+            "strength": 0.5
+        },
+        {
+            "id": "blue_6_12_lightOrange_2_11",
+            "from": "blue_6_12",
+            "to": "lightOrange_2_11",
+            "strength": 0.5
+        },
+        {
+            "id": "orange_7_1_blue_6_12",
             "from": "orange_7_1",
-            "to": "blue_6_8",
+            "to": "blue_6_12",
             "strength": 0.5
         },
         {
@@ -2243,15 +3339,39 @@
             "strength": 0.5
         },
         {
-            "id": "green_8_1_blue_6_8",
-            "from": "green_8_1",
+            "id": "orange_7_9_blue_6_8",
+            "from": "orange_7_9",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
-            "id": "green_8_1_lightBlue_3_8",
+            "id": "orange_7_10_blue_6_9",
+            "from": "orange_7_10",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "orange_7_11_blue_6_10",
+            "from": "orange_7_11",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "orange_7_12_blue_6_11",
+            "from": "orange_7_12",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_1_blue_6_12",
             "from": "green_8_1",
-            "to": "lightBlue_3_8",
+            "to": "blue_6_12",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_1_lightBlue_3_12",
+            "from": "green_8_1",
+            "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
@@ -2336,6 +3456,54 @@
             "id": "green_8_8_lightBlue_3_7",
             "from": "green_8_8",
             "to": "lightBlue_3_7",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_9_blue_6_8",
+            "from": "green_8_9",
+            "to": "blue_6_8",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_9_lightBlue_3_8",
+            "from": "green_8_9",
+            "to": "lightBlue_3_8",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_10_blue_6_9",
+            "from": "green_8_10",
+            "to": "blue_6_9",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_10_lightBlue_3_9",
+            "from": "green_8_10",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_11_blue_6_10",
+            "from": "green_8_11",
+            "to": "blue_6_10",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_11_lightBlue_3_10",
+            "from": "green_8_11",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_12_blue_6_11",
+            "from": "green_8_12",
+            "to": "blue_6_11",
+            "strength": 0.5
+        },
+        {
+            "id": "green_8_12_lightBlue_3_11",
+            "from": "green_8_12",
+            "to": "lightBlue_3_11",
             "strength": 0.5
         }
     ]

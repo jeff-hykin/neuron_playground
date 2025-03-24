@@ -33,9 +33,10 @@ const nameToColor = {
 }
 const {nodes, circlesByColor} = makeBig8Nodes({
     nameToColor,
+    numberOfNodes: 12,
     circleCenterX:160,
     circleCenterY:272,
-    innerCircleRadius: 180,
+    innerCircleRadius: 300,
     radiusIncreaseSize: 80,
     angleOffsetIncrementDegrees: -10,
     hasCenterGap: true,
