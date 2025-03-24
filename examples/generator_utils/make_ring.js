@@ -84,8 +84,6 @@ export function makeRing({
         })
         nodeIdToIndex[id] = index
     }
-    console.debug(`newNodes is:`,newNodes)
-    console.debug(`clockwiseListOfPoints is:`,clockwiseListOfPoints)
 
     // self (getDistance 0)= weight 1 (excitatory)
     // neutral getDistance (ex: two neurons away) = weight 0, (ignore)

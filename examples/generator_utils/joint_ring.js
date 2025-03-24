@@ -17,7 +17,7 @@ export function makeJointRing({ distance=700, ringArgs, minWeight, }) {
     
     const edges = []
     for (let eachSource of ring1.nodes) {
-        for (let eachSource of ring2.nodes) {
+        for (let eachTarget of ring2.nodes) {
             const distanceAsIfRingsWereOverlayed = getDistance({
                 node1Id: eachSource.id,
                 node2Id: eachTarget.id,

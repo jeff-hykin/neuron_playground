@@ -5,20 +5,24 @@ import { makeJointRing } from "./generator_utils/joint_ring.js"
 import { generateCirclePoints } from "./generator_utils/generate_circle_points.js"
 import { zipShort } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/zip_short.js'
 
-const graph = makeRing({
-    numberOfNodes: 12,
-    // energyDecayRate: 0.43333333333333335, // same as excitatory weight for nearest neighbor (given a neutral distance of 1.5)
-    // energyDecayRate: 0.7, 
-    // maxWeight: 1.3,
-    // minWeight: -1.6,
-    startX: 160,
-    startY: 272,
-    radius: 25,
-    namespace: "ring",
-    
-    neutralDistance: 1.8,
-    maxWeight: 1,
-    minWeight: -0.8,
+const graph = makeJointRing({
+    distance: 700,
+    minWeight: -0.2,
+    ringArgs: {
+        numberOfNodes: 12,
+        // energyDecayRate: 0.43333333333333335, // same as excitatory weight for nearest neighbor (given a neutral distance of 1.5)
+        // energyDecayRate: 0.7, 
+        // maxWeight: 1.3,
+        // minWeight: -1.6,
+        startX: 160,
+        startY: 272,
+        radius: 25,
+        namespace: "ring",
+        
+        neutralDistance: 1.8,
+        maxWeight: 1,
+        minWeight: -0.8,
+    },
 })
 
 import { FileSystem, glob } from "https://deno.land/x/quickr@0.7.6/main/file_system.js"
