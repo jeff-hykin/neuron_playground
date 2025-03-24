@@ -91,7 +91,7 @@ export default class InfiniteCanvas {
      * @param {Object} options - Configuration options for the canvas.
      * @param {Function} [options.onNodeHovered] - Callback function to be called when a node is hovered.
      */
-    constructor({ onNodeHovered } = {}) {
+    constructor({ onNodeHovered, zoomSpeed = 0.03 } = {}) {
         // 
         // configurable data
         // 
@@ -99,8 +99,8 @@ export default class InfiniteCanvas {
         this.dragThreshold = 5
         this.scaleMin = 0.1
         this.scaleMax = 5
-        this.scaleFactorIncrease = 1.01
-        this.scaleFactorDecrease = 0.99
+        this.scaleFactorIncrease = 1.00 + zoomSpeed
+        this.scaleFactorDecrease = 1.00 - zoomSpeed
         this.pulseDuration = 200
         this.strokeStyleEdge = gray
         this.strokeStyleNormal = black
@@ -149,6 +149,11 @@ export default class InfiniteCanvas {
         this.element.addEventListener("mouseup", this.handleMouseUp.bind(this))
         this.element.addEventListener("wheel", this.handleWheel.bind(this))
         this.element.addEventListener("contextmenu", this.handleContextMenu.bind(this))
+        window.addEventListener("keydown", (e) => {
+            if (e.key === 'n') {
+                this.next()
+            }
+        })
 
         // Animation frame
         this.animate()
