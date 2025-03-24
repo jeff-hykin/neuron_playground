@@ -1,11 +1,5 @@
 import { randomNormal } from "https://esm.sh/gh/jeff-hykin/good-js@42aa6e1/source/flattened/random_normal.js"
 
-function createGaussianFunction(mean, stdev) {
-    return function (x) {
-        return Math.exp(-(Math.pow(x - mean, 2) / (2 * Math.pow(stdev, 2))))
-    }
-}
-
 /**
  * Represents a network of nodes and edges.
  * @class
@@ -48,7 +42,7 @@ export default class NodeNetwork {
         this.defaultEdgeData = defaultEdgeData
         this.stateBuffer = [] // Buffer to store the last 100 states
     }
-
+    
     saveState() {
         const state = {
             nodes: this.nodes.map((node) => ({ ...node })),
@@ -59,7 +53,7 @@ export default class NodeNetwork {
             this.stateBuffer.shift() // Remove the oldest state if buffer exceeds 100
         }
     }
-
+    
     back() {
         if (this.stateBuffer.length > 0) {
             const previousState = this.stateBuffer.pop()
@@ -67,7 +61,7 @@ export default class NodeNetwork {
             this.edges = previousState.edges
         }
     }
-
+    
     /**
      * Creates a new node in the network.
      * @param {Object} nodeData - The data for the new node.
@@ -93,7 +87,7 @@ export default class NodeNetwork {
         })
         return id
     }
-
+    
     /**
      * Creates a new edge between two nodes.
      * @param {Object} edgeData - The data for the new edge.
@@ -113,7 +107,7 @@ export default class NodeNetwork {
         })
         return edgeId
     }
-
+    
     manuallySpike(nodeId) {
         const node = this.nodes.find((node) => node.id === nodeId)
         if (node) {
@@ -121,7 +115,7 @@ export default class NodeNetwork {
             node.isFiringNext = true
         }
     }
-
+    
     next() {
         this.saveState() // Save the current state before proceeding
         const amountToAddForEach = {}
@@ -179,7 +173,7 @@ export default class NodeNetwork {
             }
         }
     }
-
+    
     load(data) {
         //
         // validation
