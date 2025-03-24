@@ -1347,2160 +1347,2880 @@
     ],
     "edges": [
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_1_blue_6_2",
             "from": "lightGreen_1_1",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_1_lightBlue_3_2",
             "from": "lightGreen_1_1",
             "to": "lightBlue_3_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_2_blue_6_3",
             "from": "lightGreen_1_2",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_2_lightBlue_3_3",
             "from": "lightGreen_1_2",
             "to": "lightBlue_3_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_3_blue_6_4",
             "from": "lightGreen_1_3",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_3_lightBlue_3_4",
             "from": "lightGreen_1_3",
             "to": "lightBlue_3_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_4_blue_6_5",
             "from": "lightGreen_1_4",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_4_lightBlue_3_5",
             "from": "lightGreen_1_4",
             "to": "lightBlue_3_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_5_blue_6_6",
             "from": "lightGreen_1_5",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_5_lightBlue_3_6",
             "from": "lightGreen_1_5",
             "to": "lightBlue_3_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_6_blue_6_7",
             "from": "lightGreen_1_6",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_6_lightBlue_3_7",
             "from": "lightGreen_1_6",
             "to": "lightBlue_3_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_7_blue_6_8",
             "from": "lightGreen_1_7",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_7_lightBlue_3_8",
             "from": "lightGreen_1_7",
             "to": "lightBlue_3_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_8_blue_6_9",
             "from": "lightGreen_1_8",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_8_lightBlue_3_9",
             "from": "lightGreen_1_8",
             "to": "lightBlue_3_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_9_blue_6_10",
             "from": "lightGreen_1_9",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_9_lightBlue_3_10",
             "from": "lightGreen_1_9",
             "to": "lightBlue_3_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_10_blue_6_11",
             "from": "lightGreen_1_10",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_10_lightBlue_3_11",
             "from": "lightGreen_1_10",
             "to": "lightBlue_3_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_11_blue_6_12",
             "from": "lightGreen_1_11",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_11_lightBlue_3_12",
             "from": "lightGreen_1_11",
             "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_blue",
             "id": "lightGreen_1_12_blue_6_1",
             "from": "lightGreen_1_12",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_1",
+            "groupColorId": "lightGreen_1_lightBlue",
             "id": "lightGreen_1_12_lightBlue_3_1",
             "from": "lightGreen_1_12",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_1_blue_6_2",
             "from": "lightOrange_2_1",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_1_lightBlue_3_2",
             "from": "lightOrange_2_1",
             "to": "lightBlue_3_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_2_blue_6_3",
             "from": "lightOrange_2_2",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_2_lightBlue_3_3",
             "from": "lightOrange_2_2",
             "to": "lightBlue_3_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_3_blue_6_4",
             "from": "lightOrange_2_3",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_3_lightBlue_3_4",
             "from": "lightOrange_2_3",
             "to": "lightBlue_3_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_4_blue_6_5",
             "from": "lightOrange_2_4",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_4_lightBlue_3_5",
             "from": "lightOrange_2_4",
             "to": "lightBlue_3_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_5_blue_6_6",
             "from": "lightOrange_2_5",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_5_lightBlue_3_6",
             "from": "lightOrange_2_5",
             "to": "lightBlue_3_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_6_blue_6_7",
             "from": "lightOrange_2_6",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_6_lightBlue_3_7",
             "from": "lightOrange_2_6",
             "to": "lightBlue_3_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_7_blue_6_8",
             "from": "lightOrange_2_7",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_7_lightBlue_3_8",
             "from": "lightOrange_2_7",
             "to": "lightBlue_3_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_8_blue_6_9",
             "from": "lightOrange_2_8",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_8_lightBlue_3_9",
             "from": "lightOrange_2_8",
             "to": "lightBlue_3_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_9_blue_6_10",
             "from": "lightOrange_2_9",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_9_lightBlue_3_10",
             "from": "lightOrange_2_9",
             "to": "lightBlue_3_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_10_blue_6_11",
             "from": "lightOrange_2_10",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_10_lightBlue_3_11",
             "from": "lightOrange_2_10",
             "to": "lightBlue_3_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_11_blue_6_12",
             "from": "lightOrange_2_11",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_11_lightBlue_3_12",
             "from": "lightOrange_2_11",
             "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_blue",
             "id": "lightOrange_2_12_blue_6_1",
             "from": "lightOrange_2_12",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_1",
+            "groupColorId": "lightOrange_1_lightBlue",
             "id": "lightOrange_2_12_lightBlue_3_1",
             "from": "lightOrange_2_12",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
-            "id": "orange_7_1_lightBlue_3_12",
-            "from": "orange_7_1",
-            "to": "lightBlue_3_12",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_2_lightBlue_3_1",
-            "from": "orange_7_2",
-            "to": "lightBlue_3_1",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_3_lightBlue_3_2",
-            "from": "orange_7_3",
-            "to": "lightBlue_3_2",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_4_lightBlue_3_3",
-            "from": "orange_7_4",
-            "to": "lightBlue_3_3",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_5_lightBlue_3_4",
-            "from": "orange_7_5",
-            "to": "lightBlue_3_4",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_6_lightBlue_3_5",
-            "from": "orange_7_6",
-            "to": "lightBlue_3_5",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_7_lightBlue_3_6",
-            "from": "orange_7_7",
-            "to": "lightBlue_3_6",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_8_lightBlue_3_7",
-            "from": "orange_7_8",
-            "to": "lightBlue_3_7",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_9_lightBlue_3_8",
-            "from": "orange_7_9",
-            "to": "lightBlue_3_8",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_10_lightBlue_3_9",
-            "from": "orange_7_10",
-            "to": "lightBlue_3_9",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_11_lightBlue_3_10",
-            "from": "orange_7_11",
-            "to": "lightBlue_3_10",
-            "strength": 0.5
-        },
-        {
-            "id": "orange_7_12_lightBlue_3_11",
-            "from": "orange_7_12",
-            "to": "lightBlue_3_11",
-            "strength": 0.5
-        },
-        {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_1_red_5_1",
             "from": "lightBlue_3_1",
             "to": "red_5_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_1_lightRed_4_1",
             "from": "lightBlue_3_1",
             "to": "lightRed_4_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_1_green_8_2",
             "from": "lightBlue_3_1",
             "to": "green_8_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_1_orange_7_2",
             "from": "lightBlue_3_1",
             "to": "orange_7_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_1_lightBlue_3_1",
             "from": "lightBlue_3_1",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_1_lightGreen_1_12",
             "from": "lightBlue_3_1",
             "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_1_lightOrange_2_12",
             "from": "lightBlue_3_1",
             "to": "lightOrange_2_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_1_blue_6_12",
             "from": "lightBlue_3_1",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_2_red_5_2",
             "from": "lightBlue_3_2",
             "to": "red_5_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_2_lightRed_4_2",
             "from": "lightBlue_3_2",
             "to": "lightRed_4_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_2_green_8_3",
             "from": "lightBlue_3_2",
             "to": "green_8_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_2_orange_7_3",
             "from": "lightBlue_3_2",
             "to": "orange_7_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_2_lightBlue_3_2",
             "from": "lightBlue_3_2",
             "to": "lightBlue_3_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_2_lightGreen_1_1",
             "from": "lightBlue_3_2",
             "to": "lightGreen_1_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_2_lightOrange_2_1",
             "from": "lightBlue_3_2",
             "to": "lightOrange_2_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_2_blue_6_1",
             "from": "lightBlue_3_2",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_3_red_5_3",
             "from": "lightBlue_3_3",
             "to": "red_5_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_3_lightRed_4_3",
             "from": "lightBlue_3_3",
             "to": "lightRed_4_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_3_green_8_4",
             "from": "lightBlue_3_3",
             "to": "green_8_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_3_orange_7_4",
             "from": "lightBlue_3_3",
             "to": "orange_7_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_3_lightBlue_3_3",
             "from": "lightBlue_3_3",
             "to": "lightBlue_3_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_3_lightGreen_1_2",
             "from": "lightBlue_3_3",
             "to": "lightGreen_1_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_3_lightOrange_2_2",
             "from": "lightBlue_3_3",
             "to": "lightOrange_2_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_3_blue_6_2",
             "from": "lightBlue_3_3",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_4_red_5_4",
             "from": "lightBlue_3_4",
             "to": "red_5_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_4_lightRed_4_4",
             "from": "lightBlue_3_4",
             "to": "lightRed_4_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_4_green_8_5",
             "from": "lightBlue_3_4",
             "to": "green_8_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_4_orange_7_5",
             "from": "lightBlue_3_4",
             "to": "orange_7_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_4_lightBlue_3_4",
             "from": "lightBlue_3_4",
             "to": "lightBlue_3_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_4_lightGreen_1_3",
             "from": "lightBlue_3_4",
             "to": "lightGreen_1_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_4_lightOrange_2_3",
             "from": "lightBlue_3_4",
             "to": "lightOrange_2_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_4_blue_6_3",
             "from": "lightBlue_3_4",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_5_red_5_5",
             "from": "lightBlue_3_5",
             "to": "red_5_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_5_lightRed_4_5",
             "from": "lightBlue_3_5",
             "to": "lightRed_4_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_5_green_8_6",
             "from": "lightBlue_3_5",
             "to": "green_8_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_5_orange_7_6",
             "from": "lightBlue_3_5",
             "to": "orange_7_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_5_lightBlue_3_5",
             "from": "lightBlue_3_5",
             "to": "lightBlue_3_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_5_lightGreen_1_4",
             "from": "lightBlue_3_5",
             "to": "lightGreen_1_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_5_lightOrange_2_4",
             "from": "lightBlue_3_5",
             "to": "lightOrange_2_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_5_blue_6_4",
             "from": "lightBlue_3_5",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_6_red_5_6",
             "from": "lightBlue_3_6",
             "to": "red_5_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_6_lightRed_4_6",
             "from": "lightBlue_3_6",
             "to": "lightRed_4_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_6_green_8_7",
             "from": "lightBlue_3_6",
             "to": "green_8_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_6_orange_7_7",
             "from": "lightBlue_3_6",
             "to": "orange_7_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_6_lightBlue_3_6",
             "from": "lightBlue_3_6",
             "to": "lightBlue_3_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_6_lightGreen_1_5",
             "from": "lightBlue_3_6",
             "to": "lightGreen_1_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_6_lightOrange_2_5",
             "from": "lightBlue_3_6",
             "to": "lightOrange_2_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_6_blue_6_5",
             "from": "lightBlue_3_6",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_7_red_5_7",
             "from": "lightBlue_3_7",
             "to": "red_5_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_7_lightRed_4_7",
             "from": "lightBlue_3_7",
             "to": "lightRed_4_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_7_green_8_8",
             "from": "lightBlue_3_7",
             "to": "green_8_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_7_orange_7_8",
             "from": "lightBlue_3_7",
             "to": "orange_7_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_7_lightBlue_3_7",
             "from": "lightBlue_3_7",
             "to": "lightBlue_3_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_7_lightGreen_1_6",
             "from": "lightBlue_3_7",
             "to": "lightGreen_1_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_7_lightOrange_2_6",
             "from": "lightBlue_3_7",
             "to": "lightOrange_2_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_7_blue_6_6",
             "from": "lightBlue_3_7",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_8_red_5_8",
             "from": "lightBlue_3_8",
             "to": "red_5_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_8_lightRed_4_8",
             "from": "lightBlue_3_8",
             "to": "lightRed_4_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_8_green_8_9",
             "from": "lightBlue_3_8",
             "to": "green_8_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_8_orange_7_9",
             "from": "lightBlue_3_8",
             "to": "orange_7_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_8_lightBlue_3_8",
             "from": "lightBlue_3_8",
             "to": "lightBlue_3_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_8_lightGreen_1_7",
             "from": "lightBlue_3_8",
             "to": "lightGreen_1_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_8_lightOrange_2_7",
             "from": "lightBlue_3_8",
             "to": "lightOrange_2_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_8_blue_6_7",
             "from": "lightBlue_3_8",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_9_red_5_9",
             "from": "lightBlue_3_9",
             "to": "red_5_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_9_lightRed_4_9",
             "from": "lightBlue_3_9",
             "to": "lightRed_4_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_9_green_8_10",
             "from": "lightBlue_3_9",
             "to": "green_8_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_9_orange_7_10",
             "from": "lightBlue_3_9",
             "to": "orange_7_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_9_lightBlue_3_9",
             "from": "lightBlue_3_9",
             "to": "lightBlue_3_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_9_lightGreen_1_8",
             "from": "lightBlue_3_9",
             "to": "lightGreen_1_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_9_lightOrange_2_8",
             "from": "lightBlue_3_9",
             "to": "lightOrange_2_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_9_blue_6_8",
             "from": "lightBlue_3_9",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_10_red_5_10",
             "from": "lightBlue_3_10",
             "to": "red_5_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_10_lightRed_4_10",
             "from": "lightBlue_3_10",
             "to": "lightRed_4_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_10_green_8_11",
             "from": "lightBlue_3_10",
             "to": "green_8_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_10_orange_7_11",
             "from": "lightBlue_3_10",
             "to": "orange_7_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_10_lightBlue_3_10",
             "from": "lightBlue_3_10",
             "to": "lightBlue_3_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_10_lightGreen_1_9",
             "from": "lightBlue_3_10",
             "to": "lightGreen_1_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_10_lightOrange_2_9",
             "from": "lightBlue_3_10",
             "to": "lightOrange_2_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_10_blue_6_9",
             "from": "lightBlue_3_10",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_11_red_5_11",
             "from": "lightBlue_3_11",
             "to": "red_5_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_11_lightRed_4_11",
             "from": "lightBlue_3_11",
             "to": "lightRed_4_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_11_green_8_12",
             "from": "lightBlue_3_11",
             "to": "green_8_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_11_orange_7_12",
             "from": "lightBlue_3_11",
             "to": "orange_7_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_11_lightBlue_3_11",
             "from": "lightBlue_3_11",
             "to": "lightBlue_3_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_11_lightGreen_1_10",
             "from": "lightBlue_3_11",
             "to": "lightGreen_1_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_11_lightOrange_2_10",
             "from": "lightBlue_3_11",
             "to": "lightOrange_2_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_11_blue_6_10",
             "from": "lightBlue_3_11",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_red",
             "id": "lightBlue_3_12_red_5_12",
             "from": "lightBlue_3_12",
             "to": "red_5_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "lightBlue_0_lightRed",
             "id": "lightBlue_3_12_lightRed_4_12",
             "from": "lightBlue_3_12",
             "to": "lightRed_4_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "lightBlue_1_green",
             "id": "lightBlue_3_12_green_8_1",
             "from": "lightBlue_3_12",
             "to": "green_8_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "lightBlue_1_orange",
             "id": "lightBlue_3_12_orange_7_1",
             "from": "lightBlue_3_12",
             "to": "orange_7_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "lightBlue_0_lightBlue",
             "id": "lightBlue_3_12_lightBlue_3_12",
             "from": "lightBlue_3_12",
             "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "lightBlue_-1_lightGreen",
             "id": "lightBlue_3_12_lightGreen_1_11",
             "from": "lightBlue_3_12",
             "to": "lightGreen_1_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "lightBlue_-1_lightOrange",
             "id": "lightBlue_3_12_lightOrange_2_11",
             "from": "lightBlue_3_12",
             "to": "lightOrange_2_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_-1",
+            "groupColorId": "lightBlue_-1_blue",
             "id": "lightBlue_3_12_blue_6_11",
             "from": "lightBlue_3_12",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_1_green_8_2",
             "from": "lightRed_4_1",
             "to": "green_8_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_1_lightBlue_3_1",
             "from": "lightRed_4_1",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_1_lightGreen_1_12",
             "from": "lightRed_4_1",
             "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_2_green_8_3",
             "from": "lightRed_4_2",
             "to": "green_8_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_2_lightBlue_3_2",
             "from": "lightRed_4_2",
             "to": "lightBlue_3_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_2_lightGreen_1_1",
             "from": "lightRed_4_2",
             "to": "lightGreen_1_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_3_green_8_4",
             "from": "lightRed_4_3",
             "to": "green_8_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_3_lightBlue_3_3",
             "from": "lightRed_4_3",
             "to": "lightBlue_3_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_3_lightGreen_1_2",
             "from": "lightRed_4_3",
             "to": "lightGreen_1_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_4_green_8_5",
             "from": "lightRed_4_4",
             "to": "green_8_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_4_lightBlue_3_4",
             "from": "lightRed_4_4",
             "to": "lightBlue_3_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_4_lightGreen_1_3",
             "from": "lightRed_4_4",
             "to": "lightGreen_1_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_5_green_8_6",
             "from": "lightRed_4_5",
             "to": "green_8_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_5_lightBlue_3_5",
             "from": "lightRed_4_5",
             "to": "lightBlue_3_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_5_lightGreen_1_4",
             "from": "lightRed_4_5",
             "to": "lightGreen_1_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_6_green_8_7",
             "from": "lightRed_4_6",
             "to": "green_8_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_6_lightBlue_3_6",
             "from": "lightRed_4_6",
             "to": "lightBlue_3_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_6_lightGreen_1_5",
             "from": "lightRed_4_6",
             "to": "lightGreen_1_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_7_green_8_8",
             "from": "lightRed_4_7",
             "to": "green_8_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_7_lightBlue_3_7",
             "from": "lightRed_4_7",
             "to": "lightBlue_3_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_7_lightGreen_1_6",
             "from": "lightRed_4_7",
             "to": "lightGreen_1_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_8_green_8_9",
             "from": "lightRed_4_8",
             "to": "green_8_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_8_lightBlue_3_8",
             "from": "lightRed_4_8",
             "to": "lightBlue_3_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_8_lightGreen_1_7",
             "from": "lightRed_4_8",
             "to": "lightGreen_1_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_9_green_8_10",
             "from": "lightRed_4_9",
             "to": "green_8_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_9_lightBlue_3_9",
             "from": "lightRed_4_9",
             "to": "lightBlue_3_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_9_lightGreen_1_8",
             "from": "lightRed_4_9",
             "to": "lightGreen_1_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_10_green_8_11",
             "from": "lightRed_4_10",
             "to": "green_8_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_10_lightBlue_3_10",
             "from": "lightRed_4_10",
             "to": "lightBlue_3_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_10_lightGreen_1_9",
             "from": "lightRed_4_10",
             "to": "lightGreen_1_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_11_green_8_12",
             "from": "lightRed_4_11",
             "to": "green_8_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_11_lightBlue_3_11",
             "from": "lightRed_4_11",
             "to": "lightBlue_3_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_11_lightGreen_1_10",
             "from": "lightRed_4_11",
             "to": "lightGreen_1_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "lightRed_1_green",
             "id": "lightRed_4_12_green_8_1",
             "from": "lightRed_4_12",
             "to": "green_8_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "lightRed_0_lightBlue",
             "id": "lightRed_4_12_lightBlue_3_12",
             "from": "lightRed_4_12",
             "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "lightRed_-1_lightGreen",
             "id": "lightRed_4_12_lightGreen_1_11",
             "from": "lightRed_4_12",
             "to": "lightGreen_1_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_1_blue_6_1",
             "from": "red_5_1",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_1_green_8_2",
             "from": "red_5_1",
             "to": "green_8_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_1_lightGreen_1_12",
             "from": "red_5_1",
             "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_2_blue_6_2",
             "from": "red_5_2",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_2_green_8_3",
             "from": "red_5_2",
             "to": "green_8_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_2_lightGreen_1_1",
             "from": "red_5_2",
             "to": "lightGreen_1_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_3_blue_6_3",
             "from": "red_5_3",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_3_green_8_4",
             "from": "red_5_3",
             "to": "green_8_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_3_lightGreen_1_2",
             "from": "red_5_3",
             "to": "lightGreen_1_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_4_blue_6_4",
             "from": "red_5_4",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_4_green_8_5",
             "from": "red_5_4",
             "to": "green_8_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_4_lightGreen_1_3",
             "from": "red_5_4",
             "to": "lightGreen_1_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_5_blue_6_5",
             "from": "red_5_5",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_5_green_8_6",
             "from": "red_5_5",
             "to": "green_8_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_5_lightGreen_1_4",
             "from": "red_5_5",
             "to": "lightGreen_1_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_6_blue_6_6",
             "from": "red_5_6",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_6_green_8_7",
             "from": "red_5_6",
             "to": "green_8_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_6_lightGreen_1_5",
             "from": "red_5_6",
             "to": "lightGreen_1_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_7_blue_6_7",
             "from": "red_5_7",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_7_green_8_8",
             "from": "red_5_7",
             "to": "green_8_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_7_lightGreen_1_6",
             "from": "red_5_7",
             "to": "lightGreen_1_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_8_blue_6_8",
             "from": "red_5_8",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_8_green_8_9",
             "from": "red_5_8",
             "to": "green_8_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_8_lightGreen_1_7",
             "from": "red_5_8",
             "to": "lightGreen_1_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_9_blue_6_9",
             "from": "red_5_9",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_9_green_8_10",
             "from": "red_5_9",
             "to": "green_8_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_9_lightGreen_1_8",
             "from": "red_5_9",
             "to": "lightGreen_1_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_10_blue_6_10",
             "from": "red_5_10",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_10_green_8_11",
             "from": "red_5_10",
             "to": "green_8_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_10_lightGreen_1_9",
             "from": "red_5_10",
             "to": "lightGreen_1_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_11_blue_6_11",
             "from": "red_5_11",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_11_green_8_12",
             "from": "red_5_11",
             "to": "green_8_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_11_lightGreen_1_10",
             "from": "red_5_11",
             "to": "lightGreen_1_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_epg_0",
+            "groupColorId": "red_0_blue",
             "id": "red_5_12_blue_6_12",
             "from": "red_5_12",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_1",
+            "groupColorId": "red_1_green",
             "id": "red_5_12_green_8_1",
             "from": "red_5_12",
             "to": "green_8_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "peg_pen-b_-1",
+            "groupColorId": "red_-1_lightGreen",
             "id": "red_5_12_lightGreen_1_11",
             "from": "red_5_12",
             "to": "lightGreen_1_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_1_blue_6_1",
             "from": "blue_6_1",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_1_green_8_2",
             "from": "blue_6_1",
             "to": "green_8_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_1_orange_7_2",
             "from": "blue_6_1",
             "to": "orange_7_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_1_lightBlue_3_1",
             "from": "blue_6_1",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_1_red_5_1",
             "from": "blue_6_1",
             "to": "red_5_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_1_lightRed_4_1",
             "from": "blue_6_1",
             "to": "lightRed_4_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_1_lightGreen_1_12",
             "from": "blue_6_1",
             "to": "lightGreen_1_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_1_lightOrange_2_12",
             "from": "blue_6_1",
             "to": "lightOrange_2_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_2_blue_6_2",
             "from": "blue_6_2",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_2_green_8_3",
             "from": "blue_6_2",
             "to": "green_8_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_2_orange_7_3",
             "from": "blue_6_2",
             "to": "orange_7_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_2_lightBlue_3_2",
             "from": "blue_6_2",
             "to": "lightBlue_3_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_2_red_5_2",
             "from": "blue_6_2",
             "to": "red_5_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_2_lightRed_4_2",
             "from": "blue_6_2",
             "to": "lightRed_4_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_2_lightGreen_1_1",
             "from": "blue_6_2",
             "to": "lightGreen_1_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_2_lightOrange_2_1",
             "from": "blue_6_2",
             "to": "lightOrange_2_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_3_blue_6_3",
             "from": "blue_6_3",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_3_green_8_4",
             "from": "blue_6_3",
             "to": "green_8_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_3_orange_7_4",
             "from": "blue_6_3",
             "to": "orange_7_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_3_lightBlue_3_3",
             "from": "blue_6_3",
             "to": "lightBlue_3_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_3_red_5_3",
             "from": "blue_6_3",
             "to": "red_5_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_3_lightRed_4_3",
             "from": "blue_6_3",
             "to": "lightRed_4_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_3_lightGreen_1_2",
             "from": "blue_6_3",
             "to": "lightGreen_1_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_3_lightOrange_2_2",
             "from": "blue_6_3",
             "to": "lightOrange_2_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_4_blue_6_4",
             "from": "blue_6_4",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_4_green_8_5",
             "from": "blue_6_4",
             "to": "green_8_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_4_orange_7_5",
             "from": "blue_6_4",
             "to": "orange_7_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_4_lightBlue_3_4",
             "from": "blue_6_4",
             "to": "lightBlue_3_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_4_red_5_4",
             "from": "blue_6_4",
             "to": "red_5_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_4_lightRed_4_4",
             "from": "blue_6_4",
             "to": "lightRed_4_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_4_lightGreen_1_3",
             "from": "blue_6_4",
             "to": "lightGreen_1_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_4_lightOrange_2_3",
             "from": "blue_6_4",
             "to": "lightOrange_2_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_5_blue_6_5",
             "from": "blue_6_5",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_5_green_8_6",
             "from": "blue_6_5",
             "to": "green_8_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_5_orange_7_6",
             "from": "blue_6_5",
             "to": "orange_7_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_5_lightBlue_3_5",
             "from": "blue_6_5",
             "to": "lightBlue_3_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_5_red_5_5",
             "from": "blue_6_5",
             "to": "red_5_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_5_lightRed_4_5",
             "from": "blue_6_5",
             "to": "lightRed_4_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_5_lightGreen_1_4",
             "from": "blue_6_5",
             "to": "lightGreen_1_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_5_lightOrange_2_4",
             "from": "blue_6_5",
             "to": "lightOrange_2_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_6_blue_6_6",
             "from": "blue_6_6",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_6_green_8_7",
             "from": "blue_6_6",
             "to": "green_8_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_6_orange_7_7",
             "from": "blue_6_6",
             "to": "orange_7_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_6_lightBlue_3_6",
             "from": "blue_6_6",
             "to": "lightBlue_3_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_6_red_5_6",
             "from": "blue_6_6",
             "to": "red_5_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_6_lightRed_4_6",
             "from": "blue_6_6",
             "to": "lightRed_4_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_6_lightGreen_1_5",
             "from": "blue_6_6",
             "to": "lightGreen_1_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_6_lightOrange_2_5",
             "from": "blue_6_6",
             "to": "lightOrange_2_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_7_blue_6_7",
             "from": "blue_6_7",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_7_green_8_8",
             "from": "blue_6_7",
             "to": "green_8_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_7_orange_7_8",
             "from": "blue_6_7",
             "to": "orange_7_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_7_lightBlue_3_7",
             "from": "blue_6_7",
             "to": "lightBlue_3_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_7_red_5_7",
             "from": "blue_6_7",
             "to": "red_5_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_7_lightRed_4_7",
             "from": "blue_6_7",
             "to": "lightRed_4_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_7_lightGreen_1_6",
             "from": "blue_6_7",
             "to": "lightGreen_1_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_7_lightOrange_2_6",
             "from": "blue_6_7",
             "to": "lightOrange_2_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_8_blue_6_8",
             "from": "blue_6_8",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_8_green_8_9",
             "from": "blue_6_8",
             "to": "green_8_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_8_orange_7_9",
             "from": "blue_6_8",
             "to": "orange_7_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_8_lightBlue_3_8",
             "from": "blue_6_8",
             "to": "lightBlue_3_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_8_red_5_8",
             "from": "blue_6_8",
             "to": "red_5_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_8_lightRed_4_8",
             "from": "blue_6_8",
             "to": "lightRed_4_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_8_lightGreen_1_7",
             "from": "blue_6_8",
             "to": "lightGreen_1_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_8_lightOrange_2_7",
             "from": "blue_6_8",
             "to": "lightOrange_2_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_9_blue_6_9",
             "from": "blue_6_9",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_9_green_8_10",
             "from": "blue_6_9",
             "to": "green_8_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_9_orange_7_10",
             "from": "blue_6_9",
             "to": "orange_7_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_9_lightBlue_3_9",
             "from": "blue_6_9",
             "to": "lightBlue_3_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_9_red_5_9",
             "from": "blue_6_9",
             "to": "red_5_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_9_lightRed_4_9",
             "from": "blue_6_9",
             "to": "lightRed_4_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_9_lightGreen_1_8",
             "from": "blue_6_9",
             "to": "lightGreen_1_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_9_lightOrange_2_8",
             "from": "blue_6_9",
             "to": "lightOrange_2_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_10_blue_6_10",
             "from": "blue_6_10",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_10_green_8_11",
             "from": "blue_6_10",
             "to": "green_8_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_10_orange_7_11",
             "from": "blue_6_10",
             "to": "orange_7_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_10_lightBlue_3_10",
             "from": "blue_6_10",
             "to": "lightBlue_3_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_10_red_5_10",
             "from": "blue_6_10",
             "to": "red_5_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_10_lightRed_4_10",
             "from": "blue_6_10",
             "to": "lightRed_4_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_10_lightGreen_1_9",
             "from": "blue_6_10",
             "to": "lightGreen_1_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_10_lightOrange_2_9",
             "from": "blue_6_10",
             "to": "lightOrange_2_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_11_blue_6_11",
             "from": "blue_6_11",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_11_green_8_12",
             "from": "blue_6_11",
             "to": "green_8_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_11_orange_7_12",
             "from": "blue_6_11",
             "to": "orange_7_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_11_lightBlue_3_11",
             "from": "blue_6_11",
             "to": "lightBlue_3_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_11_red_5_11",
             "from": "blue_6_11",
             "to": "red_5_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_11_lightRed_4_11",
             "from": "blue_6_11",
             "to": "lightRed_4_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_11_lightGreen_1_10",
             "from": "blue_6_11",
             "to": "lightGreen_1_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_11_lightOrange_2_10",
             "from": "blue_6_11",
             "to": "lightOrange_2_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_blue",
             "id": "blue_6_12_blue_6_12",
             "from": "blue_6_12",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_1",
+            "groupColorId": "blue_1_green",
             "id": "blue_6_12_green_8_1",
             "from": "blue_6_12",
             "to": "green_8_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_1",
+            "groupColorId": "blue_1_orange",
             "id": "blue_6_12_orange_7_1",
             "from": "blue_6_12",
             "to": "orange_7_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_epg_0",
+            "groupColorId": "blue_0_lightBlue",
             "id": "blue_6_12_lightBlue_3_12",
             "from": "blue_6_12",
             "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_red",
             "id": "blue_6_12_red_5_12",
             "from": "blue_6_12",
             "to": "red_5_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_peg_0",
+            "groupColorId": "blue_0_lightRed",
             "id": "blue_6_12_lightRed_4_12",
             "from": "blue_6_12",
             "to": "lightRed_4_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen-b_-1",
+            "groupColorId": "blue_-1_lightGreen",
             "id": "blue_6_12_lightGreen_1_11",
             "from": "blue_6_12",
             "to": "lightGreen_1_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "epg_pen_-1",
+            "groupColorId": "blue_-1_lightOrange",
             "id": "blue_6_12_lightOrange_2_11",
             "from": "blue_6_12",
             "to": "lightOrange_2_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_1_blue_6_12",
             "from": "orange_7_1",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_1_lightBlue_3_12",
+            "from": "orange_7_1",
+            "to": "lightBlue_3_12",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_2_blue_6_1",
             "from": "orange_7_2",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_2_lightBlue_3_1",
+            "from": "orange_7_2",
+            "to": "lightBlue_3_1",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_3_blue_6_2",
             "from": "orange_7_3",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_3_lightBlue_3_2",
+            "from": "orange_7_3",
+            "to": "lightBlue_3_2",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_4_blue_6_3",
             "from": "orange_7_4",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_4_lightBlue_3_3",
+            "from": "orange_7_4",
+            "to": "lightBlue_3_3",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_5_blue_6_4",
             "from": "orange_7_5",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_5_lightBlue_3_4",
+            "from": "orange_7_5",
+            "to": "lightBlue_3_4",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_6_blue_6_5",
             "from": "orange_7_6",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_6_lightBlue_3_5",
+            "from": "orange_7_6",
+            "to": "lightBlue_3_5",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_7_blue_6_6",
             "from": "orange_7_7",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_7_lightBlue_3_6",
+            "from": "orange_7_7",
+            "to": "lightBlue_3_6",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_8_blue_6_7",
             "from": "orange_7_8",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_8_lightBlue_3_7",
+            "from": "orange_7_8",
+            "to": "lightBlue_3_7",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_9_blue_6_8",
             "from": "orange_7_9",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_9_lightBlue_3_8",
+            "from": "orange_7_9",
+            "to": "lightBlue_3_8",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_10_blue_6_9",
             "from": "orange_7_10",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_10_lightBlue_3_9",
+            "from": "orange_7_10",
+            "to": "lightBlue_3_9",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_11_blue_6_10",
             "from": "orange_7_11",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_11_lightBlue_3_10",
+            "from": "orange_7_11",
+            "to": "lightBlue_3_10",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_blue",
             "id": "orange_7_12_blue_6_11",
             "from": "orange_7_12",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen_epg_-1",
+            "groupColorId": "orange_-1_lightBlue",
+            "id": "orange_7_12_lightBlue_3_11",
+            "from": "orange_7_12",
+            "to": "lightBlue_3_11",
+            "strength": 0.5
+        },
+        {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_1_blue_6_12",
             "from": "green_8_1",
             "to": "blue_6_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_1_lightBlue_3_12",
             "from": "green_8_1",
             "to": "lightBlue_3_12",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_2_blue_6_1",
             "from": "green_8_2",
             "to": "blue_6_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_2_lightBlue_3_1",
             "from": "green_8_2",
             "to": "lightBlue_3_1",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_3_blue_6_2",
             "from": "green_8_3",
             "to": "blue_6_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_3_lightBlue_3_2",
             "from": "green_8_3",
             "to": "lightBlue_3_2",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_4_blue_6_3",
             "from": "green_8_4",
             "to": "blue_6_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_4_lightBlue_3_3",
             "from": "green_8_4",
             "to": "lightBlue_3_3",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_5_blue_6_4",
             "from": "green_8_5",
             "to": "blue_6_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_5_lightBlue_3_4",
             "from": "green_8_5",
             "to": "lightBlue_3_4",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_6_blue_6_5",
             "from": "green_8_6",
             "to": "blue_6_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_6_lightBlue_3_5",
             "from": "green_8_6",
             "to": "lightBlue_3_5",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_7_blue_6_6",
             "from": "green_8_7",
             "to": "blue_6_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_7_lightBlue_3_6",
             "from": "green_8_7",
             "to": "lightBlue_3_6",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_8_blue_6_7",
             "from": "green_8_8",
             "to": "blue_6_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_8_lightBlue_3_7",
             "from": "green_8_8",
             "to": "lightBlue_3_7",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_9_blue_6_8",
             "from": "green_8_9",
             "to": "blue_6_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_9_lightBlue_3_8",
             "from": "green_8_9",
             "to": "lightBlue_3_8",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_10_blue_6_9",
             "from": "green_8_10",
             "to": "blue_6_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_10_lightBlue_3_9",
             "from": "green_8_10",
             "to": "lightBlue_3_9",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_11_blue_6_10",
             "from": "green_8_11",
             "to": "blue_6_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_11_lightBlue_3_10",
             "from": "green_8_11",
             "to": "lightBlue_3_10",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_blue",
             "id": "green_8_12_blue_6_11",
             "from": "green_8_12",
             "to": "blue_6_11",
             "strength": 0.5
         },
         {
+            "groupNameId": "pen-b_epg_-1",
+            "groupColorId": "green_-1_lightBlue",
             "id": "green_8_12_lightBlue_3_11",
             "from": "green_8_12",
             "to": "lightBlue_3_11",

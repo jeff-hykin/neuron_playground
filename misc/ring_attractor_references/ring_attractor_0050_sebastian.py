@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import os
 
 # Parameters
-n_cells = 100  # Number of cells in the ring
-J0 = 0.4  # Strength of the synaptic weights
-tau_m = 1.3 # Time constant for decay
-dt = 0.01  # Time step for the simulation
-total_time = 14  # Total time to simulate
+n_cells    = 100   # Number of cells in the ring
+J0         = 0.4   # Strength of the synaptic weights
+tau_m      = 1.3   # Time constant for decay
+dt         = 0.01  # Time step for the simulation
+total_time = 14    # Total time to simulate
 steps = int(total_time / dt)  # Number of steps in the simulation
 delta_u = 2 * np.pi / n_cells  # Spacing between cells
 

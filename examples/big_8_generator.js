@@ -31,6 +31,87 @@ const nameToColor = {
     lightOrange,
     lightGreen,
 }
+const colorToName = Object.fromEntries(Object.entries(nameToColor).map(([k,v])=>[v,k]))
+const colorToSeismicName = {
+    blue: "EPG-L",
+    lightBlue: "EPG-R",
+
+    orange: "PENa-L",
+    lightOrange: "PENa-R",
+
+    green: "PENb-L",
+    lightGreen: "PENb-R",
+
+    red: "PEG-L",
+    lightRed: "PEG-R",
+}
+const seismicEdgeWeightGroupNames = [
+    "d7_d7_contra",
+    "d7_d7_ipsi",
+    "d7_pen_contra",
+    "d7_pen_ipsi",
+    "d7_pen-b_contra",
+    "d7_pen-b_ipsi",
+    "epg_d7_contra",
+    "epg_d7_ipsi",
+    "epg_epg_contra",
+    "epg_epg_ipsi",
+    "epg_peg_contra",
+    "epg_peg_ipsi",
+    "epg_pen_contra",
+    "epg_pen_ipsi",
+    "epg_pen-b_contra",
+    "epg_pen-b_ipsi",
+    "peg_epg_contra",
+    "peg_epg_ipsi",
+    "peg_pen-b_contra",
+    "peg_pen-b_ipsi",
+    "pen_epg_contra",
+    "pen_epg_ipsi",
+    "pen-b_epg_contra",
+    "pen-b_epg_ipsi",
+]
+const thisEdgeWeightGroupNames = [
+    "epg_epg_-1",
+    "epg_epg_0",
+    "epg_peg_0",
+    "epg_pen_-1",
+    "epg_pen_1",
+    "epg_pen-b_-1",
+    "epg_pen-b_1",
+    "peg_epg_0",
+    "peg_pen-b_-1",
+    "peg_pen-b_1",
+    "pen_epg_-1",
+    "pen_epg_1",
+    "pen-b_epg_-1",
+    "pen-b_epg_1",
+]
+const seismicSingularNames = [
+    "epg",
+    "pen",
+    "pen-b",
+    "peg",
+    "d7",
+]
+const fromEdgeColorToPresynapticType = {
+    blue: "epg",
+    lightBlue: "epg",
+    orange: "pen",
+    lightOrange: "pen",
+    green: "pen-b",
+    lightGreen: "pen-b",
+    red: "peg",
+    lightRed: "peg",
+    [blue]: "epg",
+    [lightBlue]: "epg",
+    [orange]: "pen",
+    [lightOrange]: "pen",
+    [green]: "pen-b",
+    [lightGreen]: "pen-b",
+    [red]: "peg",
+    [lightRed]: "peg",
+}
 const {nodes, circlesByColor} = makeBig8Nodes({
     nameToColor,
     numberOfNodes: 12,
@@ -64,6 +145,19 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     const lightOrangeNodes = circlesByColor[lightOrange].nodes
     const lightGreenNodes = circlesByColor[lightGreen].nodes
     let index // bigger index => more clockwise
+    
+    const makeEdge = ({fromColor, offset, toColor, strength, }) => {
+        const eachSource = circlesByColor[fromColor].nodes[index]
+        const eachTarget = wrapAroundGet(index+offset, circlesByColor[toColor].nodes)
+        circlesByColor[fromColor].edges.push({
+            groupNameId: `${fromEdgeColorToPresynapticType[fromColor]}_${fromEdgeColorToPresynapticType[toColor]}_${offset}`,
+            groupColorId: `${colorToName[fromColor]}_${offset}_${colorToName[toColor]}`,
+            id: `${eachSource.id}_${eachTarget.id}`,
+            from: eachSource.id,
+            to: eachTarget.id,
+            strength,
+        })
+    }
 
     // 
     // outgoing from green
@@ -71,26 +165,8 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachGreen of greenNodes) {
         index++
-        // 
-        // green to blue (-1)
-        // 
-        const eachBlue = wrapAroundGet(index-1, blueNodes)
-        circlesByColor[green].edges.push({
-            id: `${eachGreen.id}_${eachBlue.id}`,
-            from: eachGreen.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // green to lightBlue (-1)
-        // 
-        const eachLightBlue = wrapAroundGet(index-1, lightBlueNodes)
-        circlesByColor[green].edges.push({
-            id: `${eachGreen.id}_${eachLightBlue.id}`,
-            from: eachGreen.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: green, toColor: blue, offset: (-1), strength: 0.5 })
+        makeEdge({fromColor: green, toColor: lightBlue, offset: (-1), strength: 0.5 })
     }
     
     // 
@@ -99,26 +175,8 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachOrange of orangeNodes) {
         index++
-        // 
-        // orange to blue (-1)
-        // 
-        const eachBlue = wrapAroundGet(index-1, blueNodes)
-        circlesByColor[orange].edges.push({
-            id: `${eachOrange.id}_${eachBlue.id}`,
-            from: eachOrange.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // orange to lightBlue (-1)
-        // 
-        const eachLightBlue = wrapAroundGet(index-1, lightBlueNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachOrange.id}_${eachLightBlue.id}`,
-            from: eachOrange.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: orange, toColor: blue, offset: (-1), strength: 0.5 })
+        makeEdge({fromColor: orange, toColor: lightBlue, offset: (-1), strength: 0.5 })
     }
     
     // 
@@ -127,85 +185,14 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachBlue of blueNodes) {
         index++
-        // 
-        // blue to blue (+0)
-        // 
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachBlue.id}`,
-            from: eachBlue.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to green (+1)
-        // 
-        const eachGreen = wrapAroundGet(index+1, greenNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachGreen.id}`,
-            from: eachBlue.id,
-            to: eachGreen.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to orange (+1)
-        // 
-        const eachOrange = wrapAroundGet(index+1, orangeNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachOrange.id}`,
-            from: eachBlue.id,
-            to: eachOrange.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to lightBlue (+0)
-        // 
-        const eachLightBlue = wrapAroundGet(index+0, lightBlueNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachLightBlue.id}`,
-            from: eachBlue.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to red (+0)
-        // 
-        const eachRed = wrapAroundGet(index+0, redNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachRed.id}`,
-            from: eachBlue.id,
-            to: eachRed.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to lightRed (+0)
-        // 
-        const eachLightRed = wrapAroundGet(index+0, lightRedNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachLightRed.id}`,
-            from: eachBlue.id,
-            to: eachLightRed.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to lightGreen (-1)
-        // 
-        const eachLightGreen = wrapAroundGet(index-1, lightGreenNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachLightGreen.id}`,
-            from: eachBlue.id,
-            to: eachLightGreen.id,
-            strength: 0.5,
-        })
-        // 
-        // blue to lightOrange (-1)
-        // 
-        const eachLightOrange = wrapAroundGet(index-1, lightOrangeNodes)
-        circlesByColor[blue].edges.push({
-            id: `${eachBlue.id}_${eachLightOrange.id}`,
-            from: eachBlue.id,
-            to: eachLightOrange.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: blue, toColor: blue, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: green, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: orange, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: lightBlue, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: red, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: lightRed, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: lightGreen, offset: (-1), strength: 0.5 })
+        makeEdge({fromColor: blue, toColor: lightOrange, offset: (-1), strength: 0.5 })
     }
     
     // 
@@ -214,36 +201,9 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachRed of redNodes) {
         index++
-        // 
-        // red to blue (+0)
-        // 
-        const eachBlue = wrapAroundGet(index+0, blueNodes)
-        circlesByColor[red].edges.push({
-            id: `${eachRed.id}_${eachBlue.id}`,
-            from: eachRed.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // red to green (+1)
-        // 
-        const eachGreen = wrapAroundGet(index+1, greenNodes)
-        circlesByColor[red].edges.push({
-            id: `${eachRed.id}_${eachGreen.id}`,
-            from: eachRed.id,
-            to: eachGreen.id,
-            strength: 0.5,
-        })
-        // 
-        // red to lightGreen (-1)
-        // 
-        const eachLightGreen = wrapAroundGet(index-1, lightGreenNodes)
-        circlesByColor[red].edges.push({
-            id: `${eachRed.id}_${eachLightGreen.id}`,
-            from: eachRed.id,
-            to: eachLightGreen.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: red, toColor: blue, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: red, toColor: green, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: red, toColor: lightGreen, offset: (-1), strength: 0.5 })
     }
     
     // 
@@ -252,36 +212,9 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachLightRed of lightRedNodes) {
         index++
-        // 
-        // lightRed to green (+1)
-        // 
-        const eachGreen = wrapAroundGet(index+1, greenNodes)
-        circlesByColor[lightRed].edges.push({
-            id: `${eachLightRed.id}_${eachGreen.id}`,
-            from: eachLightRed.id,
-            to: eachGreen.id,
-            strength: 0.5,
-        })
-        // 
-        // lightRed to lightBlue (+0)
-        // 
-        const eachLightBlue = wrapAroundGet(index+0, lightBlueNodes)
-        circlesByColor[lightRed].edges.push({
-            id: `${eachLightRed.id}_${eachLightBlue.id}`,
-            from: eachLightRed.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // lightRed to lightGreen (-1)
-        // 
-        const eachLightGreen = wrapAroundGet(index-1, lightGreenNodes)
-        circlesByColor[lightRed].edges.push({
-            id: `${eachLightRed.id}_${eachLightGreen.id}`,
-            from: eachLightRed.id,
-            to: eachLightGreen.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: lightRed, toColor: green, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: lightRed, toColor: lightBlue, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: lightRed, toColor: lightGreen, offset: (-1), strength: 0.5 })
     }
     
     // 
@@ -290,85 +223,14 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachLightBlue of lightBlueNodes) {
         index++
-        // 
-        // lightBlue to red (+0)
-        // 
-        const eachRed = wrapAroundGet(index+0, redNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachRed.id}`,
-            from: eachLightBlue.id,
-            to: eachRed.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to lightRed (+0)
-        // 
-        const eachLightRed = wrapAroundGet(index+0, lightRedNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachLightRed.id}`,
-            from: eachLightBlue.id,
-            to: eachLightRed.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to green (+1)
-        // 
-        const eachGreen = wrapAroundGet(index+1, greenNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachGreen.id}`,
-            from: eachLightBlue.id,
-            to: eachGreen.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to orange (+1)
-        // 
-        const eachOrange = wrapAroundGet(index+1, orangeNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachOrange.id}`,
-            from: eachLightBlue.id,
-            to: eachOrange.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to lightBlue (+0)
-        // 
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachLightBlue.id}`,
-            from: eachLightBlue.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to lightGreen (-1)
-        // 
-        const eachLightGreen = wrapAroundGet(index-1, lightGreenNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachLightGreen.id}`,
-            from: eachLightBlue.id,
-            to: eachLightGreen.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to lightOrange (-1)
-        // 
-        const eachLightOrange = wrapAroundGet(index-1, lightOrangeNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachLightOrange.id}`,
-            from: eachLightBlue.id,
-            to: eachLightOrange.id,
-            strength: 0.5,
-        })
-        // 
-        // lightBlue to blue (-1)
-        // 
-        const eachBlue = wrapAroundGet(index-1, blueNodes)
-        circlesByColor[lightBlue].edges.push({
-            id: `${eachLightBlue.id}_${eachBlue.id}`,
-            from: eachLightBlue.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: lightBlue, toColor: red, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: lightRed, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: green, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: orange, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: lightBlue, offset: (+0), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: lightGreen, offset: (-1), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: lightOrange, offset: (-1), strength: 0.5 })
+        makeEdge({fromColor: lightBlue, toColor: blue, offset: (-1), strength: 0.5 })
     }
     
     // 
@@ -377,26 +239,8 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachLightOrange of lightOrangeNodes) {
         index++
-        // 
-        // lightOrange to blue (+1)
-        // 
-        const eachBlue = wrapAroundGet(index+1, blueNodes)
-        circlesByColor[lightOrange].edges.push({
-            id: `${eachLightOrange.id}_${eachBlue.id}`,
-            from: eachLightOrange.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
-        // 
-        // lightOrange to lightBlue (+1)
-        // 
-        const eachLightBlue = wrapAroundGet(index+1, lightBlueNodes)
-        circlesByColor[lightOrange].edges.push({
-            id: `${eachLightOrange.id}_${eachLightBlue.id}`,
-            from: eachLightOrange.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: lightOrange, toColor: blue, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: lightOrange, toColor: lightBlue, offset: (+1), strength: 0.5 })
     }
     
     // 
@@ -405,27 +249,8 @@ const {nodes, circlesByColor} = makeBig8Nodes({
     index = -1
     for (let eachLightGreen of lightGreenNodes) {
         index++
-        // 
-        // lightGreen to blue (+1)
-        // 
-        const eachBlue = wrapAroundGet(index+1, blueNodes)
-        circlesByColor[lightGreen].edges.push({
-            id: `${eachLightGreen.id}_${eachBlue.id}`,
-            from: eachLightGreen.id,
-            to: eachBlue.id,
-            strength: 0.5,
-        })
-
-        // 
-        // lightGreen to lightBlue (+1)
-        // 
-        const eachLightBlue = wrapAroundGet(index+1, lightBlueNodes)
-        circlesByColor[lightGreen].edges.push({
-            id: `${eachLightGreen.id}_${eachLightBlue.id}`,
-            from: eachLightGreen.id,
-            to: eachLightBlue.id,
-            strength: 0.5,
-        })
+        makeEdge({fromColor: lightGreen, toColor: blue, offset: (+1), strength: 0.5 })
+        makeEdge({fromColor: lightGreen, toColor: lightBlue, offset: (+1), strength: 0.5 })
     }
 
 const graph = combineGraphs(Object.values(circlesByColor))
