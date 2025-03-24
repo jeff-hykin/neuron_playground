@@ -1,0 +1,1592 @@
+{
+    "nodes": [
+        [
+            "ring_0_0",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_0",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 774,
+                "y": 451
+            }
+        ],
+        [
+            "ring_0_1",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_1",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 837,
+                "y": 476
+            }
+        ],
+        [
+            "ring_0_2",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_2",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 862,
+                "y": 548
+            }
+        ],
+        [
+            "ring_0_3",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_3",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 842,
+                "y": 613
+            }
+        ],
+        [
+            "ring_0_4",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_4",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 773.1979484253018,
+                "y": 636.3487540137439
+            }
+        ],
+        [
+            "ring_0_5",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_5",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 704,
+                "y": 611
+            }
+        ],
+        [
+            "ring_0_6",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_6",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 681,
+                "y": 543
+            }
+        ],
+        [
+            "ring_0_7",
+            {
+                "color": "#FFEE8A",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_0_7",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 708,
+                "y": 474
+            }
+        ],
+        [
+            "ring_1_0",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_0",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 774,
+                "y": 353
+            }
+        ],
+        [
+            "ring_1_1",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_1",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 922.050880852288,
+                "y": 411.55919145338174
+            }
+        ],
+        [
+            "ring_1_2",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_2",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 981.4103796196026,
+                "y": 536.2141388647426
+            }
+        ],
+        [
+            "ring_1_3",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_3",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 941.8373804413928,
+                "y": 680.6555858652083
+            }
+        ],
+        [
+            "ring_1_4",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_4",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 795.4172834820167,
+                "y": 745.9510345092544
+            }
+        ],
+        [
+            "ring_1_5",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_5",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 631.189336892446,
+                "y": 702.4207354132237
+            }
+        ],
+        [
+            "ring_1_6",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_6",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 556.0006384538475,
+                "y": 542.1500887414741
+            }
+        ],
+        [
+            "ring_1_7",
+            {
+                "color": "#98df8a",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_1_7",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 625.2533870157146,
+                "y": 391.77269186427685
+            }
+        ],
+        [
+            "ring_2_0",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_0",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 809.26783319439,
+                "y": 189.95039605540697
+            }
+        ],
+        [
+            "ring_2_1",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_1",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1090.2361273596796,
+                "y": 284.92559408311047
+            }
+        ],
+        [
+            "ring_2_2",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_2",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1179.2753755106517,
+                "y": 530.2781889880112
+            }
+        ],
+        [
+            "ring_2_3",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_3",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1082.3215275240377,
+                "y": 811.2464831533006
+            }
+        ],
+        [
+            "ring_2_4",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_4",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 781.5667337696433,
+                "y": 894.3497814275412
+            }
+        ],
+        [
+            "ring_2_5",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_5",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 516.4276392756377,
+                "y": 793.4386335231062
+            }
+        ],
+        [
+            "ring_2_6",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_6",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 405.6232415766503,
+                "y": 542.1500887414741
+            }
+        ],
+        [
+            "ring_2_7",
+            {
+                "color": "#ffbf80",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_2_7",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 536.2141388647426,
+                "y": 292.8401939187524
+            }
+        ],
+        [
+            "ring_3_0",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_0",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 975.4744297428712,
+                "y": 49.46624897276223
+            }
+        ],
+        [
+            "ring_3_1",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_1",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1371.2044215249691,
+                "y": 239.4166450281692
+            }
+        ],
+        [
+            "ring_3_2",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_2",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1404.8414708264474,
+                "y": 621.2960870978936
+            }
+        ],
+        [
+            "ring_3_3",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_3",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1117.3463025314875,
+                "y": 1017.5832398054619
+            }
+        ],
+        [
+            "ring_3_4",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_4",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 642.2247162987902,
+                "y": 1069.9588477366253
+            }
+        ],
+        [
+            "ring_3_5",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_5",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 221.6087953979748,
+                "y": 833.011632701316
+            }
+        ],
+        [
+            "ring_3_6",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_6",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 205.76131687242793,
+                "y": 410.27559546078055
+            }
+        ],
+        [
+            "ring_3_7",
+            {
+                "color": "#ff7f0e",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_3_7",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 508.51303943999574,
+                "y": 71.23139852077762
+            }
+        ],
+        [
+            "ring_4_0",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_0",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1113.9799268666054,
+                "y": 9.893249794552446
+            }
+        ],
+        [
+            "ring_4_1",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_1",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1515.6458685254347,
+                "y": 278.98964420637896
+            }
+        ],
+        [
+            "ring_4_2",
+            {
+                "color": "#2ca02c",
+                "energy": 1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_2",
+                "isFiringNext": true,
+                "isPulsing": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1462.2223196348516,
+                "y": 749.9083344270754
+            }
+        ],
+        [
+            "ring_4_3",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_3",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1077.4410774410771,
+                "y": 1131.063723656316
+            }
+        ],
+        [
+            "ring_4_4",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_4",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 510.03865818680623,
+                "y": 1134.804838508542
+            }
+        ],
+        [
+            "ring_4_5",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_5",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 94.97519802770348,
+                "y": 759.8015842216279
+            }
+        ],
+        [
+            "ring_4_6",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_6",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 116.74034757571887,
+                "y": 282.94694412419994
+            }
+        ],
+        [
+            "ring_4_7",
+            {
+                "color": "#2ca02c",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_4_7",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 567.8725382073104,
+                "y": -55.4021988494937
+            }
+        ],
+        [
+            "ring_5_0",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_0",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1268.3146236616235,
+                "y": 5.935949876731468
+            }
+        ],
+        [
+            "ring_5_1",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_1",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1632.3862161011537,
+                "y": 368.02889235735097
+            }
+        ],
+        [
+            "ring_5_2",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_2",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 1430.5639202922837,
+                "y": 910.178981098825
+            }
+        ],
+        [
+            "ring_5_3",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_3",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 947.7733303181243,
+                "y": 1226.7629745245033
+            }
+        ],
+        [
+            "ring_5_4",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_4",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 330.4345431380517,
+                "y": 1127.830476578979
+            }
+        ],
+        [
+            "ring_5_5",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_5",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 11.871899753462936,
+                "y": 668.7836861117454
+            }
+        ],
+        [
+            "ring_5_6",
+            {
+                "color": "#1f77b4",
+                "energy": 0.1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_6",
+                "isFiringNext": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 132.5695472470028,
+                "y": 156.31334675392864
+            }
+        ],
+        [
+            "ring_5_7",
+            {
+                "color": "#1f77b4",
+                "energy": 1,
+                "energyAfterFiring": 0,
+                "energyDecayRate": 0.1,
+                "id": "ring_5_7",
+                "isFiringNext": true,
+                "isPulsing": false,
+                "pulse": false,
+                "radius": 25,
+                "spikeThreshold": 1,
+                "stableEnergyLevel": 0.1,
+                "x": 696.4847855364922,
+                "y": -146.4200969593762
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "ring_5_0_ring_1_1",
+            {
+                "from": "ring_5_0",
+                "strength": 1,
+                "to": "ring_1_1"
+            }
+        ],
+        [
+            "ring_5_0_ring_4_1",
+            {
+                "from": "ring_5_0",
+                "strength": 1,
+                "to": "ring_4_1"
+            }
+        ],
+        [
+            "ring_4_0_ring_5_0",
+            {
+                "from": "ring_4_0",
+                "strength": 1,
+                "to": "ring_5_0"
+            }
+        ],
+        [
+            "ring_4_0_ring_3_0",
+            {
+                "from": "ring_4_0",
+                "strength": 1,
+                "to": "ring_3_0"
+            }
+        ],
+        [
+            "ring_3_0_ring_4_0",
+            {
+                "from": "ring_3_0",
+                "strength": 1,
+                "to": "ring_4_0"
+            }
+        ],
+        [
+            "ring_3_0_ring_1_0",
+            {
+                "from": "ring_3_0",
+                "strength": 1,
+                "to": "ring_1_0"
+            }
+        ],
+        [
+            "ring_1_0_ring_2_0",
+            {
+                "from": "ring_1_0",
+                "strength": 1,
+                "to": "ring_2_0"
+            }
+        ],
+        [
+            "ring_1_0_ring_0_0",
+            {
+                "from": "ring_1_0",
+                "strength": 1,
+                "to": "ring_0_0"
+            }
+        ],
+        [
+            "ring_0_0_ring_1_7",
+            {
+                "from": "ring_0_0",
+                "strength": 1,
+                "to": "ring_1_7"
+            }
+        ],
+        [
+            "ring_0_0_ring_4_7",
+            {
+                "from": "ring_0_0",
+                "strength": 1,
+                "to": "ring_4_7"
+            }
+        ],
+        [
+            "ring_2_0_ring_1_0",
+            {
+                "from": "ring_2_0",
+                "strength": 1,
+                "to": "ring_1_0"
+            }
+        ],
+        [
+            "ring_2_0_ring_4_0",
+            {
+                "from": "ring_2_0",
+                "strength": 1,
+                "to": "ring_4_0"
+            }
+        ],
+        [
+            "ring_1_1_ring_2_1",
+            {
+                "from": "ring_1_1",
+                "strength": 1,
+                "to": "ring_2_1"
+            }
+        ],
+        [
+            "ring_1_1_ring_0_1",
+            {
+                "from": "ring_1_1",
+                "strength": 1,
+                "to": "ring_0_1"
+            }
+        ],
+        [
+            "ring_1_2_ring_0_2",
+            {
+                "from": "ring_1_2",
+                "strength": 1,
+                "to": "ring_0_2"
+            }
+        ],
+        [
+            "ring_1_2_ring_2_2",
+            {
+                "from": "ring_1_2",
+                "strength": 1,
+                "to": "ring_2_2"
+            }
+        ],
+        [
+            "ring_1_3_ring_0_3",
+            {
+                "from": "ring_1_3",
+                "strength": 1,
+                "to": "ring_0_3"
+            }
+        ],
+        [
+            "ring_1_3_ring_2_3",
+            {
+                "from": "ring_1_3",
+                "strength": 1,
+                "to": "ring_2_3"
+            }
+        ],
+        [
+            "ring_1_4_ring_0_4",
+            {
+                "from": "ring_1_4",
+                "strength": 1,
+                "to": "ring_0_4"
+            }
+        ],
+        [
+            "ring_1_4_ring_2_4",
+            {
+                "from": "ring_1_4",
+                "strength": 1,
+                "to": "ring_2_4"
+            }
+        ],
+        [
+            "ring_1_5_ring_0_5",
+            {
+                "from": "ring_1_5",
+                "strength": 1,
+                "to": "ring_0_5"
+            }
+        ],
+        [
+            "ring_1_5_ring_2_5",
+            {
+                "from": "ring_1_5",
+                "strength": 1,
+                "to": "ring_2_5"
+            }
+        ],
+        [
+            "ring_1_6_ring_0_6",
+            {
+                "from": "ring_1_6",
+                "strength": 1,
+                "to": "ring_0_6"
+            }
+        ],
+        [
+            "ring_1_6_ring_2_6",
+            {
+                "from": "ring_1_6",
+                "strength": 1,
+                "to": "ring_2_6"
+            }
+        ],
+        [
+            "ring_1_7_ring_0_7",
+            {
+                "from": "ring_1_7",
+                "strength": 1,
+                "to": "ring_0_7"
+            }
+        ],
+        [
+            "ring_1_7_ring_2_7",
+            {
+                "from": "ring_1_7",
+                "strength": 1,
+                "to": "ring_2_7"
+            }
+        ],
+        [
+            "ring_0_7_ring_1_6",
+            {
+                "from": "ring_0_7",
+                "strength": 1,
+                "to": "ring_1_6"
+            }
+        ],
+        [
+            "ring_0_7_ring_4_6",
+            {
+                "from": "ring_0_7",
+                "strength": 1,
+                "to": "ring_4_6"
+            }
+        ],
+        [
+            "ring_0_6_ring_1_5",
+            {
+                "from": "ring_0_6",
+                "strength": 1,
+                "to": "ring_1_5"
+            }
+        ],
+        [
+            "ring_0_6_ring_4_5",
+            {
+                "from": "ring_0_6",
+                "strength": 1,
+                "to": "ring_4_5"
+            }
+        ],
+        [
+            "ring_0_5_ring_4_4",
+            {
+                "from": "ring_0_5",
+                "strength": 1,
+                "to": "ring_4_4"
+            }
+        ],
+        [
+            "ring_0_5_ring_1_4",
+            {
+                "from": "ring_0_5",
+                "strength": 1,
+                "to": "ring_1_4"
+            }
+        ],
+        [
+            "ring_0_4_ring_4_3",
+            {
+                "from": "ring_0_4",
+                "strength": 1,
+                "to": "ring_4_3"
+            }
+        ],
+        [
+            "ring_0_4_ring_1_3",
+            {
+                "from": "ring_0_4",
+                "strength": 1,
+                "to": "ring_1_3"
+            }
+        ],
+        [
+            "ring_0_3_ring_1_2",
+            {
+                "from": "ring_0_3",
+                "strength": 1,
+                "to": "ring_1_2"
+            }
+        ],
+        [
+            "ring_0_3_ring_4_2",
+            {
+                "from": "ring_0_3",
+                "strength": 1,
+                "to": "ring_4_2"
+            }
+        ],
+        [
+            "ring_0_2_ring_1_1",
+            {
+                "from": "ring_0_2",
+                "strength": 1,
+                "to": "ring_1_1"
+            }
+        ],
+        [
+            "ring_0_2_ring_4_1",
+            {
+                "from": "ring_0_2",
+                "strength": 1,
+                "to": "ring_4_1"
+            }
+        ],
+        [
+            "ring_0_1_ring_1_0",
+            {
+                "from": "ring_0_1",
+                "strength": 1,
+                "to": "ring_1_0"
+            }
+        ],
+        [
+            "ring_0_1_ring_4_0",
+            {
+                "from": "ring_0_1",
+                "strength": 1,
+                "to": "ring_4_0"
+            }
+        ],
+        [
+            "ring_5_1_ring_1_2",
+            {
+                "from": "ring_5_1",
+                "strength": 1,
+                "to": "ring_1_2"
+            }
+        ],
+        [
+            "ring_5_1_ring_4_2",
+            {
+                "from": "ring_5_1",
+                "strength": 1,
+                "to": "ring_4_2"
+            }
+        ],
+        [
+            "ring_5_2_ring_4_3",
+            {
+                "from": "ring_5_2",
+                "strength": 1,
+                "to": "ring_4_3"
+            }
+        ],
+        [
+            "ring_5_3_ring_4_4",
+            {
+                "from": "ring_5_3",
+                "strength": 1,
+                "to": "ring_4_4"
+            }
+        ],
+        [
+            "ring_5_4_ring_4_5",
+            {
+                "from": "ring_5_4",
+                "strength": 1,
+                "to": "ring_4_5"
+            }
+        ],
+        [
+            "ring_4_5_ring_3_5",
+            {
+                "from": "ring_4_5",
+                "strength": 1,
+                "to": "ring_3_5"
+            }
+        ],
+        [
+            "ring_5_5_ring_4_6",
+            {
+                "from": "ring_5_5",
+                "strength": 1,
+                "to": "ring_4_6"
+            }
+        ],
+        [
+            "ring_5_6_ring_4_7",
+            {
+                "from": "ring_5_6",
+                "strength": 1,
+                "to": "ring_4_7"
+            }
+        ],
+        [
+            "ring_5_7_ring_4_0",
+            {
+                "from": "ring_5_7",
+                "strength": 1,
+                "to": "ring_4_0"
+            }
+        ],
+        [
+            "ring_5_7_ring_1_0",
+            {
+                "from": "ring_5_7",
+                "strength": 1,
+                "to": "ring_1_0"
+            }
+        ],
+        [
+            "ring_5_2_ring_1_3",
+            {
+                "from": "ring_5_2",
+                "strength": 1,
+                "to": "ring_1_3"
+            }
+        ],
+        [
+            "ring_5_3_ring_1_4",
+            {
+                "from": "ring_5_3",
+                "strength": 1,
+                "to": "ring_1_4"
+            }
+        ],
+        [
+            "ring_5_4_ring_1_5",
+            {
+                "from": "ring_5_4",
+                "strength": 1,
+                "to": "ring_1_5"
+            }
+        ],
+        [
+            "ring_5_5_ring_1_6",
+            {
+                "from": "ring_5_5",
+                "strength": 1,
+                "to": "ring_1_6"
+            }
+        ],
+        [
+            "ring_5_6_ring_1_7",
+            {
+                "from": "ring_5_6",
+                "strength": 1,
+                "to": "ring_1_7"
+            }
+        ],
+        [
+            "ring_4_1_ring_5_1",
+            {
+                "from": "ring_4_1",
+                "strength": 1,
+                "to": "ring_5_1"
+            }
+        ],
+        [
+            "ring_4_1_ring_3_1",
+            {
+                "from": "ring_4_1",
+                "strength": 1,
+                "to": "ring_3_1"
+            }
+        ],
+        [
+            "ring_4_2_ring_5_2",
+            {
+                "from": "ring_4_2",
+                "strength": 1,
+                "to": "ring_5_2"
+            }
+        ],
+        [
+            "ring_4_2_ring_3_2",
+            {
+                "from": "ring_4_2",
+                "strength": 1,
+                "to": "ring_3_2"
+            }
+        ],
+        [
+            "ring_4_3_ring_5_3",
+            {
+                "from": "ring_4_3",
+                "strength": 1,
+                "to": "ring_5_3"
+            }
+        ],
+        [
+            "ring_4_3_ring_3_3",
+            {
+                "from": "ring_4_3",
+                "strength": 1,
+                "to": "ring_3_3"
+            }
+        ],
+        [
+            "ring_4_4_ring_5_4",
+            {
+                "from": "ring_4_4",
+                "strength": 1,
+                "to": "ring_5_4"
+            }
+        ],
+        [
+            "ring_4_4_ring_3_4",
+            {
+                "from": "ring_4_4",
+                "strength": 1,
+                "to": "ring_3_4"
+            }
+        ],
+        [
+            "ring_4_5_ring_5_5",
+            {
+                "from": "ring_4_5",
+                "strength": 1,
+                "to": "ring_5_5"
+            }
+        ],
+        [
+            "ring_4_6_ring_3_6",
+            {
+                "from": "ring_4_6",
+                "strength": 1,
+                "to": "ring_3_6"
+            }
+        ],
+        [
+            "ring_4_6_ring_5_6",
+            {
+                "from": "ring_4_6",
+                "strength": 1,
+                "to": "ring_5_6"
+            }
+        ],
+        [
+            "ring_4_7_ring_3_7",
+            {
+                "from": "ring_4_7",
+                "strength": 1,
+                "to": "ring_3_7"
+            }
+        ],
+        [
+            "ring_4_7_ring_5_7",
+            {
+                "from": "ring_4_7",
+                "strength": 1,
+                "to": "ring_5_7"
+            }
+        ],
+        [
+            "ring_3_1_ring_4_1",
+            {
+                "from": "ring_3_1",
+                "strength": 1,
+                "to": "ring_4_1"
+            }
+        ],
+        [
+            "ring_3_2_ring_4_2",
+            {
+                "from": "ring_3_2",
+                "strength": 1,
+                "to": "ring_4_2"
+            }
+        ],
+        [
+            "ring_3_3_ring_4_3",
+            {
+                "from": "ring_3_3",
+                "strength": 1,
+                "to": "ring_4_3"
+            }
+        ],
+        [
+            "ring_3_4_ring_4_4",
+            {
+                "from": "ring_3_4",
+                "strength": 1,
+                "to": "ring_4_4"
+            }
+        ],
+        [
+            "ring_3_5_ring_4_5",
+            {
+                "from": "ring_3_5",
+                "strength": 1,
+                "to": "ring_4_5"
+            }
+        ],
+        [
+            "ring_3_6_ring_4_6",
+            {
+                "from": "ring_3_6",
+                "strength": 1,
+                "to": "ring_4_6"
+            }
+        ],
+        [
+            "ring_3_7_ring_4_7",
+            {
+                "from": "ring_3_7",
+                "strength": 1,
+                "to": "ring_4_7"
+            }
+        ],
+        [
+            "ring_3_1_ring_1_1",
+            {
+                "from": "ring_3_1",
+                "strength": 1,
+                "to": "ring_1_1"
+            }
+        ],
+        [
+            "ring_3_2_ring_1_2",
+            {
+                "from": "ring_3_2",
+                "strength": 1,
+                "to": "ring_1_2"
+            }
+        ],
+        [
+            "ring_3_3_ring_1_3",
+            {
+                "from": "ring_3_3",
+                "strength": 1,
+                "to": "ring_1_3"
+            }
+        ],
+        [
+            "ring_3_4_ring_1_4",
+            {
+                "from": "ring_3_4",
+                "strength": 1,
+                "to": "ring_1_4"
+            }
+        ],
+        [
+            "ring_3_5_ring_1_5",
+            {
+                "from": "ring_3_5",
+                "strength": 1,
+                "to": "ring_1_5"
+            }
+        ],
+        [
+            "ring_3_6_ring_1_6",
+            {
+                "from": "ring_3_6",
+                "strength": 1,
+                "to": "ring_1_6"
+            }
+        ],
+        [
+            "ring_3_7_ring_1_7",
+            {
+                "from": "ring_3_7",
+                "strength": 1,
+                "to": "ring_1_7"
+            }
+        ],
+        [
+            "ring_2_1_ring_1_1",
+            {
+                "from": "ring_2_1",
+                "strength": 1,
+                "to": "ring_1_1"
+            }
+        ],
+        [
+            "ring_2_2_ring_1_2",
+            {
+                "from": "ring_2_2",
+                "strength": 1,
+                "to": "ring_1_2"
+            }
+        ],
+        [
+            "ring_2_3_ring_1_3",
+            {
+                "from": "ring_2_3",
+                "strength": 1,
+                "to": "ring_1_3"
+            }
+        ],
+        [
+            "ring_2_4_ring_1_4",
+            {
+                "from": "ring_2_4",
+                "strength": 1,
+                "to": "ring_1_4"
+            }
+        ],
+        [
+            "ring_2_5_ring_1_5",
+            {
+                "from": "ring_2_5",
+                "strength": 1,
+                "to": "ring_1_5"
+            }
+        ],
+        [
+            "ring_2_6_ring_1_6",
+            {
+                "from": "ring_2_6",
+                "strength": 1,
+                "to": "ring_1_6"
+            }
+        ],
+        [
+            "ring_2_7_ring_1_7",
+            {
+                "from": "ring_2_7",
+                "strength": 1,
+                "to": "ring_1_7"
+            }
+        ],
+        [
+            "ring_2_1_ring_4_1",
+            {
+                "from": "ring_2_1",
+                "strength": 1,
+                "to": "ring_4_1"
+            }
+        ],
+        [
+            "ring_2_2_ring_4_2",
+            {
+                "from": "ring_2_2",
+                "strength": 1,
+                "to": "ring_4_2"
+            }
+        ],
+        [
+            "ring_2_3_ring_4_3",
+            {
+                "from": "ring_2_3",
+                "strength": 1,
+                "to": "ring_4_3"
+            }
+        ],
+        [
+            "ring_2_4_ring_4_4",
+            {
+                "from": "ring_2_4",
+                "strength": 1,
+                "to": "ring_4_4"
+            }
+        ],
+        [
+            "ring_2_5_ring_4_5",
+            {
+                "from": "ring_2_5",
+                "strength": 1,
+                "to": "ring_4_5"
+            }
+        ],
+        [
+            "ring_2_6_ring_4_6",
+            {
+                "from": "ring_2_6",
+                "strength": 1,
+                "to": "ring_4_6"
+            }
+        ],
+        [
+            "ring_2_7_ring_4_7",
+            {
+                "from": "ring_2_7",
+                "strength": 1,
+                "to": "ring_4_7"
+            }
+        ]
+    ]
+}

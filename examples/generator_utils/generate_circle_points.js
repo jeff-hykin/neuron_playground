@@ -21,15 +21,16 @@
  * // Output: -10 -10 20 20
  * ```
  */
-export function generateCirclePoints({ circleCenterX, circleCenterY, radius, numberOfPoints }) {
+export function generateCirclePoints({ circleCenterX, circleCenterY, radius, numberOfPoints, angleOffsetDegrees = 0 }) {
     const clockwiseListOfPoints = []
     let minX = Infinity,
         minY = Infinity,
         maxX = -Infinity,
         maxY = -Infinity
-
+    
+    const angleOffsetRadians = (angleOffsetDegrees / 180) * Math.PI
     for (let i = 0; i < numberOfPoints; i++) {
-        const angle = ((2 * Math.PI) / numberOfPoints) * i
+        const angle = (((2 * Math.PI) / numberOfPoints) * i) + angleOffsetRadians
         const x = circleCenterX + radius * Math.cos(angle)
         const y = circleCenterY + radius * Math.sin(angle)
         clockwiseListOfPoints.push({ x, y })

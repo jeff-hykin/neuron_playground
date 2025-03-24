@@ -1,18 +1,20 @@
 #!/usr/bin/env -S deno run --allow-all
 import { pointsToFunction } from "https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/points_to_function.js"
-import { makeRing, wrapAroundGet, getDistance } from "./generator_utils/make_ring.js"
+import { wrapAroundGet, getDistance } from "./generator_utils/make_circle_of_nodes.js"
+import { makeRing } from "./generator_utils/make_ring.js"
 import { makeJointRing } from "./generator_utils/joint_ring.js"
 import { generateCirclePoints } from "./generator_utils/generate_circle_points.js"
 import { zipShort } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/zip_short.js'
 
 const graph = makeJointRing({
-    distance: 700,
-    minWeight: -0.2,
+    distance: 500,
+    minWeight: -0.3, // effects cross-ring inhibition
     ringArgs: {
         numberOfNodes: 12,
-        // energyDecayRate: 0.43333333333333335, // same as excitatory weight for nearest neighbor (given a neutral distance of 1.5)
+        energyDecayRate: 0.1, // same as excitatory weight for nearest neighbor (given a neutral distance of 1.5)
         // energyDecayRate: 0.7, 
         // maxWeight: 1.3,
+        maxWeight: 2, // 2.0 = really high self-excitatory weight to prevent the second ring from "killing" the first
         // minWeight: -1.6,
         startX: 160,
         startY: 272,
@@ -22,6 +24,10 @@ const graph = makeJointRing({
         neutralDistance: 1.8,
         maxWeight: 1,
         minWeight: -0.8,
+    },
+    secondRingArgs: {
+        maxWeight: 1.3, // really high self-excitatory weight
+        minWeight: 0, // no inhibitory weights
     },
 })
 

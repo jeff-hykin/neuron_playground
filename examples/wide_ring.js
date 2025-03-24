@@ -1,6 +1,7 @@
 #!/usr/bin/env -S deno run --allow-all
 import { pointsToFunction } from "https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/points_to_function.js"
-import { makeRing, wrapAroundGet, getDistance } from "./generator_utils/make_ring.js"
+import { wrapAroundGet, getDistance } from "./generator_utils/make_circle_of_nodes.js"
+import { makeRing } from "./generator_utils/make_ring.js"
 import { makeJointRing } from "./generator_utils/joint_ring.js"
 import { generateCirclePoints } from "./generator_utils/generate_circle_points.js"
 import { zipShort } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/zip_short.js'

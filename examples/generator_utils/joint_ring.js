@@ -1,9 +1,10 @@
-import { makeRing, getDistance } from "./make_ring.js"
+import { getDistance } from "./make_circle_of_nodes.js"
+import { makeRing } from "./make_ring.js"
 import { pointsToFunction } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/points_to_function.js'
 
-export function makeJointRing({ distance=700, ringArgs, minWeight, }) {
+export function makeJointRing({ distance=700, ringArgs, minWeight, secondRingArgs }) {
     const ring1 = makeRing(ringArgs)
-    const ring2 = makeRing({...ringArgs, startX: ringArgs.startX + distance})
+    const ring2 = makeRing({...ringArgs, startX: ringArgs.startX + distance, ...secondRingArgs })
     
     const maxDistance = Math.ceil(ring1.nodes.length/2)
     
