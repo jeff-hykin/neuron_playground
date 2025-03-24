@@ -14,7 +14,7 @@ const graph = makeRing({
     // minWeight: -1.6,
     startX: 160,
     startY: 272,
-    radius: 25,
+    ringRadius: 180,
     namespace: "ring",
     
     neutralDistance: 1.8,

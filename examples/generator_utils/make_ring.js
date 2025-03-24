@@ -28,7 +28,7 @@ export function makeRing({
     namespaceIncrementor++
     const circleCenterX = startX + ringRadius + defaultNodeData.radius
     const circleCenterY = startY + ringRadius + defaultNodeData.radius
-    const { nodes: newNodes, edges, nodeIdToIndex } = makeCircleOfNodes({ nodes, circleCenterX, circleCenterY, ringRadius, neutralDistance, radius, namespace, defaultNodeData })
+    const { nodes: newNodes, edges, nodeIdToIndex } = makeCircleOfNodes({ numberOfNodes, nodes, circleCenterX, circleCenterY, ringRadius, neutralDistance, namespace, defaultNodeData })
 
     // self (getDistance 0)= weight 1 (excitatory)
     // neutral getDistance (ex: two neurons away) = weight 0, (ignore)
