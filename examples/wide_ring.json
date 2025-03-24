@@ -1,1351 +1,1027 @@
 {
     "nodes": [
-        [
-            "ring_1_1",
-            {
-                "x": 349,
-                "y": 435,
-                "id": "ring_1_1",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_2",
-            {
-                "x": 460,
-                "y": 429,
-                "id": "ring_1_2",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_3",
-            {
-                "x": 570,
-                "y": 433,
-                "id": "ring_1_3",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_4",
-            {
-                "x": 646,
-                "y": 506,
-                "id": "ring_1_4",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_5",
-            {
-                "x": 650,
-                "y": 597,
-                "id": "ring_1_5",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_6",
-            {
-                "x": 645,
-                "y": 711,
-                "id": "ring_1_6",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_7",
-            {
-                "x": 573,
-                "y": 775,
-                "id": "ring_1_7",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_8",
-            {
-                "x": 460,
-                "y": 779,
-                "id": "ring_1_8",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_9",
-            {
-                "x": 352,
-                "y": 777,
-                "id": "ring_1_9",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_10",
-            {
-                "x": 279,
-                "y": 709,
-                "id": "ring_1_10",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_11",
-            {
-                "x": 282,
-                "y": 606,
-                "id": "ring_1_11",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ],
-        [
-            "ring_1_12",
-            {
-                "x": 282,
-                "y": 512,
-                "id": "ring_1_12",
-                "pulse": false,
-                "spikeThreshold": 1,
-                "energy": 0.1,
-                "energyDecayRate": 0.1,
-                "isFiringNext": false,
-                "stableEnergyLevel": 0.1,
-                "energyAfterFiring": 0,
-                "radius": 25
-            }
-        ]
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 485,
+            "y": 447,
+            "id": "ring_1_1"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 464.9038105676658,
+            "y": 522,
+            "id": "ring_1_2"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 410,
+            "y": 576.9038105676658,
+            "id": "ring_1_3"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 335,
+            "y": 597,
+            "id": "ring_1_4"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 260,
+            "y": 576.9038105676658,
+            "id": "ring_1_5"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 205.09618943233423,
+            "y": 522,
+            "id": "ring_1_6"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 185,
+            "y": 447,
+            "id": "ring_1_7"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 205.09618943233417,
+            "y": 372.00000000000006,
+            "id": "ring_1_8"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 259.99999999999994,
+            "y": 317.09618943233426,
+            "id": "ring_1_9"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 335,
+            "y": 297,
+            "id": "ring_1_10"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 409.9999999999999,
+            "y": 317.09618943233414,
+            "id": "ring_1_11"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 464.90381056766574,
+            "y": 371.99999999999994,
+            "id": "ring_1_12"
+        }
     ],
     "edges": [
-        [
-            "ring_1_1-ring_1_1",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_1",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_1-ring_1_2",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_2",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_1-ring_1_3",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_3",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_1-ring_1_4",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_4",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_1-ring_1_5",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_5",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_1-ring_1_6",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_6",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_1-ring_1_7",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_7",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_1-ring_1_8",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_8",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_1-ring_1_9",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_9",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_1-ring_1_10",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_10",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_1-ring_1_11",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_11",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_1-ring_1_12",
-            {
-                "from": "ring_1_1",
-                "to": "ring_1_12",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_2-ring_1_1",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_1",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_2-ring_1_2",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_2",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_2-ring_1_3",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_3",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_2-ring_1_4",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_4",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_2-ring_1_5",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_5",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_2-ring_1_6",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_6",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_2-ring_1_7",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_7",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_2-ring_1_8",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_8",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_2-ring_1_9",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_9",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_2-ring_1_10",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_10",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_2-ring_1_11",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_11",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_2-ring_1_12",
-            {
-                "from": "ring_1_2",
-                "to": "ring_1_12",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_3-ring_1_1",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_1",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_3-ring_1_2",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_2",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_3-ring_1_3",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_3",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_3-ring_1_4",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_4",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_3-ring_1_5",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_5",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_3-ring_1_6",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_6",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_3-ring_1_7",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_7",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_3-ring_1_8",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_8",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_3-ring_1_9",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_9",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_3-ring_1_10",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_10",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_3-ring_1_11",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_11",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_3-ring_1_12",
-            {
-                "from": "ring_1_3",
-                "to": "ring_1_12",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_4-ring_1_1",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_1",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_4-ring_1_2",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_2",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_4-ring_1_3",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_3",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_4-ring_1_4",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_4",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_4-ring_1_5",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_5",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_4-ring_1_6",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_6",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_4-ring_1_7",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_7",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_4-ring_1_8",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_8",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_4-ring_1_9",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_9",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_4-ring_1_10",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_10",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_4-ring_1_11",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_11",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_4-ring_1_12",
-            {
-                "from": "ring_1_4",
-                "to": "ring_1_12",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_5-ring_1_1",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_1",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_5-ring_1_2",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_2",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_5-ring_1_3",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_3",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_5-ring_1_4",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_4",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_5-ring_1_5",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_5",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_5-ring_1_6",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_6",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_5-ring_1_7",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_7",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_5-ring_1_8",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_8",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_5-ring_1_9",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_9",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_5-ring_1_10",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_10",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_5-ring_1_11",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_11",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_5-ring_1_12",
-            {
-                "from": "ring_1_5",
-                "to": "ring_1_12",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_6-ring_1_1",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_1",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_6-ring_1_2",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_2",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_6-ring_1_3",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_3",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_6-ring_1_4",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_4",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_6-ring_1_5",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_5",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_6-ring_1_6",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_6",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_6-ring_1_7",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_7",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_6-ring_1_8",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_8",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_6-ring_1_9",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_9",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_6-ring_1_10",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_10",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_6-ring_1_11",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_11",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_6-ring_1_12",
-            {
-                "from": "ring_1_6",
-                "to": "ring_1_12",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_7-ring_1_1",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_1",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_7-ring_1_2",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_2",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_7-ring_1_3",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_3",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_7-ring_1_4",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_4",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_7-ring_1_5",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_5",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_7-ring_1_6",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_6",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_7-ring_1_7",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_7",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_7-ring_1_8",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_8",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_7-ring_1_9",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_9",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_7-ring_1_10",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_10",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_7-ring_1_11",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_11",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_7-ring_1_12",
-            {
-                "from": "ring_1_7",
-                "to": "ring_1_12",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_8-ring_1_1",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_1",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_8-ring_1_2",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_2",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_8-ring_1_3",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_3",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_8-ring_1_4",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_4",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_8-ring_1_5",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_5",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_8-ring_1_6",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_6",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_8-ring_1_7",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_7",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_8-ring_1_8",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_8",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_8-ring_1_9",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_9",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_8-ring_1_10",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_10",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_8-ring_1_11",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_11",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_8-ring_1_12",
-            {
-                "from": "ring_1_8",
-                "to": "ring_1_12",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_9-ring_1_1",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_1",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_9-ring_1_2",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_2",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_9-ring_1_3",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_3",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_9-ring_1_4",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_4",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_9-ring_1_5",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_5",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_9-ring_1_6",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_6",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_9-ring_1_7",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_7",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_9-ring_1_8",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_8",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_9-ring_1_9",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_9",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_9-ring_1_10",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_10",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_9-ring_1_11",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_11",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_9-ring_1_12",
-            {
-                "from": "ring_1_9",
-                "to": "ring_1_12",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_10-ring_1_1",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_1",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_10-ring_1_2",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_2",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_10-ring_1_3",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_3",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_10-ring_1_4",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_4",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_10-ring_1_5",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_5",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_10-ring_1_6",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_6",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_10-ring_1_7",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_7",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_10-ring_1_8",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_8",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_10-ring_1_9",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_9",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_10-ring_1_10",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_10",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_10-ring_1_11",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_11",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_10-ring_1_12",
-            {
-                "from": "ring_1_10",
-                "to": "ring_1_12",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_11-ring_1_1",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_1",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_11-ring_1_2",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_2",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_11-ring_1_3",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_3",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_11-ring_1_4",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_4",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_11-ring_1_5",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_5",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_11-ring_1_6",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_6",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_11-ring_1_7",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_7",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_11-ring_1_8",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_8",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_11-ring_1_9",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_9",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_11-ring_1_10",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_10",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_11-ring_1_11",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_11",
-                "strength": 1
-            }
-        ],
-        [
-            "ring_1_11-ring_1_12",
-            {
-                "from": "ring_1_11",
-                "to": "ring_1_12",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_12-ring_1_1",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_1",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_12-ring_1_2",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_2",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_12-ring_1_3",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_3",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_12-ring_1_4",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_4",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_12-ring_1_5",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_5",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_12-ring_1_6",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_6",
-                "strength": -0.8
-            }
-        ],
-        [
-            "ring_1_12-ring_1_7",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_7",
-                "strength": -0.6095238095238096
-            }
-        ],
-        [
-            "ring_1_12-ring_1_8",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_8",
-                "strength": -0.41904761904761906
-            }
-        ],
-        [
-            "ring_1_12-ring_1_9",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_9",
-                "strength": -0.22857142857142854
-            }
-        ],
-        [
-            "ring_1_12-ring_1_10",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_10",
-                "strength": -0.038095238095238085
-            }
-        ],
-        [
-            "ring_1_12-ring_1_11",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_11",
-                "strength": 0.4444444444444444
-            }
-        ],
-        [
-            "ring_1_12-ring_1_12",
-            {
-                "from": "ring_1_12",
-                "to": "ring_1_12",
-                "strength": 1
-            }
-        ]
+        {
+            "id": "ring_1_1-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_1_1",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_1-ring_1_2",
+            "from": "ring_1_1",
+            "to": "ring_1_2",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_1-ring_1_3",
+            "from": "ring_1_1",
+            "to": "ring_1_3",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_1-ring_1_4",
+            "from": "ring_1_1",
+            "to": "ring_1_4",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_1-ring_1_5",
+            "from": "ring_1_1",
+            "to": "ring_1_5",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_1-ring_1_6",
+            "from": "ring_1_1",
+            "to": "ring_1_6",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_1-ring_1_7",
+            "from": "ring_1_1",
+            "to": "ring_1_7",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_1-ring_1_8",
+            "from": "ring_1_1",
+            "to": "ring_1_8",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_1-ring_1_9",
+            "from": "ring_1_1",
+            "to": "ring_1_9",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_1-ring_1_10",
+            "from": "ring_1_1",
+            "to": "ring_1_10",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_1-ring_1_11",
+            "from": "ring_1_1",
+            "to": "ring_1_11",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_1-ring_1_12",
+            "from": "ring_1_1",
+            "to": "ring_1_12",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_2-ring_1_1",
+            "from": "ring_1_2",
+            "to": "ring_1_1",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_2-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_1_2",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_2-ring_1_3",
+            "from": "ring_1_2",
+            "to": "ring_1_3",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_2-ring_1_4",
+            "from": "ring_1_2",
+            "to": "ring_1_4",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_2-ring_1_5",
+            "from": "ring_1_2",
+            "to": "ring_1_5",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_2-ring_1_6",
+            "from": "ring_1_2",
+            "to": "ring_1_6",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_2-ring_1_7",
+            "from": "ring_1_2",
+            "to": "ring_1_7",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_2-ring_1_8",
+            "from": "ring_1_2",
+            "to": "ring_1_8",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_2-ring_1_9",
+            "from": "ring_1_2",
+            "to": "ring_1_9",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_2-ring_1_10",
+            "from": "ring_1_2",
+            "to": "ring_1_10",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_2-ring_1_11",
+            "from": "ring_1_2",
+            "to": "ring_1_11",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_2-ring_1_12",
+            "from": "ring_1_2",
+            "to": "ring_1_12",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_3-ring_1_1",
+            "from": "ring_1_3",
+            "to": "ring_1_1",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_3-ring_1_2",
+            "from": "ring_1_3",
+            "to": "ring_1_2",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_3-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_1_3",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_3-ring_1_4",
+            "from": "ring_1_3",
+            "to": "ring_1_4",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_3-ring_1_5",
+            "from": "ring_1_3",
+            "to": "ring_1_5",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_3-ring_1_6",
+            "from": "ring_1_3",
+            "to": "ring_1_6",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_3-ring_1_7",
+            "from": "ring_1_3",
+            "to": "ring_1_7",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_3-ring_1_8",
+            "from": "ring_1_3",
+            "to": "ring_1_8",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_3-ring_1_9",
+            "from": "ring_1_3",
+            "to": "ring_1_9",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_3-ring_1_10",
+            "from": "ring_1_3",
+            "to": "ring_1_10",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_3-ring_1_11",
+            "from": "ring_1_3",
+            "to": "ring_1_11",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_3-ring_1_12",
+            "from": "ring_1_3",
+            "to": "ring_1_12",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_4-ring_1_1",
+            "from": "ring_1_4",
+            "to": "ring_1_1",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_4-ring_1_2",
+            "from": "ring_1_4",
+            "to": "ring_1_2",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_4-ring_1_3",
+            "from": "ring_1_4",
+            "to": "ring_1_3",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_4-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_1_4",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_4-ring_1_5",
+            "from": "ring_1_4",
+            "to": "ring_1_5",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_4-ring_1_6",
+            "from": "ring_1_4",
+            "to": "ring_1_6",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_4-ring_1_7",
+            "from": "ring_1_4",
+            "to": "ring_1_7",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_4-ring_1_8",
+            "from": "ring_1_4",
+            "to": "ring_1_8",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_4-ring_1_9",
+            "from": "ring_1_4",
+            "to": "ring_1_9",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_4-ring_1_10",
+            "from": "ring_1_4",
+            "to": "ring_1_10",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_4-ring_1_11",
+            "from": "ring_1_4",
+            "to": "ring_1_11",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_4-ring_1_12",
+            "from": "ring_1_4",
+            "to": "ring_1_12",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_5-ring_1_1",
+            "from": "ring_1_5",
+            "to": "ring_1_1",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_5-ring_1_2",
+            "from": "ring_1_5",
+            "to": "ring_1_2",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_5-ring_1_3",
+            "from": "ring_1_5",
+            "to": "ring_1_3",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_5-ring_1_4",
+            "from": "ring_1_5",
+            "to": "ring_1_4",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_5-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_1_5",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_5-ring_1_6",
+            "from": "ring_1_5",
+            "to": "ring_1_6",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_5-ring_1_7",
+            "from": "ring_1_5",
+            "to": "ring_1_7",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_5-ring_1_8",
+            "from": "ring_1_5",
+            "to": "ring_1_8",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_5-ring_1_9",
+            "from": "ring_1_5",
+            "to": "ring_1_9",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_5-ring_1_10",
+            "from": "ring_1_5",
+            "to": "ring_1_10",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_5-ring_1_11",
+            "from": "ring_1_5",
+            "to": "ring_1_11",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_5-ring_1_12",
+            "from": "ring_1_5",
+            "to": "ring_1_12",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_6-ring_1_1",
+            "from": "ring_1_6",
+            "to": "ring_1_1",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_6-ring_1_2",
+            "from": "ring_1_6",
+            "to": "ring_1_2",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_6-ring_1_3",
+            "from": "ring_1_6",
+            "to": "ring_1_3",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_6-ring_1_4",
+            "from": "ring_1_6",
+            "to": "ring_1_4",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_6-ring_1_5",
+            "from": "ring_1_6",
+            "to": "ring_1_5",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_6-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_1_6",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_6-ring_1_7",
+            "from": "ring_1_6",
+            "to": "ring_1_7",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_6-ring_1_8",
+            "from": "ring_1_6",
+            "to": "ring_1_8",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_6-ring_1_9",
+            "from": "ring_1_6",
+            "to": "ring_1_9",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_6-ring_1_10",
+            "from": "ring_1_6",
+            "to": "ring_1_10",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_6-ring_1_11",
+            "from": "ring_1_6",
+            "to": "ring_1_11",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_6-ring_1_12",
+            "from": "ring_1_6",
+            "to": "ring_1_12",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_7-ring_1_1",
+            "from": "ring_1_7",
+            "to": "ring_1_1",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_7-ring_1_2",
+            "from": "ring_1_7",
+            "to": "ring_1_2",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_7-ring_1_3",
+            "from": "ring_1_7",
+            "to": "ring_1_3",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_7-ring_1_4",
+            "from": "ring_1_7",
+            "to": "ring_1_4",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_7-ring_1_5",
+            "from": "ring_1_7",
+            "to": "ring_1_5",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_7-ring_1_6",
+            "from": "ring_1_7",
+            "to": "ring_1_6",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_7-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_1_7",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_7-ring_1_8",
+            "from": "ring_1_7",
+            "to": "ring_1_8",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_7-ring_1_9",
+            "from": "ring_1_7",
+            "to": "ring_1_9",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_7-ring_1_10",
+            "from": "ring_1_7",
+            "to": "ring_1_10",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_7-ring_1_11",
+            "from": "ring_1_7",
+            "to": "ring_1_11",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_7-ring_1_12",
+            "from": "ring_1_7",
+            "to": "ring_1_12",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_8-ring_1_1",
+            "from": "ring_1_8",
+            "to": "ring_1_1",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_8-ring_1_2",
+            "from": "ring_1_8",
+            "to": "ring_1_2",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_8-ring_1_3",
+            "from": "ring_1_8",
+            "to": "ring_1_3",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_8-ring_1_4",
+            "from": "ring_1_8",
+            "to": "ring_1_4",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_8-ring_1_5",
+            "from": "ring_1_8",
+            "to": "ring_1_5",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_8-ring_1_6",
+            "from": "ring_1_8",
+            "to": "ring_1_6",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_8-ring_1_7",
+            "from": "ring_1_8",
+            "to": "ring_1_7",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_8-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_1_8",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_8-ring_1_9",
+            "from": "ring_1_8",
+            "to": "ring_1_9",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_8-ring_1_10",
+            "from": "ring_1_8",
+            "to": "ring_1_10",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_8-ring_1_11",
+            "from": "ring_1_8",
+            "to": "ring_1_11",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_8-ring_1_12",
+            "from": "ring_1_8",
+            "to": "ring_1_12",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_9-ring_1_1",
+            "from": "ring_1_9",
+            "to": "ring_1_1",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_9-ring_1_2",
+            "from": "ring_1_9",
+            "to": "ring_1_2",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_9-ring_1_3",
+            "from": "ring_1_9",
+            "to": "ring_1_3",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_9-ring_1_4",
+            "from": "ring_1_9",
+            "to": "ring_1_4",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_9-ring_1_5",
+            "from": "ring_1_9",
+            "to": "ring_1_5",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_9-ring_1_6",
+            "from": "ring_1_9",
+            "to": "ring_1_6",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_9-ring_1_7",
+            "from": "ring_1_9",
+            "to": "ring_1_7",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_9-ring_1_8",
+            "from": "ring_1_9",
+            "to": "ring_1_8",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_9-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_1_9",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_9-ring_1_10",
+            "from": "ring_1_9",
+            "to": "ring_1_10",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_9-ring_1_11",
+            "from": "ring_1_9",
+            "to": "ring_1_11",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_9-ring_1_12",
+            "from": "ring_1_9",
+            "to": "ring_1_12",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_10-ring_1_1",
+            "from": "ring_1_10",
+            "to": "ring_1_1",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_10-ring_1_2",
+            "from": "ring_1_10",
+            "to": "ring_1_2",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_10-ring_1_3",
+            "from": "ring_1_10",
+            "to": "ring_1_3",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_10-ring_1_4",
+            "from": "ring_1_10",
+            "to": "ring_1_4",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_10-ring_1_5",
+            "from": "ring_1_10",
+            "to": "ring_1_5",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_10-ring_1_6",
+            "from": "ring_1_10",
+            "to": "ring_1_6",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_10-ring_1_7",
+            "from": "ring_1_10",
+            "to": "ring_1_7",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_10-ring_1_8",
+            "from": "ring_1_10",
+            "to": "ring_1_8",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_10-ring_1_9",
+            "from": "ring_1_10",
+            "to": "ring_1_9",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_10-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_1_10",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_10-ring_1_11",
+            "from": "ring_1_10",
+            "to": "ring_1_11",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_10-ring_1_12",
+            "from": "ring_1_10",
+            "to": "ring_1_12",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_11-ring_1_1",
+            "from": "ring_1_11",
+            "to": "ring_1_1",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_11-ring_1_2",
+            "from": "ring_1_11",
+            "to": "ring_1_2",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_11-ring_1_3",
+            "from": "ring_1_11",
+            "to": "ring_1_3",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_11-ring_1_4",
+            "from": "ring_1_11",
+            "to": "ring_1_4",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_11-ring_1_5",
+            "from": "ring_1_11",
+            "to": "ring_1_5",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_11-ring_1_6",
+            "from": "ring_1_11",
+            "to": "ring_1_6",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_11-ring_1_7",
+            "from": "ring_1_11",
+            "to": "ring_1_7",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_11-ring_1_8",
+            "from": "ring_1_11",
+            "to": "ring_1_8",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_11-ring_1_9",
+            "from": "ring_1_11",
+            "to": "ring_1_9",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_11-ring_1_10",
+            "from": "ring_1_11",
+            "to": "ring_1_10",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_11-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_1_11",
+            "strength": 1
+        },
+        {
+            "id": "ring_1_11-ring_1_12",
+            "from": "ring_1_11",
+            "to": "ring_1_12",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_12-ring_1_1",
+            "from": "ring_1_12",
+            "to": "ring_1_1",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_12-ring_1_2",
+            "from": "ring_1_12",
+            "to": "ring_1_2",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_12-ring_1_3",
+            "from": "ring_1_12",
+            "to": "ring_1_3",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_12-ring_1_4",
+            "from": "ring_1_12",
+            "to": "ring_1_4",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_12-ring_1_5",
+            "from": "ring_1_12",
+            "to": "ring_1_5",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_12-ring_1_6",
+            "from": "ring_1_12",
+            "to": "ring_1_6",
+            "strength": -0.8
+        },
+        {
+            "id": "ring_1_12-ring_1_7",
+            "from": "ring_1_12",
+            "to": "ring_1_7",
+            "strength": -0.6095238095238096
+        },
+        {
+            "id": "ring_1_12-ring_1_8",
+            "from": "ring_1_12",
+            "to": "ring_1_8",
+            "strength": -0.41904761904761906
+        },
+        {
+            "id": "ring_1_12-ring_1_9",
+            "from": "ring_1_12",
+            "to": "ring_1_9",
+            "strength": -0.22857142857142854
+        },
+        {
+            "id": "ring_1_12-ring_1_10",
+            "from": "ring_1_12",
+            "to": "ring_1_10",
+            "strength": -0.038095238095238085
+        },
+        {
+            "id": "ring_1_12-ring_1_11",
+            "from": "ring_1_12",
+            "to": "ring_1_11",
+            "strength": 0.4444444444444444
+        },
+        {
+            "id": "ring_1_12-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_1_12",
+            "strength": 1
+        }
     ],
     "nodeIdToIndex": {
         "ring_1_1": 0,
