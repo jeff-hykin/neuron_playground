@@ -1,7 +1,16 @@
 import { pointsToFunction } from "https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/points_to_function.js"
 import { generateCirclePoints } from "./generate_circle_points.js"
-import { zipLong } from 'https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/zip_long.js'
+import { zipLong } from "https://esm.sh/gh/jeff-hykin/good-js@1.14.6.0/source/flattened/zip_long.js"
 import { wrapAroundGet, getDistance, makeCircleOfNodes } from "./make_circle_of_nodes.js"
+
+function gaussianDecay(distance, sigma) {
+    return Math.exp(-Math.pow(distance, 2) / (2 * Math.pow(sigma, 2))) // Gaussian decay equation
+}
+
+// Exponential Decay Function
+function exponentialDecay(distance, lambda) {
+    return Math.exp(-distance / lambda) // Exponential decay equation
+}
 
 let namespaceIncrementor = 0
 export function makeRing({
@@ -13,6 +22,8 @@ export function makeRing({
     startY = 272,
     ringRadius = 180,
     neutralDistance = 0.8,
+    gaussianDecaySigma = null,
+    exponentialDecayLambda = null,
     namespace = "ring",
     defaultNodeData = {
         spikeThreshold: 1,
@@ -34,12 +45,21 @@ export function makeRing({
     // neutral getDistance (ex: two neurons away) = weight 0, (ignore)
     // far away (large getDistance) = inhibitory weight (negative)
     const maxDistance = Math.ceil(newNodes.length / 2)
-    const distanceToStrength = pointsToFunction({
-        xValues: [         0, neutralDistance, maxDistance ],
-        yValues: [ maxWeight,               0,   minWeight ],
-        areSorted: true,
-        method: "linearInterpolation", // would probably be more accurate to use some other curve but this should be close enough for now
-    })
+    const maxGaussianDecay = gaussianDecay(0, gaussianDecaySigma)
+    const maxExponentialDecay = exponentialDecay(0, exponentialDecayLambda)
+    let distanceToStrength
+    if (gaussianDecaySigma) {
+        distanceToStrength = (distance)=>(gaussianDecay(distance, gaussianDecaySigma)-maxGaussianDecay) + maxWeight/2
+    } else if (exponentialDecayLambda) {
+        distanceToStrength = (distance)=>(exponentialDecay(distance, exponentialDecayLambda)-maxExponentialDecay) + maxWeight/2
+    } else {
+        distanceToStrength = pointsToFunction({
+            xValues: [0, neutralDistance, maxDistance],
+            yValues: [maxWeight, 0, minWeight],
+            areSorted: true,
+            method: "linearInterpolation", // would probably be more accurate to use some other curve but this should be close enough for now
+        })
+    }
     for (let sourceNode of newNodes) {
         for (let targetNode of newNodes) {
             edges.push({
@@ -50,6 +70,6 @@ export function makeRing({
             })
         }
     }
-    
+
     return { nodes: newNodes, edges, nodeIdToIndex }
 }
