@@ -1,0 +1,3136 @@
+{
+    "nodes": [
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 2585,
+            "y": 1497,
+            "id": "ring_1_1"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 2503.966675285227,
+            "y": 1930.4899994245834,
+            "id": "ring_1_2"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 2271.810700664791,
+            "y": 2305.4347723758688,
+            "id": "ring_1_3"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1919.8860269318461,
+            "y": 2571.1959496260747,
+            "id": "ring_1_4"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1495.7220313559624,
+            "y": 2691.8810115540414,
+            "id": "ring_1_5"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1056.6044119135006,
+            "y": 2651.1907718073826,
+            "id": "ring_1_6"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 661.8384363448924,
+            "y": 2454.6206727362874,
+            "id": "ring_1_7"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 364.73943712446294,
+            "y": 2128.718595452827,
+            "id": "ring_1_8"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 205.43228037931794,
+            "y": 1717.4994213798846,
+            "id": "ring_1_9"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 205.43228037931794,
+            "y": 1276.500578620116,
+            "id": "ring_1_10"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 364.73943712446305,
+            "y": 865.281404547173,
+            "id": "ring_1_11"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 661.8384363448922,
+            "y": 539.3793272637126,
+            "id": "ring_1_12"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1056.6044119135004,
+            "y": 342.8092281926172,
+            "id": "ring_1_13"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1495.722031355962,
+            "y": 302.1189884459584,
+            "id": "ring_1_14"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1919.8860269318461,
+            "y": 422.8040503739253,
+            "id": "ring_1_15"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 2271.810700664791,
+            "y": 688.5652276241315,
+            "id": "ring_1_16"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 2503.966675285227,
+            "y": 1063.5100005754164,
+            "id": "ring_1_17"
+        }
+    ],
+    "edges": [
+        {
+            "id": "ring_1_1-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_1_1",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_2",
+            "from": "ring_1_1",
+            "to": "ring_1_2",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_3",
+            "from": "ring_1_1",
+            "to": "ring_1_3",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_4",
+            "from": "ring_1_1",
+            "to": "ring_1_4",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_5",
+            "from": "ring_1_1",
+            "to": "ring_1_5",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_6",
+            "from": "ring_1_1",
+            "to": "ring_1_6",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_7",
+            "from": "ring_1_1",
+            "to": "ring_1_7",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_8",
+            "from": "ring_1_1",
+            "to": "ring_1_8",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_9",
+            "from": "ring_1_1",
+            "to": "ring_1_9",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_10",
+            "from": "ring_1_1",
+            "to": "ring_1_10",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_11",
+            "from": "ring_1_1",
+            "to": "ring_1_11",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_12",
+            "from": "ring_1_1",
+            "to": "ring_1_12",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_13",
+            "from": "ring_1_1",
+            "to": "ring_1_13",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_14",
+            "from": "ring_1_1",
+            "to": "ring_1_14",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_15",
+            "from": "ring_1_1",
+            "to": "ring_1_15",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_16",
+            "from": "ring_1_1",
+            "to": "ring_1_16",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_17",
+            "from": "ring_1_1",
+            "to": "ring_1_17",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_1",
+            "from": "ring_1_2",
+            "to": "ring_1_1",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_1_2",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_3",
+            "from": "ring_1_2",
+            "to": "ring_1_3",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_4",
+            "from": "ring_1_2",
+            "to": "ring_1_4",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_5",
+            "from": "ring_1_2",
+            "to": "ring_1_5",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_6",
+            "from": "ring_1_2",
+            "to": "ring_1_6",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_7",
+            "from": "ring_1_2",
+            "to": "ring_1_7",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_8",
+            "from": "ring_1_2",
+            "to": "ring_1_8",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_9",
+            "from": "ring_1_2",
+            "to": "ring_1_9",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_10",
+            "from": "ring_1_2",
+            "to": "ring_1_10",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_11",
+            "from": "ring_1_2",
+            "to": "ring_1_11",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_12",
+            "from": "ring_1_2",
+            "to": "ring_1_12",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_13",
+            "from": "ring_1_2",
+            "to": "ring_1_13",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_14",
+            "from": "ring_1_2",
+            "to": "ring_1_14",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_15",
+            "from": "ring_1_2",
+            "to": "ring_1_15",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_16",
+            "from": "ring_1_2",
+            "to": "ring_1_16",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_17",
+            "from": "ring_1_2",
+            "to": "ring_1_17",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_1",
+            "from": "ring_1_3",
+            "to": "ring_1_1",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_2",
+            "from": "ring_1_3",
+            "to": "ring_1_2",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_1_3",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_4",
+            "from": "ring_1_3",
+            "to": "ring_1_4",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_5",
+            "from": "ring_1_3",
+            "to": "ring_1_5",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_6",
+            "from": "ring_1_3",
+            "to": "ring_1_6",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_7",
+            "from": "ring_1_3",
+            "to": "ring_1_7",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_8",
+            "from": "ring_1_3",
+            "to": "ring_1_8",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_9",
+            "from": "ring_1_3",
+            "to": "ring_1_9",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_10",
+            "from": "ring_1_3",
+            "to": "ring_1_10",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_11",
+            "from": "ring_1_3",
+            "to": "ring_1_11",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_12",
+            "from": "ring_1_3",
+            "to": "ring_1_12",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_13",
+            "from": "ring_1_3",
+            "to": "ring_1_13",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_14",
+            "from": "ring_1_3",
+            "to": "ring_1_14",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_15",
+            "from": "ring_1_3",
+            "to": "ring_1_15",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_16",
+            "from": "ring_1_3",
+            "to": "ring_1_16",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_17",
+            "from": "ring_1_3",
+            "to": "ring_1_17",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_1",
+            "from": "ring_1_4",
+            "to": "ring_1_1",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_2",
+            "from": "ring_1_4",
+            "to": "ring_1_2",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_3",
+            "from": "ring_1_4",
+            "to": "ring_1_3",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_1_4",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_5",
+            "from": "ring_1_4",
+            "to": "ring_1_5",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_6",
+            "from": "ring_1_4",
+            "to": "ring_1_6",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_7",
+            "from": "ring_1_4",
+            "to": "ring_1_7",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_8",
+            "from": "ring_1_4",
+            "to": "ring_1_8",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_9",
+            "from": "ring_1_4",
+            "to": "ring_1_9",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_10",
+            "from": "ring_1_4",
+            "to": "ring_1_10",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_11",
+            "from": "ring_1_4",
+            "to": "ring_1_11",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_12",
+            "from": "ring_1_4",
+            "to": "ring_1_12",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_13",
+            "from": "ring_1_4",
+            "to": "ring_1_13",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_14",
+            "from": "ring_1_4",
+            "to": "ring_1_14",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_15",
+            "from": "ring_1_4",
+            "to": "ring_1_15",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_16",
+            "from": "ring_1_4",
+            "to": "ring_1_16",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_17",
+            "from": "ring_1_4",
+            "to": "ring_1_17",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_1",
+            "from": "ring_1_5",
+            "to": "ring_1_1",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_2",
+            "from": "ring_1_5",
+            "to": "ring_1_2",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_3",
+            "from": "ring_1_5",
+            "to": "ring_1_3",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_4",
+            "from": "ring_1_5",
+            "to": "ring_1_4",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_1_5",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_6",
+            "from": "ring_1_5",
+            "to": "ring_1_6",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_7",
+            "from": "ring_1_5",
+            "to": "ring_1_7",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_8",
+            "from": "ring_1_5",
+            "to": "ring_1_8",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_9",
+            "from": "ring_1_5",
+            "to": "ring_1_9",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_10",
+            "from": "ring_1_5",
+            "to": "ring_1_10",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_11",
+            "from": "ring_1_5",
+            "to": "ring_1_11",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_12",
+            "from": "ring_1_5",
+            "to": "ring_1_12",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_13",
+            "from": "ring_1_5",
+            "to": "ring_1_13",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_14",
+            "from": "ring_1_5",
+            "to": "ring_1_14",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_15",
+            "from": "ring_1_5",
+            "to": "ring_1_15",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_16",
+            "from": "ring_1_5",
+            "to": "ring_1_16",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_17",
+            "from": "ring_1_5",
+            "to": "ring_1_17",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_1",
+            "from": "ring_1_6",
+            "to": "ring_1_1",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_2",
+            "from": "ring_1_6",
+            "to": "ring_1_2",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_3",
+            "from": "ring_1_6",
+            "to": "ring_1_3",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_4",
+            "from": "ring_1_6",
+            "to": "ring_1_4",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_5",
+            "from": "ring_1_6",
+            "to": "ring_1_5",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_1_6",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_7",
+            "from": "ring_1_6",
+            "to": "ring_1_7",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_8",
+            "from": "ring_1_6",
+            "to": "ring_1_8",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_9",
+            "from": "ring_1_6",
+            "to": "ring_1_9",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_10",
+            "from": "ring_1_6",
+            "to": "ring_1_10",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_11",
+            "from": "ring_1_6",
+            "to": "ring_1_11",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_12",
+            "from": "ring_1_6",
+            "to": "ring_1_12",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_13",
+            "from": "ring_1_6",
+            "to": "ring_1_13",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_14",
+            "from": "ring_1_6",
+            "to": "ring_1_14",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_15",
+            "from": "ring_1_6",
+            "to": "ring_1_15",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_16",
+            "from": "ring_1_6",
+            "to": "ring_1_16",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_17",
+            "from": "ring_1_6",
+            "to": "ring_1_17",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_1",
+            "from": "ring_1_7",
+            "to": "ring_1_1",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_2",
+            "from": "ring_1_7",
+            "to": "ring_1_2",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_3",
+            "from": "ring_1_7",
+            "to": "ring_1_3",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_4",
+            "from": "ring_1_7",
+            "to": "ring_1_4",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_5",
+            "from": "ring_1_7",
+            "to": "ring_1_5",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_6",
+            "from": "ring_1_7",
+            "to": "ring_1_6",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_1_7",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_8",
+            "from": "ring_1_7",
+            "to": "ring_1_8",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_9",
+            "from": "ring_1_7",
+            "to": "ring_1_9",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_10",
+            "from": "ring_1_7",
+            "to": "ring_1_10",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_11",
+            "from": "ring_1_7",
+            "to": "ring_1_11",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_12",
+            "from": "ring_1_7",
+            "to": "ring_1_12",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_13",
+            "from": "ring_1_7",
+            "to": "ring_1_13",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_14",
+            "from": "ring_1_7",
+            "to": "ring_1_14",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_15",
+            "from": "ring_1_7",
+            "to": "ring_1_15",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_16",
+            "from": "ring_1_7",
+            "to": "ring_1_16",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_17",
+            "from": "ring_1_7",
+            "to": "ring_1_17",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_1",
+            "from": "ring_1_8",
+            "to": "ring_1_1",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_2",
+            "from": "ring_1_8",
+            "to": "ring_1_2",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_3",
+            "from": "ring_1_8",
+            "to": "ring_1_3",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_4",
+            "from": "ring_1_8",
+            "to": "ring_1_4",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_5",
+            "from": "ring_1_8",
+            "to": "ring_1_5",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_6",
+            "from": "ring_1_8",
+            "to": "ring_1_6",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_7",
+            "from": "ring_1_8",
+            "to": "ring_1_7",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_1_8",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_9",
+            "from": "ring_1_8",
+            "to": "ring_1_9",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_10",
+            "from": "ring_1_8",
+            "to": "ring_1_10",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_11",
+            "from": "ring_1_8",
+            "to": "ring_1_11",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_12",
+            "from": "ring_1_8",
+            "to": "ring_1_12",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_13",
+            "from": "ring_1_8",
+            "to": "ring_1_13",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_14",
+            "from": "ring_1_8",
+            "to": "ring_1_14",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_15",
+            "from": "ring_1_8",
+            "to": "ring_1_15",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_16",
+            "from": "ring_1_8",
+            "to": "ring_1_16",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_17",
+            "from": "ring_1_8",
+            "to": "ring_1_17",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_1",
+            "from": "ring_1_9",
+            "to": "ring_1_1",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_2",
+            "from": "ring_1_9",
+            "to": "ring_1_2",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_3",
+            "from": "ring_1_9",
+            "to": "ring_1_3",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_4",
+            "from": "ring_1_9",
+            "to": "ring_1_4",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_5",
+            "from": "ring_1_9",
+            "to": "ring_1_5",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_6",
+            "from": "ring_1_9",
+            "to": "ring_1_6",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_7",
+            "from": "ring_1_9",
+            "to": "ring_1_7",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_8",
+            "from": "ring_1_9",
+            "to": "ring_1_8",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_1_9",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_10",
+            "from": "ring_1_9",
+            "to": "ring_1_10",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_11",
+            "from": "ring_1_9",
+            "to": "ring_1_11",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_12",
+            "from": "ring_1_9",
+            "to": "ring_1_12",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_13",
+            "from": "ring_1_9",
+            "to": "ring_1_13",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_14",
+            "from": "ring_1_9",
+            "to": "ring_1_14",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_15",
+            "from": "ring_1_9",
+            "to": "ring_1_15",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_16",
+            "from": "ring_1_9",
+            "to": "ring_1_16",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_17",
+            "from": "ring_1_9",
+            "to": "ring_1_17",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_1",
+            "from": "ring_1_10",
+            "to": "ring_1_1",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_2",
+            "from": "ring_1_10",
+            "to": "ring_1_2",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_3",
+            "from": "ring_1_10",
+            "to": "ring_1_3",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_4",
+            "from": "ring_1_10",
+            "to": "ring_1_4",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_5",
+            "from": "ring_1_10",
+            "to": "ring_1_5",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_6",
+            "from": "ring_1_10",
+            "to": "ring_1_6",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_7",
+            "from": "ring_1_10",
+            "to": "ring_1_7",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_8",
+            "from": "ring_1_10",
+            "to": "ring_1_8",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_9",
+            "from": "ring_1_10",
+            "to": "ring_1_9",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_1_10",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_11",
+            "from": "ring_1_10",
+            "to": "ring_1_11",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_12",
+            "from": "ring_1_10",
+            "to": "ring_1_12",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_13",
+            "from": "ring_1_10",
+            "to": "ring_1_13",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_14",
+            "from": "ring_1_10",
+            "to": "ring_1_14",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_15",
+            "from": "ring_1_10",
+            "to": "ring_1_15",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_16",
+            "from": "ring_1_10",
+            "to": "ring_1_16",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_17",
+            "from": "ring_1_10",
+            "to": "ring_1_17",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_1",
+            "from": "ring_1_11",
+            "to": "ring_1_1",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_2",
+            "from": "ring_1_11",
+            "to": "ring_1_2",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_3",
+            "from": "ring_1_11",
+            "to": "ring_1_3",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_4",
+            "from": "ring_1_11",
+            "to": "ring_1_4",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_5",
+            "from": "ring_1_11",
+            "to": "ring_1_5",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_6",
+            "from": "ring_1_11",
+            "to": "ring_1_6",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_7",
+            "from": "ring_1_11",
+            "to": "ring_1_7",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_8",
+            "from": "ring_1_11",
+            "to": "ring_1_8",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_9",
+            "from": "ring_1_11",
+            "to": "ring_1_9",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_10",
+            "from": "ring_1_11",
+            "to": "ring_1_10",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_1_11",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_12",
+            "from": "ring_1_11",
+            "to": "ring_1_12",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_13",
+            "from": "ring_1_11",
+            "to": "ring_1_13",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_14",
+            "from": "ring_1_11",
+            "to": "ring_1_14",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_15",
+            "from": "ring_1_11",
+            "to": "ring_1_15",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_16",
+            "from": "ring_1_11",
+            "to": "ring_1_16",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_17",
+            "from": "ring_1_11",
+            "to": "ring_1_17",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_1",
+            "from": "ring_1_12",
+            "to": "ring_1_1",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_2",
+            "from": "ring_1_12",
+            "to": "ring_1_2",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_3",
+            "from": "ring_1_12",
+            "to": "ring_1_3",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_4",
+            "from": "ring_1_12",
+            "to": "ring_1_4",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_5",
+            "from": "ring_1_12",
+            "to": "ring_1_5",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_6",
+            "from": "ring_1_12",
+            "to": "ring_1_6",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_7",
+            "from": "ring_1_12",
+            "to": "ring_1_7",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_8",
+            "from": "ring_1_12",
+            "to": "ring_1_8",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_9",
+            "from": "ring_1_12",
+            "to": "ring_1_9",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_10",
+            "from": "ring_1_12",
+            "to": "ring_1_10",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_11",
+            "from": "ring_1_12",
+            "to": "ring_1_11",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_1_12",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_13",
+            "from": "ring_1_12",
+            "to": "ring_1_13",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_14",
+            "from": "ring_1_12",
+            "to": "ring_1_14",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_15",
+            "from": "ring_1_12",
+            "to": "ring_1_15",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_16",
+            "from": "ring_1_12",
+            "to": "ring_1_16",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_17",
+            "from": "ring_1_12",
+            "to": "ring_1_17",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_1",
+            "from": "ring_1_13",
+            "to": "ring_1_1",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_2",
+            "from": "ring_1_13",
+            "to": "ring_1_2",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_3",
+            "from": "ring_1_13",
+            "to": "ring_1_3",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_4",
+            "from": "ring_1_13",
+            "to": "ring_1_4",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_5",
+            "from": "ring_1_13",
+            "to": "ring_1_5",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_6",
+            "from": "ring_1_13",
+            "to": "ring_1_6",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_7",
+            "from": "ring_1_13",
+            "to": "ring_1_7",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_8",
+            "from": "ring_1_13",
+            "to": "ring_1_8",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_9",
+            "from": "ring_1_13",
+            "to": "ring_1_9",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_10",
+            "from": "ring_1_13",
+            "to": "ring_1_10",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_11",
+            "from": "ring_1_13",
+            "to": "ring_1_11",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_12",
+            "from": "ring_1_13",
+            "to": "ring_1_12",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_13",
+            "from": "ring_1_13",
+            "to": "ring_1_13",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_14",
+            "from": "ring_1_13",
+            "to": "ring_1_14",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_15",
+            "from": "ring_1_13",
+            "to": "ring_1_15",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_16",
+            "from": "ring_1_13",
+            "to": "ring_1_16",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_13-ring_1_17",
+            "from": "ring_1_13",
+            "to": "ring_1_17",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_1",
+            "from": "ring_1_14",
+            "to": "ring_1_1",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_2",
+            "from": "ring_1_14",
+            "to": "ring_1_2",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_3",
+            "from": "ring_1_14",
+            "to": "ring_1_3",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_4",
+            "from": "ring_1_14",
+            "to": "ring_1_4",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_5",
+            "from": "ring_1_14",
+            "to": "ring_1_5",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_6",
+            "from": "ring_1_14",
+            "to": "ring_1_6",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_7",
+            "from": "ring_1_14",
+            "to": "ring_1_7",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_8",
+            "from": "ring_1_14",
+            "to": "ring_1_8",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_9",
+            "from": "ring_1_14",
+            "to": "ring_1_9",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_10",
+            "from": "ring_1_14",
+            "to": "ring_1_10",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_11",
+            "from": "ring_1_14",
+            "to": "ring_1_11",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_12",
+            "from": "ring_1_14",
+            "to": "ring_1_12",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_13",
+            "from": "ring_1_14",
+            "to": "ring_1_13",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_14",
+            "from": "ring_1_14",
+            "to": "ring_1_14",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_15",
+            "from": "ring_1_14",
+            "to": "ring_1_15",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_16",
+            "from": "ring_1_14",
+            "to": "ring_1_16",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_14-ring_1_17",
+            "from": "ring_1_14",
+            "to": "ring_1_17",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_1",
+            "from": "ring_1_15",
+            "to": "ring_1_1",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_2",
+            "from": "ring_1_15",
+            "to": "ring_1_2",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_3",
+            "from": "ring_1_15",
+            "to": "ring_1_3",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_4",
+            "from": "ring_1_15",
+            "to": "ring_1_4",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_5",
+            "from": "ring_1_15",
+            "to": "ring_1_5",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_6",
+            "from": "ring_1_15",
+            "to": "ring_1_6",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_7",
+            "from": "ring_1_15",
+            "to": "ring_1_7",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_8",
+            "from": "ring_1_15",
+            "to": "ring_1_8",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_9",
+            "from": "ring_1_15",
+            "to": "ring_1_9",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_10",
+            "from": "ring_1_15",
+            "to": "ring_1_10",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_11",
+            "from": "ring_1_15",
+            "to": "ring_1_11",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_12",
+            "from": "ring_1_15",
+            "to": "ring_1_12",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_13",
+            "from": "ring_1_15",
+            "to": "ring_1_13",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_14",
+            "from": "ring_1_15",
+            "to": "ring_1_14",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_15",
+            "from": "ring_1_15",
+            "to": "ring_1_15",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_16",
+            "from": "ring_1_15",
+            "to": "ring_1_16",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_15-ring_1_17",
+            "from": "ring_1_15",
+            "to": "ring_1_17",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_1",
+            "from": "ring_1_16",
+            "to": "ring_1_1",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_2",
+            "from": "ring_1_16",
+            "to": "ring_1_2",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_3",
+            "from": "ring_1_16",
+            "to": "ring_1_3",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_4",
+            "from": "ring_1_16",
+            "to": "ring_1_4",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_5",
+            "from": "ring_1_16",
+            "to": "ring_1_5",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_6",
+            "from": "ring_1_16",
+            "to": "ring_1_6",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_7",
+            "from": "ring_1_16",
+            "to": "ring_1_7",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_8",
+            "from": "ring_1_16",
+            "to": "ring_1_8",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_9",
+            "from": "ring_1_16",
+            "to": "ring_1_9",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_10",
+            "from": "ring_1_16",
+            "to": "ring_1_10",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_11",
+            "from": "ring_1_16",
+            "to": "ring_1_11",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_12",
+            "from": "ring_1_16",
+            "to": "ring_1_12",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_13",
+            "from": "ring_1_16",
+            "to": "ring_1_13",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_14",
+            "from": "ring_1_16",
+            "to": "ring_1_14",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_15",
+            "from": "ring_1_16",
+            "to": "ring_1_15",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_16",
+            "from": "ring_1_16",
+            "to": "ring_1_16",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_16-ring_1_17",
+            "from": "ring_1_16",
+            "to": "ring_1_17",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_1",
+            "from": "ring_1_17",
+            "to": "ring_1_1",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_2",
+            "from": "ring_1_17",
+            "to": "ring_1_2",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_3",
+            "from": "ring_1_17",
+            "to": "ring_1_3",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_4",
+            "from": "ring_1_17",
+            "to": "ring_1_4",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_5",
+            "from": "ring_1_17",
+            "to": "ring_1_5",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_6",
+            "from": "ring_1_17",
+            "to": "ring_1_6",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_7",
+            "from": "ring_1_17",
+            "to": "ring_1_7",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_8",
+            "from": "ring_1_17",
+            "to": "ring_1_8",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_9",
+            "from": "ring_1_17",
+            "to": "ring_1_9",
+            "strength": -0.34999991881461645,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_10",
+            "from": "ring_1_17",
+            "to": "ring_1_10",
+            "strength": -0.3499962733468279,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_11",
+            "from": "ring_1_17",
+            "to": "ring_1_11",
+            "strength": -0.34989729743538034,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_12",
+            "from": "ring_1_17",
+            "to": "ring_1_12",
+            "strength": -0.3483007206344473,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_13",
+            "from": "ring_1_17",
+            "to": "ring_1_13",
+            "strength": -0.33312011585121004,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_14",
+            "from": "ring_1_17",
+            "to": "ring_1_14",
+            "strength": -0.24933110022710225,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_15",
+            "from": "ring_1_17",
+            "to": "ring_1_15",
+            "strength": 0.010447788597821028,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_16",
+            "from": "ring_1_17",
+            "to": "ring_1_16",
+            "strength": 0.42483742888324927,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        },
+        {
+            "id": "ring_1_17-ring_1_17",
+            "from": "ring_1_17",
+            "to": "ring_1_17",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.0001
+            }
+        }
+    ],
+    "nodeIdToIndex": {
+        "ring_1_1": 0,
+        "ring_1_2": 1,
+        "ring_1_3": 2,
+        "ring_1_4": 3,
+        "ring_1_5": 4,
+        "ring_1_6": 5,
+        "ring_1_7": 6,
+        "ring_1_8": 7,
+        "ring_1_9": 8,
+        "ring_1_10": 9,
+        "ring_1_11": 10,
+        "ring_1_12": 11,
+        "ring_1_13": 12,
+        "ring_1_14": 13,
+        "ring_1_15": 14,
+        "ring_1_16": 15,
+        "ring_1_17": 16
+    }
+}

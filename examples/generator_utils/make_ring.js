@@ -55,7 +55,12 @@ export function makeRing({
     const maxExponentialDecay = exponentialDecay(0, exponentialDecayLambda)
     let distanceToStrength
     if (gaussianDecaySigma) {
-        distanceToStrength = (distance)=>(gaussianDecay(distance, gaussianDecaySigma)-maxGaussianDecay) + maxWeight/2
+        distanceToStrength = (distance)=>{
+            if (distance === 0) {
+                return maxWeight
+            }
+            return (gaussianDecay(distance, gaussianDecaySigma)-maxGaussianDecay) + maxWeight/2
+        }
     } else if (exponentialDecayLambda) {
         distanceToStrength = (distance)=>(exponentialDecay(distance, exponentialDecayLambda)-maxExponentialDecay) + maxWeight/2
     } else {
