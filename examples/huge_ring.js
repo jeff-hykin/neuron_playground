@@ -20,7 +20,13 @@ const graph = makeRing({
     
     neutralDistance: 1.2, // the width of the active area is also its resistance to anchoring (at least in this model)
     maxWeight: 1,
-    minWeight: -0.3,
+    minWeight: -0.3,  
+    defaultEdgeData: {
+        strengthNoiseParameters: {
+            mean: 0,
+            std: 0.3,
+        },
+    },
 })
 
 import { FileSystem, glob } from "https://deno.land/x/quickr@0.7.6/main/file_system.js"

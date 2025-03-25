@@ -1,8 +1,15 @@
 - What do you think about my ring attractor in the playground? (Is it supposed to get stuck)
-    - Timestep, completely discrete
-    - Ring weights are not gaussian, just linear to zero and linear to negative
-    - There is refactory period and decay
-
+    - Design:
+        - Timestep, completely discrete
+        - Ring weights are not gaussian, just linear to zero and linear to negative
+        - There is refactory period and decay
+    - Interesting, possibly bad behavior:
+        - Can't "center" the bump with a consistently firing node, unless we get noise (and then it centers very slowly)
+        - switching sides (on the huge ring) is impossible with a single neuron firing repeatedly, it needs friends. Do you think this is biologically plausible?
+        - When starting the first node, it take multiple tries to get it to start.
+        - There are some ways to "kill" the ring
+        - Should I add a random chance that a node can fire for no reason?
+    
 - Does modeling inhibition as negative energy make sense?
     
 - What do you think are the weights for the compass ring attractor system?

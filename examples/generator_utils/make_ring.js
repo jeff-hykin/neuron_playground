@@ -25,6 +25,12 @@ export function makeRing({
     gaussianDecaySigma = null,
     exponentialDecayLambda = null,
     namespace = "ring",
+    defaultEdgeData = {
+        strengthNoiseParameters: {
+            mean: 0,
+            std: 0.1,
+        },
+    },
     defaultNodeData = {
         spikeThreshold: 1,
         energy: 0.1,
@@ -67,6 +73,7 @@ export function makeRing({
                 from: sourceNode.id,
                 to: targetNode.id,
                 strength: distanceToStrength(getDistance({ node1Id: sourceNode.id, node2Id: targetNode.id, nodeIdToIndex, nodes: newNodes })),
+                ...defaultEdgeData,
             })
         }
     }
