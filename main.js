@@ -167,5 +167,8 @@ window.addEventListener("load", () => {
         </div>
         ${settingsPanel}
         ${infoPanel}
+        <h1 style="position: fixed; top: 20px; left: 4rem; font-size: 1.5rem; font-weight: bold; margin: 0; z-index: -1;">
+            Neuron Playground
+        </h1>
     </body>`
 })
