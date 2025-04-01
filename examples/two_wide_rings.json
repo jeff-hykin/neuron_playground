@@ -1,4 +1,4926 @@
 {
-    "nodes": [],
-    "edges": []
+    "nodes": [
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 545,
+            "y": 477,
+            "id": "ring_1_1"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 520.884572681199,
+            "y": 567,
+            "id": "ring_1_2"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 455,
+            "y": 632.884572681199,
+            "id": "ring_1_3"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 365,
+            "y": 657,
+            "id": "ring_1_4"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 275.00000000000006,
+            "y": 632.884572681199,
+            "id": "ring_1_5"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 209.11542731880107,
+            "y": 567,
+            "id": "ring_1_6"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 185,
+            "y": 477,
+            "id": "ring_1_7"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 209.115427318801,
+            "y": 387.00000000000006,
+            "id": "ring_1_8"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 274.9999999999999,
+            "y": 321.1154273188011,
+            "id": "ring_1_9"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 364.99999999999994,
+            "y": 297,
+            "id": "ring_1_10"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 454.9999999999999,
+            "y": 321.115427318801,
+            "id": "ring_1_11"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 520.884572681199,
+            "y": 386.9999999999999,
+            "id": "ring_1_12"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1045,
+            "y": 477,
+            "id": "ring_2_1"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1020.884572681199,
+            "y": 567,
+            "id": "ring_2_2"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 955,
+            "y": 632.884572681199,
+            "id": "ring_2_3"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 865,
+            "y": 657,
+            "id": "ring_2_4"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 775,
+            "y": 632.884572681199,
+            "id": "ring_2_5"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 709.115427318801,
+            "y": 567,
+            "id": "ring_2_6"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 685,
+            "y": 477,
+            "id": "ring_2_7"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 709.115427318801,
+            "y": 387.00000000000006,
+            "id": "ring_2_8"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 774.9999999999999,
+            "y": 321.1154273188011,
+            "id": "ring_2_9"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 865,
+            "y": 297,
+            "id": "ring_2_10"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 954.9999999999999,
+            "y": 321.115427318801,
+            "id": "ring_2_11"
+        },
+        {
+            "spikeThreshold": 1,
+            "energy": 0.1,
+            "energyDecayRate": 0.1,
+            "stableEnergyLevel": 0.1,
+            "energyAfterFiring": 0,
+            "radius": 25,
+            "isFiringNext": false,
+            "pulse": false,
+            "x": 1020.884572681199,
+            "y": 386.9999999999999,
+            "id": "ring_2_12"
+        }
+    ],
+    "edges": [
+        {
+            "id": "ring_1_1-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_1_1",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_2",
+            "from": "ring_1_1",
+            "to": "ring_1_2",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_3",
+            "from": "ring_1_1",
+            "to": "ring_1_3",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_4",
+            "from": "ring_1_1",
+            "to": "ring_1_4",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_5",
+            "from": "ring_1_1",
+            "to": "ring_1_5",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_6",
+            "from": "ring_1_1",
+            "to": "ring_1_6",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_7",
+            "from": "ring_1_1",
+            "to": "ring_1_7",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_8",
+            "from": "ring_1_1",
+            "to": "ring_1_8",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_9",
+            "from": "ring_1_1",
+            "to": "ring_1_9",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_10",
+            "from": "ring_1_1",
+            "to": "ring_1_10",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_11",
+            "from": "ring_1_1",
+            "to": "ring_1_11",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_1_12",
+            "from": "ring_1_1",
+            "to": "ring_1_12",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_1",
+            "from": "ring_1_2",
+            "to": "ring_1_1",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_1_2",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_3",
+            "from": "ring_1_2",
+            "to": "ring_1_3",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_4",
+            "from": "ring_1_2",
+            "to": "ring_1_4",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_5",
+            "from": "ring_1_2",
+            "to": "ring_1_5",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_6",
+            "from": "ring_1_2",
+            "to": "ring_1_6",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_7",
+            "from": "ring_1_2",
+            "to": "ring_1_7",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_8",
+            "from": "ring_1_2",
+            "to": "ring_1_8",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_9",
+            "from": "ring_1_2",
+            "to": "ring_1_9",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_10",
+            "from": "ring_1_2",
+            "to": "ring_1_10",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_11",
+            "from": "ring_1_2",
+            "to": "ring_1_11",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_2-ring_1_12",
+            "from": "ring_1_2",
+            "to": "ring_1_12",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_1",
+            "from": "ring_1_3",
+            "to": "ring_1_1",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_2",
+            "from": "ring_1_3",
+            "to": "ring_1_2",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_1_3",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_4",
+            "from": "ring_1_3",
+            "to": "ring_1_4",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_5",
+            "from": "ring_1_3",
+            "to": "ring_1_5",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_6",
+            "from": "ring_1_3",
+            "to": "ring_1_6",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_7",
+            "from": "ring_1_3",
+            "to": "ring_1_7",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_8",
+            "from": "ring_1_3",
+            "to": "ring_1_8",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_9",
+            "from": "ring_1_3",
+            "to": "ring_1_9",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_10",
+            "from": "ring_1_3",
+            "to": "ring_1_10",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_11",
+            "from": "ring_1_3",
+            "to": "ring_1_11",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_3-ring_1_12",
+            "from": "ring_1_3",
+            "to": "ring_1_12",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_1",
+            "from": "ring_1_4",
+            "to": "ring_1_1",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_2",
+            "from": "ring_1_4",
+            "to": "ring_1_2",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_3",
+            "from": "ring_1_4",
+            "to": "ring_1_3",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_1_4",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_5",
+            "from": "ring_1_4",
+            "to": "ring_1_5",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_6",
+            "from": "ring_1_4",
+            "to": "ring_1_6",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_7",
+            "from": "ring_1_4",
+            "to": "ring_1_7",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_8",
+            "from": "ring_1_4",
+            "to": "ring_1_8",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_9",
+            "from": "ring_1_4",
+            "to": "ring_1_9",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_10",
+            "from": "ring_1_4",
+            "to": "ring_1_10",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_11",
+            "from": "ring_1_4",
+            "to": "ring_1_11",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_4-ring_1_12",
+            "from": "ring_1_4",
+            "to": "ring_1_12",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_1",
+            "from": "ring_1_5",
+            "to": "ring_1_1",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_2",
+            "from": "ring_1_5",
+            "to": "ring_1_2",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_3",
+            "from": "ring_1_5",
+            "to": "ring_1_3",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_4",
+            "from": "ring_1_5",
+            "to": "ring_1_4",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_1_5",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_6",
+            "from": "ring_1_5",
+            "to": "ring_1_6",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_7",
+            "from": "ring_1_5",
+            "to": "ring_1_7",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_8",
+            "from": "ring_1_5",
+            "to": "ring_1_8",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_9",
+            "from": "ring_1_5",
+            "to": "ring_1_9",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_10",
+            "from": "ring_1_5",
+            "to": "ring_1_10",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_11",
+            "from": "ring_1_5",
+            "to": "ring_1_11",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_5-ring_1_12",
+            "from": "ring_1_5",
+            "to": "ring_1_12",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_1",
+            "from": "ring_1_6",
+            "to": "ring_1_1",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_2",
+            "from": "ring_1_6",
+            "to": "ring_1_2",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_3",
+            "from": "ring_1_6",
+            "to": "ring_1_3",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_4",
+            "from": "ring_1_6",
+            "to": "ring_1_4",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_5",
+            "from": "ring_1_6",
+            "to": "ring_1_5",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_1_6",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_7",
+            "from": "ring_1_6",
+            "to": "ring_1_7",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_8",
+            "from": "ring_1_6",
+            "to": "ring_1_8",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_9",
+            "from": "ring_1_6",
+            "to": "ring_1_9",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_10",
+            "from": "ring_1_6",
+            "to": "ring_1_10",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_11",
+            "from": "ring_1_6",
+            "to": "ring_1_11",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_6-ring_1_12",
+            "from": "ring_1_6",
+            "to": "ring_1_12",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_1",
+            "from": "ring_1_7",
+            "to": "ring_1_1",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_2",
+            "from": "ring_1_7",
+            "to": "ring_1_2",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_3",
+            "from": "ring_1_7",
+            "to": "ring_1_3",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_4",
+            "from": "ring_1_7",
+            "to": "ring_1_4",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_5",
+            "from": "ring_1_7",
+            "to": "ring_1_5",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_6",
+            "from": "ring_1_7",
+            "to": "ring_1_6",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_1_7",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_8",
+            "from": "ring_1_7",
+            "to": "ring_1_8",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_9",
+            "from": "ring_1_7",
+            "to": "ring_1_9",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_10",
+            "from": "ring_1_7",
+            "to": "ring_1_10",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_11",
+            "from": "ring_1_7",
+            "to": "ring_1_11",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_7-ring_1_12",
+            "from": "ring_1_7",
+            "to": "ring_1_12",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_1",
+            "from": "ring_1_8",
+            "to": "ring_1_1",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_2",
+            "from": "ring_1_8",
+            "to": "ring_1_2",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_3",
+            "from": "ring_1_8",
+            "to": "ring_1_3",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_4",
+            "from": "ring_1_8",
+            "to": "ring_1_4",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_5",
+            "from": "ring_1_8",
+            "to": "ring_1_5",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_6",
+            "from": "ring_1_8",
+            "to": "ring_1_6",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_7",
+            "from": "ring_1_8",
+            "to": "ring_1_7",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_1_8",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_9",
+            "from": "ring_1_8",
+            "to": "ring_1_9",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_10",
+            "from": "ring_1_8",
+            "to": "ring_1_10",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_11",
+            "from": "ring_1_8",
+            "to": "ring_1_11",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_8-ring_1_12",
+            "from": "ring_1_8",
+            "to": "ring_1_12",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_1",
+            "from": "ring_1_9",
+            "to": "ring_1_1",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_2",
+            "from": "ring_1_9",
+            "to": "ring_1_2",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_3",
+            "from": "ring_1_9",
+            "to": "ring_1_3",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_4",
+            "from": "ring_1_9",
+            "to": "ring_1_4",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_5",
+            "from": "ring_1_9",
+            "to": "ring_1_5",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_6",
+            "from": "ring_1_9",
+            "to": "ring_1_6",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_7",
+            "from": "ring_1_9",
+            "to": "ring_1_7",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_8",
+            "from": "ring_1_9",
+            "to": "ring_1_8",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_1_9",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_10",
+            "from": "ring_1_9",
+            "to": "ring_1_10",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_11",
+            "from": "ring_1_9",
+            "to": "ring_1_11",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_9-ring_1_12",
+            "from": "ring_1_9",
+            "to": "ring_1_12",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_1",
+            "from": "ring_1_10",
+            "to": "ring_1_1",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_2",
+            "from": "ring_1_10",
+            "to": "ring_1_2",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_3",
+            "from": "ring_1_10",
+            "to": "ring_1_3",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_4",
+            "from": "ring_1_10",
+            "to": "ring_1_4",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_5",
+            "from": "ring_1_10",
+            "to": "ring_1_5",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_6",
+            "from": "ring_1_10",
+            "to": "ring_1_6",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_7",
+            "from": "ring_1_10",
+            "to": "ring_1_7",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_8",
+            "from": "ring_1_10",
+            "to": "ring_1_8",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_9",
+            "from": "ring_1_10",
+            "to": "ring_1_9",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_1_10",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_11",
+            "from": "ring_1_10",
+            "to": "ring_1_11",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_10-ring_1_12",
+            "from": "ring_1_10",
+            "to": "ring_1_12",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_1",
+            "from": "ring_1_11",
+            "to": "ring_1_1",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_2",
+            "from": "ring_1_11",
+            "to": "ring_1_2",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_3",
+            "from": "ring_1_11",
+            "to": "ring_1_3",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_4",
+            "from": "ring_1_11",
+            "to": "ring_1_4",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_5",
+            "from": "ring_1_11",
+            "to": "ring_1_5",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_6",
+            "from": "ring_1_11",
+            "to": "ring_1_6",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_7",
+            "from": "ring_1_11",
+            "to": "ring_1_7",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_8",
+            "from": "ring_1_11",
+            "to": "ring_1_8",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_9",
+            "from": "ring_1_11",
+            "to": "ring_1_9",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_10",
+            "from": "ring_1_11",
+            "to": "ring_1_10",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_1_11",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_11-ring_1_12",
+            "from": "ring_1_11",
+            "to": "ring_1_12",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_1",
+            "from": "ring_1_12",
+            "to": "ring_1_1",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_2",
+            "from": "ring_1_12",
+            "to": "ring_1_2",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_3",
+            "from": "ring_1_12",
+            "to": "ring_1_3",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_4",
+            "from": "ring_1_12",
+            "to": "ring_1_4",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_5",
+            "from": "ring_1_12",
+            "to": "ring_1_5",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_6",
+            "from": "ring_1_12",
+            "to": "ring_1_6",
+            "strength": -0.8,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_7",
+            "from": "ring_1_12",
+            "to": "ring_1_7",
+            "strength": -0.6095238095238096,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_8",
+            "from": "ring_1_12",
+            "to": "ring_1_8",
+            "strength": -0.41904761904761906,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_9",
+            "from": "ring_1_12",
+            "to": "ring_1_9",
+            "strength": -0.22857142857142854,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_10",
+            "from": "ring_1_12",
+            "to": "ring_1_10",
+            "strength": -0.038095238095238085,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_11",
+            "from": "ring_1_12",
+            "to": "ring_1_11",
+            "strength": 0.4444444444444444,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_12-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_1_12",
+            "strength": 1,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_2_1",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_2",
+            "from": "ring_2_1",
+            "to": "ring_2_2",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_3",
+            "from": "ring_2_1",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_4",
+            "from": "ring_2_1",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_5",
+            "from": "ring_2_1",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_6",
+            "from": "ring_2_1",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_7",
+            "from": "ring_2_1",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_8",
+            "from": "ring_2_1",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_9",
+            "from": "ring_2_1",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_10",
+            "from": "ring_2_1",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_11",
+            "from": "ring_2_1",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_1-ring_2_12",
+            "from": "ring_2_1",
+            "to": "ring_2_12",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_1",
+            "from": "ring_2_2",
+            "to": "ring_2_1",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_2_2",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_3",
+            "from": "ring_2_2",
+            "to": "ring_2_3",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_4",
+            "from": "ring_2_2",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_5",
+            "from": "ring_2_2",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_6",
+            "from": "ring_2_2",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_7",
+            "from": "ring_2_2",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_8",
+            "from": "ring_2_2",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_9",
+            "from": "ring_2_2",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_10",
+            "from": "ring_2_2",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_11",
+            "from": "ring_2_2",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_2-ring_2_12",
+            "from": "ring_2_2",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_1",
+            "from": "ring_2_3",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_2",
+            "from": "ring_2_3",
+            "to": "ring_2_2",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_2_3",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_4",
+            "from": "ring_2_3",
+            "to": "ring_2_4",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_5",
+            "from": "ring_2_3",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_6",
+            "from": "ring_2_3",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_7",
+            "from": "ring_2_3",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_8",
+            "from": "ring_2_3",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_9",
+            "from": "ring_2_3",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_10",
+            "from": "ring_2_3",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_11",
+            "from": "ring_2_3",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_3-ring_2_12",
+            "from": "ring_2_3",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_1",
+            "from": "ring_2_4",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_2",
+            "from": "ring_2_4",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_3",
+            "from": "ring_2_4",
+            "to": "ring_2_3",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_2_4",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_5",
+            "from": "ring_2_4",
+            "to": "ring_2_5",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_6",
+            "from": "ring_2_4",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_7",
+            "from": "ring_2_4",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_8",
+            "from": "ring_2_4",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_9",
+            "from": "ring_2_4",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_10",
+            "from": "ring_2_4",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_11",
+            "from": "ring_2_4",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_4-ring_2_12",
+            "from": "ring_2_4",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_1",
+            "from": "ring_2_5",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_2",
+            "from": "ring_2_5",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_3",
+            "from": "ring_2_5",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_4",
+            "from": "ring_2_5",
+            "to": "ring_2_4",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_2_5",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_6",
+            "from": "ring_2_5",
+            "to": "ring_2_6",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_7",
+            "from": "ring_2_5",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_8",
+            "from": "ring_2_5",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_9",
+            "from": "ring_2_5",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_10",
+            "from": "ring_2_5",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_11",
+            "from": "ring_2_5",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_5-ring_2_12",
+            "from": "ring_2_5",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_1",
+            "from": "ring_2_6",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_2",
+            "from": "ring_2_6",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_3",
+            "from": "ring_2_6",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_4",
+            "from": "ring_2_6",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_5",
+            "from": "ring_2_6",
+            "to": "ring_2_5",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_2_6",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_7",
+            "from": "ring_2_6",
+            "to": "ring_2_7",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_8",
+            "from": "ring_2_6",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_9",
+            "from": "ring_2_6",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_10",
+            "from": "ring_2_6",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_11",
+            "from": "ring_2_6",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_6-ring_2_12",
+            "from": "ring_2_6",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_1",
+            "from": "ring_2_7",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_2",
+            "from": "ring_2_7",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_3",
+            "from": "ring_2_7",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_4",
+            "from": "ring_2_7",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_5",
+            "from": "ring_2_7",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_6",
+            "from": "ring_2_7",
+            "to": "ring_2_6",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_2_7",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_8",
+            "from": "ring_2_7",
+            "to": "ring_2_8",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_9",
+            "from": "ring_2_7",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_10",
+            "from": "ring_2_7",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_11",
+            "from": "ring_2_7",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_7-ring_2_12",
+            "from": "ring_2_7",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_1",
+            "from": "ring_2_8",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_2",
+            "from": "ring_2_8",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_3",
+            "from": "ring_2_8",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_4",
+            "from": "ring_2_8",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_5",
+            "from": "ring_2_8",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_6",
+            "from": "ring_2_8",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_7",
+            "from": "ring_2_8",
+            "to": "ring_2_7",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_2_8",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_9",
+            "from": "ring_2_8",
+            "to": "ring_2_9",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_10",
+            "from": "ring_2_8",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_11",
+            "from": "ring_2_8",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_8-ring_2_12",
+            "from": "ring_2_8",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_1",
+            "from": "ring_2_9",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_2",
+            "from": "ring_2_9",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_3",
+            "from": "ring_2_9",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_4",
+            "from": "ring_2_9",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_5",
+            "from": "ring_2_9",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_6",
+            "from": "ring_2_9",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_7",
+            "from": "ring_2_9",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_8",
+            "from": "ring_2_9",
+            "to": "ring_2_8",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_2_9",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_10",
+            "from": "ring_2_9",
+            "to": "ring_2_10",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_11",
+            "from": "ring_2_9",
+            "to": "ring_2_11",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_9-ring_2_12",
+            "from": "ring_2_9",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_1",
+            "from": "ring_2_10",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_2",
+            "from": "ring_2_10",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_3",
+            "from": "ring_2_10",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_4",
+            "from": "ring_2_10",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_5",
+            "from": "ring_2_10",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_6",
+            "from": "ring_2_10",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_7",
+            "from": "ring_2_10",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_8",
+            "from": "ring_2_10",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_9",
+            "from": "ring_2_10",
+            "to": "ring_2_9",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_2_10",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_11",
+            "from": "ring_2_10",
+            "to": "ring_2_11",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_10-ring_2_12",
+            "from": "ring_2_10",
+            "to": "ring_2_12",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_1",
+            "from": "ring_2_11",
+            "to": "ring_2_1",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_2",
+            "from": "ring_2_11",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_3",
+            "from": "ring_2_11",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_4",
+            "from": "ring_2_11",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_5",
+            "from": "ring_2_11",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_6",
+            "from": "ring_2_11",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_7",
+            "from": "ring_2_11",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_8",
+            "from": "ring_2_11",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_9",
+            "from": "ring_2_11",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_10",
+            "from": "ring_2_11",
+            "to": "ring_2_10",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_2_11",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_11-ring_2_12",
+            "from": "ring_2_11",
+            "to": "ring_2_12",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_1",
+            "from": "ring_2_12",
+            "to": "ring_2_1",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_2",
+            "from": "ring_2_12",
+            "to": "ring_2_2",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_3",
+            "from": "ring_2_12",
+            "to": "ring_2_3",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_4",
+            "from": "ring_2_12",
+            "to": "ring_2_4",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_5",
+            "from": "ring_2_12",
+            "to": "ring_2_5",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_6",
+            "from": "ring_2_12",
+            "to": "ring_2_6",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_7",
+            "from": "ring_2_12",
+            "to": "ring_2_7",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_8",
+            "from": "ring_2_12",
+            "to": "ring_2_8",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_9",
+            "from": "ring_2_12",
+            "to": "ring_2_9",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_10",
+            "from": "ring_2_12",
+            "to": "ring_2_10",
+            "strength": 0,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_11",
+            "from": "ring_2_12",
+            "to": "ring_2_11",
+            "strength": 0.5777777777777778,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_2_12-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_2_12",
+            "strength": 1.3,
+            "strengthNoiseParameters": {
+                "mean": 0,
+                "std": 0.1
+            }
+        },
+        {
+            "id": "ring_1_1-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_1",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_1-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_1",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_1-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_1",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_1-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_1",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_1-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_1",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_1-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_1",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_1-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_1",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_1-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_1",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_1-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_1",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_1-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_1",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_1-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_1",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_1-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_1",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_2-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_2",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_2-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_2",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_2-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_2",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_2-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_2",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_2-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_2",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_2-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_2",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_2-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_2",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_2-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_2",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_2-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_2",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_2-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_2",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_2-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_2",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_2-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_2",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_3-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_3",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_3-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_3",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_3-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_3",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_3-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_3",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_3-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_3",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_3-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_3",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_3-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_3",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_3-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_3",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_3-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_3",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_3-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_3",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_3-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_3",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_3-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_3",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_4-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_4",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_4-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_4",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_4-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_4",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_4-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_4",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_4-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_4",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_4-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_4",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_4-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_4",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_4-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_4",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_4-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_4",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_4-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_4",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_4-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_4",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_4-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_4",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_5-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_5",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_5-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_5",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_5-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_5",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_5-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_5",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_5-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_5",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_5-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_5",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_5-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_5",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_5-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_5",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_5-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_5",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_5-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_5",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_5-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_5",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_5-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_5",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_6-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_6",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_6-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_6",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_6-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_6",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_6-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_6",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_6-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_6",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_6-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_6",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_6-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_6",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_6-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_6",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_6-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_6",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_6-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_6",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_6-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_6",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_6-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_6",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_7-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_7",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_7-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_7",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_7-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_7",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_7-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_7",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_7-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_7",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_7-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_7",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_7-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_7",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_7-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_7",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_7-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_7",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_7-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_7",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_7-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_7",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_7-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_7",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_8-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_8",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_8-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_8",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_8-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_8",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_8-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_8",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_8-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_8",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_8-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_8",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_8-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_8",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_8-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_8",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_8-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_8",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_8-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_8",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_8-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_8",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_8-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_8",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_9-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_9",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_9-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_9",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_9-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_9",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_9-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_9",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_9-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_9",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_9-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_9",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_9-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_9",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_9-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_9",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_9-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_9",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_9-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_9",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_9-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_9",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_9-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_9",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_10-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_10",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_10-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_10",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_10-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_10",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_10-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_10",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_10-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_10",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_10-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_10",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_10-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_10",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_10-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_10",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_10-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_10",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_10-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_10",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_10-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_10",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_10-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_10",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_11-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_11",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_11-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_11",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_11-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_11",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_11-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_11",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_11-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_11",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_11-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_11",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_11-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_11",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_11-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_11",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_11-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_11",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_11-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_11",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_11-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_11",
+            "strength": 0
+        },
+        {
+            "id": "ring_1_11-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_11",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_12-ring_2_1",
+            "from": "ring_2_1",
+            "to": "ring_1_12",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_12-ring_2_2",
+            "from": "ring_2_2",
+            "to": "ring_1_12",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_12-ring_2_3",
+            "from": "ring_2_3",
+            "to": "ring_1_12",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_12-ring_2_4",
+            "from": "ring_2_4",
+            "to": "ring_1_12",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_12-ring_2_5",
+            "from": "ring_2_5",
+            "to": "ring_1_12",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_12-ring_2_6",
+            "from": "ring_2_6",
+            "to": "ring_1_12",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_1_12-ring_2_7",
+            "from": "ring_2_7",
+            "to": "ring_1_12",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_1_12-ring_2_8",
+            "from": "ring_2_8",
+            "to": "ring_1_12",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_1_12-ring_2_9",
+            "from": "ring_2_9",
+            "to": "ring_1_12",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_1_12-ring_2_10",
+            "from": "ring_2_10",
+            "to": "ring_1_12",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_1_12-ring_2_11",
+            "from": "ring_2_11",
+            "to": "ring_1_12",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_1_12-ring_2_12",
+            "from": "ring_2_12",
+            "to": "ring_1_12",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_1-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_1",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_1-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_1",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_1-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_1",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_1-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_1",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_1-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_1",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_1-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_1",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_1-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_1",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_1-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_1",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_1-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_1",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_1-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_1",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_1-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_1",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_1-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_1",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_2-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_2",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_2-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_2",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_2-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_2",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_2-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_2",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_2-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_2",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_2-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_2",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_2-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_2",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_2-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_2",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_2-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_2",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_2-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_2",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_2-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_2",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_2-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_2",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_3-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_3",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_3-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_3",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_3-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_3",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_3-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_3",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_3-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_3",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_3-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_3",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_3-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_3",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_3-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_3",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_3-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_3",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_3-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_3",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_3-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_3",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_3-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_3",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_4-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_4",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_4-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_4",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_4-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_4",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_4-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_4",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_4-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_4",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_4-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_4",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_4-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_4",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_4-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_4",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_4-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_4",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_4-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_4",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_4-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_4",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_4-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_4",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_5-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_5",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_5-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_5",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_5-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_5",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_5-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_5",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_5-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_5",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_5-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_5",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_5-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_5",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_5-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_5",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_5-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_5",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_5-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_5",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_5-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_5",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_5-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_5",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_6-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_6",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_6-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_6",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_6-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_6",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_6-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_6",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_6-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_6",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_6-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_6",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_6-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_6",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_6-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_6",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_6-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_6",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_6-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_6",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_6-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_6",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_6-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_6",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_7-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_7",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_7-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_7",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_7-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_7",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_7-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_7",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_7-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_7",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_7-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_7",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_7-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_7",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_7-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_7",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_7-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_7",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_7-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_7",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_7-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_7",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_7-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_7",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_8-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_8",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_8-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_8",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_8-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_8",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_8-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_8",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_8-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_8",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_8-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_8",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_8-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_8",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_8-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_8",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_8-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_8",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_8-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_8",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_8-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_8",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_8-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_8",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_9-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_9",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_9-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_9",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_9-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_9",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_9-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_9",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_9-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_9",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_9-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_9",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_9-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_9",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_9-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_9",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_9-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_9",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_9-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_9",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_9-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_9",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_9-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_9",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_10-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_10",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_10-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_10",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_10-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_10",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_10-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_10",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_10-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_10",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_10-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_10",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_10-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_10",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_10-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_10",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_10-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_10",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_10-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_10",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_10-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_10",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_10-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_10",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_11-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_11",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_11-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_11",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_11-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_11",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_11-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_11",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_11-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_11",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_11-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_11",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_11-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_11",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_11-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_11",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_11-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_11",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_11-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_11",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_11-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_11",
+            "strength": 0
+        },
+        {
+            "id": "ring_2_11-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_11",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_12-ring_1_1",
+            "from": "ring_1_1",
+            "to": "ring_2_12",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_12-ring_1_2",
+            "from": "ring_1_2",
+            "to": "ring_2_12",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_12-ring_1_3",
+            "from": "ring_1_3",
+            "to": "ring_2_12",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_12-ring_1_4",
+            "from": "ring_1_4",
+            "to": "ring_2_12",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_12-ring_1_5",
+            "from": "ring_1_5",
+            "to": "ring_2_12",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_12-ring_1_6",
+            "from": "ring_1_6",
+            "to": "ring_2_12",
+            "strength": -0.3
+        },
+        {
+            "id": "ring_2_12-ring_1_7",
+            "from": "ring_1_7",
+            "to": "ring_2_12",
+            "strength": -0.24999999999999997
+        },
+        {
+            "id": "ring_2_12-ring_1_8",
+            "from": "ring_1_8",
+            "to": "ring_2_12",
+            "strength": -0.19999999999999998
+        },
+        {
+            "id": "ring_2_12-ring_1_9",
+            "from": "ring_1_9",
+            "to": "ring_2_12",
+            "strength": -0.15
+        },
+        {
+            "id": "ring_2_12-ring_1_10",
+            "from": "ring_1_10",
+            "to": "ring_2_12",
+            "strength": -0.09999999999999999
+        },
+        {
+            "id": "ring_2_12-ring_1_11",
+            "from": "ring_1_11",
+            "to": "ring_2_12",
+            "strength": -0.049999999999999996
+        },
+        {
+            "id": "ring_2_12-ring_1_12",
+            "from": "ring_1_12",
+            "to": "ring_2_12",
+            "strength": 0
+        }
+    ]
 }
