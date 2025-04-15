@@ -318,20 +318,20 @@
             "id": "ring_1_1-ring_1_1",
             "from": "ring_1_1",
             "to": "ring_1_1",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_1-ring_1_2",
             "from": "ring_1_1",
             "to": "ring_1_2",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -341,7 +341,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -351,7 +351,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -361,7 +361,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -371,7 +371,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -381,7 +381,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -391,7 +391,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -401,7 +401,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -411,7 +411,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -421,47 +421,47 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_1-ring_1_12",
             "from": "ring_1_1",
             "to": "ring_1_12",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_2-ring_1_1",
             "from": "ring_1_2",
             "to": "ring_1_1",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_2-ring_1_2",
             "from": "ring_1_2",
             "to": "ring_1_2",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_2-ring_1_3",
             "from": "ring_1_2",
             "to": "ring_1_3",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -471,7 +471,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -481,7 +481,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -491,7 +491,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -501,7 +501,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -511,7 +511,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -521,7 +521,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -531,7 +531,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -541,7 +541,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -551,7 +551,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -561,37 +561,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_3-ring_1_2",
             "from": "ring_1_3",
             "to": "ring_1_2",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_3-ring_1_3",
             "from": "ring_1_3",
             "to": "ring_1_3",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_3-ring_1_4",
             "from": "ring_1_3",
             "to": "ring_1_4",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -601,7 +601,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -611,7 +611,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -621,7 +621,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -631,7 +631,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -641,7 +641,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -651,7 +651,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -661,7 +661,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -671,7 +671,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -681,7 +681,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -691,37 +691,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_4-ring_1_3",
             "from": "ring_1_4",
             "to": "ring_1_3",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_4-ring_1_4",
             "from": "ring_1_4",
             "to": "ring_1_4",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_4-ring_1_5",
             "from": "ring_1_4",
             "to": "ring_1_5",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -731,7 +731,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -741,7 +741,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -751,7 +751,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -761,7 +761,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -771,7 +771,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -781,7 +781,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -791,7 +791,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -801,7 +801,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -811,7 +811,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -821,37 +821,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_5-ring_1_4",
             "from": "ring_1_5",
             "to": "ring_1_4",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_5-ring_1_5",
             "from": "ring_1_5",
             "to": "ring_1_5",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_5-ring_1_6",
             "from": "ring_1_5",
             "to": "ring_1_6",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -861,7 +861,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -871,7 +871,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -881,7 +881,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -891,7 +891,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -901,7 +901,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -911,7 +911,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -921,7 +921,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -931,7 +931,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -941,7 +941,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -951,37 +951,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_6-ring_1_5",
             "from": "ring_1_6",
             "to": "ring_1_5",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_6-ring_1_6",
             "from": "ring_1_6",
             "to": "ring_1_6",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_6-ring_1_7",
             "from": "ring_1_6",
             "to": "ring_1_7",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -991,7 +991,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1001,7 +1001,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1011,7 +1011,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1021,7 +1021,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1031,7 +1031,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1041,7 +1041,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1051,7 +1051,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1061,7 +1061,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1071,7 +1071,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1081,37 +1081,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_7-ring_1_6",
             "from": "ring_1_7",
             "to": "ring_1_6",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_7-ring_1_7",
             "from": "ring_1_7",
             "to": "ring_1_7",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_7-ring_1_8",
             "from": "ring_1_7",
             "to": "ring_1_8",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1121,7 +1121,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1131,7 +1131,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1141,7 +1141,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1151,7 +1151,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1161,7 +1161,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1171,7 +1171,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1181,7 +1181,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1191,7 +1191,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1201,7 +1201,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1211,37 +1211,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_8-ring_1_7",
             "from": "ring_1_8",
             "to": "ring_1_7",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_8-ring_1_8",
             "from": "ring_1_8",
             "to": "ring_1_8",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_8-ring_1_9",
             "from": "ring_1_8",
             "to": "ring_1_9",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1251,7 +1251,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1261,7 +1261,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1271,7 +1271,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1281,7 +1281,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1291,7 +1291,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1301,7 +1301,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1311,7 +1311,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1321,7 +1321,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1331,7 +1331,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1341,37 +1341,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_9-ring_1_8",
             "from": "ring_1_9",
             "to": "ring_1_8",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_9-ring_1_9",
             "from": "ring_1_9",
             "to": "ring_1_9",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_9-ring_1_10",
             "from": "ring_1_9",
             "to": "ring_1_10",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1381,7 +1381,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1391,7 +1391,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1401,7 +1401,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1411,7 +1411,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1421,7 +1421,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1431,7 +1431,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1441,7 +1441,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1451,7 +1451,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1461,7 +1461,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1471,37 +1471,37 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_10-ring_1_9",
             "from": "ring_1_10",
             "to": "ring_1_9",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_10-ring_1_10",
             "from": "ring_1_10",
             "to": "ring_1_10",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_10-ring_1_11",
             "from": "ring_1_10",
             "to": "ring_1_11",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1511,7 +1511,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1521,7 +1521,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1531,7 +1531,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1541,7 +1541,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1551,7 +1551,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1561,7 +1561,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1571,7 +1571,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1581,7 +1581,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1591,7 +1591,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1601,47 +1601,47 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_11-ring_1_10",
             "from": "ring_1_11",
             "to": "ring_1_10",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_11-ring_1_11",
             "from": "ring_1_11",
             "to": "ring_1_11",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_11-ring_1_12",
             "from": "ring_1_11",
             "to": "ring_1_12",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_12-ring_1_1",
             "from": "ring_1_12",
             "to": "ring_1_1",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1651,7 +1651,7 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1661,7 +1661,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1671,7 +1671,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1681,7 +1681,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1691,7 +1691,7 @@
             "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1701,7 +1701,7 @@
             "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1711,7 +1711,7 @@
             "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1721,7 +1721,7 @@
             "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
@@ -1731,1467 +1731,1467 @@
             "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_12-ring_1_11",
             "from": "ring_1_12",
             "to": "ring_1_11",
-            "strength": 0.4444444444444444,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_1_12-ring_1_12",
             "from": "ring_1_12",
             "to": "ring_1_12",
-            "strength": 1,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_1",
             "from": "ring_2_1",
             "to": "ring_2_1",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_2",
             "from": "ring_2_1",
             "to": "ring_2_2",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_3",
             "from": "ring_2_1",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_4",
             "from": "ring_2_1",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_5",
             "from": "ring_2_1",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_6",
             "from": "ring_2_1",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_7",
             "from": "ring_2_1",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_8",
             "from": "ring_2_1",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_9",
             "from": "ring_2_1",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_10",
             "from": "ring_2_1",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_11",
             "from": "ring_2_1",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_1-ring_2_12",
             "from": "ring_2_1",
             "to": "ring_2_12",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_1",
             "from": "ring_2_2",
             "to": "ring_2_1",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_2",
             "from": "ring_2_2",
             "to": "ring_2_2",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_3",
             "from": "ring_2_2",
             "to": "ring_2_3",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_4",
             "from": "ring_2_2",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_5",
             "from": "ring_2_2",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_6",
             "from": "ring_2_2",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_7",
             "from": "ring_2_2",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_8",
             "from": "ring_2_2",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_9",
             "from": "ring_2_2",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_10",
             "from": "ring_2_2",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_11",
             "from": "ring_2_2",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_2-ring_2_12",
             "from": "ring_2_2",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_1",
             "from": "ring_2_3",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_2",
             "from": "ring_2_3",
             "to": "ring_2_2",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_3",
             "from": "ring_2_3",
             "to": "ring_2_3",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_4",
             "from": "ring_2_3",
             "to": "ring_2_4",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_5",
             "from": "ring_2_3",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_6",
             "from": "ring_2_3",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_7",
             "from": "ring_2_3",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_8",
             "from": "ring_2_3",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_9",
             "from": "ring_2_3",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_10",
             "from": "ring_2_3",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_11",
             "from": "ring_2_3",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_3-ring_2_12",
             "from": "ring_2_3",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_1",
             "from": "ring_2_4",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_2",
             "from": "ring_2_4",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_3",
             "from": "ring_2_4",
             "to": "ring_2_3",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_4",
             "from": "ring_2_4",
             "to": "ring_2_4",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_5",
             "from": "ring_2_4",
             "to": "ring_2_5",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_6",
             "from": "ring_2_4",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_7",
             "from": "ring_2_4",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_8",
             "from": "ring_2_4",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_9",
             "from": "ring_2_4",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_10",
             "from": "ring_2_4",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_11",
             "from": "ring_2_4",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_4-ring_2_12",
             "from": "ring_2_4",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_1",
             "from": "ring_2_5",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_2",
             "from": "ring_2_5",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_3",
             "from": "ring_2_5",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_4",
             "from": "ring_2_5",
             "to": "ring_2_4",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_5",
             "from": "ring_2_5",
             "to": "ring_2_5",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_6",
             "from": "ring_2_5",
             "to": "ring_2_6",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_7",
             "from": "ring_2_5",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_8",
             "from": "ring_2_5",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_9",
             "from": "ring_2_5",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_10",
             "from": "ring_2_5",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_11",
             "from": "ring_2_5",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_5-ring_2_12",
             "from": "ring_2_5",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_1",
             "from": "ring_2_6",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_2",
             "from": "ring_2_6",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_3",
             "from": "ring_2_6",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_4",
             "from": "ring_2_6",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_5",
             "from": "ring_2_6",
             "to": "ring_2_5",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_6",
             "from": "ring_2_6",
             "to": "ring_2_6",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_7",
             "from": "ring_2_6",
             "to": "ring_2_7",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_8",
             "from": "ring_2_6",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_9",
             "from": "ring_2_6",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_10",
             "from": "ring_2_6",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_11",
             "from": "ring_2_6",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_6-ring_2_12",
             "from": "ring_2_6",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_1",
             "from": "ring_2_7",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_2",
             "from": "ring_2_7",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_3",
             "from": "ring_2_7",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_4",
             "from": "ring_2_7",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_5",
             "from": "ring_2_7",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_6",
             "from": "ring_2_7",
             "to": "ring_2_6",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_7",
             "from": "ring_2_7",
             "to": "ring_2_7",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_8",
             "from": "ring_2_7",
             "to": "ring_2_8",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_9",
             "from": "ring_2_7",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_10",
             "from": "ring_2_7",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_11",
             "from": "ring_2_7",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_7-ring_2_12",
             "from": "ring_2_7",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_1",
             "from": "ring_2_8",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_2",
             "from": "ring_2_8",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_3",
             "from": "ring_2_8",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_4",
             "from": "ring_2_8",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_5",
             "from": "ring_2_8",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_6",
             "from": "ring_2_8",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_7",
             "from": "ring_2_8",
             "to": "ring_2_7",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_8",
             "from": "ring_2_8",
             "to": "ring_2_8",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_9",
             "from": "ring_2_8",
             "to": "ring_2_9",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_10",
             "from": "ring_2_8",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_11",
             "from": "ring_2_8",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_8-ring_2_12",
             "from": "ring_2_8",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_1",
             "from": "ring_2_9",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_2",
             "from": "ring_2_9",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_3",
             "from": "ring_2_9",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_4",
             "from": "ring_2_9",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_5",
             "from": "ring_2_9",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_6",
             "from": "ring_2_9",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_7",
             "from": "ring_2_9",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_8",
             "from": "ring_2_9",
             "to": "ring_2_8",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_9",
             "from": "ring_2_9",
             "to": "ring_2_9",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_10",
             "from": "ring_2_9",
             "to": "ring_2_10",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_11",
             "from": "ring_2_9",
             "to": "ring_2_11",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_9-ring_2_12",
             "from": "ring_2_9",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_1",
             "from": "ring_2_10",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_2",
             "from": "ring_2_10",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_3",
             "from": "ring_2_10",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_4",
             "from": "ring_2_10",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_5",
             "from": "ring_2_10",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_6",
             "from": "ring_2_10",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_7",
             "from": "ring_2_10",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_8",
             "from": "ring_2_10",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_9",
             "from": "ring_2_10",
             "to": "ring_2_9",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_10",
             "from": "ring_2_10",
             "to": "ring_2_10",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_11",
             "from": "ring_2_10",
             "to": "ring_2_11",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_10-ring_2_12",
             "from": "ring_2_10",
             "to": "ring_2_12",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_1",
             "from": "ring_2_11",
             "to": "ring_2_1",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_2",
             "from": "ring_2_11",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_3",
             "from": "ring_2_11",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_4",
             "from": "ring_2_11",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_5",
             "from": "ring_2_11",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_6",
             "from": "ring_2_11",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_7",
             "from": "ring_2_11",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_8",
             "from": "ring_2_11",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_9",
             "from": "ring_2_11",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_10",
             "from": "ring_2_11",
             "to": "ring_2_10",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_11",
             "from": "ring_2_11",
             "to": "ring_2_11",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_11-ring_2_12",
             "from": "ring_2_11",
             "to": "ring_2_12",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_1",
             "from": "ring_2_12",
             "to": "ring_2_1",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_2",
             "from": "ring_2_12",
             "to": "ring_2_2",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_3",
             "from": "ring_2_12",
             "to": "ring_2_3",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_4",
             "from": "ring_2_12",
             "to": "ring_2_4",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_5",
             "from": "ring_2_12",
             "to": "ring_2_5",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_6",
             "from": "ring_2_12",
             "to": "ring_2_6",
-            "strength": 0,
+            "strength": -0.8,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_7",
             "from": "ring_2_12",
             "to": "ring_2_7",
-            "strength": 0,
+            "strength": -0.6095238095238096,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_8",
             "from": "ring_2_12",
             "to": "ring_2_8",
-            "strength": 0,
+            "strength": -0.41904761904761906,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_9",
             "from": "ring_2_12",
             "to": "ring_2_9",
-            "strength": 0,
+            "strength": -0.22857142857142854,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_10",
             "from": "ring_2_12",
             "to": "ring_2_10",
-            "strength": 0,
+            "strength": -0.038095238095238085,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_11",
             "from": "ring_2_12",
             "to": "ring_2_11",
-            "strength": 0.5777777777777778,
+            "strength": 0.48888888888888893,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {
             "id": "ring_2_12-ring_2_12",
             "from": "ring_2_12",
             "to": "ring_2_12",
-            "strength": 1.3,
+            "strength": 1.1,
             "strengthNoiseParameters": {
                 "mean": 0,
-                "std": 0.1
+                "std": 0
             }
         },
         {

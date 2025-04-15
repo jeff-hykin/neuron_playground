@@ -14,7 +14,7 @@ const graph = makeJointRing({
         energyDecayRate: 0.1, // same as excitatory weight for nearest neighbor (given a neutral distance of 1.5)
         // energyDecayRate: 0.7, 
         // maxWeight: 1.3,
-        maxWeight: 2, // 2.0 = really high self-excitatory weight to prevent the second ring from "killing" the first
+        // maxWeight: 2, // 2.0 = really high self-excitatory weight to prevent the second ring from "killing" the first
         // minWeight: -1.6,
         startX: 160,
         startY: 272,
@@ -22,12 +22,20 @@ const graph = makeJointRing({
         namespace: "ring",
         
         neutralDistance: 1.8,
-        maxWeight: 1,
+        maxWeight: 1.1,
         minWeight: -0.8,
+        defaultEdgeData: {
+            strengthNoiseParameters: {
+                mean: 0,
+                std: 0,
+            },
+        },
     },
     secondRingArgs: {
-        maxWeight: 1.3, // really high self-excitatory weight
-        minWeight: 0, // no inhibitory weights
+        maxWeight: 1.3,
+        minWeight: -0.4,
+        // maxWeight: 1.3, // really high self-excitatory weight
+        // minWeight: 0, // no inhibitory weights
     },
 })
 
