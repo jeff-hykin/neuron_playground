@@ -121,6 +121,12 @@ function createSettingsPanel({onValueChange, numericInputs, children}) {
 
 // Create instance when the page loads
 window.addEventListener("load", () => {
+    const footer = html`<div style="height: 3rem; overflow: auto;position: fixed; left: 0; bottom: 0; width: 100vw; text-align: center; background: transparent; opacity: 0.6;">
+        © 2025 Jeff Hykin<br>
+        Code: <a href="https://github.com/jeff-hykin/neuron_playground">
+            https://github.com/jeff-hykin/neuron_playground
+        </a>
+    </div>`
     const infoPanel = html`<div style="height: 5rem; overflow: auto;position: fixed; right: 0; bottom: 0; width: 200px; background: transparent;">[info area]</div>`
     const infCanvas = new InfiniteCanvas({ onNodeHovered: (node)=>{
         infoPanel.innerHTML = `Node ID: ${node.id}<br>Energy: ${node.energy.toFixed(2)}<br>Energy Decay Rate: ${node.energyDecayRate}`
@@ -167,6 +173,7 @@ window.addEventListener("load", () => {
         </div>
         ${settingsPanel}
         ${infoPanel}
+        ${footer}
         <h1 style="position: fixed; top: 20px; left: 4rem; font-size: 1.5rem; font-weight: bold; margin: 0; z-index: -1;">
             Neuron Playground
         </h1>
