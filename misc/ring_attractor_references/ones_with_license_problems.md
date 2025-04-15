@@ -9,3 +9,7 @@ Ones with license problems:
 
 Whole codebase (unable to find ring-attractor code, but might be in here):
 https://github.com/HermundstadLab/flyVisualLearning/blob/main/analyzeBumpJumps/plotJumps.m
+
+
+
+https://github.com/TomKnowles1994/Biomimetics-Ring-Attractors
